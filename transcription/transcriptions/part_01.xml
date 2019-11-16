@@ -21,8 +21,8 @@
   </teiHeader>
   <text>
     <body>
-      <div />
-      <p />
+      <div >
+      <p >
 
 
  <pb n="1" />
@@ -329,6 +329,8 @@
       <w>g<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>t</w>
       <w>ha<g ref="#fins" />a</w>
       <pc>.</pc>
+      </p>
+      </div>
     </body>
   </text>
 </TEI>
