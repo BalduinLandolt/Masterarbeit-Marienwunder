@@ -1,5 +1,7 @@
 from lxml import etree
 from bs4 import BeautifulSoup
+from bs4.element import Tag
+import copy
 
 
 def extract():
@@ -36,8 +38,11 @@ def extract():
     av_words_per_line = w_count / l_count
     print('Average words per line: {}'.format(av_words_per_line))
 
-    # get words with mark-up
+    # get words with minimal xml mark-up
     words_xml_rep = get_words_xml_rep(xml_soup)
+
+    # get words with minimal raw mark-up
+    words_raw_rep = get_words_raw_rep(xml_soup)
 
 
 def load_file(path):
@@ -62,9 +67,53 @@ def get_word_count(file):
     return len(ws)
 
 
+def clean_up(word):
+    leave_in = ['am', 'abbr', 'ex', 'expan', 'choice', 'g']
+    for e in word.descendants:
+        if isinstance(e, Tag):
+            if e.name not in leave_in:
+                e.unwrap()
+                return clean_up(word)
+    word.smooth()
+    return word
+
+
 def get_words_xml_rep(file):
-    ws = [w.contents for w in file.find_all('w')]
+    ws = [clean_up(w).contents for w in file.find_all('w')]
     print(ws)
+    return ws
+
+
+def resolve_glyph(w):
+    for glyph in w.find_all('g'):
+        val = glyph['ref'][1:]
+        glyph.string = '{'+val+'}'
+        glyph.unwrap()
+
+
+def resolve_choice(ch):
+    # TODO: actually implement this
+    return '()'
+
+
+def resolve_abbreviation(w):
+    for ch in w.find_all('choice'):
+        rw = resolve_choice(ch)
+        ch.replace_with(rw)
+
+
+def make_raw(w):
+    resolve_glyph(w)
+    resolve_abbreviation(w)
+    w.smooth()
+    return w.string
+
+
+def get_words_raw_rep(file):
+    ws = [clean_up(w) for w in file.find_all('w')]
+    rws = [make_raw(copy.copy(w)) for w in ws]
+    print(ws)
+    print(rws)
     return ws
 
 
