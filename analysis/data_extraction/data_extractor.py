@@ -39,6 +39,10 @@ class DataExtractor:
         av_words_per_line = w_count / l_count
         print('Average words per line: {}'.format(av_words_per_line))
 
+        # get words with mark-up
+        words_xml_rep = DataExtractor.get_words_xml_rep(xml_soup)
+
+
     @staticmethod
     def load_file(path):
         return etree.parse(path)
@@ -60,6 +64,12 @@ class DataExtractor:
         ws = file.find_all('w')
         #print(ws)
         return len(ws)
+
+    @staticmethod
+    def get_words_xml_rep(file):
+        ws = [w.contents for w in file.find_all('w')]
+        print(ws)
+        return ws
 
 
 if __name__ == '__main__':
