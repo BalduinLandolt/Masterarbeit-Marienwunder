@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:teix="http://www.tei-c.org/ns/Examples"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+         ns="http://www.tei-c.org/ns/1.0"><!--
+Schema generated from ODD source 2019-11-16T18:19:59Z. .
+TEI Edition: Version 3.5.0a. Last updated on
+	11th September 2018, revision 364b150
+TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0a./
+  
+--><!--This material is dual-licensed.
+[http://creativecommons.org/licenses/by-sa/3.0/] Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  [http://www.opensource.org/licenses/BSD-2-Clause] Copyright 2013 TEI Consortium. All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright holder or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage. TEI material can be licensed differently depending on the use you intend to make of it. Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is generally appropriate for usages which treat TEI content as data or documentation. The BSD-2 licence is generally appropriate for usage of TEI content in a software environment. For further information or clarification, please contact the  TEI Consortium .-->
+   <define name="ONMMmacro.paraContent">
+      <zeroOrMore>
+         <choice>
+            <text/>
+            <ref name="ONMMmodel.gLike"/>
+            <ref name="ONMMmodel.phrase"/>
+        
+            <ref name="ONMMmodel.global"/>
+        
+        
+         </choice>
+      </zeroOrMore>
+   </define>
+   <define name="ONMMmacro.phraseSeq">
+      <zeroOrMore>
+         <choice>
+            <text/>
+            <ref name="ONMMmodel.gLike"/>
+        
+            <ref name="ONMMmodel.phrase"/>
+            <ref name="ONMMmodel.global"/>
+         </choice>
+      </zeroOrMore>
+   </define>
+   <define name="ONMMmacro.xtext">
+      <zeroOrMore>
+         <choice>
+            <text/>
+            <ref name="ONMMmodel.gLike"/>
+         </choice>
+      </zeroOrMore>
+   </define>
+   <define name="ONMMatt.breaking.attributes">
+      <ref name="ONMMatt.breaking.attribute.break"/>
+   </define>
+   <define name="ONMMatt.breaking.attribute.break">
+      <optional>
+         <attribute name="break">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether or not the element bearing this attribute should be considered to mark the end of an orthographic token in the same way as whitespace.</a:documentation>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.datcat.attributes">
+      <ref name="ONMMatt.datcat.attribute.datcat"/>
+      <ref name="ONMMatt.datcat.attribute.valueDatcat"/>
+   </define>
+   <define name="ONMMatt.datcat.attribute.datcat">
+      <optional>
+         <attribute name="datcat" ns="http://www.isocat.org/ns/dcr">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a PID (persistent identifier) that aligns the given element with the appropriate Data Category (or categories) in ISOcat.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.datcat.attribute.valueDatcat">
+      <optional>
+         <attribute name="valueDatcat" ns="http://www.isocat.org/ns/dcr">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a PID (persistent identifier) that aligns the content of the given element or the value of the given attribute with the appropriate simple Data Category (or categories) in ISOcat.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.divLike.attributes">
+      <ref name="ONMMatt.divLike.attribute.org"/>
+      <ref name="ONMMatt.divLike.attribute.sample"/>
+   </define>
+   <define name="ONMMatt.divLike.attribute.org">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="org"
+                    a:defaultValue="uniform">
+            <a:documentation>(organization) specifies how the content of the division is organized.</a:documentation>
+            <choice>
+               <value>composite</value>
+               <a:documentation>no claim is made about the sequence in which the immediate contents of this division are to be processed, or their inter-relationships.</a:documentation>
+               <value>uniform</value>
+               <a:documentation>the immediate contents of this element are regarded as forming a logical unit, to be processed in sequence.</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.divLike.attribute.sample">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="sample"
+                    a:defaultValue="complete">
+            <a:documentation>indicates whether this division is a sample of the original source and if so, from which part.</a:documentation>
+            <choice>
+               <value>initial</value>
+               <a:documentation>division lacks material present at end in source.</a:documentation>
+               <value>medial</value>
+               <a:documentation>division lacks material at start and end.</a:documentation>
+               <value>final</value>
+               <a:documentation>division lacks material at start.</a:documentation>
+               <value>unknown</value>
+               <a:documentation>position of sampled material within original unknown.</a:documentation>
+               <value>complete</value>
+               <a:documentation>division is not a sample.</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.global.rendition.attributes">
+      <ref name="ONMMatt.global.rendition.attribute.rend"/>
+      <ref name="ONMMatt.global.rendition.attribute.style"/>
+      <ref name="ONMMatt.global.rendition.attribute.rendition"/>
+   </define>
+   <define name="ONMMatt.global.rendition.attribute.rend">
+      <optional>
+         <attribute name="rend">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="token">
+                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.global.rendition.attribute.style">
+      <optional>
+         <attribute name="style">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an expression in some formal style definition language which defines the rendering or presentation used for this element in the source text</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.global.rendition.attribute.rendition">
+      <optional>
+         <attribute name="rendition">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a description of the rendering or presentation used for this element in the source text.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.global.attributes">
+      <ref name="ONMMatt.global.rendition.attributes"/>
+      <ref name="ONMMatt.global.analytic.attributes"/>
+      <ref name="ONMMatt.global.facs.attributes"/>
+      <ref name="ONMMatt.global.change.attributes"/>
+      <ref name="ONMMatt.global.attribute.xmlid"/>
+      <ref name="ONMMatt.global.attribute.n"/>
+      <ref name="ONMMatt.global.attribute.xmllang"/>
+      <ref name="ONMMatt.global.attribute.xmlbase"/>
+      <ref name="ONMMatt.global.attribute.xmlspace"/>
+   </define>
+   <define name="ONMMatt.global.attribute.xmlid">
+      <optional>
+         <attribute name="xml:id">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
+            <data type="ID"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.global.attribute.n">
+      <optional>
+         <attribute name="n">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(number) gives a number (or other label) for an element, which is not necessarily unique within the document.</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.global.attribute.xmllang">
+      <optional>
+         <attribute name="xml:lang">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(language) indicates the language of the element content using a tag generated according to <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP 47</a>.</a:documentation>
+            <choice>
+               <data type="language"/>
+               <choice>
+                  <value/>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.global.attribute.xmlbase">
+      <optional>
+         <attribute name="xml:base">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a base URI reference with which applications can resolve relative URI references into absolute URI references.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.global.attribute.xmlspace">
+      <optional>
+         <attribute name="xml:space">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">signals an intention about how white space should be managed by applications.</a:documentation>
+            <choice>
+               <value>default</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">signals that the application's default white-space processing modes are acceptable</a:documentation>
+               <value>preserve</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the intent that applications preserve all white space</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.naming.attributes">
+      <ref name="ONMMatt.naming.attribute.role"/>
+      <ref name="ONMMatt.naming.attribute.nymRef"/>
+   </define>
+   <define name="ONMMatt.naming.attribute.role">
+      <optional>
+         <attribute name="role">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.</a:documentation>
+            <list>
+               <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.naming.attribute.nymRef">
+      <optional>
+         <attribute name="nymRef">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference to the canonical name) provides a means of locating the canonical form (nym) of the names associated with the object named by the element bearing it.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.typed.attributes">
+      <ref name="ONMMatt.typed.attribute.type"/>
+      <ref name="ONMMatt.typed.attribute.subtype"/>
+   </define>
+   <define name="ONMMatt.typed.attribute.type">
+      <optional>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.typed.attribute.subtype">
+      <optional>
+         <attribute name="subtype">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a sub-categorization of the element, if needed</a:documentation>
+         </attribute>
+      </optional>
+   </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="tei_ONMM-att.typed-subtypeTyped-constraint-rule-1">
+      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:*[@subtype]">
+        <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
+      </sch:rule>
+   </pattern>
+   <define name="ONMMatt.segLike.attributes">
+      <ref name="ONMMatt.datcat.attributes"/>
+      <ref name="ONMMatt.segLike.attribute.function"/>
+   </define>
+   <define name="ONMMatt.segLike.attribute.function">
+      <optional>
+         <attribute name="function">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the function of the segment.</a:documentation>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.transcriptional.attributes">
+      <ref name="ONMMatt.transcriptional.attribute.status"/>
+      <ref name="ONMMatt.transcriptional.attribute.cause"/>
+      <ref name="ONMMatt.transcriptional.attribute.seq"/>
+   </define>
+   <define name="ONMMatt.transcriptional.attribute.status">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="status"
+                    a:defaultValue="unremarkable">
+            <a:documentation>indicates the effect of the intervention, for example in the case of a deletion, strikeouts which include too much or too little text, or in the case of an addition, an insertion which duplicates some of the text already present.
+Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] excessEnd; 5] shortStart; 6] shortEnd; 7] partial; 8] unremarkable</a:documentation>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.transcriptional.attribute.cause">
+      <optional>
+         <attribute name="cause">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">documents the presumed cause for the intervention.</a:documentation>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.transcriptional.attribute.seq">
+      <optional>
+         <attribute name="seq">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sequence) assigns a sequence number related to the order in which the encoded features carrying this attribute are believed to have occurred.</a:documentation>
+            <data type="nonNegativeInteger"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMmodel.nameLike.agent">
+      <choice>
+         <ref name="ONMMname"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.nameLike.agent_alternation">
+      <choice>
+         <ref name="ONMMname"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.nameLike.agent_sequence">
+      <ref name="ONMMname"/>
+   </define>
+   <define name="ONMMmodel.nameLike.agent_sequenceOptional">
+      <optional>
+         <ref name="ONMMname"/>
+      </optional>
+   </define>
+   <define name="ONMMmodel.nameLike.agent_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="ONMMname"/>
+      </zeroOrMore>
+   </define>
+   <define name="ONMMmodel.nameLike.agent_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="ONMMname"/>
+      </oneOrMore>
+   </define>
+   <define name="ONMMmodel.segLike">
+      <choice>
+         <ref name="ONMMw"/>
+         <ref name="ONMMpc"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.hiLike">
+      <choice>
+         <ref name="ONMMhi"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.hiLike_alternation">
+      <choice>
+         <ref name="ONMMhi"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.hiLike_sequence">
+      <ref name="ONMMhi"/>
+   </define>
+   <define name="ONMMmodel.hiLike_sequenceOptional">
+      <optional>
+         <ref name="ONMMhi"/>
+      </optional>
+   </define>
+   <define name="ONMMmodel.hiLike_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="ONMMhi"/>
+      </zeroOrMore>
+   </define>
+   <define name="ONMMmodel.hiLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="ONMMhi"/>
+      </oneOrMore>
+   </define>
+   <define name="ONMMmodel.highlighted">
+      <choice>
+         <ref name="ONMMmodel.hiLike"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.dateLike">
+      <notAllowed/>
+   </define>
+   <define name="ONMMmodel.dateLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="ONMMmodel.dateLike_sequence">
+      <empty/>
+   </define>
+   <define name="ONMMmodel.dateLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="ONMMmodel.dateLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="ONMMmodel.dateLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="ONMMmodel.pPart.editorial">
+      <choice>
+         <ref name="ONMMchoice"/>
+         <ref name="ONMMabbr"/>
+         <ref name="ONMMexpan"/>
+         <ref name="ONMMex"/>
+         <ref name="ONMMam"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.pPart.editorial_alternation">
+      <choice>
+         <ref name="ONMMchoice"/>
+         <ref name="ONMMabbr"/>
+         <ref name="ONMMexpan"/>
+         <ref name="ONMMex"/>
+         <ref name="ONMMam"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.pPart.editorial_sequence">
+      <ref name="ONMMchoice"/>
+      <ref name="ONMMabbr"/>
+      <ref name="ONMMexpan"/>
+      <ref name="ONMMex"/>
+      <ref name="ONMMam"/>
+   </define>
+   <define name="ONMMmodel.pPart.editorial_sequenceOptional">
+      <optional>
+         <ref name="ONMMchoice"/>
+      </optional>
+      <optional>
+         <ref name="ONMMabbr"/>
+      </optional>
+      <optional>
+         <ref name="ONMMexpan"/>
+      </optional>
+      <optional>
+         <ref name="ONMMex"/>
+      </optional>
+      <optional>
+         <ref name="ONMMam"/>
+      </optional>
+   </define>
+   <define name="ONMMmodel.pPart.editorial_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="ONMMchoice"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="ONMMabbr"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="ONMMexpan"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="ONMMex"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="ONMMam"/>
+      </zeroOrMore>
+   </define>
+   <define name="ONMMmodel.pPart.editorial_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="ONMMchoice"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="ONMMabbr"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="ONMMexpan"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="ONMMex"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="ONMMam"/>
+      </oneOrMore>
+   </define>
+   <define name="ONMMmodel.pPart.transcriptional">
+      <choice>
+         <ref name="ONMMsic"/>
+         <ref name="ONMMcorr"/>
+         <ref name="ONMMreg"/>
+         <ref name="ONMMorig"/>
+         <ref name="ONMMadd"/>
+         <ref name="ONMMdel"/>
+         <ref name="ONMMsupplied"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.pPart.transcriptional_alternation">
+      <choice>
+         <ref name="ONMMsic"/>
+         <ref name="ONMMcorr"/>
+         <ref name="ONMMreg"/>
+         <ref name="ONMMorig"/>
+         <ref name="ONMMadd"/>
+         <ref name="ONMMdel"/>
+         <ref name="ONMMsupplied"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.pPart.transcriptional_sequence">
+      <ref name="ONMMsic"/>
+      <ref name="ONMMcorr"/>
+      <ref name="ONMMreg"/>
+      <ref name="ONMMorig"/>
+      <ref name="ONMMadd"/>
+      <ref name="ONMMdel"/>
+      <ref name="ONMMsupplied"/>
+   </define>
+   <define name="ONMMmodel.pPart.transcriptional_sequenceOptional">
+      <optional>
+         <ref name="ONMMsic"/>
+      </optional>
+      <optional>
+         <ref name="ONMMcorr"/>
+      </optional>
+      <optional>
+         <ref name="ONMMreg"/>
+      </optional>
+      <optional>
+         <ref name="ONMMorig"/>
+      </optional>
+      <optional>
+         <ref name="ONMMadd"/>
+      </optional>
+      <optional>
+         <ref name="ONMMdel"/>
+      </optional>
+      <optional>
+         <ref name="ONMMsupplied"/>
+      </optional>
+   </define>
+   <define name="ONMMmodel.pPart.transcriptional_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="ONMMsic"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="ONMMcorr"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="ONMMreg"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="ONMMorig"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="ONMMadd"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="ONMMdel"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="ONMMsupplied"/>
+      </zeroOrMore>
+   </define>
+   <define name="ONMMmodel.pPart.transcriptional_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="ONMMsic"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="ONMMcorr"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="ONMMreg"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="ONMMorig"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="ONMMadd"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="ONMMdel"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="ONMMsupplied"/>
+      </oneOrMore>
+   </define>
+   <define name="ONMMmodel.pPart.edit">
+      <choice>
+         <ref name="ONMMmodel.pPart.editorial"/>
+         <ref name="ONMMmodel.pPart.transcriptional"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.milestoneLike">
+      <choice>
+         <ref name="ONMMpb"/>
+         <ref name="ONMMlb"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.gLike">
+      <choice>
+         <ref name="ONMMg"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.biblLike">
+      <notAllowed/>
+   </define>
+   <define name="ONMMmodel.headLike">
+      <choice>
+         <ref name="ONMMhead"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.headLike_alternation">
+      <choice>
+         <ref name="ONMMhead"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.headLike_sequence">
+      <ref name="ONMMhead"/>
+   </define>
+   <define name="ONMMmodel.headLike_sequenceOptional">
+      <optional>
+         <ref name="ONMMhead"/>
+      </optional>
+   </define>
+   <define name="ONMMmodel.headLike_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="ONMMhead"/>
+      </zeroOrMore>
+   </define>
+   <define name="ONMMmodel.headLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="ONMMhead"/>
+      </oneOrMore>
+   </define>
+   <define name="ONMMmodel.pLike">
+      <choice>
+         <ref name="ONMMp"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.pLike_alternation">
+      <choice>
+         <ref name="ONMMp"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.pLike_sequence">
+      <ref name="ONMMp"/>
+   </define>
+   <define name="ONMMmodel.pLike_sequenceOptional">
+      <optional>
+         <ref name="ONMMp"/>
+      </optional>
+   </define>
+   <define name="ONMMmodel.pLike_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="ONMMp"/>
+      </zeroOrMore>
+   </define>
+   <define name="ONMMmodel.pLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="ONMMp"/>
+      </oneOrMore>
+   </define>
+   <define name="ONMMmodel.divPart">
+      <choice>
+         <ref name="ONMMmodel.pLike"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.divTopPart">
+      <choice>
+         <ref name="ONMMmodel.headLike"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.divTop">
+      <choice>
+         <ref name="ONMMmodel.divTopPart"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.choicePart">
+      <choice>
+         <ref name="ONMMsic"/>
+         <ref name="ONMMcorr"/>
+         <ref name="ONMMreg"/>
+         <ref name="ONMMorig"/>
+         <ref name="ONMMabbr"/>
+         <ref name="ONMMexpan"/>
+         <ref name="ONMMex"/>
+         <ref name="ONMMam"/>
+         <ref name="ONMMsupplied"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.addressLike">
+      <notAllowed/>
+   </define>
+   <define name="ONMMmodel.addressLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="ONMMmodel.addressLike_sequence">
+      <empty/>
+   </define>
+   <define name="ONMMmodel.addressLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="ONMMmodel.addressLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="ONMMmodel.addressLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="ONMMmodel.nameLike">
+      <choice>
+         <ref name="ONMMmodel.nameLike.agent"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.nameLike_alternation">
+      <choice>
+         <ref name="ONMMmodel.nameLike.agent_alternation"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.nameLike_sequence">
+      <ref name="ONMMmodel.nameLike.agent_sequence"/>
+   </define>
+   <define name="ONMMmodel.nameLike_sequenceOptional">
+      <optional>
+         <ref name="ONMMmodel.nameLike.agent_sequenceOptional"/>
+      </optional>
+   </define>
+   <define name="ONMMmodel.nameLike_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="ONMMmodel.nameLike.agent_sequenceOptionalRepeatable"/>
+      </zeroOrMore>
+   </define>
+   <define name="ONMMmodel.nameLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="ONMMmodel.nameLike.agent_sequenceRepeatable"/>
+      </oneOrMore>
+   </define>
+   <define name="ONMMmodel.global">
+      <choice>
+         <ref name="ONMMmodel.milestoneLike"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.pPart.data">
+      <choice>
+         <ref name="ONMMmodel.dateLike"/>
+         <ref name="ONMMmodel.addressLike"/>
+         <ref name="ONMMmodel.nameLike"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.common">
+      <choice>
+         <ref name="ONMMmodel.divPart"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.phrase">
+      <choice>
+         <ref name="ONMMmodel.segLike"/>
+         <ref name="ONMMmodel.highlighted"/>
+         <ref name="ONMMmodel.pPart.edit"/>
+         <ref name="ONMMmodel.pPart.data"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.divLike">
+      <choice>
+         <ref name="ONMMdiv"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.div1Like">
+      <notAllowed/>
+   </define>
+   <define name="ONMMmodel.teiHeaderPart">
+      <choice>
+         <ref name="ONMMencodingDesc"/>
+      </choice>
+   </define>
+   <define name="ONMMmodel.resourceLike">
+      <choice>
+         <ref name="ONMMtext"/>
+      </choice>
+   </define>
+   <define name="ONMMatt.personal.attributes">
+      <ref name="ONMMatt.naming.attributes"/>
+      <ref name="ONMMatt.personal.attribute.full"/>
+      <ref name="ONMMatt.personal.attribute.sort"/>
+   </define>
+   <define name="ONMMatt.personal.attribute.full">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="full"
+                    a:defaultValue="yes">
+            <a:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</a:documentation>
+            <choice>
+               <value>yes</value>
+               <a:documentation>the name component is spelled out in full.</a:documentation>
+               <value>abb</value>
+               <a:documentation>(abbreviated) the name component is given in an abbreviated form.</a:documentation>
+               <value>init</value>
+               <a:documentation>(initial letter) the name component is indicated only by one initial.</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.personal.attribute.sort">
+      <optional>
+         <attribute name="sort">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the sort order of the name component in relation to others within the name.</a:documentation>
+            <data type="nonNegativeInteger"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMp">
+      <element name="p">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]</a:documentation>
+         <ref name="ONMMmacro.paraContent"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tei_ONMM-p-abstractModel-structure-p-constraint-report-2">
+            <rule context="tei:p">
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )">
+        Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
+      </report>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tei_ONMM-p-abstractModel-structure-l-constraint-report-3">
+            <rule context="tei:p">
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]">
+        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab.
+      </report>
+            </rule>
+         </pattern>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMhi">
+      <element name="hi">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(highlighted) marks a word or phrase as graphically distinct from the surrounding text, for reasons concerning which no claim is made. [3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language]</a:documentation>
+         <ref name="ONMMmacro.paraContent"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMsic">
+      <element name="sic">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Latin for thus or so) contains text reproduced although apparently incorrect or inaccurate. [3.4.1. Apparent Errors]</a:documentation>
+         <ref name="ONMMmacro.paraContent"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMcorr">
+      <element name="corr">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correction) contains the correct form of a passage apparently erroneous in the copy text. [3.4.1. Apparent Errors]</a:documentation>
+         <ref name="ONMMmacro.paraContent"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMchoice">
+      <element name="choice">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">groups a number of alternative encodings for the same point in a text. [3.4. Simple Editorial Changes]</a:documentation>
+         <oneOrMore>
+            <choice>
+               <ref name="ONMMmodel.choicePart"/>
+               <ref name="ONMMchoice"/>
+            </choice>
+         </oneOrMore>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMreg">
+      <element name="reg">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(regularization) contains a reading which has been regularized or normalized in some sense. [3.4.2. Regularization and
+Normalization 12. Critical Apparatus]</a:documentation>
+         <ref name="ONMMmacro.paraContent"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMorig">
+      <element name="orig">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(original form) contains a reading which is marked as following the original, rather than being normalized or corrected. [3.4.2. Regularization and
+Normalization 12. Critical Apparatus]</a:documentation>
+         <ref name="ONMMmacro.paraContent"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMadd">
+      <element name="add">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(addition) contains letters, words, or phrases inserted in the source text by an author, scribe, or a previous annotator or corrector. [3.4.3. Additions, Deletions, and Omissions]</a:documentation>
+         <ref name="ONMMmacro.paraContent"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.transcriptional.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMdel">
+      <element name="del">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(deletion) contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as superfluous or spurious in the copy text by an author, scribe, or a previous annotator or corrector. [3.4.3. Additions, Deletions, and Omissions]</a:documentation>
+         <ref name="ONMMmacro.paraContent"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.transcriptional.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMname">
+      <element name="name">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(name, proper noun) contains a proper noun or noun phrase. [3.5.1. Referring Strings]</a:documentation>
+         <ref name="ONMMmacro.phraseSeq"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.personal.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMabbr">
+      <element name="abbr">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(abbreviation) contains an abbreviation of any sort. [3.5.5. Abbreviations and Their Expansions]</a:documentation>
+         <ref name="ONMMmacro.phraseSeq"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">allows the encoder to classify the abbreviation according to some convenient typology.
+Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscription; 5] acronym; 6] title; 7] organization; 8] geographic</a:documentation>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMexpan">
+      <element name="expan">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(expansion) contains the expansion of an abbreviation. [3.5.5. Abbreviations and Their Expansions]</a:documentation>
+         <ref name="ONMMmacro.phraseSeq"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMhead">
+      <element name="head">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. Headings and Trailers]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+        
+               <ref name="ONMMmodel.gLike"/>
+               <ref name="ONMMmodel.phrase"/>
+        
+        
+               <ref name="ONMMmodel.global"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMpb">
+      <element name="pb">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(page beginning) marks the beginning of a new page in a paginated document. [3.10.3. Milestone
+Elements]</a:documentation>
+         <empty/>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <ref name="ONMMatt.breaking.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMlb">
+      <element name="lb">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line beginning) marks the beginning of a new (typographic) line in some edition or version of a text. [3.10.3. Milestone
+Elements 7.2.5. Speech Contents]</a:documentation>
+         <empty/>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <ref name="ONMMatt.breaking.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMtitle">
+      <element name="title">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]</a:documentation>
+         <ref name="ONMMmacro.paraContent"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the title according to some convenient typology.
+Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)</a:documentation>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="level">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the bibliographic level for a title, that is, whether it identifies an article, book, journal, series, or unpublished material.</a:documentation>
+               <choice>
+                  <value>a</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analytic) the title applies to an analytic item, such as an article, poem, or other work published as part of a larger item.</a:documentation>
+                  <value>m</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(monographic) the title applies to a monograph such as a book or other item considered to be a distinct publication, including single volumes of multi-volume works</a:documentation>
+                  <value>j</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(journal) the title applies to any serial or periodical publication such as a journal, magazine, or newspaper</a:documentation>
+                  <value>s</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series) the title applies to a series of otherwise distinct publications such as a collection</a:documentation>
+                  <value>u</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(unpublished) the title applies to any unpublished material (including theses and dissertations unless published by a commercial press)</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMatt.linguistic.attributes">
+      <ref name="ONMMatt.linguistic.attribute.lemma"/>
+      <ref name="ONMMatt.linguistic.attribute.lemmaRef"/>
+      <ref name="ONMMatt.linguistic.attribute.pos"/>
+      <ref name="ONMMatt.linguistic.attribute.msd"/>
+      <ref name="ONMMatt.linguistic.attribute.join"/>
+   </define>
+   <define name="ONMMatt.linguistic.attribute.lemma">
+      <optional>
+         <attribute name="lemma">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a lemma (base form) for the word, typically uninflected and serving both as an identifier (e.g. in dictionary contexts, as a headword), and as a basis for potential inflections.</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.linguistic.attribute.lemmaRef">
+      <optional>
+         <attribute name="lemmaRef">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a pointer to a definition of the lemma for the word, for example in an online lexicon.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.linguistic.attribute.pos">
+      <optional>
+         <attribute name="pos">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(part of speech) indicates the part of speech assigned to a token (i.e. information on whether it is a noun, adjective, or verb), usually according to some official reference vocabulary (e.g. for German: STTS, for English: CLAWS, for Polish: NKJP, etc.).</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.linguistic.attribute.msd">
+      <optional>
+         <attribute name="msd">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(morphosyntactic description) supplies morphosyntactic information for a token, usually according to some official reference vocabulary (e.g. for German: <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/TagSets/stts-1999.pdf">STTS-large tagset</a>; for a feature description system designed as (pragmatically) universal, see <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="http://universaldependencies.org/u/feat/index.html">Universal Features</a>).</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.linguistic.attribute.join">
+      <optional>
+         <attribute name="join">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when present, it provides information on whether the token in question is adjacent to another, and if so, on which side. The definition of this attribute is adapted from ISO MAF (Morpho-syntactic Annotation Framework), ISO 24611:2012.</a:documentation>
+            <choice>
+               <value>no</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(the token is not adjacent to another) </a:documentation>
+               <value>left</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on the left side of the token) </a:documentation>
+               <value>right</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on the right side of the token) </a:documentation>
+               <value>both</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on either side of the token) </a:documentation>
+               <value>overlap</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(the token overlaps with another; other devices (specifying the extent and the area of overlap) are needed to more precisely locate this token in the character stream) </a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.global.analytic.attributes">
+      <ref name="ONMMatt.global.analytic.attribute.ana"/>
+   </define>
+   <define name="ONMMatt.global.analytic.attribute.ana">
+      <optional>
+         <attribute name="ana">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analysis) indicates one or more elements containing interpretations of the element on which the <code xmlns="http://www.w3.org/1999/xhtml">@ana</code> attribute appears.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMw">
+      <element name="w">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(word) represents a grammatical (not necessarily orthographic) word. [17.1. Linguistic Segment Categories 17.4.2. Lightweight Linguistic Annotation]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="ONMMmodel.gLike"/>
+      
+               <ref name="ONMMw"/>
+      
+      
+               <ref name="ONMMpc"/>
+               <ref name="ONMMmodel.global"/>
+      
+               <ref name="ONMMmodel.hiLike"/>
+               <ref name="ONMMmodel.pPart.edit"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.segLike.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <ref name="ONMMatt.linguistic.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMpc">
+      <element name="pc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(punctuation character) contains a character or string of characters regarded as constituting a single punctuation mark. [17.1.2. Below the Word Level 17.4.2. Lightweight Linguistic Annotation]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="ONMMmodel.gLike"/>
+        
+               <ref name="ONMMmodel.pPart.edit"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.segLike.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <ref name="ONMMatt.linguistic.attributes"/>
+         <optional>
+            <attribute name="force">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the extent to which this punctuation mark conventionally separates words or phrases</a:documentation>
+               <choice>
+                  <value>strong</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the punctuation mark is a word separator</a:documentation>
+                  <value>weak</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the punctuation mark is not a word separator</a:documentation>
+                  <value>inter</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the punctuation mark may or may not be a word separator</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="unit">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a name for the kind of unit delimited by this punctuation mark.</a:documentation>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="pre">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether this punctuation mark precedes or follows the unit it delimits.</a:documentation>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMg">
+      <element name="g">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character or glyph) represents a glyph, or a non-standard character. [5. Characters, Glyphs, and Writing Modes]</a:documentation>
+         <text/>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <optional>
+            <attribute name="ref">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a description of the character or glyph intended.</a:documentation>
+               <data type="anyURI"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMglyphName">
+      <element name="glyphName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character glyph name) contains the name of a glyph, expressed following Unicode conventions for character names. [5.2. Markup Constructs for Representation of Characters and Glyphs]</a:documentation>
+         <text/>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMatt.global.facs.attributes">
+      <ref name="ONMMatt.global.facs.attribute.facs"/>
+   </define>
+   <define name="ONMMatt.global.facs.attribute.facs">
+      <optional>
+         <attribute name="facs">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(facsimile) points to all or part of an image which corresponds with the content of the element.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMatt.global.change.attributes">
+      <ref name="ONMMatt.global.change.attribute.change"/>
+   </define>
+   <define name="ONMMatt.global.change.attribute.change">
+      <optional>
+         <attribute name="change">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more <code xmlns="http://www.w3.org/1999/xhtml">&lt;change&gt;</code> elements documenting a state or revision campaign to which the element bearing this attribute and its children have been assigned by the encoder.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="ONMMex">
+      <element name="ex">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(editorial expansion) contains a sequence of letters added by an editor or transcriber when expanding an abbreviation. [11.3.1.2. Abbreviation and Expansion]</a:documentation>
+         <ref name="ONMMmacro.xtext"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMam">
+      <element name="am">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(abbreviation marker) contains a sequence of letters or signs present in an abbreviation which are omitted or replaced in the expanded form of the abbreviation. [11.3.1.2. Abbreviation and Expansion]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="ONMMmodel.gLike"/>
+               <ref name="ONMMmodel.pPart.transcriptional"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMsupplied">
+      <element name="supplied">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">signifies text supplied by the transcriber or editor for any reason; for example because the original cannot be read due to physical damage, or because of an obvious omission by the author or scribe. [11.3.3.1. Damage, Illegibility, and Supplied Text]</a:documentation>
+         <ref name="ONMMmacro.paraContent"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <optional>
+            <attribute name="reason">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">one or more words indicating why the text has had to be supplied, e.g. overbinding, faded-ink, lost-folio, omitted-in-original.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="token">
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMteiHeader">
+      <element name="teiHeader">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]</a:documentation>
+         <group>
+            <ref name="ONMMfileDesc"/>
+      
+            <zeroOrMore>
+               <ref name="ONMMmodel.teiHeaderPart"/>
+            </zeroOrMore>
+      
+      
+        
+      
+         </group>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMfileDesc">
+      <element name="fileDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]</a:documentation>
+         <group>
+            <group>
+               <ref name="ONMMtitleStmt"/>
+        
+          
+        
+        
+          
+        
+               <ref name="ONMMpublicationStmt"/>
+        
+          
+        
+        
+          
+        
+            </group>
+      
+            <oneOrMore>
+               <ref name="ONMMsourceDesc"/>
+            </oneOrMore>
+      
+         </group>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMtitleStmt">
+      <element name="titleStmt">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(title statement) groups information about the title of a work and those responsible for its content. [2.2.1. The Title Statement 2.2. The File Description]</a:documentation>
+         <group>
+      
+            <oneOrMore>
+               <ref name="ONMMtitle"/>
+            </oneOrMore>
+      
+      
+        
+      
+         </group>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMpublicationStmt">
+      <element name="publicationStmt">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]</a:documentation>
+         <choice>
+      
+	
+	  
+	    
+	  
+	  
+	    
+	  
+	
+      
+      
+	           <oneOrMore>
+               <ref name="ONMMmodel.pLike"/>
+            </oneOrMore>
+      
+         </choice>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMsourceDesc">
+      <element name="sourceDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]</a:documentation>
+         <choice>
+      
+            <oneOrMore>
+               <ref name="ONMMmodel.pLike"/>
+            </oneOrMore>
+      
+      
+            <oneOrMore>
+               <choice>
+                  <ref name="ONMMmodel.biblLike"/>
+          
+          
+               </choice>
+            </oneOrMore>
+      
+         </choice>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMencodingDesc">
+      <element name="encodingDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(encoding description) documents the relationship between an electronic text and the source or sources from which it was derived. [2.3. The Encoding Description 2.1.1. The TEI Header and Its Components]</a:documentation>
+         <oneOrMore>
+            <choice>
+          
+               <ref name="ONMMmodel.pLike"/>
+            </choice>
+         </oneOrMore>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMTEI">
+      <element name="TEI">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resourceLike class. Multiple <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements may be combined to form a <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code> element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
+         <group>
+            <ref name="ONMMteiHeader"/>
+            <oneOrMore>
+               <ref name="ONMMmodel.resourceLike"/>
+            </oneOrMore>
+         </group>
+         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
+             prefix="tei"
+             uri="http://www.tei-c.org/ns/1.0"/>
+         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
+             prefix="xs"
+             uri="http://www.w3.org/2001/XMLSchema"/>
+         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
+             prefix="rng"
+             uri="http://relaxng.org/ns/structure/1.0"/>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <optional>
+            <attribute name="version">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the version number of the TEI Guidelines against which this document is valid.</a:documentation>
+               <data type="token">
+                  <param name="pattern">[\d]+(\.[\d]+){0,2}</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMtext">
+      <element name="text">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
+         <group>
+      
+        
+      
+      
+        
+        
+            <zeroOrMore>
+               <ref name="ONMMmodel.global"/>
+            </zeroOrMore>
+        
+      
+            <choice>
+               <ref name="ONMMbody"/>
+        
+            </choice>
+      
+        
+      
+      
+        
+        
+            <zeroOrMore>
+               <ref name="ONMMmodel.global"/>
+            </zeroOrMore>
+        
+      
+         </group>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMbody">
+      <element name="body">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]</a:documentation>
+         <group>
+      
+      
+            <zeroOrMore>
+               <ref name="ONMMmodel.global"/>
+            </zeroOrMore>
+      
+      
+      
+            <optional>
+               <group>
+          
+                  <ref name="ONMMmodel.divTop"/>
+          
+          
+                  <zeroOrMore>
+                     <choice>
+                        <ref name="ONMMmodel.global"/>
+                        <ref name="ONMMmodel.divTop"/>
+                     </choice>
+                  </zeroOrMore>
+          
+               </group>
+            </optional>
+      
+      
+      
+        
+          
+            
+          
+          
+            <zeroOrMore>
+               <choice>
+                  <ref name="ONMMmodel.global"/>
+              
+               </choice>
+            </zeroOrMore>
+          
+        
+      
+      
+        
+            <choice>
+          
+          
+               <oneOrMore>
+                  <group>
+              
+                     <ref name="ONMMmodel.divLike"/>
+              
+              
+                     <zeroOrMore>
+                        <choice>
+                           <ref name="ONMMmodel.global"/>
+                  
+                        </choice>
+                     </zeroOrMore>
+              
+                  </group>
+               </oneOrMore>
+          
+          
+          
+               <oneOrMore>
+                  <group>
+              
+                     <ref name="ONMMmodel.div1Like"/>
+              
+              
+                     <zeroOrMore>
+                        <choice>
+                           <ref name="ONMMmodel.global"/>
+                  
+                        </choice>
+                     </zeroOrMore>
+              
+                  </group>
+               </oneOrMore>
+          
+          
+               <group>
+                  <oneOrMore>
+                     <group>
+              
+                        <ref name="ONMMmodel.common"/>
+              
+              
+                        <zeroOrMore>
+                           <ref name="ONMMmodel.global"/>
+                        </zeroOrMore>
+              
+                     </group>
+                  </oneOrMore>
+            
+                  <optional>
+                     <choice>
+                
+                
+                        <oneOrMore>
+                           <group>
+                    
+                              <ref name="ONMMmodel.divLike"/>
+                    
+                    
+                              <zeroOrMore>
+                                 <choice>
+                                    <ref name="ONMMmodel.global"/>
+                        
+                                 </choice>
+                              </zeroOrMore>
+                    
+                           </group>
+                        </oneOrMore>
+                
+                
+                
+                        <oneOrMore>
+                           <group>
+                    
+                              <ref name="ONMMmodel.div1Like"/>
+                    
+                    
+                              <zeroOrMore>
+                                 <choice>
+                                    <ref name="ONMMmodel.global"/>
+                        
+                                 </choice>
+                              </zeroOrMore>
+                    
+                           </group>
+                        </oneOrMore>
+                
+                     </choice>
+                  </optional>
+            
+               </group>
+            </choice>
+        
+      
+      
+      
+        
+          
+            
+          
+          
+            <zeroOrMore>
+               <ref name="ONMMmodel.global"/>
+            </zeroOrMore>
+          
+        
+      
+         </group>
+         <ref name="ONMMatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="ONMMdiv">
+      <element name="div">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]</a:documentation>
+         <group>
+      
+            <zeroOrMore>
+               <choice>
+                  <ref name="ONMMmodel.divTop"/>
+          
+                  <ref name="ONMMmodel.global"/>
+               </choice>
+            </zeroOrMore>
+      
+            <optional>
+               <group>
+                  <choice>
+          
+                     <oneOrMore>
+                        <group>
+                           <choice>
+                              <ref name="ONMMmodel.divLike"/>
+                
+                           </choice>
+              
+                           <zeroOrMore>
+                              <ref name="ONMMmodel.global"/>
+                           </zeroOrMore>
+              
+                        </group>
+                     </oneOrMore>
+          
+                     <group>
+                        <oneOrMore>
+                           <group>
+              
+                              <ref name="ONMMmodel.common"/>
+              
+              
+                              <zeroOrMore>
+                                 <ref name="ONMMmodel.global"/>
+                              </zeroOrMore>
+              
+                           </group>
+                        </oneOrMore>
+                        <zeroOrMore>
+                           <group>
+                              <choice>
+                                 <ref name="ONMMmodel.divLike"/>
+                
+                              </choice>
+              
+                              <zeroOrMore>
+                                 <ref name="ONMMmodel.global"/>
+                              </zeroOrMore>
+              
+                           </group>
+                        </zeroOrMore>
+                     </group>
+                  </choice>
+        
+          
+            
+          
+          
+                  <zeroOrMore>
+                     <ref name="ONMMmodel.global"/>
+                  </zeroOrMore>
+          
+        
+               </group>
+            </optional>
+         </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tei_ONMM-div-abstractModel-structure-l-constraint-report-4">
+            <rule context="tei:div">
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="ancestor::tei:l">
+        Abstract model violation: Lines may not contain higher-level structural elements such as div.
+      </report>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tei_ONMM-div-abstractModel-structure-p-constraint-report-5">
+            <rule context="tei:div">
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)">
+        Abstract model violation: p and ab may not contain higher-level structural elements such as div.
+      </report>
+            </rule>
+         </pattern>
+         <ref name="ONMMatt.global.attributes"/>
+         <ref name="ONMMatt.divLike.attributes"/>
+         <ref name="ONMMatt.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <start>
+      <choice>
+         <ref name="ONMMTEI"/>
+      </choice>
+   </start>
+</grammar>
