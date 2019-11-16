@@ -20,10 +20,17 @@
 [lb=15] ath h(on;osup) {fins}æddi þ(an;bar)n {slong}on e(r;er) bædi e(r;er) k(onun;bar)g{rrot} . (ok;et) ken(n;bar)i_m(adr;rsup) .  k(onun;bar)g{rrot}
 [lb=16] {jscap} guddo(m;bar){slong} velldi . ken(n;bar)i_m(adr;rsup) {jscap} pi{slong}l {slong}ine . þa e(r;er) h(an;bar)n {fins}ærdi
 [lb=17] {slong}ig {slong}ial{fins}(an;nsup) {jscap} {fins}o{rrot}n gudi {fins}er(ur) {aalig} k(ro;osup){slong}{slong}in(um;msup) halga . [name=person] Mar¬
-[lb=18]ia [/person] /*fixme: name tag doesnt show correctly*/ w(ar;rsup) bo{rrot}in {jscap} n(or;bar)g þ(ei;bar){rrot}e e(r;er) na{ezh}areth heit(er) . en(n;bar) {fins}ædd
+[lb=18]ia [/person] /*fixme: name tag doesnt show correctly*/ w(ar;rsup) bo{rrot}in {jscap} n(or;bar)g þ(ei;bar){rrot}e e(r;er) [name=place] na{ezh}areth [/name] heit(er) . en(n;bar) {fins}ædd
 
 [pb=2]
-[lb=1] w{pplig} {jscap} b(or;bar)g
+[lb=1] w{pplig} {jscap} b(or;bar)g þ(ei;bar){rrot}e e(r;er) [name=place] {jscap}o{rrot}{slong}ala_b(or;bar)g [/name] heit(ir;er) . (ok) lærd {jscap} g(u;d;combcurl){slong} m(us)t¬
+[lb=2]eri . ok þeg(ar) h(on;osup) kun(n;bar)e g(re;esup)in(ir;er) god{slong} (ok) ill{ezh} . þa lagdi h(on;osup)
+[lb=3] þeg(ar) alla a{slong}t {aalig} g(u;d;combcurl) . s(uo;osup) ath h(on;osup) hugdi ath {slong}pa_m(anna;asup) bok(um;msup)
+[lb=4] (ok) w(ar) {aalig}vallt {jscap} g(u;d;combcurl){slong} þionu{ezh}tu . an(n;bar)ath_hu(or;osup)t ath bæn(um;msup)
+[lb=5] eda boka le{slong}ning(um;msup) . eda w(ar) {jscap} nokru godu w(er)ki . ok
+[lb=6] þær meyi(ar) e(r;er) ath n{aalig}me w(oro;osup) m(ed;ezh) h(enn;bar)e . k{ocurl}/*actually: curl on top*/lludu h(an;bar)a d(ro;osup)tt¬
+[lb=7]ni(n;bar)gv {slong}ina . {fins}(yrir;isup) þa {slong}ok ath h(on;osup) hlaut þ(at;bar) ia{fins}nan ath g(er)a
+[lb=8] e(r;er) ollu(m;bar) þotti w(ir;isup)dulig({ezh}t;zsup) (ok) þær willdu hell{ezh}t g(er)t ha{fins}a .
  
 [/p]
 
