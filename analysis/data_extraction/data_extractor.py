@@ -1,6 +1,6 @@
 from lxml import etree
 from bs4 import BeautifulSoup
-from bs4.element import Tag
+from bs4.element import Tag, NavigableString
 import copy
 
 
@@ -80,7 +80,7 @@ def clean_up(word):
 
 def get_words_xml_rep(file):
     ws = [clean_up(w).contents for w in file.find_all('w')]
-    print(ws)
+    #print(ws)
     return ws
 
 
@@ -92,11 +92,22 @@ def resolve_glyph(w):
 
 
 def resolve_choice(ch):
-    # TODO: actually implement this
-    return '()'
+    am = ch.abbr.am.string or ''
+    am = am.replace('{', '')
+    am = am.replace('}', '')
+
+    infixi = ch.abbr.contents
+    infix = ''
+    if isinstance(infixi[0], NavigableString):
+        infix = infixi[0]
+
+    ex = ch.expan.ex.string or ''
+
+    return '({};{};{})'.format(ex, infix, am)
 
 
 def resolve_abbreviation(w):
+    # TODO: consider: can there be choices that aren't abbreviations
     for ch in w.find_all('choice'):
         rw = resolve_choice(ch)
         ch.replace_with(rw)
@@ -112,8 +123,8 @@ def make_raw(w):
 def get_words_raw_rep(file):
     ws = [clean_up(w) for w in file.find_all('w')]
     rws = [make_raw(copy.copy(w)) for w in ws]
-    print(ws)
-    print(rws)
+    #print(ws)
+    #print(rws)
     return ws
 
 
