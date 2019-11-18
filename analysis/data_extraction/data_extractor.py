@@ -2,6 +2,7 @@ from lxml import etree
 from bs4 import BeautifulSoup
 from bs4.element import Tag, NavigableString
 import copy
+import nltk
 
 
 def extract():
@@ -43,6 +44,16 @@ def extract():
 
     # get words with minimal raw mark-up
     words_raw_rep = get_words_raw_rep(xml_soup)
+    raw_word_frequencies = get_word_frequencies(words_raw_rep)
+    raw_word_frequencies.plot()
+    print("Most frequent words:")
+    for w in raw_word_frequencies.most_common(20):
+        print("   {}\t{}".format(w[1], w[0]))
+
+
+def get_word_frequencies(words_raw_rep):
+    frequ = nltk.FreqDist(words_raw_rep)
+    return frequ
 
 
 def load_file(path):
@@ -125,7 +136,7 @@ def get_words_raw_rep(file):
     rws = [make_raw(copy.copy(w)) for w in ws]
     #print(ws)
     #print(rws)
-    return ws
+    return rws
 
 
 if __name__ == '__main__':
