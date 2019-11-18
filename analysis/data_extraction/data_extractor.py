@@ -50,6 +50,15 @@ def extract():
     for w in raw_word_frequencies.most_common(20):
         print("   {}\t{}".format(w[1], w[0]))
 
+    # TODO: word frequnencies only looking at expanded form
+    # TODO: word frequencies only looking at abbreviated form
+    # TODO: abbreviation-mark-frequencies
+    # TODO: abbreviation-expansion-frequencies
+
+    # TODO: Data export to CSV
+
+    # TODO: ...
+
 
 def get_word_frequencies(words_raw_rep):
     frequ = nltk.FreqDist(words_raw_rep)
