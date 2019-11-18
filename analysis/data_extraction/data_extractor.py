@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 from bs4.element import Tag, NavigableString
 import copy
 import nltk
+import matplot
+
 
 
 def extract():
@@ -43,15 +45,17 @@ def extract():
     words_xml_rep = get_words_xml_rep(xml_soup)
 
     # get words with minimal raw mark-up
-    words_raw_rep = get_words_raw_rep(xml_soup)
-    raw_word_frequencies = get_word_frequencies(words_raw_rep)
-    raw_word_frequencies.plot()
-    print("Most frequent words:")
-    for w in raw_word_frequencies.most_common(20):
-        print("   {}\t{}".format(w[1], w[0]))
+    words_raw_rep = get_words_raw_rep(xml_soup, 'all')
+    raw_word_frequencies = get_word_frequencies(words_raw_rep, plot=False, print_no=20)
 
-    # TODO: word frequnencies only looking at expanded form
-    # TODO: word frequencies only looking at abbreviated form
+    # get words expansion-only
+    words_raw_rep_ex_only = get_words_raw_rep(xml_soup, 'ex')
+    raw_word_frequencies = get_word_frequencies(words_raw_rep_ex_only, plot=False, print_no=20)
+
+    # get words abbreviation-only
+    words_raw_rep_am_only = get_words_raw_rep(xml_soup, 'am')
+    raw_word_frequencies = get_word_frequencies(words_raw_rep_am_only, plot=False, print_no=20)
+
     # TODO: abbreviation-mark-frequencies
     # TODO: abbreviation-expansion-frequencies
 
@@ -60,8 +64,15 @@ def extract():
     # TODO: ...
 
 
-def get_word_frequencies(words_raw_rep):
+def get_word_frequencies(words_raw_rep, plot, print_no):
     frequ = nltk.FreqDist(words_raw_rep)
+    if plot:
+        frequ.plot()
+    if print_no > 0:
+        print("Most frequent words:")
+        for w in frequ.most_common(print_no):
+            print("   {}\t{}".format(w[1], w[0]))
+
     return frequ
 
 
@@ -111,7 +122,7 @@ def resolve_glyph(w):
         glyph.unwrap()
 
 
-def resolve_choice(ch):
+def resolve_choice(ch, type):
     am = ch.abbr.am.string or ''
     am = am.replace('{', '')
     am = am.replace('}', '')
@@ -123,28 +134,33 @@ def resolve_choice(ch):
 
     ex = ch.expan.ex.string or ''
 
-    return '({};{};{})'.format(ex, infix, am)
+    if type == 'all':
+        return '({};{};{})'.format(ex, infix, am)
+    elif type == 'ex':
+        return '({})'.format(ex)
+    elif type == 'am':
+        return '({})'.format(am)
+    else:
+        return '({};{};{})'.format(ex, infix, am)
 
 
-def resolve_abbreviation(w):
+def resolve_abbreviation(w, type):
     # TODO: consider: can there be choices that aren't abbreviations
     for ch in w.find_all('choice'):
-        rw = resolve_choice(ch)
+        rw = resolve_choice(ch, type)
         ch.replace_with(rw)
 
 
-def make_raw(w):
+def make_raw(w, type):
     resolve_glyph(w)
-    resolve_abbreviation(w)
+    resolve_abbreviation(w, type)
     w.smooth()
     return w.string
 
 
-def get_words_raw_rep(file):
+def get_words_raw_rep(file, type):
     ws = [clean_up(w) for w in file.find_all('w')]
-    rws = [make_raw(copy.copy(w)) for w in ws]
-    #print(ws)
-    #print(rws)
+    rws = [make_raw(copy.copy(w), type) for w in ws]
     return rws
 
 
