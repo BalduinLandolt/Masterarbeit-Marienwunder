@@ -1,3 +1,13 @@
 echo "Batch script running TurboTranscriber"
 
-java -jar turboTranscriber-0.0.1-SNAPSHOT.jar
+: run all .jar files in directory
+
+@echo off
+
+for /F %%f in ('dir /b %cd%') do (
+	if "%%~xf" == ".jar" (
+		java -jar %%f
+		)
+	)
+
+pause
