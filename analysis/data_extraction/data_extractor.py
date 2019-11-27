@@ -73,21 +73,21 @@ def get_abbreviation_count(file):
 
 
 def extract_page_overview_info():
+    # TODO: could extraction be more generic, and with arguments to specify?
     path_prefix = "../tmp_data/"
-
-    # TODO: these things should be done for each sample (to separate CSV or with just a variable?)
-    section_index = 0
     field_names = ["informations", "value", "sample"]
-    rows = [["no_pages", get_page_count(samples[section_index]), section_index],
-            ["no_lines", get_line_count(samples[section_index]), section_index],
-            ["no_words", get_word_count(samples[section_index]), section_index],
-            ["no_abbreviations", get_abbreviation_count(samples[section_index]), section_index]]
 
-    with open(path_prefix+"page_overview.csv", mode='w', encoding='utf-8') as file:
-        w = csv.writer(file)
-        w.writerow(field_names)
-        for row in rows:
-            w.writerow(row)
+    for section_index, section in enumerate(samples):
+        rows = [["no_pages", get_page_count(samples[section_index]), section_index],
+                ["no_lines", get_line_count(samples[section_index]), section_index],
+                ["no_words", get_word_count(samples[section_index]), section_index],
+                ["no_abbreviations", get_abbreviation_count(samples[section_index]), section_index]]
+
+        with open(path_prefix+"page_overview.csv", mode='w', encoding='utf-8') as file:
+            w = csv.writer(file)
+            w.writerow(field_names)
+            for row in rows:
+                w.writerow(row)
 
 
 def get_word_frequencies(words_raw_rep, plot, print_no):
