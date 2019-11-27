@@ -63,23 +63,27 @@ def extract():
     # TODO: abbreviation-expansion-frequencies
 
     # TODO: Data export to CSV
-    extract_layout_information()
+    extract_page_overview_info()
 
     # TODO: ...
 
 
-def extract_layout_information():
+def get_abbreviation_count(file):
+    return len(file.find_all('abbr'))
+
+
+def extract_page_overview_info():
     path_prefix = "../tmp_data/"
 
     # TODO: these things should be done for each sample (to separate CSV or with just a variable?)
     section_index = 0
     field_names = ["informations", "value", "sample"]
-    rows = []
+    rows = [["no_pages", get_page_count(samples[section_index]), section_index],
+            ["no_lines", get_line_count(samples[section_index]), section_index],
+            ["no_words", get_word_count(samples[section_index]), section_index],
+            ["no_abbreviations", get_abbreviation_count(samples[section_index]), section_index]]
 
-    rows.append(["no_pages", get_page_count(samples[section_index]), section_index])
-    rows.append(["no_lines", get_line_count(samples[section_index]), section_index])
-
-    with open(path_prefix+"page_layout.csv", mode='w', encoding='utf-8') as file:
+    with open(path_prefix+"page_overview.csv", mode='w', encoding='utf-8') as file:
         w = csv.writer(file)
         w.writerow(field_names)
         for row in rows:
