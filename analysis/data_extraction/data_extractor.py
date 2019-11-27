@@ -4,8 +4,10 @@ from bs4.element import Tag, NavigableString
 import copy
 import nltk
 import matplot
+import  csv
 
 
+samples = {}
 
 def extract():
     """
@@ -13,11 +15,12 @@ def extract():
 
     :return: None
     """
-    print('do stuff!')
 
     # load xml file
     with open('../../transcription/transcriptions/part_01.xml', encoding='utf-8') as file:
         xml_soup = BeautifulSoup(file, features='lxml')
+        samples[0] = xml_soup
+        # TODO: make this dynamic
 
     #print(xml_soup)
 
@@ -60,8 +63,27 @@ def extract():
     # TODO: abbreviation-expansion-frequencies
 
     # TODO: Data export to CSV
+    extract_layout_information()
 
     # TODO: ...
+
+
+def extract_layout_information():
+    path_prefix = "../tmp_data/"
+
+    # TODO: these things should be done for each sample (to separate CSV or with just a variable?)
+    section_index = 0
+    field_names = ["informations", "value", "sample"]
+    rows = []
+
+    rows.append(["no_pages", get_page_count(samples[section_index]), section_index])
+    rows.append(["no_lines", get_line_count(samples[section_index]), section_index])
+
+    with open(path_prefix+"page_layout.csv", mode='w', encoding='utf-8') as file:
+        w = csv.writer(file)
+        w.writerow(field_names)
+        for row in rows:
+            w.writerow(row)
 
 
 def get_word_frequencies(words_raw_rep, plot, print_no):
