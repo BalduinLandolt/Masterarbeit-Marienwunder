@@ -1,2 +1,6 @@
 # Gitignore
 # =========
+
+# R Studio stuff
+.RData
+.Rhistory

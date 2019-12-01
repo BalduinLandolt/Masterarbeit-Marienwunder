@@ -7,8 +7,6 @@ import matplot
 import  csv
 
 
-samples = {}
-
 def extract():
     """
     convenience method, that calls all extractions that are implemented.
@@ -16,10 +14,12 @@ def extract():
     :return: None
     """
 
+    samples = []
+
     # load xml file
     with open('../../transcription/transcriptions/part_01.xml', encoding='utf-8') as file:
         xml_soup = BeautifulSoup(file, features='lxml')
-        samples[0] = xml_soup
+        samples.append(xml_soup)
         # TODO: make this dynamic
 
     #print(xml_soup)
@@ -63,7 +63,7 @@ def extract():
     # TODO: abbreviation-expansion-frequencies
 
     # TODO: Data export to CSV
-    extract_page_overview_info()
+    extract_page_overview_info(samples)
 
     # TODO: ...
 
@@ -72,22 +72,17 @@ def get_abbreviation_count(file):
     return len(file.find_all('abbr'))
 
 
-def extract_page_overview_info():
+def extract_page_overview_info(samples):
     # TODO: could extraction be more generic, and with arguments to specify?
     path_prefix = "../tmp_data/"
-    field_names = ["informations", "value", "sample"]
-
-    for section_index, section in enumerate(samples):
-        rows = [["no_pages", get_page_count(samples[section_index]), section_index],
-                ["no_lines", get_line_count(samples[section_index]), section_index],
-                ["no_words", get_word_count(samples[section_index]), section_index],
-                ["no_abbreviations", get_abbreviation_count(samples[section_index]), section_index]]
-
-        with open(path_prefix+"page_overview.csv", mode='w', encoding='utf-8') as file:
-            w = csv.writer(file)
-            w.writerow(field_names)
-            for row in rows:
-                w.writerow(row)
+    field_names = ["sample", "no_pages", "no_lines", "no_words", "no_abbreviations"]
+    with open(path_prefix + "page_overview.csv", mode='w', encoding='utf-8', newline='') as file:
+        w = csv.writer(file)
+        w.writerow(field_names)
+        for section_index, section in enumerate(samples):
+            row = [section_index, get_page_count(section), get_line_count(section),
+                   get_word_count(section), get_abbreviation_count(section)]
+            w.writerow(row)
 
 
 def get_word_frequencies(words_raw_rep, plot, print_no):
