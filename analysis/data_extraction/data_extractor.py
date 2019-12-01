@@ -83,6 +83,8 @@ def extract_page_overview_info(samples):
             row = [section_index, get_page_count(section), get_line_count(section),
                    get_word_count(section), get_abbreviation_count(section)]
             w.writerow(row)
+        # TODO: remove, once there are multiple samples
+        w.writerow([999, 1, 1, 1, 1])
 
 
 def get_word_frequencies(words_raw_rep, plot, print_no):
