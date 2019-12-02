@@ -24,7 +24,7 @@ def extract():
     # load xml file
     with open('../../transcription/transcriptions/part_01.xml', encoding='utf-8') as file:
         xml_soup = BeautifulSoup(file, features='lxml')
-        samples.append(xml_soup)
+        samples.append(("part_01__p1ff", xml_soup))
         # TODO: make this dynamic
 
     #print(xml_soup)
@@ -80,16 +80,18 @@ def get_abbreviation_count(file):
 def extract_page_overview_info(samples):
     # TODO: could extraction be more generic, and with arguments to specify?
     path_prefix = "../tmp_data/"
-    field_names = ["sample", "no_pages", "no_lines", "no_words", "no_abbreviations"]
+    field_names = ["sample", "sample_name", "no_pages", "no_lines", "no_words", "no_abbreviations"]
     with open(path_prefix + "page_overview.csv", mode='w', encoding='utf-8', newline='') as file:
         w = csv.writer(file)
         w.writerow(field_names)
         for section_index, section in enumerate(samples):
-            row = [section_index, get_page_count(section), get_line_count(section),
-                   get_word_count(section), get_abbreviation_count(section)]
+            section_name = section[0]
+            data = section[1]
+            row = [section_index, section_name, get_page_count(data), get_line_count(data),
+                   get_word_count(data), get_abbreviation_count(data)]
             w.writerow(row)
         # TODO: remove, once there are multiple samples
-        w.writerow([999, 1, 1, 1, 1])
+        w.writerow([999, "none", 1, 1, 1, 1])
 
 
 def get_word_frequencies(words_raw_rep, plot, print_no):
