@@ -9,7 +9,7 @@ from bs4.element import Tag, NavigableString
 import copy
 import nltk
 import matplot
-import  csv
+import csv
 
 
 def extract():
@@ -27,11 +27,11 @@ def extract():
         samples.append(("part_01__p1ff", xml_soup))
         # TODO: make this dynamic
 
-    #print(xml_soup)
+    # print(xml_soup)
 
-    #xml_file = DataExtractor.load_file('../../transcription/transcriptions/part_01.xml')
-    #s = etree.tostring(xml_file, pretty_print=True).decode("utf-8")
-    #print(s)
+    # xml_file = DataExtractor.load_file('../../transcription/transcriptions/part_01.xml')
+    # s = etree.tostring(xml_file, pretty_print=True).decode("utf-8")
+    # print(s)
 
     # get page count
     pg_count = get_page_count(xml_soup)
@@ -79,16 +79,23 @@ def get_abbreviation_count(file):
 
 def extract_page_overview_info(samples):
     # TODO: could extraction be more generic, and with arguments to specify?
-    path_prefix = "../tmp_data/"
     field_names = ["sample", "sample_name", "no_pages", "no_lines", "no_words", "no_abbreviations"]
-    with open(path_prefix + "page_overview.csv", mode='w', encoding='utf-8', newline='') as file:
+    rows = []
+    for section_index, section in enumerate(samples):
+        section_name = section[0]
+        data = section[1]
+        row = [section_index, section_name, get_page_count(data), get_line_count(data),
+               get_word_count(data), get_abbreviation_count(data)]
+        rows.append(row)
+    write_to_csv("page_overview.csv", field_names, rows)
+
+
+def write_to_csv(file, names, rows):
+    path_prefix = "../tmp_data/"
+    with open(path_prefix + file, mode='w', encoding='utf-8', newline='') as file:
         w = csv.writer(file)
-        w.writerow(field_names)
-        for section_index, section in enumerate(samples):
-            section_name = section[0]
-            data = section[1]
-            row = [section_index, section_name, get_page_count(data), get_line_count(data),
-                   get_word_count(data), get_abbreviation_count(data)]
+        w.writerow(names)
+        for row in rows:
             w.writerow(row)
         # TODO: remove, once there are multiple samples
         w.writerow([999, "none", 1, 1, 1, 1])
@@ -112,19 +119,19 @@ def load_file(path):
 
 def get_page_count(file):
     pbs = file.find_all('pb')
-    #print(pbs)
+    # print(pbs)
     return len(pbs)
 
 
 def get_line_count(file):
     lbs = file.find_all('lb')
-    #print(lbs)
+    # print(lbs)
     return len(lbs)
 
 
 def get_word_count(file):
     ws = file.find_all('w')
-    #print(ws)
+    # print(ws)
     return len(ws)
 
 
@@ -141,14 +148,14 @@ def clean_up(word):
 
 def get_words_xml_rep(file):
     ws = [clean_up(w).contents for w in file.find_all('w')]
-    #print(ws)
+    # print(ws)
     return ws
 
 
 def resolve_glyph(w):
     for glyph in w.find_all('g'):
         val = glyph['ref'][1:]
-        glyph.string = '{'+val+'}'
+        glyph.string = '{' + val + '}'
         glyph.unwrap()
 
 
