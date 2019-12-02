@@ -1,3 +1,8 @@
+"""
+Balduin Landolt (2019)
+Licensed under GNU AGPL license. See license file in the root of the repository.
+"""
+
 from lxml import etree
 from bs4 import BeautifulSoup
 from bs4.element import Tag, NavigableString
