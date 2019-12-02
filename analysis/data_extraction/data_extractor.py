@@ -69,12 +69,38 @@ def extract():
 
     # TODO: Data export to CSV
     extract_page_overview_info(samples)
+    extract_data_by_line(samples)
 
     # TODO: ...
 
 
 def get_abbreviation_count(file):
     return len(file.find_all('abbr'))
+
+
+def split_by_line(data):
+    print(data)
+    lbs = data.find_all("lb")
+    lines = []
+    for lb in lbs:
+        nexts = []
+        for sibling in lb.next_siblings:
+            # TODO: find siblings up to next <lb>
+            pass
+        # TODO: collate them to a line, add to lines
+
+
+    pass
+
+
+def extract_data_by_line(samples):
+    names = ["sample", "sample_name", "line_number", "no_words", "no_characters", "no_abbreviations"]
+    rows = []
+    for section_index, section in enumerate(samples):
+        section_name = section[0]
+        data = section[1]
+        row = [section_index, section_name]
+        lines = split_by_line(data)
 
 
 def extract_page_overview_info(samples):
