@@ -61,7 +61,27 @@
     </xsl:template>
     
     <xsl:template match="tei:choice">
-        <xsl:if test="name(child::node()[1]) = 'abbr'">It's an abbreviation!</xsl:if>
+        <xsl:if test="name(child::node()[1]) = 'abbr'">
+            <abbreviation>
+                <xsl:apply-templates select="tei:abbr"/>
+                <xsl:apply-templates select="tei:expan"/>
+            </abbreviation>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="tei:abbr">
+        <am>
+            <xsl:apply-templates select="tei:am"/>
+        </am>
+    </xsl:template>
+    
+    <xsl:template match="tei:expan">
+        <infix>
+            <xsl:value-of select="child::text()"/>
+        </infix>
+        <ex>
+            <xsl:apply-templates select="tei:ex"/>
+        </ex>
     </xsl:template>
 
 </xsl:stylesheet>
