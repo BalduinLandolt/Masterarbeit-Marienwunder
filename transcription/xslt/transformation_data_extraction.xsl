@@ -11,39 +11,57 @@
 
 
     <xsl:template match="/">
-        
         <xml>
             <xsl:apply-templates select="//tei:pb"/>
-            <!--<xsl:apply-templates select="//tei:div"/>-->
         </xml>
     </xsl:template>
-    
-<!--    <xsl:template match="tei:div">
-        <xsl:for-each select=".//tei:pb">
-            <page>
-                Page: <xsl:value-of select="position()"/> <br/>
-                <xsl:for-each select="following::*">
-                    
-                    <xsl:copy-of select="."></xsl:copy-of>
-                </xsl:for-each>
-            </page>
-        </xsl:for-each>
-    </xsl:template>-->
     
     <xsl:template match="tei:pb">
         <xsl:element name="page">
             <xsl:attribute name="n"><xsl:value-of select="@n"/></xsl:attribute>
-            <xsl:variable name="count" select="count(preceding::tei:pb)"/>
-            Page: <xsl:value-of select="$count"/>
-<!--            <xsl:for-each select="following::*">
-                expression: <xsl:value-of select="count(preceding::tei:pb)"/>
-            </xsl:for-each>-->
-            <xsl:apply-templates select="following::*[count(preceding::tei:pb) = $count+1]"></xsl:apply-templates>
-<!--            <xsl:for-each select="following::*[count(preceding::tei:pb) = $count]">
-                <xsl:copy-of select="."></xsl:copy-of>
-            </xsl:for-each>-->
+            <xsl:variable name="count_pb" select="count(preceding::tei:pb)"/>
+            <xsl:apply-templates select="following::tei:lb[count(preceding::tei:pb) = $count_pb+1]"/>
         </xsl:element>
     </xsl:template>
-
+    
+    <xsl:template match="tei:lb">
+        <xsl:element name="line">
+            <xsl:attribute name="n"><xsl:value-of select="@n"/></xsl:attribute>
+            <xsl:variable name="count_lb" select="count(preceding::tei:lb)"/>
+            <xsl:for-each select="following::*[count(preceding::tei:lb) = $count_lb+1]">
+                <xsl:if test="name(.) != 'lb'">
+                    <xsl:apply-templates select="."/>
+                </xsl:if>
+            </xsl:for-each>
+            <!-- TODO: suppress lines with catchwords -->
+            <!-- TODO: fix, when lb is in some particulat element, not just p -->
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:hi">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:supplied">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:w">
+        <w><xsl:apply-templates/></w>
+    </xsl:template>
+    
+    <xsl:template match="tei:g">
+        <xsl:element name="g">
+            <xsl:attribute name="ref"><xsl:value-of select="@ref"/></xsl:attribute>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:name">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:choice">
+        <xsl:if test="name(child::node()[1]) = 'abbr'">It's an abbreviation!</xsl:if>
+    </xsl:template>
 
 </xsl:stylesheet>
