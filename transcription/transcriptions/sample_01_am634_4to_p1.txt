@@ -1,12 +1,12 @@
 [div]
 
-[p] 
+[p]
 
 [pb=1]
 [lb=1] [hi=caps] [hi=6][supplied=omitted]S[/supplied][/hi]uo seger [name=person] Ieronimvs [/name]
 [lb=2] prestur [/hi] ath {slong}æl (ok) dy{rrot}lig
-[lb=3] mær [name=person] Maria [/name] wæri komin 
-[lb=4] a{fins} k(onun;bar)glig{rrot}e ætt . (ok) tok h(an;bar)n þ(vi;bar) a{fins} {fins}ra
+[lb=3] mær [name=person] Maria [/name] wæri komin
+[lb=4] a{fins} k(onun;bar)glig{rrot}e ætt . (ok) tok h(an;bar)n þ(vi;bar) a{fins} {fins}ra¬
 [lb=5]{slong}ogu [name=person] Mathe(us) [/name] g(u;d;combcurl){slong}pialla_man{ezh} . {fins}(yrir;isup)
 [lb=6] þ(ui;isup) ath h(an;bar)n tok ath v{pplig}ha{fins}i {slong}in{slong}
 [lb=7] gud{slong}piall{ezh} ath telia ætt d(ro;osup)ttin{slong} [name=person] IHC XPC [/name] {fins}(ra)
@@ -42,7 +42,7 @@
 [lb=17] {fins}i(ar){slong} ga{fins}v þau t(il;isup) m(us)teri{slong} d(ro;osup)ttin{slong} . bædi þ(ar) t(il;isup) pry¬
 [lb=18]di (ok) þ(ei;bar)m m(onnu;bar)m t(il;isup) atvin(n;bar)u e(r;er) þ(ar) þionudv . An(n;bar)a(n;bar)
 [lb] [catch]hlutin(n;bar)[/catch]
- 
+
 [/p]
 
 [/div]
