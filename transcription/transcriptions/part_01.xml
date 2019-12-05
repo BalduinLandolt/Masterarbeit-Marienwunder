@@ -58,7 +58,8 @@
           <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>vi</ex></expan></choice></w>
           <w>a<g ref="#fins" /></w>
           <w><g ref="#fins" />ra</w>
-          <w><lb n="5" /><g ref="#slong" />ogu</w>
+   <lb n="5" />
+          <w><g ref="#slong" />ogu</w>
           <name type="person">
             <w>Mathe<choice><abbr><am><g ref="#us" /></am></abbr><expan><ex>us</ex></expan></choice></w>
           </name>
