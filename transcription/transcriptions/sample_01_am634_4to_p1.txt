@@ -19,7 +19,7 @@
 [lb=14] þui [name=person] Maria [/name] d(ro;osup)ttni(n;bar)g bædi k(onun;bar)ga kyn{slong} (ok) ken(n;bar)i_m(anna;asup) .
 [lb=15] ath h(on;osup) {fins}æddi þ(an;bar)n {slong}on e(r;er) bædi e(r;er) k(onun;bar)g{rrot} . (ok) ken(n;bar)i_m(adr;rsup) .  k(onun;bar)g{rrot}
 [lb=16] {jscap} guddo(m;bar){slong} velldi . ken(n;bar)i_m(adr;rsup) {jscap} pi{slong}l {slong}ine . þa e(r;er) h(an;bar)n {fins}ærdi
-[lb=17] {slong}ig {slong}ial{fins}(an;nsup) {jscap} {fins}o{rrot}n gudi {fins}er(ur) {aalig} k(ro;osup){slong}{slong}in(um;msup) halga . [name=person] Mar¬
+[lb=17] {slong}ig {slong}ial{fins}(an;nsup) {jscap} {fins}o{rrot}n gudi {fins}er(ur) {aalig} k(ro;osup){slong}{slong}in(um;msup) /*nicht eher "e"? ->*/ halga . [name=person] Mar¬
 [lb=18]ia [/name] w(ar) bo{rrot}in {jscap} n(or;bar)g þ(ei;bar){rrot}e e(r;er) [name=place] na{ezh}areth [/name] heit(ir;er) . en(n;bar) {fins}ædd
 
 [pb=2]
