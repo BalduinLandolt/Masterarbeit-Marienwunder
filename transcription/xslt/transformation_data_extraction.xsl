@@ -24,16 +24,37 @@
         </xml>
     </xsl:template>
     
+    <!-- TODO: what if page border is in word? -->
+    
     
     
     
     <xsl:template match="tei:w" mode="strip">
-        <xsl:variable name="stripped_word">
-            <w>
-                <xsl:apply-templates mode="strip"/>
-            </w>
-        </xsl:variable>
-        <xsl:value-of select="$stripped_word"/>
+        <xsl:variable name="this" select="."/>
+        <xsl:choose>
+            <xsl:when test=".//tei:lb">
+                <xsl:apply-templates select="." mode="strip_lb_in_word"></xsl:apply-templates>
+            </xsl:when>
+            <xsl:otherwise>
+                <w>
+                    <xsl:apply-templates mode="strip"/>
+                </w>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="tei:w" mode="strip_lb_in_word">
+        <w>
+            <xsl:for-each select="child::node()[count(preceding-sibling::tei:lb) = 0]">
+                <xsl:apply-templates select="." mode="strip"/>
+            </xsl:for-each>
+        </w>
+        <xsl:apply-templates select="tei:lb" mode="strip_lb_in_word"/>
+        <wordpart>
+            <xsl:for-each select="child::node()[count(preceding-sibling::tei:lb) > 0]">
+                <xsl:apply-templates select="." mode="strip"/>
+            </xsl:for-each>
+        </wordpart>
     </xsl:template>
     
     <xsl:template match="tei:pc" mode="strip">
@@ -48,13 +69,21 @@
     </xsl:template>
     
     <xsl:template match="tei:lb" mode="strip">
+        <xsl:if test="name(..) != 'w'">
+            <xsl:element name="lb">
+                <xsl:attribute name="n"><xsl:value-of select="@n"/></xsl:attribute>
+                <xsl:apply-templates/>
+            </xsl:element>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="tei:lb" mode="strip_lb_in_word">
         <xsl:element name="lb">
             <xsl:attribute name="n"><xsl:value-of select="@n"/></xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
     
-    <!-- TODO: make abbreviations right -->
     <xsl:template match="tei:choice" mode="strip">
         <xsl:if test="name(child::node()[1]) = 'abbr'">
             <abbreviation>
@@ -86,7 +115,7 @@
     </xsl:template>
     
     
-    <!-- TODO: Remove unnecessary -->
+    
     
     <xsl:template match="pb" mode="restructure">
         <xsl:element name="page">
