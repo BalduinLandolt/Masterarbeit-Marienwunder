@@ -55,15 +55,15 @@
     <xsl:template match="tei:choice" mode="strip">
         <xsl:if test="name(child::node()[1]) = 'abbr'">
             <abbreviation>
-                <xsl:apply-templates select="tei:abbr"/>
-                <xsl:apply-templates select="tei:expan"/>
+                <xsl:apply-templates select="tei:abbr" mode="strip"/>
+                <xsl:apply-templates select="tei:expan" mode="strip"/>
             </abbreviation>
         </xsl:if>
     </xsl:template>
     
     <xsl:template match="tei:abbr" mode="strip">
         <am>
-            <xsl:apply-templates select="tei:am"/>
+            <xsl:apply-templates select="tei:am" mode="strip"/>
         </am>
     </xsl:template>
     
@@ -72,7 +72,7 @@
             <xsl:value-of select="child::text()"/>
         </infix>
         <ex>
-            <xsl:apply-templates select="tei:ex"/>
+            <xsl:apply-templates select="tei:ex" mode="strip"/>
         </ex>
     </xsl:template>
     
@@ -113,7 +113,11 @@
     </xsl:template>
     
     <xsl:template match="w" mode="restructure">
-        <w><xsl:apply-templates/></w>
+        <w><xsl:apply-templates mode="restructure"/></w>
+    </xsl:template>
+    
+    <xsl:template match="g" mode="restructure">
+        <xsl:copy-of select="."/>
     </xsl:template>
 
 </xsl:stylesheet>

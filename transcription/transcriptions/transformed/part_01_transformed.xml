@@ -12,7 +12,13 @@
       <w>
          <g ref="#slong"/>æl</w>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>dy<g ref="#rrot"/>lig</w>
       <lb n="3"/>
@@ -23,15 +29,39 @@
       <lb n="4"/>
       <w>a<g ref="#fins"/>
       </w>
-      <w>k<abbreviation>onun</abbreviation>glig<g ref="#rrot"/>e</w>
+      <w>k<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>onun</ex>
+         </abbreviation>glig<g ref="#rrot"/>e</w>
       <w>ætt</w>
       <pc>.</pc>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>tok</w>
-      <w>h<abbreviation>an</abbreviation>n</w>
-      <w>þ<abbreviation>vi</abbreviation>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>an</ex>
+         </abbreviation>n</w>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>vi</ex>
+         </abbreviation>
       </w>
       <w>a<g ref="#fins"/>
       </w>
@@ -40,21 +70,51 @@
       <lb n="5"/>
       <w>
          <g ref="#slong"/>ogu</w>
-      <w>Mathe<abbreviation>us</abbreviation>
+      <w>Mathe<abbreviation>
+            <am>
+               <g ref="#us"/>
+            </am>
+            <infix/>
+            <ex>us</ex>
+         </abbreviation>
       </w>
-      <w>g<abbreviation>dud</abbreviation>
+      <w>g<abbreviation>
+            <am>
+               <g ref="#combcurl"/>
+            </am>
+            <infix>d</infix>
+            <ex>u</ex>
+         </abbreviation>
          <g ref="#slong"/>pialla man<g ref="#ezh"/>
       </w>
       <pc>.</pc>
       <w>
          <g ref="#fins"/>
-         <abbreviation>yrir</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>yrir</ex>
+         </abbreviation>
       </w>
       <lb n="6"/>
-      <w>þ<abbreviation>ui</abbreviation>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>ui</ex>
+         </abbreviation>
       </w>
       <w>ath</w>
-      <w>h<abbreviation>an</abbreviation>n</w>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>an</ex>
+         </abbreviation>n</w>
       <w>tok</w>
       <w>ath</w>
       <w>v<g ref="#pplig"/>ha<g ref="#fins"/>i</w>
@@ -67,75 +127,201 @@
       <w>ath</w>
       <w>telia</w>
       <w>ætt</w>
-      <w>d<abbreviation>ro</abbreviation>ttin<g ref="#slong"/>
+      <w>d<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>ro</ex>
+         </abbreviation>ttin<g ref="#slong"/>
       </w>
       <w>IHC</w>
       <w>XPC</w>
       <w>
          <g ref="#fins"/>
-         <abbreviation>ra</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ra"/>
+            </am>
+            <infix/>
+            <ex>ra</ex>
+         </abbreviation>
       </w>
       <lb n="8"/>
       <w>david</w>
-      <w>k<abbreviation>onun</abbreviation>gi</w>
+      <w>k<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>onun</ex>
+         </abbreviation>gi</w>
       <pc>.</pc>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>ab<g ref="#rrot"/>aham</w>
       <w>h<g ref="#ocurl"/>
          <g ref="#fins"/>
-         <abbreviation>ud</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#dsup"/>
+            </am>
+            <infix/>
+            <ex>ud</ex>
+         </abbreviation>
          <g ref="#fins"/>ed<g ref="#rrot"/>
       </w>
       <pc>.</pc>
       <w>ok</w>
-      <w>ne<g ref="#fins"/>n<abbreviation>ir</abbreviation>
+      <w>ne<g ref="#fins"/>n<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>ir</ex>
+         </abbreviation>
       </w>
-      <w>þ<abbreviation>ui</abbreviation>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>ui</ex>
+         </abbreviation>
       </w>
       <lb n="9"/>
-      <w>Mathe<abbreviation>us</abbreviation>
+      <w>Mathe<abbreviation>
+            <am>
+               <g ref="#us"/>
+            </am>
+            <infix/>
+            <ex>us</ex>
+         </abbreviation>
       </w>
       <w>
-         <g ref="#fins"/>y<abbreviation>rr</abbreviation>
+         <g ref="#fins"/>y<abbreviation>
+            <am>
+               <g ref="#rscap"/>
+            </am>
+            <infix/>
+            <ex>rr</ex>
+         </abbreviation>
       </w>
       <w>david</w>
-      <w>k<abbreviation>onun</abbreviation>g</w>
+      <w>k<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>onun</ex>
+         </abbreviation>g</w>
       <pc>.</pc>
       <w>ath</w>
-      <w>k<abbreviation>onun</abbreviation>gdo<abbreviation>m</abbreviation>
-         <g ref="#rrot"/>in<abbreviation>n</abbreviation>
+      <w>k<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>onun</ex>
+         </abbreviation>gdo<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>m</ex>
+         </abbreviation>
+         <g ref="#rrot"/>in<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>
       </w>
-      <w>m<abbreviation>er</abbreviation>kir</w>
+      <w>m<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>er</ex>
+         </abbreviation>kir</w>
       <w>eili<g ref="#fins"/>t</w>
       <lb n="10"/>
-      <w>R<abbreviation>iki</abbreviation>
+      <w>R<abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>iki</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>eili<g ref="#fins"/>
-         <abbreviation>an</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#nsup"/>
+            </am>
+            <infix/>
+            <ex>an</ex>
+         </abbreviation>
       </w>
-      <w>g<abbreviation>dud</abbreviation>dom</w>
+      <w>g<abbreviation>
+            <am>
+               <g ref="#combcurl"/>
+            </am>
+            <infix>d</infix>
+            <ex>u</ex>
+         </abbreviation>dom</w>
       <w>all<g ref="#ezh"/>ualdanda</w>
       <w>gud<g ref="#slong"/>
       </w>
       <pc>.</pc>
       <w>Ok</w>
-      <w>þ<abbreviation>ui</abbreviation>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>ui</ex>
+         </abbreviation>
       </w>
       <lb n="11"/>
       <w>ab<g ref="#rrot"/>aham</w>
       <w>
-         <g ref="#slong"/>id<abbreviation>arr</abbreviation>
+         <g ref="#slong"/>id<abbreviation>
+            <am>
+               <g ref="#rsup"/>
+            </am>
+            <infix/>
+            <ex>arr</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
       <w>þo</w>
       <w>at</w>
-      <w>h<abbreviation>ann</abbreviation>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>ann</ex>
+         </abbreviation>
       </w>
       <w>wæri</w>
       <w>
@@ -143,14 +329,32 @@
       <w>
          <g ref="#jscap"/>
       </w>
-      <w>hei<abbreviation>m</abbreviation>e</w>
+      <w>hei<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>m</ex>
+         </abbreviation>e</w>
       <pc>.</pc>
       <w>ath</w>
       <lb n="12"/>
-      <w>g<abbreviation>dud</abbreviation>
+      <w>g<abbreviation>
+            <am>
+               <g ref="#combcurl"/>
+            </am>
+            <infix>d</infix>
+            <ex>u</ex>
+         </abbreviation>
       </w>
       <w>het</w>
-      <w>h<abbreviation>onu</abbreviation>m</w>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>onu</ex>
+         </abbreviation>m</w>
       <w>ath</w>
       <w>taka</w>
       <w>
@@ -158,89 +362,258 @@
       </w>
       <w>
          <g ref="#slong"/>ig</w>
-      <w>m<abbreviation>ann</abbreviation>dom</w>
+      <w>m<abbreviation>
+            <am>
+               <g ref="#nsup"/>
+            </am>
+            <infix/>
+            <ex>ann</ex>
+         </abbreviation>dom</w>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>lata</w>
-      <w>b<abbreviation>er</abbreviation>a<g ref="#ezh"/>t</w>
+      <w>b<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>er</ex>
+         </abbreviation>a<g ref="#ezh"/>t</w>
       <lb n="13"/>
       <w>o<g ref="#rrot"/>
       </w>
-      <w>h<abbreviation>a</abbreviation>n<g ref="#slong"/>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>a</ex>
+         </abbreviation>n<g ref="#slong"/>
       </w>
       <w>ætt</w>
       <pc>.</pc>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#fins"/>
-         <abbreviation>ra</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ra"/>
+            </am>
+            <infix/>
+            <ex>ra</ex>
+         </abbreviation>
       </w>
-      <w>h<abbreviation>a</abbreviation>n<g ref="#slong"/>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>a</ex>
+         </abbreviation>n<g ref="#slong"/>
       </w>
-      <w>ætt m<abbreviation>nnu</abbreviation>
+      <w>ætt m<abbreviation>
+            <am>
+               <g ref="#msup"/>
+            </am>
+            <infix/>
+            <ex>
+               <g ref="#ocurl"/>nnu</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
       <w>
          <g ref="#jscap"/>
       </w>
-      <w>þ<abbreviation>en</abbreviation>na</w>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>en</ex>
+         </abbreviation>na</w>
       <w>heim</w>
       <pc>.</pc>
       <w>ok</w>
-      <w>w<abbreviation>ar</abbreviation>
+      <w>w<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <lb n="14"/>
       <w>þui</w>
       <w>Maria</w>
-      <w>d<abbreviation>ro</abbreviation>ttni<abbreviation>n</abbreviation>g</w>
+      <w>d<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>ro</ex>
+         </abbreviation>ttni<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>g</w>
       <w>bædi</w>
-      <w>k<abbreviation>onun</abbreviation>ga</w>
+      <w>k<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>onun</ex>
+         </abbreviation>ga</w>
       <w>kyn<g ref="#slong"/>
       </w>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
-      <w>ken<abbreviation>n</abbreviation>i m<abbreviation>anna</abbreviation>
+      <w>ken<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>i m<abbreviation>
+            <am>
+               <g ref="#asup"/>
+            </am>
+            <infix/>
+            <ex>anna</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
       <lb n="15"/>
       <w>ath</w>
-      <w>h<abbreviation>on</abbreviation>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>on</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#fins"/>æddi</w>
-      <w>þ<abbreviation>an</abbreviation>n</w>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>an</ex>
+         </abbreviation>n</w>
       <w>
          <g ref="#slong"/>on</w>
-      <w>e<abbreviation>r</abbreviation>
+      <w>e<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>r</ex>
+         </abbreviation>
       </w>
       <w>bædi</w>
-      <w>e<abbreviation>r</abbreviation>
+      <w>e<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>r</ex>
+         </abbreviation>
       </w>
-      <w>k<abbreviation>onun</abbreviation>g<g ref="#rrot"/>
+      <w>k<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>onun</ex>
+         </abbreviation>g<g ref="#rrot"/>
       </w>
       <pc>.</pc>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
-      <w>ken<abbreviation>n</abbreviation>i m<abbreviation>adr</abbreviation>
+      <w>ken<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>i m<abbreviation>
+            <am>
+               <g ref="#rsup"/>
+            </am>
+            <infix/>
+            <ex>adr</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
-      <w>k<abbreviation>onun</abbreviation>g<g ref="#rrot"/>
+      <w>k<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>onun</ex>
+         </abbreviation>g<g ref="#rrot"/>
       </w>
       <lb n="16"/>
       <w>
          <g ref="#jscap"/>
       </w>
-      <w>guddo<abbreviation>m</abbreviation>
+      <w>guddo<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>m</ex>
+         </abbreviation>
          <g ref="#slong"/>
       </w>
       <w>velldi</w>
       <pc>.</pc>
-      <w>ken<abbreviation>n</abbreviation>i m<abbreviation>adr</abbreviation>
+      <w>ken<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>i m<abbreviation>
+            <am>
+               <g ref="#rsup"/>
+            </am>
+            <infix/>
+            <ex>adr</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#jscap"/>
@@ -250,9 +623,21 @@
          <g ref="#slong"/>ine</w>
       <pc>.</pc>
       <w>þa</w>
-      <w>e<abbreviation>r</abbreviation>
+      <w>e<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>r</ex>
+         </abbreviation>
       </w>
-      <w>h<abbreviation>an</abbreviation>n</w>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>an</ex>
+         </abbreviation>n</w>
       <w>
          <g ref="#fins"/>ærdi</w>
       <lb n="17"/>
@@ -260,7 +645,13 @@
          <g ref="#slong"/>ig</w>
       <w>
          <g ref="#slong"/>ial<g ref="#fins"/>
-         <abbreviation>an</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#nsup"/>
+            </am>
+            <infix/>
+            <ex>an</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#jscap"/>
@@ -269,35 +660,89 @@
          <g ref="#fins"/>o<g ref="#rrot"/>n</w>
       <w>gudi</w>
       <w>
-         <g ref="#fins"/>er<abbreviation>ur</abbreviation>
+         <g ref="#fins"/>er<abbreviation>
+            <am>
+               <g ref="#ur"/>
+            </am>
+            <infix/>
+            <ex>ur</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#aalig"/>
       </w>
-      <w>k<abbreviation>ro</abbreviation>
+      <w>k<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>ro</ex>
+         </abbreviation>
          <g ref="#slong"/>
-         <g ref="#slong"/>in<abbreviation>um</abbreviation>
+         <g ref="#slong"/>in<abbreviation>
+            <am>
+               <g ref="#msup"/>
+            </am>
+            <infix/>
+            <ex>um</ex>
+         </abbreviation>
       </w>
       <w>halga</w>
       <pc>.</pc>
       <w>Mar<lb n="18"/>ia</w>
       <lb n="18"/>
-      <w>w<abbreviation>ar</abbreviation>
+      <w>w<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <w>bo<g ref="#rrot"/>in</w>
       <w>
          <g ref="#jscap"/>
       </w>
-      <w>n<abbreviation>or</abbreviation>g</w>
-      <w>þ<abbreviation>ei</abbreviation>
+      <w>n<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>or</ex>
+         </abbreviation>g</w>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>ei</ex>
+         </abbreviation>
          <g ref="#rrot"/>e</w>
-      <w>e<abbreviation>r</abbreviation>
+      <w>e<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>r</ex>
+         </abbreviation>
       </w>
       <w>na<g ref="#ezh"/>areth</w>
-      <w>heit<abbreviation>ir</abbreviation>
+      <w>heit<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>ir</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
-      <w>en<abbreviation>n</abbreviation>
+      <w>en<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#fins"/>ædd</w>
@@ -308,224 +753,633 @@
       <w>
          <g ref="#jscap"/>
       </w>
-      <w>b<abbreviation>or</abbreviation>g</w>
-      <w>þ<abbreviation>ei</abbreviation>
+      <w>b<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>or</ex>
+         </abbreviation>g</w>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>ei</ex>
+         </abbreviation>
          <g ref="#rrot"/>e</w>
-      <w>e<abbreviation>r</abbreviation>
+      <w>e<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>r</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#jscap"/>o<g ref="#rrot"/>
-         <g ref="#slong"/>ala b<abbreviation>or</abbreviation>g</w>
-      <w>heit<abbreviation>ir</abbreviation>
+         <g ref="#slong"/>ala b<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>or</ex>
+         </abbreviation>g</w>
+      <w>heit<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>ir</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>lærd</w>
       <w>
          <g ref="#jscap"/>
       </w>
-      <w>g<abbreviation>dud</abbreviation>
+      <w>g<abbreviation>
+            <am>
+               <g ref="#combcurl"/>
+            </am>
+            <infix>d</infix>
+            <ex>u</ex>
+         </abbreviation>
          <g ref="#slong"/>
       </w>
-      <w>m<abbreviation>us</abbreviation>t<lb n="2"/>eri</w>
+      <w>m<abbreviation>
+            <am>
+               <g ref="#us"/>
+            </am>
+            <infix/>
+            <ex>us</ex>
+         </abbreviation>t<lb n="2"/>eri</w>
       <lb n="2"/>
       <pc>.</pc>
       <w>ok</w>
-      <w>þeg<abbreviation>ar</abbreviation>
+      <w>þeg<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
-      <w>h<abbreviation>on</abbreviation>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>on</ex>
+         </abbreviation>
       </w>
-      <w>kun<abbreviation>n</abbreviation>e</w>
-      <w>g<abbreviation>re</abbreviation>in<abbreviation>ir</abbreviation>
+      <w>kun<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>e</w>
+      <w>g<abbreviation>
+            <am>
+               <g ref="#esup"/>
+            </am>
+            <infix/>
+            <ex>re</ex>
+         </abbreviation>in<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>ir</ex>
+         </abbreviation>
       </w>
       <w>god<g ref="#slong"/>
       </w>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>ill<g ref="#ezh"/>
       </w>
       <pc>.</pc>
       <w>þa</w>
       <w>lagdi</w>
-      <w>h<abbreviation>on</abbreviation>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>on</ex>
+         </abbreviation>
       </w>
       <lb n="3"/>
-      <w>þeg<abbreviation>ar</abbreviation>
+      <w>þeg<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <w>alla</w>
       <w>a<g ref="#slong"/>t</w>
       <w>
          <g ref="#aalig"/>
       </w>
-      <w>g<abbreviation>dud</abbreviation>
+      <w>g<abbreviation>
+            <am>
+               <g ref="#combcurl"/>
+            </am>
+            <infix>d</infix>
+            <ex>u</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
-      <w>s<abbreviation>uo</abbreviation>
+      <w>s<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>uo</ex>
+         </abbreviation>
       </w>
       <w>ath</w>
-      <w>h<abbreviation>on</abbreviation>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>on</ex>
+         </abbreviation>
       </w>
       <w>hugdi</w>
       <w>ath</w>
       <w>
-         <g ref="#slong"/>pa m<abbreviation>anna</abbreviation>
+         <g ref="#slong"/>pa m<abbreviation>
+            <am>
+               <g ref="#asup"/>
+            </am>
+            <infix/>
+            <ex>anna</ex>
+         </abbreviation>
       </w>
-      <w>bok<abbreviation>um</abbreviation>
+      <w>bok<abbreviation>
+            <am>
+               <g ref="#msup"/>
+            </am>
+            <infix/>
+            <ex>um</ex>
+         </abbreviation>
       </w>
       <lb n="4"/>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
-      <w>w<abbreviation>ar</abbreviation>
+      <w>w<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#aalig"/>vallt</w>
       <w>
          <g ref="#jscap"/>
       </w>
-      <w>g<abbreviation>dud</abbreviation>
+      <w>g<abbreviation>
+            <am>
+               <g ref="#combcurl"/>
+            </am>
+            <infix>d</infix>
+            <ex>u</ex>
+         </abbreviation>
          <g ref="#slong"/>
       </w>
       <w>þionu<g ref="#ezh"/>tu</w>
       <pc>.</pc>
-      <w>an<abbreviation>n</abbreviation>ath hu<abbreviation>or</abbreviation>t</w>
+      <w>an<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>ath hu<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>or</ex>
+         </abbreviation>t</w>
       <w>ath</w>
-      <w>bæn<abbreviation>um</abbreviation>
+      <w>bæn<abbreviation>
+            <am>
+               <g ref="#msup"/>
+            </am>
+            <infix/>
+            <ex>um</ex>
+         </abbreviation>
       </w>
       <lb n="5"/>
       <w>eda</w>
       <w>boka</w>
-      <w>le<g ref="#slong"/>ning<abbreviation>um</abbreviation>
+      <w>le<g ref="#slong"/>ning<abbreviation>
+            <am>
+               <g ref="#msup"/>
+            </am>
+            <infix/>
+            <ex>um</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
       <w>eda</w>
-      <w>w<abbreviation>ar</abbreviation>
+      <w>w<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#jscap"/>
       </w>
       <w>nokru</w>
       <w>godu</w>
-      <w>w<abbreviation>er</abbreviation>ki</w>
+      <w>w<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>er</ex>
+         </abbreviation>ki</w>
       <pc>.</pc>
       <w>ok</w>
       <lb n="6"/>
       <w>þær</w>
-      <w>meyi<abbreviation>ar</abbreviation>
+      <w>meyi<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
-      <w>e<abbreviation>r</abbreviation>
+      <w>e<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>r</ex>
+         </abbreviation>
       </w>
       <w>ath</w>
       <w>n<g ref="#aalig"/>me</w>
-      <w>w<abbreviation>oro</abbreviation>
+      <w>w<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>oro</ex>
+         </abbreviation>
       </w>
-      <w>m<abbreviation>ed</abbreviation>
+      <w>m<abbreviation>
+            <am>
+               <g ref="#ezh"/>
+            </am>
+            <infix/>
+            <ex>ed</ex>
+         </abbreviation>
       </w>
-      <w>h<abbreviation>enn</abbreviation>e</w>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>enn</ex>
+         </abbreviation>e</w>
       <pc>.</pc>
       <w>k<g ref="#ocurl"/>lludu</w>
-      <w>h<abbreviation>an</abbreviation>a</w>
-      <w>d<abbreviation>ro</abbreviation>tt<lb n="7"/>ni<abbreviation>n</abbreviation>gv</w>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>an</ex>
+         </abbreviation>a</w>
+      <w>d<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>ro</ex>
+         </abbreviation>tt<lb n="7"/>ni<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>gv</w>
       <lb n="7"/>
       <w>
          <g ref="#slong"/>ina</w>
       <pc>.</pc>
       <w>
          <g ref="#fins"/>
-         <abbreviation>yrir</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>yrir</ex>
+         </abbreviation>
       </w>
       <w>þa</w>
       <w>
          <g ref="#slong"/>ok</w>
       <w>ath</w>
-      <w>h<abbreviation>on</abbreviation>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>on</ex>
+         </abbreviation>
       </w>
       <w>hlaut</w>
-      <w>þ<abbreviation>at</abbreviation>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>at</ex>
+         </abbreviation>
       </w>
       <w>ia<g ref="#fins"/>nan</w>
       <w>ath</w>
-      <w>g<abbreviation>er</abbreviation>a</w>
+      <w>g<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>er</ex>
+         </abbreviation>a</w>
       <lb n="8"/>
-      <w>e<abbreviation>r</abbreviation>
+      <w>e<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>r</ex>
+         </abbreviation>
       </w>
-      <w>ollu<abbreviation>m</abbreviation>
+      <w>ollu<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>m</ex>
+         </abbreviation>
       </w>
       <w>þotti</w>
-      <w>w<abbreviation>ir</abbreviation>dulig<abbreviation>t</abbreviation>
+      <w>w<abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>ir</ex>
+         </abbreviation>dulig<abbreviation>
+            <am>
+               <g ref="#zsup"/>
+            </am>
+            <infix/>
+            <ex>
+               <g ref="#ezh"/>t</ex>
+         </abbreviation>
       </w>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>þær</w>
       <w>willdu</w>
       <w>hell<g ref="#ezh"/>t</w>
-      <w>g<abbreviation>er</abbreviation>t</w>
+      <w>g<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>er</ex>
+         </abbreviation>t</w>
       <w>ha<g ref="#fins"/>a</w>
       <pc>.</pc>
       <lb n="9"/>
       <w>joachim</w>
       <w>het</w>
       <w>
-         <g ref="#fins"/>ad<abbreviation>ir</abbreviation>
+         <g ref="#fins"/>ad<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>ir</ex>
+         </abbreviation>
       </w>
       <w>Marie</w>
-      <w>en<abbreviation>n</abbreviation>
+      <w>en<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>
       </w>
-      <w>an<abbreviation>n</abbreviation>a</w>
-      <w>mod<abbreviation>ir</abbreviation>
+      <w>an<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>a</w>
+      <w>mod<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>ir</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
       <w>
-         <g ref="#fins"/>od<abbreviation>ur</abbreviation>
+         <g ref="#fins"/>od<abbreviation>
+            <am>
+               <g ref="#ur"/>
+            </am>
+            <infix/>
+            <ex>ur</ex>
+         </abbreviation>
          <lb n="10"/>kyn</w>
       <lb n="10"/>
-      <w>h<abbreviation>en</abbreviation>n<abbreviation>ar</abbreviation>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>en</ex>
+         </abbreviation>n<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
-      <w>w<abbreviation>ar</abbreviation>
+      <w>w<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <w>a<g ref="#fins"/>
       </w>
       <w>galilea</w>
-      <w>h<abbreviation>er</abbreviation>adi</w>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>er</ex>
+         </abbreviation>adi</w>
       <pc>.</pc>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>o<g ref="#rrot"/>
       </w>
       <w>na<g ref="#ezh"/>areth</w>
       <pc>.</pc>
       <lb n="11"/>
-      <w>en<abbreviation>n</abbreviation>
+      <w>en<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>
       </w>
-      <w>mod<abbreviation>ur</abbreviation>kyn</w>
-      <w>h<abbreviation>en</abbreviation>n<abbreviation>ar</abbreviation>
+      <w>mod<abbreviation>
+            <am>
+               <g ref="#ur"/>
+            </am>
+            <infix/>
+            <ex>ur</ex>
+         </abbreviation>kyn</w>
+      <w>h<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>en</ex>
+         </abbreviation>n<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
-      <w>w<abbreviation>ar</abbreviation>
+      <w>w<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <w>a<g ref="#fins"/>
       </w>
-      <w>b<abbreviation>or</abbreviation>g</w>
-      <w>e<abbreviation>r</abbreviation>
+      <w>b<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>or</ex>
+         </abbreviation>g</w>
+      <w>e<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>r</ex>
+         </abbreviation>
       </w>
       <w>bethleem</w>
-      <w>heit<abbreviation>ir</abbreviation>
+      <w>heit<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>ir</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
       <lb n="12"/>
       <w>þau</w>
-      <w>w<abbreviation>oro</abbreviation>
+      <w>w<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>oro</ex>
+         </abbreviation>
       </w>
       <w>bædi</w>
       <w>
          <g ref="#fins"/>alynd</w>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#rscap"/>ettlat</w>
@@ -534,36 +1388,102 @@
       <w>milld</w>
       <pc>.</pc>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
-      <w>w<abbreviation>ar</abbreviation>
+      <w>w<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <w>li<g ref="#fins"/>
       </w>
       <lb n="13"/>
-      <w>þ<abbreviation>ei</abbreviation>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>ei</ex>
+         </abbreviation>
          <g ref="#rrot"/>a</w>
       <w>heilagt</w>
       <w>
          <g ref="#fins"/>
-         <abbreviation>yrir</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>yrir</ex>
+         </abbreviation>
       </w>
-      <w>g<abbreviation>dud</abbreviation>i</w>
+      <w>g<abbreviation>
+            <am>
+               <g ref="#combcurl"/>
+            </am>
+            <infix>d</infix>
+            <ex>u</ex>
+         </abbreviation>i</w>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
-      <w>m<abbreviation>onnu</abbreviation>m</w>
+      <w>m<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>onnu</ex>
+         </abbreviation>m</w>
       <pc>.</pc>
       <w>þau</w>
       <w>attv</w>
-      <w>m<abbreviation>ic</abbreviation>in<abbreviation>n</abbreviation>
+      <w>m<abbreviation>
+            <am>
+               <g ref="#csup"/>
+            </am>
+            <infix/>
+            <ex>ic</ex>
+         </abbreviation>in<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>
       </w>
       <w>avd</w>
       <w>
-         <g ref="#fins"/>i<abbreviation>ar</abbreviation>
+         <g ref="#fins"/>i<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
-      <w>En<abbreviation>n</abbreviation>
+      <w>En<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>
       </w>
       <lb n="14"/>
       <w>þav</w>
@@ -580,7 +1500,13 @@
          <g ref="#slong"/>tadi</w>
       <pc>.</pc>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
       <w>ko<g ref="#slon"/>t gæ<g ref="#fins"/>du</w>
       <lb n="15"/>
@@ -588,75 +1514,237 @@
       <w>meir</w>
       <w>ath</w>
       <w>ha<g ref="#fins"/>a</w>
-      <w>m<abbreviation>ic</abbreviation>it</w>
-      <w>k<abbreviation>ra</abbreviation>pta l<g ref="#aalig"/>n</w>
+      <w>m<abbreviation>
+            <am>
+               <g ref="#csup"/>
+            </am>
+            <infix/>
+            <ex>ic</ex>
+         </abbreviation>it</w>
+      <w>k<abbreviation>
+            <am>
+               <g ref="#ra"/>
+            </am>
+            <infix/>
+            <ex>ra</ex>
+         </abbreviation>pta l<g ref="#aalig"/>n</w>
       <w>a<g ref="#fins"/>
       </w>
-      <w>g<abbreviation>dud</abbreviation>i</w>
-      <w>þ<abbreviation>ar</abbreviation>
+      <w>g<abbreviation>
+            <am>
+               <g ref="#combcurl"/>
+            </am>
+            <infix>d</infix>
+            <ex>u</ex>
+         </abbreviation>i</w>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#fins"/>
-         <abbreviation>yrir</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>yrir</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
       <lb n="16"/>
-      <w>en<abbreviation>n</abbreviation>
+      <w>en<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>
       </w>
-      <w>min<abbreviation>n</abbreviation>a</w>
+      <w>min<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>a</w>
       <w>aura l<g ref="#aalig"/>n</w>
       <w>a<g ref="#fins"/>
       </w>
-      <w>hei<abbreviation>m</abbreviation>e</w>
-      <w>þad<abbreviation>an</abbreviation>
+      <w>hei<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>m</ex>
+         </abbreviation>e</w>
+      <w>þad<abbreviation>
+            <am>
+               <g ref="#nsup"/>
+            </am>
+            <infix/>
+            <ex>an</ex>
+         </abbreviation>
       </w>
       <w>
          <g ref="#fins"/>
-         <abbreviation>ra</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ra"/>
+            </am>
+            <infix/>
+            <ex>ra</ex>
+         </abbreviation>
       </w>
       <pc>.</pc>
-      <w>Ein<abbreviation>n</abbreviation>
+      <w>Ein<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>
       </w>
       <w>klutta</w>
       <lb n="17"/>
       <w>
-         <g ref="#fins"/>i<abbreviation>ar</abbreviation>
+         <g ref="#fins"/>i<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
          <g ref="#slong"/>
       </w>
       <w>ga<g ref="#fins"/>v</w>
       <w>þau</w>
-      <w>t<abbreviation>il</abbreviation>
+      <w>t<abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>il</ex>
+         </abbreviation>
       </w>
-      <w>m<abbreviation>us</abbreviation>teri<g ref="#slong"/>
+      <w>m<abbreviation>
+            <am>
+               <g ref="#us"/>
+            </am>
+            <infix/>
+            <ex>us</ex>
+         </abbreviation>teri<g ref="#slong"/>
       </w>
-      <w>d<abbreviation>ro</abbreviation>ttin<g ref="#slong"/>
+      <w>d<abbreviation>
+            <am>
+               <g ref="#osup"/>
+            </am>
+            <infix/>
+            <ex>ro</ex>
+         </abbreviation>ttin<g ref="#slong"/>
       </w>
       <pc>.</pc>
       <w>bædi</w>
-      <w>þ<abbreviation>ar</abbreviation>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
-      <w>t<abbreviation>il</abbreviation>
+      <w>t<abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>il</ex>
+         </abbreviation>
       </w>
       <w>pry<lb n="18"/>di</w>
       <lb n="18"/>
       <w>
-         <abbreviation>ok</abbreviation>
+         <abbreviation>
+            <am>
+               <g ref="#ok"/>
+            </am>
+            <infix/>
+            <ex>ok</ex>
+         </abbreviation>
       </w>
-      <w>þ<abbreviation>ei</abbreviation>m</w>
-      <w>m<abbreviation>onnu</abbreviation>m</w>
-      <w>t<abbreviation>il</abbreviation>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>ei</ex>
+         </abbreviation>m</w>
+      <w>m<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>onnu</ex>
+         </abbreviation>m</w>
+      <w>t<abbreviation>
+            <am>
+               <g ref="#isup"/>
+            </am>
+            <infix/>
+            <ex>il</ex>
+         </abbreviation>
       </w>
-      <w>atvin<abbreviation>n</abbreviation>u</w>
-      <w>e<abbreviation>r</abbreviation>
+      <w>atvin<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>u</w>
+      <w>e<abbreviation>
+            <am>
+               <g ref="#er"/>
+            </am>
+            <infix/>
+            <ex>r</ex>
+         </abbreviation>
       </w>
-      <w>þ<abbreviation>ar</abbreviation>
+      <w>þ<abbreviation>
+            <am>
+               <g ref="#ar"/>
+            </am>
+            <infix/>
+            <ex>ar</ex>
+         </abbreviation>
       </w>
       <w>þionudv</w>
       <pc>.</pc>
-      <w>An<abbreviation>n</abbreviation>a<abbreviation>n</abbreviation>
+      <w>An<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>a<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>
       </w>
       <lb n=""/>
-      <w>hlutin<abbreviation>n</abbreviation>
+      <w>hlutin<abbreviation>
+            <am>
+               <g ref="#bar"/>
+            </am>
+            <infix/>
+            <ex>n</ex>
+         </abbreviation>
       </w>
    </stripped>
    <restructured>
@@ -669,9 +1757,11 @@
          <line n="2">
             <w>prestur</w>
             <w>ath</w>
-            <w>æl</w>
-            <w>ok</w>
-            <w>dylig</w>
+            <w>
+               <g ref="#slong"/>æl</w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>dy<g ref="#rrot"/>lig</w>
          </line>
          <line n="3">
             <w>mær</w>
@@ -680,440 +1770,566 @@
             <w>komin</w>
          </line>
          <line n="4">
-            <w>a</w>
-            <w>konunglige</w>
+            <w>a<g ref="#fins"/>
+            </w>
+            <w>k<g ref="#bar"/>onunglig<g ref="#rrot"/>e</w>
             <w>ætt</w>
             <pc>.</pc>
-            <w>ok</w>
+            <w>
+               <g ref="#ok"/>ok</w>
             <w>tok</w>
-            <w>hann</w>
-            <w>þvi</w>
-            <w>a</w>
-            <w>ra</w>
+            <w>h<g ref="#bar"/>ann</w>
+            <w>þ<g ref="#bar"/>vi</w>
+            <w>a<g ref="#fins"/>
+            </w>
+            <w>
+               <g ref="#fins"/>ra</w>
          </line>
          <line n="5">
-            <w>ogu</w>
-            <w>Matheus</w>
-            <w>gdudpialla man</w>
+            <w>
+               <g ref="#slong"/>ogu</w>
+            <w>Mathe<g ref="#us"/>us</w>
+            <w>g<g ref="#combcurl"/>du<g ref="#slong"/>pialla man<g ref="#ezh"/>
+            </w>
             <pc>.</pc>
-            <w>yrir</w>
+            <w>
+               <g ref="#fins"/>
+               <g ref="#isup"/>yrir</w>
          </line>
          <line n="6">
-            <w>þui</w>
+            <w>þ<g ref="#isup"/>ui</w>
             <w>ath</w>
-            <w>hann</w>
+            <w>h<g ref="#bar"/>ann</w>
             <w>tok</w>
             <w>ath</w>
-            <w>vhai</w>
-            <w>in</w>
+            <w>v<g ref="#pplig"/>ha<g ref="#fins"/>i</w>
+            <w>
+               <g ref="#slong"/>in<g ref="#slong"/>
+            </w>
          </line>
          <line n="7">
-            <w>gudpiall</w>
+            <w>gud<g ref="#slong"/>piall<g ref="#ezh"/>
+            </w>
             <w>ath</w>
             <w>telia</w>
             <w>ætt</w>
-            <w>drottin</w>
+            <w>d<g ref="#osup"/>rottin<g ref="#slong"/>
+            </w>
             <w>IHC</w>
             <w>XPC</w>
-            <w>ra</w>
+            <w>
+               <g ref="#fins"/>
+               <g ref="#ra"/>ra</w>
          </line>
          <line n="8">
             <w>david</w>
-            <w>konungi</w>
+            <w>k<g ref="#bar"/>onungi</w>
+            <pc>.</pc>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>ab<g ref="#rrot"/>aham</w>
+            <w>h<g ref="#ocurl"/>
+               <g ref="#fins"/>
+               <g ref="#dsup"/>ud<g ref="#fins"/>ed<g ref="#rrot"/>
+            </w>
             <pc>.</pc>
             <w>ok</w>
-            <w>abaham</w>
-            <w>huded</w>
-            <pc>.</pc>
-            <w>ok</w>
-            <w>nenir</w>
-            <w>þui</w>
+            <w>ne<g ref="#fins"/>n<g ref="#er"/>ir</w>
+            <w>þ<g ref="#isup"/>ui</w>
          </line>
          <line n="9">
-            <w>Matheus</w>
-            <w>yrr</w>
+            <w>Mathe<g ref="#us"/>us</w>
+            <w>
+               <g ref="#fins"/>y<g ref="#rscap"/>rr</w>
             <w>david</w>
-            <w>konung</w>
+            <w>k<g ref="#bar"/>onung</w>
             <pc>.</pc>
             <w>ath</w>
-            <w>konungdominn</w>
-            <w>merkir</w>
-            <w>eilit</w>
+            <w>k<g ref="#bar"/>onungdo<g ref="#bar"/>m<g ref="#rrot"/>in<g ref="#bar"/>n</w>
+            <w>m<g ref="#er"/>erkir</w>
+            <w>eili<g ref="#fins"/>t</w>
          </line>
          <line n="10">
-            <w>Riki</w>
+            <w>R<g ref="#isup"/>iki</w>
             <pc>.</pc>
-            <w>ok</w>
-            <w>eilian</w>
-            <w>gduddom</w>
-            <w>allualdanda</w>
-            <w>gud</w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>eili<g ref="#fins"/>
+               <g ref="#nsup"/>an</w>
+            <w>g<g ref="#combcurl"/>dudom</w>
+            <w>all<g ref="#ezh"/>ualdanda</w>
+            <w>gud<g ref="#slong"/>
+            </w>
             <pc>.</pc>
             <w>Ok</w>
-            <w>þui</w>
+            <w>þ<g ref="#isup"/>ui</w>
          </line>
          <line n="11">
-            <w>abaham</w>
-            <w>idarr</w>
+            <w>ab<g ref="#rrot"/>aham</w>
+            <w>
+               <g ref="#slong"/>id<g ref="#rsup"/>arr</w>
             <pc>.</pc>
             <w>þo</w>
             <w>at</w>
-            <w>hann</w>
+            <w>h<g ref="#bar"/>ann</w>
             <w>wæri</w>
-            <w>yr</w>
-            <w/>
-            <w>heime</w>
+            <w>
+               <g ref="#fins"/>y<g ref="#rrot"/>r</w>
+            <w>
+               <g ref="#jscap"/>
+            </w>
+            <w>hei<g ref="#bar"/>me</w>
             <pc>.</pc>
             <w>ath</w>
          </line>
          <line n="12">
-            <w>gdud</w>
+            <w>g<g ref="#combcurl"/>du</w>
             <w>het</w>
-            <w>honum</w>
+            <w>h<g ref="#bar"/>onum</w>
             <w>ath</w>
             <w>taka</w>
-            <w/>
-            <w>ig</w>
-            <w>manndom</w>
-            <w>ok</w>
+            <w>
+               <g ref="#aalig"/>
+            </w>
+            <w>
+               <g ref="#slong"/>ig</w>
+            <w>m<g ref="#nsup"/>anndom</w>
+            <w>
+               <g ref="#ok"/>ok</w>
             <w>lata</w>
-            <w>berat</w>
+            <w>b<g ref="#er"/>era<g ref="#ezh"/>t</w>
          </line>
          <line n="13">
-            <w>o</w>
-            <w>han</w>
+            <w>o<g ref="#rrot"/>
+            </w>
+            <w>h<g ref="#bar"/>an<g ref="#slong"/>
+            </w>
             <w>ætt</w>
             <pc>.</pc>
-            <w>ok</w>
-            <w>ra</w>
-            <w>han</w>
-            <w>ætt mnnu</w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>
+               <g ref="#fins"/>
+               <g ref="#ra"/>ra</w>
+            <w>h<g ref="#bar"/>an<g ref="#slong"/>
+            </w>
+            <w>ætt m<g ref="#msup"/>
+               <g ref="#ocurl"/>nnu</w>
             <pc>.</pc>
-            <w/>
-            <w>þenna</w>
+            <w>
+               <g ref="#jscap"/>
+            </w>
+            <w>þ<g ref="#bar"/>enna</w>
             <w>heim</w>
             <pc>.</pc>
             <w>ok</w>
-            <w>war</w>
+            <w>w<g ref="#ar"/>ar</w>
          </line>
          <line n="14">
             <w>þui</w>
             <w>Maria</w>
-            <w>drottning</w>
+            <w>d<g ref="#osup"/>rottni<g ref="#bar"/>ng</w>
             <w>bædi</w>
-            <w>konunga</w>
-            <w>kyn</w>
-            <w>ok</w>
-            <w>kenni manna</w>
+            <w>k<g ref="#bar"/>onunga</w>
+            <w>kyn<g ref="#slong"/>
+            </w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>ken<g ref="#bar"/>ni m<g ref="#asup"/>anna</w>
             <pc>.</pc>
          </line>
          <line n="15">
             <w>ath</w>
-            <w>hon</w>
-            <w>æddi</w>
-            <w>þann</w>
-            <w>on</w>
-            <w>er</w>
+            <w>h<g ref="#osup"/>on</w>
+            <w>
+               <g ref="#fins"/>æddi</w>
+            <w>þ<g ref="#bar"/>ann</w>
+            <w>
+               <g ref="#slong"/>on</w>
+            <w>e<g ref="#er"/>r</w>
             <w>bædi</w>
-            <w>er</w>
-            <w>konung</w>
+            <w>e<g ref="#er"/>r</w>
+            <w>k<g ref="#bar"/>onung<g ref="#rrot"/>
+            </w>
             <pc>.</pc>
-            <w>ok</w>
-            <w>kenni madr</w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>ken<g ref="#bar"/>ni m<g ref="#rsup"/>adr</w>
             <pc>.</pc>
-            <w>konung</w>
+            <w>k<g ref="#bar"/>onung<g ref="#rrot"/>
+            </w>
          </line>
          <line n="16">
-            <w/>
-            <w>guddom</w>
+            <w>
+               <g ref="#jscap"/>
+            </w>
+            <w>guddo<g ref="#bar"/>m<g ref="#slong"/>
+            </w>
             <w>velldi</w>
             <pc>.</pc>
-            <w>kenni madr</w>
-            <w/>
-            <w>pil</w>
-            <w>ine</w>
+            <w>ken<g ref="#bar"/>ni m<g ref="#rsup"/>adr</w>
+            <w>
+               <g ref="#jscap"/>
+            </w>
+            <w>pi<g ref="#slong"/>l</w>
+            <w>
+               <g ref="#slong"/>ine</w>
             <pc>.</pc>
             <w>þa</w>
-            <w>er</w>
-            <w>hann</w>
-            <w>ærdi</w>
+            <w>e<g ref="#er"/>r</w>
+            <w>h<g ref="#bar"/>ann</w>
+            <w>
+               <g ref="#fins"/>ærdi</w>
          </line>
          <line n="17">
-            <w>ig</w>
-            <w>ialan</w>
-            <w/>
-            <w>on</w>
+            <w>
+               <g ref="#slong"/>ig</w>
+            <w>
+               <g ref="#slong"/>ial<g ref="#fins"/>
+               <g ref="#nsup"/>an</w>
+            <w>
+               <g ref="#jscap"/>
+            </w>
+            <w>
+               <g ref="#fins"/>o<g ref="#rrot"/>n</w>
             <w>gudi</w>
-            <w>erur</w>
-            <w/>
-            <w>kroinum</w>
+            <w>
+               <g ref="#fins"/>er<g ref="#ur"/>ur</w>
+            <w>
+               <g ref="#aalig"/>
+            </w>
+            <w>k<g ref="#osup"/>ro<g ref="#slong"/>
+               <g ref="#slong"/>in<g ref="#msup"/>um</w>
             <w>halga</w>
             <pc>.</pc>
-            <w>Maria</w>
+            <w>Mar<line n="18"/>ia</w>
          </line>
          <line n="18"/>
          <line n="18">
-            <w>war</w>
-            <w>boin</w>
-            <w/>
-            <w>norg</w>
-            <w>þeie</w>
-            <w>er</w>
-            <w>naareth</w>
-            <w>heitir</w>
+            <w>w<g ref="#ar"/>ar</w>
+            <w>bo<g ref="#rrot"/>in</w>
+            <w>
+               <g ref="#jscap"/>
+            </w>
+            <w>n<g ref="#bar"/>org</w>
+            <w>þ<g ref="#bar"/>ei<g ref="#rrot"/>e</w>
+            <w>e<g ref="#er"/>r</w>
+            <w>na<g ref="#ezh"/>areth</w>
+            <w>heit<g ref="#er"/>ir</w>
             <pc>.</pc>
-            <w>enn</w>
-            <w>ædd</w>
+            <w>en<g ref="#bar"/>n</w>
+            <w>
+               <g ref="#fins"/>ædd</w>
          </line>
       </page>
       <page n="2">
          <line n="1">
-            <w>w</w>
-            <w/>
-            <w>borg</w>
-            <w>þeie</w>
-            <w>er</w>
-            <w>oala borg</w>
-            <w>heitir</w>
+            <w>w<g ref="#pplig"/>
+            </w>
+            <w>
+               <g ref="#jscap"/>
+            </w>
+            <w>b<g ref="#bar"/>org</w>
+            <w>þ<g ref="#bar"/>ei<g ref="#rrot"/>e</w>
+            <w>e<g ref="#er"/>r</w>
+            <w>
+               <g ref="#jscap"/>o<g ref="#rrot"/>
+               <g ref="#slong"/>ala b<g ref="#bar"/>org</w>
+            <w>heit<g ref="#er"/>ir</w>
             <pc>.</pc>
-            <w>ok</w>
+            <w>
+               <g ref="#ok"/>ok</w>
             <w>lærd</w>
-            <w/>
-            <w>gdud</w>
-            <w>musteri</w>
+            <w>
+               <g ref="#jscap"/>
+            </w>
+            <w>g<g ref="#combcurl"/>du<g ref="#slong"/>
+            </w>
+            <w>m<g ref="#us"/>ust<line n="2"/>eri</w>
          </line>
          <line n="2"/>
          <line n="2">
             <pc>.</pc>
             <w>ok</w>
-            <w>þegar</w>
-            <w>hon</w>
-            <w>kunne</w>
-            <w>greinir</w>
-            <w>god</w>
-            <w>ok</w>
-            <w>ill</w>
+            <w>þeg<g ref="#ar"/>ar</w>
+            <w>h<g ref="#osup"/>on</w>
+            <w>kun<g ref="#bar"/>ne</w>
+            <w>g<g ref="#esup"/>rein<g ref="#er"/>ir</w>
+            <w>god<g ref="#slong"/>
+            </w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>ill<g ref="#ezh"/>
+            </w>
             <pc>.</pc>
             <w>þa</w>
             <w>lagdi</w>
-            <w>hon</w>
+            <w>h<g ref="#osup"/>on</w>
          </line>
          <line n="3">
-            <w>þegar</w>
+            <w>þeg<g ref="#ar"/>ar</w>
             <w>alla</w>
-            <w>at</w>
-            <w/>
-            <w>gdud</w>
+            <w>a<g ref="#slong"/>t</w>
+            <w>
+               <g ref="#aalig"/>
+            </w>
+            <w>g<g ref="#combcurl"/>du</w>
             <pc>.</pc>
-            <w>suo</w>
+            <w>s<g ref="#osup"/>uo</w>
             <w>ath</w>
-            <w>hon</w>
+            <w>h<g ref="#osup"/>on</w>
             <w>hugdi</w>
             <w>ath</w>
-            <w>pa manna</w>
-            <w>bokum</w>
+            <w>
+               <g ref="#slong"/>pa m<g ref="#asup"/>anna</w>
+            <w>bok<g ref="#msup"/>um</w>
          </line>
          <line n="4">
-            <w>ok</w>
-            <w>war</w>
-            <w>vallt</w>
-            <w/>
-            <w>gdud</w>
-            <w>þionutu</w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>w<g ref="#ar"/>ar</w>
+            <w>
+               <g ref="#aalig"/>vallt</w>
+            <w>
+               <g ref="#jscap"/>
+            </w>
+            <w>g<g ref="#combcurl"/>du<g ref="#slong"/>
+            </w>
+            <w>þionu<g ref="#ezh"/>tu</w>
             <pc>.</pc>
-            <w>annath huort</w>
+            <w>an<g ref="#bar"/>nath hu<g ref="#osup"/>ort</w>
             <w>ath</w>
-            <w>bænum</w>
+            <w>bæn<g ref="#msup"/>um</w>
          </line>
          <line n="5">
             <w>eda</w>
             <w>boka</w>
-            <w>leningum</w>
+            <w>le<g ref="#slong"/>ning<g ref="#msup"/>um</w>
             <pc>.</pc>
             <w>eda</w>
-            <w>war</w>
-            <w/>
+            <w>w<g ref="#ar"/>ar</w>
+            <w>
+               <g ref="#jscap"/>
+            </w>
             <w>nokru</w>
             <w>godu</w>
-            <w>werki</w>
+            <w>w<g ref="#er"/>erki</w>
             <pc>.</pc>
             <w>ok</w>
          </line>
          <line n="6">
             <w>þær</w>
-            <w>meyiar</w>
-            <w>er</w>
+            <w>meyi<g ref="#ar"/>ar</w>
+            <w>e<g ref="#er"/>r</w>
             <w>ath</w>
-            <w>nme</w>
-            <w>woro</w>
-            <w>med</w>
-            <w>henne</w>
+            <w>n<g ref="#aalig"/>me</w>
+            <w>w<g ref="#osup"/>oro</w>
+            <w>m<g ref="#ezh"/>ed</w>
+            <w>h<g ref="#bar"/>enne</w>
             <pc>.</pc>
-            <w>klludu</w>
-            <w>hana</w>
-            <w>drottningv</w>
+            <w>k<g ref="#ocurl"/>lludu</w>
+            <w>h<g ref="#bar"/>ana</w>
+            <w>d<g ref="#osup"/>rott<line n="7"/>ni<g ref="#bar"/>ngv</w>
          </line>
          <line n="7"/>
          <line n="7">
-            <w>ina</w>
+            <w>
+               <g ref="#slong"/>ina</w>
             <pc>.</pc>
-            <w>yrir</w>
+            <w>
+               <g ref="#fins"/>
+               <g ref="#isup"/>yrir</w>
             <w>þa</w>
-            <w>ok</w>
+            <w>
+               <g ref="#slong"/>ok</w>
             <w>ath</w>
-            <w>hon</w>
+            <w>h<g ref="#osup"/>on</w>
             <w>hlaut</w>
-            <w>þat</w>
-            <w>ianan</w>
+            <w>þ<g ref="#bar"/>at</w>
+            <w>ia<g ref="#fins"/>nan</w>
             <w>ath</w>
-            <w>gera</w>
+            <w>g<g ref="#er"/>era</w>
          </line>
          <line n="8">
-            <w>er</w>
-            <w>ollum</w>
+            <w>e<g ref="#er"/>r</w>
+            <w>ollu<g ref="#bar"/>m</w>
             <w>þotti</w>
-            <w>wirduligt</w>
-            <w>ok</w>
+            <w>w<g ref="#isup"/>irdulig<g ref="#zsup"/>
+               <g ref="#ezh"/>t</w>
+            <w>
+               <g ref="#ok"/>ok</w>
             <w>þær</w>
             <w>willdu</w>
-            <w>hellt</w>
-            <w>gert</w>
-            <w>haa</w>
+            <w>hell<g ref="#ezh"/>t</w>
+            <w>g<g ref="#er"/>ert</w>
+            <w>ha<g ref="#fins"/>a</w>
             <pc>.</pc>
          </line>
          <line n="9">
             <w>joachim</w>
             <w>het</w>
-            <w>adir</w>
+            <w>
+               <g ref="#fins"/>ad<g ref="#er"/>ir</w>
             <w>Marie</w>
-            <w>enn</w>
-            <w>anna</w>
-            <w>modir</w>
+            <w>en<g ref="#bar"/>n</w>
+            <w>an<g ref="#bar"/>na</w>
+            <w>mod<g ref="#er"/>ir</w>
             <pc>.</pc>
-            <w>odurkyn</w>
+            <w>
+               <g ref="#fins"/>od<g ref="#ur"/>ur<line n="10"/>kyn</w>
          </line>
          <line n="10"/>
          <line n="10">
-            <w>hennar</w>
-            <w>war</w>
-            <w>a</w>
+            <w>h<g ref="#bar"/>enn<g ref="#ar"/>ar</w>
+            <w>w<g ref="#ar"/>ar</w>
+            <w>a<g ref="#fins"/>
+            </w>
             <w>galilea</w>
-            <w>heradi</w>
+            <w>h<g ref="#er"/>eradi</w>
             <pc>.</pc>
-            <w>ok</w>
-            <w>o</w>
-            <w>naareth</w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>o<g ref="#rrot"/>
+            </w>
+            <w>na<g ref="#ezh"/>areth</w>
             <pc>.</pc>
          </line>
          <line n="11">
-            <w>enn</w>
-            <w>modurkyn</w>
-            <w>hennar</w>
+            <w>en<g ref="#bar"/>n</w>
+            <w>mod<g ref="#ur"/>urkyn</w>
+            <w>h<g ref="#bar"/>enn<g ref="#ar"/>ar</w>
             <pc>.</pc>
-            <w>war</w>
-            <w>a</w>
-            <w>borg</w>
-            <w>er</w>
+            <w>w<g ref="#ar"/>ar</w>
+            <w>a<g ref="#fins"/>
+            </w>
+            <w>b<g ref="#bar"/>org</w>
+            <w>e<g ref="#er"/>r</w>
             <w>bethleem</w>
-            <w>heitir</w>
+            <w>heit<g ref="#er"/>ir</w>
             <pc>.</pc>
          </line>
          <line n="12">
             <w>þau</w>
-            <w>woro</w>
+            <w>w<g ref="#osup"/>oro</w>
             <w>bædi</w>
-            <w>alynd</w>
-            <w>ok</w>
-            <w>ettlat</w>
+            <w>
+               <g ref="#fins"/>alynd</w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>
+               <g ref="#rscap"/>ettlat</w>
             <pc>.</pc>
             <w>ok</w>
             <w>milld</w>
             <pc>.</pc>
-            <w>ok</w>
-            <w>war</w>
-            <w>li</w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>w<g ref="#ar"/>ar</w>
+            <w>li<g ref="#fins"/>
+            </w>
          </line>
          <line n="13">
-            <w>þeia</w>
+            <w>þ<g ref="#bar"/>ei<g ref="#rrot"/>a</w>
             <w>heilagt</w>
-            <w>yrir</w>
-            <w>gdudi</w>
-            <w>ok</w>
-            <w>monnum</w>
+            <w>
+               <g ref="#fins"/>
+               <g ref="#isup"/>yrir</w>
+            <w>g<g ref="#combcurl"/>dui</w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>m<g ref="#bar"/>onnum</w>
             <pc>.</pc>
             <w>þau</w>
             <w>attv</w>
-            <w>micinn</w>
+            <w>m<g ref="#csup"/>icin<g ref="#bar"/>n</w>
             <w>avd</w>
-            <w>iar</w>
+            <w>
+               <g ref="#fins"/>i<g ref="#ar"/>ar</w>
             <pc>.</pc>
-            <w>Enn</w>
+            <w>En<g ref="#bar"/>n</w>
          </line>
          <line n="14">
             <w>þav</w>
-            <w>kiptu</w>
+            <w>
+               <g ref="#slong"/>kiptu</w>
             <w>ollu</w>
-            <w>enu</w>
-            <w/>
+            <w>
+               <g ref="#fins"/>enu</w>
+            <w>
+               <g ref="#jscap"/>
+            </w>
             <w>þria</w>
-            <w>tadi</w>
+            <w>
+               <g ref="#slong"/>tadi</w>
             <pc>.</pc>
-            <w>ok</w>
-            <w>kot gædu</w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>ko<g ref="#slon"/>t gæ<g ref="#fins"/>du</w>
          </line>
          <line n="15">
             <w>þau</w>
             <w>meir</w>
             <w>ath</w>
-            <w>haa</w>
-            <w>micit</w>
-            <w>krapta ln</w>
-            <w>a</w>
-            <w>gdudi</w>
-            <w>þar</w>
-            <w>yrir</w>
+            <w>ha<g ref="#fins"/>a</w>
+            <w>m<g ref="#csup"/>icit</w>
+            <w>k<g ref="#ra"/>rapta l<g ref="#aalig"/>n</w>
+            <w>a<g ref="#fins"/>
+            </w>
+            <w>g<g ref="#combcurl"/>dui</w>
+            <w>þ<g ref="#ar"/>ar</w>
+            <w>
+               <g ref="#fins"/>
+               <g ref="#isup"/>yrir</w>
             <pc>.</pc>
          </line>
          <line n="16">
-            <w>enn</w>
-            <w>minna</w>
-            <w>aura ln</w>
-            <w>a</w>
-            <w>heime</w>
-            <w>þadan</w>
-            <w>ra</w>
+            <w>en<g ref="#bar"/>n</w>
+            <w>min<g ref="#bar"/>na</w>
+            <w>aura l<g ref="#aalig"/>n</w>
+            <w>a<g ref="#fins"/>
+            </w>
+            <w>hei<g ref="#bar"/>me</w>
+            <w>þad<g ref="#nsup"/>an</w>
+            <w>
+               <g ref="#fins"/>
+               <g ref="#ra"/>ra</w>
             <pc>.</pc>
-            <w>Einn</w>
+            <w>Ein<g ref="#bar"/>n</w>
             <w>klutta</w>
          </line>
          <line n="17">
-            <w>iar</w>
-            <w>gav</w>
+            <w>
+               <g ref="#fins"/>i<g ref="#ar"/>ar<g ref="#slong"/>
+            </w>
+            <w>ga<g ref="#fins"/>v</w>
             <w>þau</w>
-            <w>til</w>
-            <w>musteri</w>
-            <w>drottin</w>
+            <w>t<g ref="#isup"/>il</w>
+            <w>m<g ref="#us"/>usteri<g ref="#slong"/>
+            </w>
+            <w>d<g ref="#osup"/>rottin<g ref="#slong"/>
+            </w>
             <pc>.</pc>
             <w>bædi</w>
-            <w>þar</w>
-            <w>til</w>
-            <w>prydi</w>
+            <w>þ<g ref="#ar"/>ar</w>
+            <w>t<g ref="#isup"/>il</w>
+            <w>pry<line n="18"/>di</w>
          </line>
          <line n="18"/>
          <line n="18">
-            <w>ok</w>
-            <w>þeim</w>
-            <w>monnum</w>
-            <w>til</w>
-            <w>atvinnu</w>
-            <w>er</w>
-            <w>þar</w>
+            <w>
+               <g ref="#ok"/>ok</w>
+            <w>þ<g ref="#bar"/>eim</w>
+            <w>m<g ref="#bar"/>onnum</w>
+            <w>t<g ref="#isup"/>il</w>
+            <w>atvin<g ref="#bar"/>nu</w>
+            <w>e<g ref="#er"/>r</w>
+            <w>þ<g ref="#ar"/>ar</w>
             <w>þionudv</w>
             <pc>.</pc>
-            <w>Annan</w>
+            <w>An<g ref="#bar"/>na<g ref="#bar"/>n</w>
          </line>
          <line n="">
-            <w>hlutinn</w>
+            <w>hlutin<g ref="#bar"/>n</w>
          </line>
       </page>
    </restructured>
