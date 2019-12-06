@@ -28,9 +28,12 @@
     
     
     <xsl:template match="tei:w" mode="strip">
-        <w>
-            <xsl:apply-templates mode="strip"/>
-        </w>
+        <xsl:variable name="stripped_word">
+            <w>
+                <xsl:apply-templates mode="strip"/>
+            </w>
+        </xsl:variable>
+        <xsl:value-of select="$stripped_word"/>
     </xsl:template>
     
     <xsl:template match="tei:pc" mode="strip">
@@ -89,7 +92,12 @@
         <xsl:element name="page">
             <xsl:attribute name="n"><xsl:value-of select="@n"/></xsl:attribute>
             <xsl:variable name="count_pb" select="count(preceding::pb)"/>
-            <xsl:apply-templates select="following::lb[count(preceding::pb) = $count_pb+1]" mode="restructure"/>
+            <xsl:for-each select="following::lb[count(preceding::pb) = $count_pb+1]">
+                <xsl:variable name="number" select="@n"/>
+                <xsl:if test="@n != ''">
+                    <xsl:apply-templates select="." mode="restructure"></xsl:apply-templates>
+                </xsl:if>
+            </xsl:for-each>
         </xsl:element>
     </xsl:template>
     
@@ -103,7 +111,6 @@
                     <xsl:apply-templates select="." mode="restructure"/>
                 </xsl:if>
             </xsl:for-each>
-            <!-- TODO: suppress lines with catchwords -->
             <!-- TODO: solve problem of linebeginnings in words -->
         </xsl:element>
     </xsl:template>
@@ -117,6 +124,10 @@
     </xsl:template>
     
     <xsl:template match="g" mode="restructure">
+        <xsl:copy-of select="."/>
+    </xsl:template>
+    
+    <xsl:template match="abbreviation" mode="restructure">
         <xsl:copy-of select="."/>
     </xsl:template>
 
