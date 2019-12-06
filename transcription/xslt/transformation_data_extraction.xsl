@@ -15,12 +15,12 @@
             <xsl:variable name="stripped">
                 <xsl:apply-templates select="//tei:w | //tei:pc | //tei:pb | //tei:lb" mode="strip"/>
             </xsl:variable>
-            <stripped>
+            <!--<stripped>
                 <xsl:copy-of select="$stripped"/>
-            </stripped>
-            <restructured>
+            </stripped>-->
+            <!--<restructured>-->
                 <xsl:apply-templates select="$stripped//pb" mode="restructure"/>
-            </restructured>
+            <!--</restructured>-->
         </xml>
     </xsl:template>
     
@@ -52,6 +52,7 @@
         <xsl:apply-templates select="tei:lb" mode="strip_lb_in_word"/>
         <wordpart>
             <xsl:for-each select="child::node()[count(preceding-sibling::tei:lb) > 0]">
+                <!-- FIXME: doesn't work -->
                 <xsl:apply-templates select="." mode="strip"/>
             </xsl:for-each>
         </wordpart>
