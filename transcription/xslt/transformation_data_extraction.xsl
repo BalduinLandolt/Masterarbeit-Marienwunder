@@ -52,7 +52,6 @@
         <xsl:apply-templates select="tei:lb" mode="strip_lb_in_word"/>
         <wordpart>
             <xsl:for-each select="child::node()[count(preceding-sibling::tei:lb) > 0]">
-                <!-- FIXME: doesn't work -->
                 <xsl:apply-templates select="." mode="strip"/>
             </xsl:for-each>
         </wordpart>
@@ -137,7 +136,7 @@
             <xsl:variable name="count_lb" select="count(preceding::lb)"/>
             <xsl:for-each select="following::*[count(preceding::lb) = $count_lb+1]">
                 <xsl:variable name="current" select="."/>
-                <xsl:if test="name(.) = 'pc' or name(.) = 'w'">
+                <xsl:if test="name(.) = 'pc' or name(.) = 'w' or name(.) = 'wordpart'">
                     <xsl:apply-templates select="." mode="restructure"/>
                 </xsl:if>
             </xsl:for-each>
@@ -151,6 +150,10 @@
     
     <xsl:template match="w" mode="restructure">
         <w><xsl:apply-templates mode="restructure"/></w>
+    </xsl:template>
+    
+    <xsl:template match="wordpart" mode="restructure">
+        <wordpart><xsl:apply-templates mode="restructure"/></wordpart>
     </xsl:template>
     
     <xsl:template match="g" mode="restructure">

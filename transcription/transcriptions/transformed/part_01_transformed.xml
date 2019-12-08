@@ -707,6 +707,7 @@
          <w>Mar</w>
       </line>
       <line n="18">
+         <wordpart>ia</wordpart>
          <w>w<abbreviation>
                <am>
                   <g ref="#ar"/>
@@ -843,6 +844,7 @@
             </abbreviation>t</w>
       </line>
       <line n="2">
+         <wordpart>eri</wordpart>
          <pc>.</pc>
          <w>ok</w>
          <w>þeg<abbreviation>
@@ -1121,6 +1123,13 @@
             </abbreviation>tt</w>
       </line>
       <line n="7">
+         <wordpart>ni<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>n</ex>
+            </abbreviation>gv</wordpart>
          <w>
             <g ref="#slong"/>ina</w>
          <pc>.</pc>
@@ -1268,6 +1277,7 @@
          </w>
       </line>
       <line n="10">
+         <wordpart>kyn</wordpart>
          <w>h<abbreviation>
                <am>
                   <g ref="#bar"/>
@@ -1696,6 +1706,7 @@
          <w>pry</w>
       </line>
       <line n="18">
+         <wordpart>di</wordpart>
          <w>
             <abbreviation>
                <am>
