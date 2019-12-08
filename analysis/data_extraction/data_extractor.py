@@ -141,10 +141,6 @@ class Extractor:
         return frequ
 
     @staticmethod
-    def load_file(path):
-        return etree.parse(path)
-
-    @staticmethod
     def get_page_count(file):
         pbs = file.find_all('page')
         # print(pbs)
@@ -163,50 +159,11 @@ class Extractor:
         return len(ws)
 
     @staticmethod
-    def clean_up(word):
-        leave_in = ['am', 'abbr', 'ex', 'expan', 'choice', 'g']
-        for e in word.descendants:
-            if isinstance(e, Tag):
-                if e.name not in leave_in:
-                    e.unwrap()
-                    return Extractor.clean_up(word)
-        word.smooth()
-        return word
-
-    @staticmethod
-    def get_words_xml_rep(file):
-        ws = [Extractor.clean_up(w).contents for w in file.find_all('w')]
-        # print(ws)
-        return ws
-
-    @staticmethod
     def resolve_glyph(w):
         for glyph in w.find_all('g'):
             val = glyph['ref'][1:]
             glyph.string = '{' + val + '}'
             glyph.unwrap()
-
-    @staticmethod
-    def resolve_choice(ch, type):
-        am = ch.abbr.am.string or ''
-        am = am.replace('{', '')
-        am = am.replace('}', '')
-
-        infixi = ch.abbr.contents
-        infix = ''
-        if isinstance(infixi[0], NavigableString):
-            infix = infixi[0]
-
-        ex = ch.expan.ex.string or ''
-
-        if type == 'all':
-            return '({};{};{})'.format(ex, infix, am)
-        elif type == 'ex':
-            return '({})'.format(ex)
-        elif type == 'am':
-            return '({})'.format(am)
-        else:
-            return '({};{};{})'.format(ex, infix, am)
 
     @staticmethod
     def resolve_abbreviation(w, type):
