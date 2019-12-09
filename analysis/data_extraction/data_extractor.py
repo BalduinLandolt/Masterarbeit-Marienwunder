@@ -58,7 +58,9 @@ class Extractor:
         # get words with minimal raw mark-up
         words_raw_rep = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_ALL)
         print(words_raw_rep)
-        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep, plot=False, print_no=20)
+        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep, plot=False, print_no=0)
+        print(raw_word_frequencies.most_common())
+        # TODO: print frequencies to file (for stoplist)
 
         # get words expansion-only
         words_raw_rep_ex_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_EX)
