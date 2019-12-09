@@ -57,18 +57,16 @@ class Extractor:
 
         # get words with minimal raw mark-up
         words_raw_rep = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_ALL)
-        print(words_raw_rep)
-        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep, plot=False, print_no=0)
-        print(raw_word_frequencies.most_common())
-        # TODO: print frequencies to file (for stoplist)
+        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep, plot=False, print_no=5)
+        Extractor.write_to_csv("most_frequent_words.csv", ["word", "frequency"], raw_word_frequencies.most_common())
 
         # get words expansion-only
         words_raw_rep_ex_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_EX)
-        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep_ex_only, plot=False, print_no=20)
+        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep_ex_only, plot=False, print_no=0)
 
         # get words abbreviation-only
         words_raw_rep_am_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_AM)
-        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep_am_only, plot=False, print_no=20)
+        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep_am_only, plot=False, print_no=0)
 
         # TODO: abbreviation-mark-frequencies
         # TODO: abbreviation-expansion-frequencies
@@ -221,7 +219,6 @@ class Extractor:
                 else:
                     e.replace_with(e.replace('\n', ''))
                 e.next_element = next
-        print(xml_soup)
         return xml_soup
 
 
