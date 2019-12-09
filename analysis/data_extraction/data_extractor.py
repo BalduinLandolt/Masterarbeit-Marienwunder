@@ -13,6 +13,10 @@ import csv
 
 class Extractor:
 
+    TYPE_EXTRACT_ALL = 'all'
+    TYPE_EXTRACT_EX = 'ex'
+    TYPE_EXTRACT_AM = 'am'
+
     samples = []
 
     @staticmethod
@@ -26,6 +30,7 @@ class Extractor:
         # load xml file
         with open('../../transcription/transcriptions/transformed/part_01_transformed.xml', encoding='utf-8') as file:
             xml_soup = BeautifulSoup(file, features='lxml')
+            xml_soup = Extractor.stripp_whitespace(xml_soup)
             Extractor.samples.append(("part_01__p1ff", xml_soup))
             # TODO: make this dynamic
 
@@ -51,20 +56,17 @@ class Extractor:
         av_words_per_line = w_count / l_count
         print('Average words per line: {}'.format(av_words_per_line))
 
-        # get words with minimal xml mark-up
-        # words_xml_rep = get_words_xml_rep(xml_soup)
-
         # get words with minimal raw mark-up
-        words_raw_rep = Extractor.get_words_raw_rep(xml_soup, 'all')
+        words_raw_rep = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_ALL)
         print(words_raw_rep)
         raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep, plot=False, print_no=20)
 
         # get words expansion-only
-        words_raw_rep_ex_only = Extractor.get_words_raw_rep(xml_soup, 'ex')
+        words_raw_rep_ex_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_EX)
         raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep_ex_only, plot=False, print_no=20)
 
         # get words abbreviation-only
-        words_raw_rep_am_only = Extractor.get_words_raw_rep(xml_soup, 'am')
+        words_raw_rep_am_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_AM)
         raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep_am_only, plot=False, print_no=20)
 
         # TODO: abbreviation-mark-frequencies
@@ -167,7 +169,7 @@ class Extractor:
 
     @staticmethod
     def resolve_abbreviation(w, type):
-        w.smooth()
+        # TODO: other types than all
         for abbr in w.find_all('abbreviation'):
             ex = abbr.ex.string or ''
             infix = abbr.infix.string or ''
@@ -185,10 +187,39 @@ class Extractor:
         return w.string
 
     @staticmethod
-    def get_words_raw_rep(file, type):
-        ws = file.find_all('w')
+    def get_words_raw_rep(file, type, replace_wordparts = True):
+        file_tmp = file
+        if replace_wordparts:
+            file_tmp = Extractor.replace_wordparts(file)
+        ws = file_tmp.find_all('w')
         rws = [Extractor.make_raw(copy.copy(w), type).replace('\n', '') for w in ws]
         return rws
+
+    @staticmethod
+    def replace_wordparts(file):
+        res = copy.copy(file)
+        for wp in res.find_all('wordpart'):
+            prev_line = wp.parent.previous_sibling
+            words = prev_line.find_all('w')
+            s = Extractor.make_raw(wp, Extractor.TYPE_EXTRACT_ALL)
+            words[-1].append(s)
+            wp.decompose()
+        return res
+
+    @staticmethod
+    def stripp_whitespace(xml_soup):
+        for e in xml_soup.descendants:
+            n = e.name
+            p = e.parent
+            if isinstance(e, NavigableString):
+                next = e.next_element
+                if e.isspace():
+                    e.replace_with('')
+                else:
+                    e.replace_with(e.replace('\n', ''))
+                e.next_element = next
+        print(xml_soup)
+        return xml_soup
 
 
 if __name__ == '__main__':
