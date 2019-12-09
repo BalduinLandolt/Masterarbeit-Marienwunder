@@ -169,14 +169,18 @@ class Extractor:
 
     @staticmethod
     def resolve_abbreviation(w, type):
-        # TODO: other types than all
         for abbr in w.find_all('abbreviation'):
             ex = abbr.ex.string or ''
             infix = abbr.infix.string or ''
             am = abbr.am.string or ex
             am = am.replace('{', '')
             am = am.replace('}', '')
-            rw = '({};{};{})'.format(ex, infix, am)
+            if type == Extractor.TYPE_EXTRACT_ALL:
+                rw = '({};{};{})'.format(ex, infix, am)
+            elif type == Extractor.TYPE_EXTRACT_EX:
+                rw = '({})'.format(ex)
+            elif type == Extractor.TYPE_EXTRACT_AM:
+                rw = '({})'.format(am)
             abbr.replace_with(rw)
 
     @staticmethod
