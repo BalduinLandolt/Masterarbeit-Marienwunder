@@ -12,7 +12,6 @@ import csv
 
 
 class Extractor:
-
     TYPE_EXTRACT_ALL = 'all'
     TYPE_EXTRACT_EX = 'ex'
     TYPE_EXTRACT_AM = 'am'
@@ -30,7 +29,7 @@ class Extractor:
         # load xml file
         with open('../../transcription/transcriptions/transformed/part_01_transformed.xml', encoding='utf-8') as file:
             xml_soup = BeautifulSoup(file, features='lxml')
-            xml_soup = Extractor.stripp_whitespace(xml_soup)
+            xml_soup = Extractor.strip_whitespace(xml_soup)
             Extractor.samples.append(("part_01__p1ff", xml_soup))
             # TODO: make this dynamic
 
@@ -191,7 +190,7 @@ class Extractor:
         return w.string
 
     @staticmethod
-    def get_words_raw_rep(file, type, replace_wordparts = True):
+    def get_words_raw_rep(file, type, replace_wordparts=True):
         file_tmp = file
         if replace_wordparts:
             file_tmp = Extractor.replace_wordparts(file)
@@ -211,10 +210,8 @@ class Extractor:
         return res
 
     @staticmethod
-    def stripp_whitespace(xml_soup):
+    def strip_whitespace(xml_soup):
         for e in xml_soup.descendants:
-            n = e.name
-            p = e.parent
             if isinstance(e, NavigableString):
                 next = e.next_element
                 if e.isspace():
