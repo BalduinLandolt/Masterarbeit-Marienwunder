@@ -62,6 +62,9 @@ class Extractor:
         abbreviation_marks = Extractor.get_abbreviation_marks(xml_soup)
         abbreviation_mark_frequencies = Extractor.get_abbreviation_mark_frequencies(xml_soup)
 
+        expansions = Extractor.get_expansions(xml_soup)
+        expansion_frequencies = Extractor.get_expansion_frequencies(xml_soup)
+
         # TODO: abbreviation-mark-frequencies
         # TODO: abbreviation-expansion-frequencies
 
@@ -70,8 +73,10 @@ class Extractor:
 
         # most frequent stuff
         Extractor.write_to_csv("most_frequent_words.csv", ["word", "frequency"], raw_word_frequencies.most_common())
-        Extractor.write_to_csv("most_frequent_abbreviation_marks.csv", ["word", "frequency"],
+        Extractor.write_to_csv("most_frequent_abbreviation_marks.csv", ["abbreviation_mark", "frequency"],
                                abbreviation_mark_frequencies.most_common())
+        Extractor.write_to_csv("most_frequent_expansions.csv", ["expansion", "frequency"],
+                               expansion_frequencies.most_common())
 
         # overview
         Extractor.extract_page_overview_info()
@@ -236,6 +241,20 @@ class Extractor:
     def get_abbreviation_mark_frequencies(cls, soup):
         ams = cls.get_abbreviation_marks(soup)
         frequs = cls.get_word_frequencies(ams, print_no=5)
+        return frequs
+
+    @classmethod
+    def get_expansions(cls, soup):
+        ams = soup.find_all('ex')
+        res = []
+        for am in ams:
+            res.append(cls.make_raw(am, cls.TYPE_EXTRACT_ALL))
+        return res
+
+    @classmethod
+    def get_expansion_frequencies(cls, soup):
+        exs = cls.get_expansions(soup)
+        frequs = cls.get_word_frequencies(exs, print_no=5)
         return frequs
 
 
