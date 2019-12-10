@@ -33,12 +33,6 @@ class Extractor:
             Extractor.samples.append(("part_01__p1ff", xml_soup))
             # TODO: make this dynamic
 
-        # print(xml_soup)
-
-        # xml_file = DataExtractor.load_file('../../transcription/transcriptions/part_01.xml')
-        # s = etree.tostring(xml_file, pretty_print=True).decode("utf-8")
-        # print(s)
-
         # get page count
         pg_count = Extractor.get_page_count(xml_soup)
         print('Number of pages: {}'.format(pg_count))
@@ -58,21 +52,31 @@ class Extractor:
         # get words with minimal raw mark-up
         words_raw_rep = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_ALL)
         raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep, plot=False, print_no=5)
-        Extractor.write_to_csv("most_frequent_words.csv", ["word", "frequency"], raw_word_frequencies.most_common())
 
         # get words expansion-only
         words_raw_rep_ex_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_EX)
-        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep_ex_only, plot=False, print_no=0)
 
         # get words abbreviation-only
         words_raw_rep_am_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_AM)
-        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep_am_only, plot=False, print_no=0)
+
+        abbreviation_marks = Extractor.get_abbreviation_marks(xml_soup)
+        abbreviation_mark_frequencies = Extractor.get_abbreviation_mark_frequencies(xml_soup)
 
         # TODO: abbreviation-mark-frequencies
         # TODO: abbreviation-expansion-frequencies
 
-        # TODO: Data export to CSV
+        # Data export to CSV
+        # ------------------
+
+        # most frequent stuff
+        Extractor.write_to_csv("most_frequent_words.csv", ["word", "frequency"], raw_word_frequencies.most_common())
+        Extractor.write_to_csv("most_frequent_abbreviation_marks.csv", ["word", "frequency"],
+                               abbreviation_mark_frequencies.most_common())
+
+        # overview
         Extractor.extract_page_overview_info()
+
+        # actual data
         Extractor.extract_data_by_line()
 
         # TODO: ...
@@ -83,7 +87,6 @@ class Extractor:
 
     @staticmethod
     def split_by_line(data):
-        print(data)
         lbs = data.find_all("lb")
         lines = []
         for lb in lbs:
@@ -130,12 +133,12 @@ class Extractor:
             w.writerow([999, "none", 1, 1, 1, 1])
 
     @staticmethod
-    def get_word_frequencies(words_raw_rep, plot, print_no):
+    def get_word_frequencies(words_raw_rep, plot=False, print_no=0):
         frequ = nltk.FreqDist(words_raw_rep)
         if plot:
             frequ.plot()
         if print_no > 0:
-            print("Most frequent words:")
+            print("Most frequent:")
             for w in frequ.most_common(print_no):
                 print("   {}\t{}".format(w[1], w[0]))
 
@@ -220,6 +223,20 @@ class Extractor:
                     e.replace_with(e.replace('\n', ''))
                 e.next_element = next
         return xml_soup
+
+    @classmethod
+    def get_abbreviation_marks(cls, soup):
+        ams = soup.find_all('am')
+        res = []
+        for am in ams:
+            res.append(cls.make_raw(am, cls.TYPE_EXTRACT_ALL))
+        return res
+
+    @classmethod
+    def get_abbreviation_mark_frequencies(cls, soup):
+        ams = cls.get_abbreviation_marks(soup)
+        frequs = cls.get_word_frequencies(ams, print_no=5)
+        return frequs
 
 
 if __name__ == '__main__':
