@@ -90,41 +90,19 @@ class Extractor:
 
     @staticmethod
     def get_abbreviation_count(file):
-        return len(file.find_all('abbr'))
-
-    @staticmethod
-    def split_by_line(data):
-        lbs = data.find_all("lb")
-        lines = []
-        for lb in lbs:
-            nexts = []
-            for sibling in lb.next_siblings:
-                # TODO: find siblings up to next <lb>
-                pass
-            # TODO: collate them to a line, add to lines
-
-        pass
-
-    @staticmethod
-    def extract_data_by_line():
-        names = ["sample", "sample_name", "line_number", "no_words", "no_characters", "no_abbreviations"]
-        rows = []
-        for section_index, section in enumerate(Extractor.samples):
-            section_name = section[0]
-            data = section[1]
-            row = [section_index, section_name]
-            lines = Extractor.split_by_line(data)
+        return len(file.find_all('abbreviation'))
 
     @staticmethod
     def extract_page_overview_info():
         # TODO: could extraction be more generic, and with arguments to specify?
-        field_names = ["sample", "sample_name", "no_pages", "no_lines", "no_words", "no_abbreviations"]
+        field_names = ["sample", "sample_name", "no_pages", "no_lines", "no_words", "no_characters", "no_abbreviations"]
         rows = []
         for section_index, section in enumerate(Extractor.samples):
             section_name = section[0]
             data = section[1]
             row = [section_index, section_name, Extractor.get_page_count(data), Extractor.get_line_count(data),
-                   Extractor.get_word_count(data), Extractor.get_abbreviation_count(data)]
+                   Extractor.get_word_count(data), Extractor.get_character_count(data),
+                   Extractor.get_abbreviation_count(data)]
             rows.append(row)
         Extractor.write_to_csv("page_overview.csv", field_names, rows)
 
@@ -136,8 +114,6 @@ class Extractor:
             w.writerow(names)
             for row in rows:
                 w.writerow(row)
-            # TODO: remove, once there are multiple samples
-            w.writerow([999, "none", 1, 1, 1, 1])
 
     @staticmethod
     def get_word_frequencies(words_raw_rep, plot=False, print_no=0):
@@ -171,22 +147,26 @@ class Extractor:
 
     @staticmethod
     def resolve_glyph(w):
-        for glyph in w.find_all('g'):
+        res = copy.copy(w)
+        for glyph in res.find_all('g'):
             val = glyph['ref'][1:]
             glyph.string = '{' + val + '}'
             glyph.unwrap()
+        return res
 
     @staticmethod
     def resolve_abbreviations(w, type):
-        if w.name == 'abbreviation':
-            Extractor.extract_abbreviation_contents(w, type)
-            print(w)
+        res = copy.copy(w)
+        if res.name == 'abbreviation':
+            Extractor.extract_abbreviation_contents(res, type)
         else:
-            for abbr in w.find_all('abbreviation'):
+            for abbr in res.find_all('abbreviation'):
                 abbr.replace_with(Extractor.extract_abbreviation_contents(abbr, type))
+        return res
 
     @staticmethod
     def extract_abbreviation_contents(abbr, type):
+        abbr.smooth()
         ex = abbr.ex.string or ''
         infix = abbr.infix.string or ''
         am = abbr.am.string or ex
@@ -202,14 +182,14 @@ class Extractor:
 
     @staticmethod
     def make_raw(w, type):
-        Extractor.resolve_glyph(w)
-        Extractor.resolve_abbreviations(w, type)
-        w.smooth()
-        return w.string
+        tmp = Extractor.resolve_glyph(w)
+        tmp = Extractor.resolve_abbreviations(tmp, type)
+        tmp.smooth()
+        return tmp.string
 
     @staticmethod
     def get_words_raw_rep(file, type, replace_wordparts=True):
-        file_tmp = file
+        file_tmp = copy.copy(file)
         if replace_wordparts:
             file_tmp = Extractor.replace_wordparts(file)
         ws = file_tmp.find_all('w')
@@ -272,8 +252,8 @@ class Extractor:
         ams = soup.find_all('abbreviation')
         res = []
         for am in ams:
-            cls.resolve_glyph(am)
-            res.append(cls.extract_abbreviation_contents(am, cls.TYPE_EXTRACT_ALL))
+            tmp = cls.resolve_glyph(am)
+            res.append(cls.extract_abbreviation_contents(tmp, cls.TYPE_EXTRACT_ALL))
         return res
 
     @classmethod
@@ -281,6 +261,34 @@ class Extractor:
         abbreviations = cls.get_abbreviations(soup)
         frequs = cls.get_word_frequencies(abbreviations, print_no=5)
         return frequs
+
+    @staticmethod
+    def extract_data_by_line():
+        names = ["sample", "sample_name", "line_number", "no_words", "no_characters", "no_abbreviations"]
+        rows = []
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            lines = Extractor.get_lines(data)
+            for i, line in enumerate(lines):
+                row = [section_index, section_name, i, Extractor.get_word_count(line),
+                       Extractor.get_character_count(line), Extractor.get_abbreviation_count(line)]
+                rows.append(row)
+        Extractor.write_to_csv('data_by_line.csv', names, rows)
+
+    @classmethod
+    def get_lines(cls, data):
+        tmp = copy.copy(data)
+        cls.replace_wordparts(tmp)
+        return tmp.find_all('line')
+
+    @classmethod
+    def get_character_count(cls, soup):
+        tmp = copy.copy(soup)
+        for g in tmp.find_all('g'):
+            g.replace_with('^')
+        text = tmp.get_text()
+        return len(text)
 
 
 if __name__ == '__main__':
