@@ -65,8 +65,8 @@ class Extractor:
         expansions = Extractor.get_expansions(xml_soup)
         expansion_frequencies = Extractor.get_expansion_frequencies(xml_soup)
 
-        # TODO: abbreviation-mark-frequencies
-        # TODO: abbreviation-expansion-frequencies
+        abbreviations = Extractor.get_abbreviations(xml_soup)
+        abbreviation_frequencies = Extractor.get_abbreviation_frequencies(xml_soup)
 
         # Data export to CSV
         # ------------------
@@ -77,6 +77,8 @@ class Extractor:
                                abbreviation_mark_frequencies.most_common())
         Extractor.write_to_csv("most_frequent_expansions.csv", ["expansion", "frequency"],
                                expansion_frequencies.most_common())
+        Extractor.write_to_csv("most_frequent_abbreviations.csv", ["abbreviation", "frequency"],
+                               abbreviation_frequencies.most_common())
 
         # overview
         Extractor.extract_page_overview_info()
@@ -175,25 +177,33 @@ class Extractor:
             glyph.unwrap()
 
     @staticmethod
-    def resolve_abbreviation(w, type):
-        for abbr in w.find_all('abbreviation'):
-            ex = abbr.ex.string or ''
-            infix = abbr.infix.string or ''
-            am = abbr.am.string or ex
-            am = am.replace('{', '')
-            am = am.replace('}', '')
-            if type == Extractor.TYPE_EXTRACT_ALL:
-                rw = '({};{};{})'.format(ex, infix, am)
-            elif type == Extractor.TYPE_EXTRACT_EX:
-                rw = '({})'.format(ex)
-            elif type == Extractor.TYPE_EXTRACT_AM:
-                rw = '({})'.format(am)
-            abbr.replace_with(rw)
+    def resolve_abbreviations(w, type):
+        if w.name == 'abbreviation':
+            Extractor.extract_abbreviation_contents(w, type)
+            print(w)
+        else:
+            for abbr in w.find_all('abbreviation'):
+                abbr.replace_with(Extractor.extract_abbreviation_contents(abbr, type))
+
+    @staticmethod
+    def extract_abbreviation_contents(abbr, type):
+        ex = abbr.ex.string or ''
+        infix = abbr.infix.string or ''
+        am = abbr.am.string or ex
+        am = am.replace('{', '')
+        am = am.replace('}', '')
+        if type == Extractor.TYPE_EXTRACT_ALL:
+            rw = '({};{};{})'.format(ex, infix, am)
+        elif type == Extractor.TYPE_EXTRACT_EX:
+            rw = '({})'.format(ex)
+        elif type == Extractor.TYPE_EXTRACT_AM:
+            rw = '({})'.format(am)
+        return rw
 
     @staticmethod
     def make_raw(w, type):
         Extractor.resolve_glyph(w)
-        Extractor.resolve_abbreviation(w, type)
+        Extractor.resolve_abbreviations(w, type)
         w.smooth()
         return w.string
 
@@ -255,6 +265,20 @@ class Extractor:
     def get_expansion_frequencies(cls, soup):
         exs = cls.get_expansions(soup)
         frequs = cls.get_word_frequencies(exs, print_no=5)
+        return frequs
+
+    @classmethod
+    def get_abbreviations(cls, soup):
+        ams = soup.find_all('abbreviation')
+        res = []
+        for am in ams:
+            res.append(cls.make_raw(am, cls.TYPE_EXTRACT_ALL))
+        return res
+
+    @classmethod
+    def get_abbreviation_frequencies(cls, soup):
+        abbreviations = cls.get_abbreviations(soup)
+        frequs = cls.get_word_frequencies(abbreviations, print_no=5)
         return frequs
 
 
