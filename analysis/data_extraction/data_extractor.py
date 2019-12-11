@@ -272,7 +272,8 @@ class Extractor:
         ams = soup.find_all('abbreviation')
         res = []
         for am in ams:
-            res.append(cls.make_raw(am, cls.TYPE_EXTRACT_ALL))
+            cls.resolve_glyph(am)
+            res.append(cls.extract_abbreviation_contents(am, cls.TYPE_EXTRACT_ALL))
         return res
 
     @classmethod
