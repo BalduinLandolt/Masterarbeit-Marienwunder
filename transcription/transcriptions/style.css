@@ -71,6 +71,7 @@ g[ref="#ssup"]:before { content: "\1DE4"}
 g[ref="#tsup"]:before { content: "\036D"}
 g[ref="#ur"]:before { content: "\F153"; padding-left: 3pt}
 g[ref="#us"]:before { content: "\1DD2"; padding-left: 4pt}
+g[ref="#usmod"]:before { content: "\A770"}
 g[ref="#usup"]:before { content: "\0367"}
 g[ref="#vsup"]:before { content: "\036E"; padding-left: 1pt}
 g[ref="#zsup"]:before { content: "\00B3"}
