@@ -36,7 +36,7 @@
 [lb=11] en(n;bar) mod(ur)_kyn h(en;bar)n(ar) . w(ar) a{fins} b(or;bar)g e(r;er) [name=place] bethleem [/name] heit(ir;er) .
 [lb=12] þau w(oro;osup) bædi {fins}alynd (ok) {rscap}ettlat . ok milld . (ok) w(ar) li{fins}
 [lb=13] þ(ei;bar){rrot}a heilagt {fins}(yrir;isup) g(u;d;combcurl)i (ok) m(onnu;bar)m . þau attv m(ic;csup)in(n;bar) avd {fins}i(ar) . En(n;bar)
-[lb=14] þav {slong}kiptu ollu {fins}enu {jscap} þria {slong}tadi . (ok) ko{slon}t_gæ{fins}du
+[lb=14] þav {slong}kiptu ollu {fins}enu {jscap} þria {slong}tadi . (ok) ko{slong}t_gæ{fins}du
 [lb=15] þau meir ath ha{fins}a m(ic;csup)it k(ra)pta_l{aalig}n a{fins} g(u;d;combcurl)i þ(ar) {fins}(yrir;isup) .
 [lb=16] en(n;bar) min(n;bar)a aura_l{aalig}n a{fins} hei(m;bar)e þad(an;nsup) {fins}(ra) . Ein(n;bar) hlutta
 [lb=17] {fins}i(ar){slong} ga{fins}v þau t(il;isup) m(us)teri{slong} d(ro;osup)ttin{slong} . bædi þ(ar) t(il;isup) pry¬
