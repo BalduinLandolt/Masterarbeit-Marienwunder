@@ -6,10 +6,10 @@
 [pb=473]
 [lb=2] Illu(ir;er)ki(ar;er) leid{rrot}ettz{ezh}t .
 [lb=3] HEilag(ur) [name=person] hugo [/name] aboti [name=person] clugiacen{slong}is [/name] {rscap}ei{slong}ti m(or;osup)g
-[lb=4] m(un;bar)klifi g(u;squiggle)di /*squiggle?*/ t(il;isup) heid(ur;rrot)s . h(an;bar)n el{slong}kadi einkanli¬
-[lb=5]ga vo(ra) f(rv;vsup) helga G(uds;curl)mod(ur) [name=person] mariam [/name] . (ok) {slong}tundadi
+[lb=4] m(un;bar)klifi g(u;d;combcurl)i t(il;isup) heid(ur;rrot)s . h(an;bar)n el{slong}kadi einkanli¬
+[lb=5]ga vo(ra) f(rv;vsup) helga G(uds;condes)mod(ur) [name=person] mariam [/name] . (ok) {slong}tundadi
 [lb=6] miok {aalig} helga olmu{slong}ug(er)d . mædandi {slong}in(n;bar) likam
-[lb=7] m(ed;ezh) meinlætu(m;bar) f(yrir;isup) g(u;squiggle)ds {slong}ak(ir;er) . (ok) einkanliga m(ed;ezh) hei¬
+[lb=7] m(ed;ezh) meinlætu(m;bar) f(yrir;isup) g(u;d;combcurl)s {slong}ak(ir;er) . (ok) einkanliga m(ed;ezh) hei¬
 [lb=8]lag(ri;isup) þ{ocurl}gn . A nockuru(m;bar) tima {slong}e(m;bar) h(an;bar)n fo{rrot} t(il;isup) [name=place] {rscap}oms [/name] .
 [lb=9] (ok) fo{rrot} {slong}nem(m;bar)a {aalig} vegin(n;bar) le{slong}andi þ(ar;rsup) {slong}in(ar;rsup) tid(ir;er) m(ed;ezh) b{rrot}
 [lb=10] æd{rrot}unu(m;bar) e(r;er) h(onu;bar)m fylgdu . ko(m;bar)a j mot þ(ei;bar)m m(ar;rsup)g(ir;er) (ok) {slong}ty¬
@@ -17,8 +17,8 @@
 [lb=12] f(oru;osup) allu(m;bar) þ(ei;bar)m hlut(um;msup) {slong}e(m;bar) h(an;bar)n hafdi flutt m(ed;ezh) s(er) þ(ei;bar)m t(il;isup)
 [lb=13] ko{slong}t(ar;rsup) j f(er)din(n;bar)i . (ok) {slong}etia {slong}ialf(an;nsup) h(an;bar)n j gey(m;bar){slong}lu ein(n;bar){slong}am(an;nsup) .
 [lb=14] en(n;bar) þott h(an;bar)n þyldi m(ik;csup)la þuing(an;nsup) af {slong}inu(m;bar) ouinu(m;bar) .
-[lb=15] let h(an;bar)n alld(ri;isup) af G(uds;curl)lofi (ok) h(an;bar)s mod(ur) [name=place] marie [/name] . helld(ur)
-[lb=16] v(ar;rsup)d h(an;bar)n j elldi þ(es;bar)sa{rscap}(ar;rsup) pinu eit(ar;rsup)i m(ed;ezh) g(u;squiggle)dlig(ri;isup) /*squiggle*/ a{slong}t . w(er)¬
+[lb=15] let h(an;bar)n alld(ri;isup) af G(uds;condes)lofi (ok) h(an;bar)s mod(ur) [name=place] marie [/name] . helld(ur)
+[lb=16] v(ar;rsup)d h(an;bar)n j elldi þ(es;bar)sa{rscap}(ar;rsup) pinu eit(ar;rsup)i m(ed;ezh) g(u;d;combcurl)lig(ri;isup) a{slong}t . w(er)¬
 [lb=17]andi {slong}tad fa{slong}t(ur) j uppteknu(m;bar) godum(m;bar) hlutu(m;bar) m(ed;ezh) glo¬
 [lb=18]du hi(ar;rsup)ta . taladi h(an;bar)n ongan(n;bar) dag . fy{rscap} en(n;bar) h(an;bar)n haf(di;isup)
 [lb=19] [catch]{slong}agt[/catch]
@@ -30,9 +30,9 @@
 [lb=2]n(ur) . En(n;bar) {slong}em illu(ir;isup)ki(ar;rsup)n(ir;er) {slong}{aalig} {slong}tadfe{slong}ti h(an;bar)s helga lif¬
 [lb=3]nad(ar;rsup) . kuomu{ezh}t þ(ei;bar){rrot} v(it;isup) j {slong}inu hi(ar;rsup)ta . (ok) gafu apt(ur)
 [lb=4] allt þ(at;bar) {slong}e(m;bar) þ(ei;bar){rrot} hofdu f(yrir;isup) h(onu;bar)m g(ri;isup)p(ti;tsup) . bidi(an;nsup)di audmiukli¬
-[lb=5]ga at G(uds;curl) m(adr;rsup) leti þ(ei;bar)m f(yrir;isup) . þær mei(n;bar)g(er)d(ir;er) {slong}e(m;bar) þ(ei;bar){rrot} hofdu
+[lb=5]ga at G(uds;combcurl) m(adr;rsup) leti þ(ei;bar)m f(yrir;isup) . þær mei(n;bar)g(er)d(ir;er) {slong}e(m;bar) þ(ei;bar){rrot} hofdu
 [lb=6] h(onu;bar)m g(er)t . (ok) at þ(ei;bar){rrot} mætti v(er)da hluttak(ar;rsup)ar h(an;bar)s bæ¬
-[lb=7]na . þ(ei;bar){rrot} gefa s(uo;osup) G(uds;curl) m(ann;nsup) lidug(an;nsup) m(ed;ezh) {slong}æmd . (ok) fæ(ra) h(ann;bar)
+[lb=7]na . þ(ei;bar){rrot} gefa s(uo;osup) G(uds;combcurl) m(ann;nsup) lidug(an;nsup) m(ed;ezh) {slong}æmd . (ok) fæ(ra) h(ann;bar)
 [lb=8] hei(m;bar) t(il;isup) {slong}ins klau{slong}t(ur)s . en(n;bar) {slong}ialf(ir;er) þ(ei;bar){rrot} lata af {slong}in(n;bar)i
 [lb=9] ill{ezh}ku . takandi m(ed;ezh) litillæti hjalp{slong}amliga jd(ra)n .
 
