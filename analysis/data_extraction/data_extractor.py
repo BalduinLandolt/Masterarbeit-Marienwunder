@@ -31,7 +31,15 @@ class Extractor:
             xml_soup = BeautifulSoup(file, features='lxml')
             xml_soup = Extractor.strip_whitespace(xml_soup)
             Extractor.samples.append(("part_01__p1ff", xml_soup))
+        with open('../../transcription/transcriptions/transformed/75_transformed.xml', encoding='utf-8') as file:
+            xml_soup = BeautifulSoup(file, features='lxml')
+            xml_soup = Extractor.strip_whitespace(xml_soup)
+            Extractor.samples.append(("part_02__p473ff", xml_soup))
             # TODO: make this dynamic
+
+        cls = Extractor
+        xml_soup = copy.copy(Extractor.samples[0][1])
+        xml_soup.html.body.append(copy.copy(Extractor.samples[1][1].html.body.xml))
 
         # get page count
         pg_count = Extractor.get_page_count(xml_soup)
@@ -194,6 +202,7 @@ class Extractor:
             file_tmp = Extractor.replace_wordparts(file)
         ws = file_tmp.find_all('w')
         rws = [Extractor.make_raw(copy.copy(w), type).replace('\n', '') for w in ws]
+        # FIXME: nullpointer
         return rws
 
     @staticmethod
@@ -201,6 +210,9 @@ class Extractor:
         res = copy.copy(file)
         for wp in res.find_all('wordpart'):
             prev_line = wp.parent.previous_sibling
+            if prev_line is None:
+                continue
+            # TODO: ensure in transformation, that that doesn't happen (i.e. <wordpart/>) at page beginning
             words = prev_line.find_all('w')
             s = Extractor.make_raw(wp, Extractor.TYPE_EXTRACT_ALL)
             words[-1].append(s)
