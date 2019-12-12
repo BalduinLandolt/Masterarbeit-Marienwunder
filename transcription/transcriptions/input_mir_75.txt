@@ -4,7 +4,7 @@
 [p]
 
 [pb=473]
-[lb=2] Illu(ir;er)ki(ar;er) leid{rrot}ettz{ezh}t .
+[lb=2] Illu(ir;er)ki(ar;er) leid{rrot}ettu{ezh}t .
 [lb=3] HEilag(ur) [name=person] hugo [/name] aboti [name=person] clugiacen{slong}is [/name] {rscap}ei{slong}ti m(or;osup)g
 [lb=4] m(un;bar)klifi g(u;d;combcurl)i t(il;isup) heid(ur;rrot)s . h(an;bar)n el{slong}kadi einkanli¬
 [lb=5]ga vo(ra) f(rv;vsup) helga G(uds;condes)mod(ur) [name=person] mariam [/name] . (ok) {slong}tundadi
