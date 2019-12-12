@@ -26,7 +26,7 @@
     
     <!-- TODO: what if page border is in word? -->
     
-    
+    <!-- FIXME: Pages cause problem -->
     
     
     <xsl:template match="tei:w" mode="strip">
