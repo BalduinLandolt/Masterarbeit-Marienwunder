@@ -17,7 +17,7 @@
 [lb=14] e(r;er) hin(n;nleg) mattuga{ezh}ti no{rrot}dm(anna;saup) h(er)tugi [name=person] vilhjalm(ur) [/name]
 [lb=15] hey{rrot}(ir;er) þ(at;bar). {slong}end(ir;er) h(an;bar)n fy{rscap}{slong}agd(an;nsup). abota [name=person] elphinu(m;bar) [/name] j
 [lb=16] [name=place] danm(or;osup)k at h(an;bar)n fo{rrot}vitnad(i{ezh}t;zsup) hu(or;osup)t {slong}aun(n;dot) v(ær;er)i þ(es;bar)si
-[lb=17] [catch] h(er){slong}aga [/catch]
+[lb] [catch]h(er){slong}aga[/catch]
 
 
 [pb=304]
@@ -38,7 +38,7 @@
 [lb=14] j b(isku;bar)ps {slong}k(rv;vsup)di m(ed;ezh) mit(rv;vsup) v(it;isup) {slong}kip(it;tsup). (ok) kall(ar;rsup) t(il;isup) {slong}in [name=person] el
 [lb=15] phinu(m;bar) [/name] abota (ok) tal(ar;rsup) t(il;isup) h(an;bar)s. þ(e;bar)s(su;)m o{rrot}du(m;bar). ef þu
 [lb=16] girni(i{ezh}t;zsup) at fo{rrut}d(a{ezh}t;zsup) {slong}iaf(ar;rsup) ha{slong}ka. (ok) ko(m;bar)a heill hei(m;bar) j
-[lb=17] [catch] þitt [/catch]
+[lb] [catch]þitt[/catch]
 
 
 [pb=305]
@@ -59,7 +59,7 @@
 [lb=14] by{rscap}. allt þ(ar;rsup) t(il;isup) e(r;er) þ(ei;bar){rrot} taka [name=place] engl(an;)d(;combcurl) [/name] h(an;bar)n g(er)di kun(n;dot)
 [lb=15] iga þa hluti {slong}(e;bar)m h(an;bar)n hafdi hey{rrot}t (ok) {slong}ed oll(m;bar)
 [lb=16] þ(ei;bar)m e(r;er) h(an;bar)n matti (ok) {slong}kipadi j [name=person] ramen{slong}ien{slong}is [/name] k(ir;bar)k
-[lb=17] [catch] iu [/catch]
+[lb] [catch]iu[/catch]
 
 
 [pb=306]
