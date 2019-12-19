@@ -202,7 +202,6 @@ class Extractor:
             file_tmp = Extractor.replace_wordparts(file)
         ws = file_tmp.find_all('w')
         rws = [Extractor.make_raw(copy.copy(w), type).replace('\n', '') for w in ws]
-        # FIXME: nullpointer
         return rws
 
     @staticmethod
