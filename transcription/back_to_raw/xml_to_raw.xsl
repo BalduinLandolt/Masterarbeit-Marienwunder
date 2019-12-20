@@ -33,6 +33,14 @@
         [/div]
     </xsl:template>
     
+    <xsl:template match="tei:p">
+        [p]
+        
+        <xsl:apply-templates/>
+        
+        [/p]
+    </xsl:template>
+    
     <xsl:template match="tei:pb">
         [pb=<xsl:value-of select="@n"/>] </xsl:template>
     
@@ -41,14 +49,21 @@
     
     <xsl:template match="tei:head"> [head] <xsl:apply-templates/> [/head] </xsl:template>
     
-    <!-- TODO: Catch -->
-    <!-- TODO: p -->
+    <xsl:template match="tei:add[@place]"> [add:place=<xsl:value-of select="@place"/>]<xsl:apply-templates/>[/add] </xsl:template>
+    
+    <xsl:template match="tei:fw[@place]"> [catch]<xsl:apply-templates/>[/catch] </xsl:template>
+    
+    
+    
+    <!-- TODO: corr -->
+    <!-- TODO: sic -->
     <!-- TODO: hi -->
     <!-- TODO: supplied -->
     <!-- TODO: abbreviation -->
     <!-- TODO: g -->
-    
-    
+    <!-- TODO: surplus -->
+    <!-- TODO: gap -->
+    <!-- TODO: name -->
     
     
     
