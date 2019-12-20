@@ -9,41 +9,41 @@
         
         
    
-        [pb=472]
+        [pb=472] 
                
-        [lb=3][head]Maria hialpadi munkum[/head]
+        [lb=3]  [head] Maria hialpadi munkum [/head] 
                
-        [lb=4]Mvnkar nockrer todu wid  eina yrir dag  ke
-        [lb=5]mtu ser talandi heimoligar ogur.  marga 
+        [lb=4] Mvnkar nockrer todu wid  eina yrir dag  ke
+        [lb=5] mtu ser talandi heimoligar ogur.  marga 
                
-        [lb=6]þarlauliga hluti. þeim heyiz em menn oi med miklu ha
-        [lb=7]reyti  gny yer na. munkarner pyia huerir erut þier. þei 
+        [lb=6] þarlauliga hluti. þeim heyiz em menn oi med miklu ha
+        [lb=7] reyti  gny yer na. munkarner pyia huerir erut þier. þei 
                
-        [lb=8]egia. wer erum diolar.  ærum med o ond til heluitis 
+        [lb=8] egia. wer erum diolar.  ærum med o ond til heluitis 
                
-        [lb=9]ebonij hodingia racka konungs hirdar. þviat hann katadi 
+        [lb=9] ebonij hodingia racka konungs hirdar. þviat hann katadi 
                
-        [lb=10]munka linadi þeim em hann tok  munklii hins helga 
+        [lb=10] munka linadi þeim em hann tok  munklii hins helga 
                
-        [lb=11]galli.  nerizt aptur til veralldarinar. Sem munkarner heyra 
+        [lb=11] galli.  nerizt aptur til veralldarinar. Sem munkarner heyra 
                
-        [lb=12]þetta ottaz þei akaliga  kalla hatt. heilug Maria
+        [lb=12] þetta ottaz þei akaliga  kalla hatt. heilug Maria
                
-        [lb=13]hialp þu o. diolarner mæltu. nu hialpadi yd þat 
+        [lb=13] hialp þu o. diolarner mæltu. nu hialpadi yd þat 
                
-        [lb=14]er þier kolludut Mariam. þuiat nu hedum ver ætlat at 
+        [lb=14] er þier kolludut Mariam. þuiat nu hedum ver ætlat at 
                
-        [lb=15]lita yd kuika  undur  deckia ydur idan. þuiat ver 
+        [lb=15] lita yd kuika  undur  deckia ydur idan. þuiat ver 
                
-        [lb=16]undum yd arandi med lauung.  talandi  þeim 
+        [lb=16] undum yd arandi med lauung.  talandi  þeim 
                
-        [lb=17]tima em eigi er kipad. Munkarner þacka nu Gudi  hans modur i
-        [lb=18]na myskunn.  ara aptur til klausturins. enn diolarner 
+        [lb=17] tima em eigi er kipad. Munkarner þacka nu Gudi  hans modur i
+        [lb=18] na myskunn.  ara aptur til klausturins. enn diolarner 
                kunda
   
-        [pb=473]
+        [pb=473] 
                
-        [lb=1]kunda til heluitis.
+        [lb=1] kunda til heluitis.
          
         
         [/div]
@@ -52,73 +52,73 @@
         
         
             
-               [head] 
-        [lb=2]
-               Illuirkiar leidettut . [/head]
+                [head]  
+        [lb=2] 
+               Illuirkiar leidettut .  [/head] 
                
                
-        [lb=3]
+        [lb=3] 
                HEilagur hugo aboti clugiacenis eiti morg 
                
-        [lb=4]
+        [lb=4] 
                munklii gudi til heidurs . hann elkadi einkanli
-        [lb=5]ga vora rv helga Gudsmodur mariam . ok tundadi 
+        [lb=5] ga vora rv helga Gudsmodur mariam . ok tundadi 
                
-        [lb=6]
+        [lb=6] 
                miok  helga olmuugerd . mædandi inn likam 
                
-        [lb=7]
+        [lb=7] 
                med meinlætum yrir guds akir . ok einkanliga med hei
-        [lb=8]lagri þgn . A nockurum tima em hann o til oms . 
+        [lb=8] lagri þgn . A nockurum tima em hann o til oms . 
                
-        [lb=9]
+        [lb=9] 
                ok o nemma  veginn leandi þar inar tidir med b
-        [lb=10]ædunum er honum ylgdu . koma j mot þeim margir ok ty
-        [lb=11]kir illuirkiar . ok gripu hann enn æna þa em med honum 
+        [lb=10] ædunum er honum ylgdu . koma j mot þeim margir ok ty
+        [lb=11] kir illuirkiar . ok gripu hann enn æna þa em med honum 
                
-        [lb=12]
+        [lb=12] 
                oru ollum þeim hlutum em hann hadi lutt med ser þeim til 
                
-        [lb=13]
+        [lb=13] 
                kotar j erdinni . ok etia ialan hann j geymlu einnaman . 
                
-        [lb=14]
+        [lb=14] 
                enn þott hann þyldi mikla þuingan a inum ouinum . 
                
-        [lb=15]
+        [lb=15] 
                let hann alldri a Guds loi ok hans modur marie . helldur 
                
-        [lb=16]
+        [lb=16] 
                vard hann j elldi þessaar pinu heitari med gudligri at . wer
-        [lb=17]andi tad atur j uppteknum godum hlutum med glo
-        [lb=18]du hiarta . taladi hann ongann dag . y enn hann hadi 
+        [lb=17] andi tad atur j uppteknum godum hlutum med glo
+        [lb=18] du hiarta . taladi hann ongann dag . y enn hann hadi 
                agt 
   
-        [pb=474]
+        [pb=474] 
                
-        [lb=1]
+        [lb=1] 
                agt primam ok letanias . med þeim bænum er hann var wa
                
-        [lb=2]
+        [lb=2] 
                   nur . Enn em illuirkiarnir  tadeti hans helga li
                
-        [lb=3]
+        [lb=3] 
                   nadar . kuomut þei vit j inu hiarta . ok gau aptur 
                
-        [lb=4]
+        [lb=4] 
                allt þat em þei hodu yrir honum gripit . bidiandi audmiukli 
                
-        [lb=5]
+        [lb=5] 
                ga at Guds madr leti þeim yrir . þær meingerdir em þei hodu 
                
-        [lb=6]
+        [lb=6] 
                honum gert . ok at þei mætti verda hluttakarar hans bæ
-        [lb=7]na . þei gea suo Guds mann lidugan med æmd . ok æra hann 
+        [lb=7] na . þei gea suo Guds mann lidugan med æmd . ok æra hann 
                
-        [lb=8]
+        [lb=8] 
                heim til ins klauturs . enn ialir þei lata a inni 
                
-        [lb=9]
+        [lb=9] 
                illku . takandi med litillæti hjalpamliga jdran . 
               
             
@@ -129,82 +129,82 @@
         
         
                
-        [lb=10][head]Munkar badu yrir abota[/head]
+        [lb=10]  [head] Munkar badu yrir abota [/head] 
                 
                   
-        [lb=11]J byskups dæmi pictanenis byskups. var aboti a er
+        [lb=11] J byskups dæmi pictanenis byskups. var aboti a er
                   
-        [lb=12]gigo het. heilagur j inum linadi. ok rægur
+        [lb=12] gigo het. heilagur j inum linadi. ok rægur
                   
-        [lb=13]miog a inum godum hlutum. ok þo at þessi æmi
+        [lb=13] miog a inum godum hlutum. ok þo at þessi æmi
                   
-        [lb=14]ligi hera væri pryddur med dygd heilagar bindindi j
+        [lb=14] ligi hera væri pryddur med dygd heilagar bindindi j
                   
-        [lb=15]otum ok uokum. ok tadeti heilagra bæna. ok miklum
+        [lb=15] otum ok uokum. ok tadeti heilagra bæna. ok miklum
                   
-        [lb=16]oleika vid atæka menn. þa var hann suo hegomligur ok van
+        [lb=16] oleika vid atæka menn. þa var hann suo hegomligur ok van
                   
-        [lb=17]tilltur j inu tali þa er hann var odum monnum med. at a
+        [lb=17] tilltur j inu tali þa er hann var odum monnum med. at a
                   
-        [lb=]em
+        [lb=] em
        
-        [pb=475]
+        [pb=475] 
                   
-        [lb=1]em hann heydi tala ok visi eigi hans linad mundi eigi vænta
+        [lb=1] em hann heydi tala ok visi eigi hans linad mundi eigi vænta
                   
-        [lb=2]ath med honum væri nockut merki dygda heilags linadar.
+        [lb=2] ath med honum væri nockut merki dygda heilags linadar.
                   
-        [lb=3]wirduligur herra hugo minti hann optliga ath hann bæ
+        [lb=3] wirduligur herra hugo minti hann optliga ath hann bæ
                   
-        [lb=4]tti ig vm þenna hlut. ok  nockurum tima em a
+        [lb=4] tti ig vm þenna hlut. ok  nockurum tima em a
                   
-        [lb=5]boti cluinacenis o at viitera hans munklii em honum
+        [lb=5] boti cluinacenis o at viitera hans munklii em honum
                   
-        [lb=6]heydi til. vitrazt y nendur aboti gigo þessum abota 
+        [lb=6] heydi til. vitrazt y nendur aboti gigo þessum abota 
                   
-        [lb=7]hugoni þim nottum ad hann kæmi j hans klautur. war 
+        [lb=7] hugoni þim nottum ad hann kæmi j hans klautur. war 
                   
-        [lb=8]hann miog hyggur. ok taladi ecki ynandi inn mvnn
+        [lb=8] hann miog hyggur. ok taladi ecki ynandi inn mvnn
                   
-        [lb=9]ullann med lei. ok vairnar duptugar. Sem hinn
+        [lb=9] ullann med lei. ok vairnar duptugar. Sem hinn
                   
-        [lb=10]virduligi hugo vaknar kilr hann at gigo er lidinn
+        [lb=10] virduligi hugo vaknar kilr hann at gigo er lidinn
                   
-        [lb=11]o þessum heime. enn þviat hann hadi inn munn ok vair vtan
+        [lb=11] o þessum heime. enn þviat hann hadi inn munn ok vair vtan
                   
-        [lb=12]tilling hat til hegomligra oda ok ouidurkuæmiligs hla
+        [lb=12] tilling hat til hegomligra oda ok ouidurkuæmiligs hla
                   
-        [lb=13]turs yndizt hann haa tekit pinu yndarinar  þeim omum
+        [lb=13] turs yndizt hann haa tekit pinu yndarinar  þeim omum
                   
-        [lb=14]limum. vm morginin eptir vard hann viari a þessi yn.
+        [lb=14] limum. vm morginin eptir vard hann viari a þessi yn.
                   
-        [lb=15]þviat þess munkliis unnu mot honum egiandi þeia abota
+        [lb=15] þviat þess munkliis unnu mot honum egiandi þeia abota
                   
-        [lb=16]gigonem andadan vera. ok er hann heir aman kallat
+        [lb=16] gigonem andadan vera. ok er hann heir aman kallat
                   
-        [lb=17]bædurna. bidur hann at þei kylldi bidia til Guds ok voar
+        [lb=17] bædurna. bidur hann at þei kylldi bidia til Guds ok voar
                   
-        [lb=18]rv yrir hans reli. halldandi i daga amleytt þgn.
+        [lb=18] rv yrir hans reli. halldandi i daga amleytt þgn.
                   
-        [lb=]hinum
+        [lb=] hinum
         
-        [pb=476]
+        [pb=476] 
                   
-        [lb=1]hinum ionda degi þeiar þagnar lidnum vitrat gigo enn
+        [lb=1] hinum ionda degi þeiar þagnar lidnum vitrat gigo enn
                   
-        [lb=2]y ogdum abota. þackandi honum at yrir hans bæn
+        [lb=2] y ogdum abota. þackandi honum at yrir hans bæn
                   
-        [lb=3]med bædrana ulltingi var heinod ynd hans varra. wir
+        [lb=3] med bædrana ulltingi var heinod ynd hans varra. wir
                   
-        [lb=4]duligur adir hugo vard hardla glad a þessu. ok egir bæd
+        [lb=4] duligur adir hugo vard hardla glad a þessu. ok egir bæd
                   
-        [lb=5]unum þegar vm morgininn þat em honum war vitrad. minnandi
+        [lb=5] unum þegar vm morgininn þat em honum war vitrad. minnandi
                   
-        [lb=6] at þar yrir þackadi þei Gudi ok gæku hinnar milldutu
+        [lb=6]  at þar yrir þackadi þei Gudi ok gæku hinnar milldutu
                   
-        [lb=7]mod Guds MARIE er alldri er ominnig þeia em hennar
+        [lb=7] mod Guds MARIE er alldri er ominnig þeia em hennar
                   
-        [lb=8]minnat.
+        [lb=8] minnat.
                
                
         
@@ -221,16 +221,16 @@
         
     
              
-        [lb=16]
-                 [head]Her
+        [lb=16] 
+                  [head] Her
                  segir
                  a
                  vor
                  rv
-                 tidum.[/head]
+                 tidum. [/head] 
          
              
-        [lb=17]
+        [lb=17] 
                  Swo 
                  egir 
                  Petrus.
@@ -243,9 +243,9 @@
                  itir
              
           
-        [pb=42]
+        [pb=42] 
              
-        [lb=1]
+        [lb=1] 
                  itir 
                  petra 
                  petrua
@@ -256,7 +256,7 @@
                  uincencij          
                 
              
-        [lb=2]
+        [lb=2] 
                  var
                  kipad
                  a
@@ -269,7 +269,7 @@
                  ath
                  eptir
              
-        [lb=3]
+        [lb=3] 
                  þær 
                  tidir
                  em
@@ -280,7 +280,7 @@
                  yngia.
                  ky
              
-        [lb=4]
+        [lb=4] 
                  lldi
                  þei
                  lea
@@ -294,7 +294,7 @@
                  het.
                  ang
              
-        [lb=5]
+        [lb=5] 
                  latur
             
                  ill
@@ -305,7 +305,7 @@
                  ok
                  margtaladur
              
-        [lb=6]
+        [lb=6] 
                  kærdi
                  sik
                  at
@@ -318,7 +318,7 @@
                  mega
                  leg
              
-        [lb=7]
+        [lb=7] 
                 gia
                 suo
                 mikinn
@@ -330,7 +330,7 @@
                 ram
                 em
              
-        [lb=8]
+        [lb=8] 
                 bodit
                 war
                 j
@@ -343,7 +343,7 @@
                 mega
                 nægiazt
              
-        [lb=9]
+        [lb=9] 
                 þo
                 at
                 þei
@@ -356,7 +356,7 @@
                 id.
                 hann
              
-        [lb=10]
+        [lb=10] 
                 eck
                 her
                 til
@@ -368,7 +368,7 @@
                 anna
                 itt
              
-        [lb=11]
+        [lb=11] 
                 mal.
             
                 med
@@ -381,7 +381,7 @@
                 komit.
                 at
              
-        [lb=12]
+        [lb=12] 
             bædurnir
                 letu
                 a
@@ -391,7 +391,7 @@
                 jungrv
                 Marie.
              
-        [lb=13]
+        [lb=13] 
                 þegar
                 iu
                 upp
@@ -402,7 +402,7 @@
                 gerdu
                 otalligar
              
-        [lb=14]
+        [lb=14] 
                 meingerdir
             
                 kada
@@ -413,7 +413,7 @@
                 gripit
                 god
              
-        [lb=15]
+        [lb=15] 
                 munkanna. ok æntir
             þeia
                 menn.
@@ -423,7 +423,7 @@
             
                 ær
              
-        [lb=16]
+        [lb=16] 
                 dir
             
                 depnir
@@ -435,7 +435,7 @@
             
                 ara
              
-        [lb=17]
+        [lb=17] 
                 ialir
                 til
                 axland
@@ -447,9 +447,9 @@
                 þei
                 a
              
-        [pb=43]
+        [pb=43] 
              
-        [lb=1]
+        [lb=1] 
                 a
                 enga
                 etting
@@ -461,7 +461,7 @@
                 til
                 min
              
-        [lb=2]
+        [lb=2] 
                 agdi
                 yr
                 agdur
@@ -473,7 +473,7 @@
                 ina
                 veo
              
-        [lb=3]
+        [lb=3] 
                 ld.
                 agdi
                 ek.
@@ -486,7 +486,7 @@
             boit.
                 ath
              
-        [lb=4]   
+        [lb=4]    
                 þeir
                 hodu
                 ra
@@ -498,7 +498,7 @@
                 ridar.
             þeia
              
-        [lb=5]
+        [lb=5] 
                 endi
                 menn
                 alla
@@ -510,7 +510,7 @@
                 alldri
                 hedan
              
-        [lb=6]
+        [lb=6] 
                 a
                 kulu
                 uppgea
@@ -521,7 +521,7 @@
                 jungrv 
                 Ma
              
-        [lb=7] 
+        [lb=7]  
                 rie.
                 eingu
                 suo
@@ -534,7 +534,7 @@
                 vel
                 itt
              
-        [lb=8]
+        [lb=8] 
                 heit.
                 Mogum
                 rum
@@ -546,7 +546,7 @@
                 hingat
                 burd
              
-        [lb=9]   
+        [lb=9]    
                 vors
             hera
                 Jesu kristi
@@ -556,7 +556,7 @@
                 im
                 r.
              
-        [lb=10]
+        [lb=10] 
                 kipadi
                 urbanus
                 pafi.
@@ -567,7 +567,7 @@
                 vid
                 claromontem
              
-        [lb=11]
+        [lb=11] 
                 j 
                 gallia
                 at
@@ -579,7 +579,7 @@
                 marie.
             
              
-        [lb=12]
+        [lb=12] 
                 henni 
                 kylldi
                 syngia
@@ -596,17 +596,17 @@
         
         
        
-        [pb=272]
+        [pb=272] 
                
-        [lb=15]
-                   [head]
+        [lb=15] 
+                    [head] 
                       hokona
                       leidettith
                       .
-                   [/head]
+                    [/head] 
                    
                       
-        [lb=16]
+        [lb=16] 
                         NOcker
                         kona
                         var
@@ -615,18 +615,18 @@
                         elkadi
                         eig
                      
-        [lb=17]
+        [lb=17] 
                         inbonda
                         annaar
                         
                         lagd
                       
-        [lb=]
+        [lb=] 
                         it
                      
-        [pb=273]
+        [pb=273] 
                         
-        [lb=1]
+        [lb=1] 
                            it
                            vnder
                            hann
@@ -640,7 +640,7 @@
                            hokonu
                            at
                          
-        [lb=2]
+        [lb=2] 
                            hann
                            gleymdi
                            naliga
@@ -653,7 +653,7 @@
                            þo
                            at
                         
-        [lb=3]
+        [lb=3] 
                            þessi
                            vela
                            kona
@@ -665,7 +665,7 @@
                            þa
                            mi
                     
-        [lb=4]
+        [lb=4] 
                       ntit
                       hun
                       janan
@@ -678,7 +678,7 @@
                       kirkiu
                       .
                     
-        [lb=5]
+        [lb=5] 
                       hvar
                       em
                       hun
@@ -689,7 +689,7 @@
                       marie
                       at
                     
-        [lb=6]
+        [lb=6] 
                       heila
                       
                       hana
@@ -700,7 +700,7 @@
                       ollum
                       godvilia
                     
-        [lb=7]
+        [lb=7] 
                       engiliga
                       kuediu
                       Ave
@@ -709,7 +709,7 @@
                       hun
                       ho
                     
-        [lb=8]
+        [lb=8] 
                       vpp
                       adrar
                       inar
@@ -719,7 +719,7 @@
                       kona
                       yagds
                     
-        [lb=9]
+        [lb=9] 
                       bonda
                       hadi
                       miog
@@ -731,7 +731,7 @@
                       .
                       harmandi
                     
-        [lb=10]
+        [lb=10] 
                       at
                       hennar
                       madr
@@ -744,7 +744,7 @@
                       enn
                       þuiat
                     
-        [lb=11]
+        [lb=11] 
                       hun
                       þodi
                       ecki
@@ -756,7 +756,7 @@
                       gera
                       henni
                     
-        [lb=12]
+        [lb=12] 
                       til
                       meins
                       .
@@ -768,7 +768,7 @@
                       hana
                       opinberliga
                     
-        [lb=13]
+        [lb=13] 
                       vendir
                       hun
                       ollu
@@ -780,7 +780,7 @@
                       Guds
                       mod
                     
-        [lb=14]
+        [lb=14] 
                       sællar
                       marie
                       .
@@ -792,7 +792,7 @@
                       drottins
                       ei
                     
-        [lb=15]
+        [lb=15] 
                       di
                       koma
                       yir
@@ -804,7 +804,7 @@
                       inum
                       eig
                     
-        [lb=16]
+        [lb=16] 
                       in
                       bonda
                       .
@@ -817,7 +817,7 @@
                       at
                       ohegndur
                     
-        [lb=17]
+        [lb=17] 
                       væri
                       hennar
                       lioti
@@ -829,12 +829,12 @@
                       hugdi
                       sik
                     
-        [lb=]
+        [lb=] 
                       med
                   
-        [pb=274]
+        [pb=274] 
                     
-        [lb=1]
+        [lb=1] 
                       med
                       inum
                       jduligum
@@ -844,7 +844,7 @@
                       vppuakit
                       mot
                     
-        [lb=2]
+        [lb=2] 
                       henni
                       eidi
                       himinikis
@@ -856,7 +856,7 @@
                       u
                       ial
                     
-        [lb=3]
+        [lb=3] 
                       bleada
                       jungrv
                       .
@@ -871,7 +871,7 @@
                       akir
                       huers
                     
-        [lb=4]
+        [lb=4] 
                       bidur
                       þu
                       a
@@ -882,7 +882,7 @@
                       goduilia
                       at
                     
-        [lb=5]
+        [lb=5] 
                       hend
                       komi
                       yir
@@ -897,7 +897,7 @@
                       er
                       henni
                     
-        [lb=6]
+        [lb=6] 
                       e
                       j
                       mot
@@ -912,7 +912,7 @@
                       em
                       engin
                     
-        [lb=7]
+        [lb=7] 
                       kepna
                       ma
                       mik
@@ -925,7 +925,7 @@
                       .
                       ed
                     
-        [lb=8]
+        [lb=8] 
                       hyggur
                       þu
                       at
@@ -938,7 +938,7 @@
                       þina
                       kyld
                     
-        [lb=9]
+        [lb=9] 
                       er
                       mik
                       vekur
@@ -951,7 +951,7 @@
                       
                       mi
                     
-        [lb=10]
+        [lb=10] 
                       na
                       ovmrædiliga
                       dyd
@@ -960,7 +960,7 @@
                       konan
                       heydi
                     
-        [lb=11]
+        [lb=11] 
                       þetta
                       a
                       voi
@@ -976,7 +976,7 @@
                       em
                       y
                     
-        [lb=12]
+        [lb=12] 
                       bad
                       hun
                       .
@@ -991,7 +991,7 @@
                       elia
                       kemur
                     
-        [lb=13]
+        [lb=13] 
                       j
                       mot
                       henni
@@ -1003,7 +1003,7 @@
                       þegar
                       til  
                     
-        [lb=14]
+        [lb=14] 
                       hennar
                       hodum
                       odum
@@ -1015,7 +1015,7 @@
                       hin
                       ula
                     
-        [lb=15]
+        [lb=15] 
                       ta
                       puta
                       gerir
@@ -1027,7 +1027,7 @@
                       med
                       þi
                    
-        [lb=16]
+        [lb=16] 
                       nu
                       olii
                       litur
@@ -1039,12 +1039,12 @@
                       kiot
                       minn
                    
-        [lb=]
+        [lb=] 
                       bonda
                 
-        [pb=275]
+        [pb=275] 
                    
-        [lb=1]
+        [lb=1] 
                       bonda
                       enn
                       tier
@@ -1057,7 +1057,7 @@
                       at
                       ara
                    
-        [lb=2]
+        [lb=2] 
                       j
                       mot
                       mer
@@ -1071,7 +1071,7 @@
                       .
                       uo
                    
-        [lb=3]
+        [lb=3] 
                       giarna
                       villdi
                       ek
@@ -1083,7 +1083,7 @@
                       at
                       ek
                    
-        [lb=4]
+        [lb=4] 
                       pindi
                       þik
                       .
@@ -1096,7 +1096,7 @@
                       harm
                       mi
                    
-        [lb=5]
+        [lb=5] 
                       nu
                       hugkioti
                       .
@@ -1109,7 +1109,7 @@
                       idan
                       ek
                    
-        [lb=6]
+        [lb=6] 
                       þodi
                       ecki
                       at
@@ -1124,7 +1124,7 @@
                       til
                       he
                    
-        [lb=7]
+        [lb=7] 
                       ndar
                       at
                       guds
@@ -1136,7 +1136,7 @@
                       inni
                       ei
                    
-        [lb=7]
+        [lb=7] 
                        di
                        .
                        enn
@@ -1151,7 +1151,7 @@
                        .
                       em
                    
-        [lb=8]
+        [lb=8] 
                       þu
                       ert
                       hvern
@@ -1164,7 +1164,7 @@
                       .
                       blid
                    
-        [lb=9]
+        [lb=9] 
                       kadi
                       hana
                       suo
@@ -1175,7 +1175,7 @@
                       eingi
                       hardindi
                    
-        [lb=10]
+        [lb=10] 
                       þier
                       gera
                       .
@@ -1188,7 +1188,7 @@
                       eptir
                       em
                    
-        [lb=11]
+        [lb=11] 
                       vandligat
                       huort
                       þetta
@@ -1203,7 +1203,7 @@
                       vit
                       yrir
                    
-        [lb=12]
+        [lb=12] 
                       vit
                       at
                       hedan
@@ -1218,7 +1218,7 @@
                       
                       eigi
                    
-        [lb=13]
+        [lb=13] 
                       kal
                       hann
                       nockura
@@ -1231,7 +1231,7 @@
                       þier
                       til
                    
-        [lb=14]
+        [lb=14] 
                       angurs
                       .
                       helldur
@@ -1247,7 +1247,7 @@
                       mina
                       lit
                    
-        [lb=15]
+        [lb=15] 
                       la
                       þionutu
                       veitti
@@ -1260,7 +1260,7 @@
                       ek
                       yrir
                    
-        [lb=16]
+        [lb=16] 
                       hennar
                       elku
                       lia
@@ -1273,12 +1273,12 @@
                       hin
                       he
                    
-        [lb=]
+        [lb=] 
                       llt
                 
-        [pb=276]
+        [pb=276] 
                    
-        [lb=1]
+        [lb=1] 
                       llt
                       hreinlii
                       lagdi
@@ -1292,7 +1292,7 @@
                       kærv
                       .
                    
-        [lb=2]
+        [lb=2] 
                       gerdi
                       þetta
                       badum
@@ -1306,7 +1306,7 @@
                       vm
                       ram
                    
-        [lb=3]
+        [lb=3] 
                       allar
                       konur
                       Guds
@@ -1322,38 +1322,38 @@
         
                       
                       
-        [lb=4][head]Kona linade at jata sic[/head] 
+        [lb=4]  [head] Kona linade at jata sic [/head]  
                        
                          
-        [lb=5]Vjd þann tad er lingonenis heitir var ein
+        [lb=5] Vjd þann tad er lingonenis heitir var ein
                          
-        [lb=6]kona u em hardla miok elkadi uds mo
+        [lb=6] kona u em hardla miok elkadi uds mo
                          
-        [lb=7]d Mariam. þionadi henni  hennar yni med heilag
+        [lb=7] d Mariam. þionadi henni  hennar yni med heilag
                          
-        [lb=8]leik  ettlæti. En þa er hun var vng. hadi hun
+        [lb=8] leik  ettlæti. En þa er hun var vng. hadi hun
                          
-        [lb=9]gert þa eina ynd. er eigi var þung  micil a ialri ser.
+        [lb=9] gert þa eina ynd. er eigi var þung  micil a ialri ser.
                          
-        [lb=10]enn þo þotti henni hun svo hædilig  hættlig j inu
+        [lb=10] enn þo þotti henni hun svo hædilig  hættlig j inu
                          
-        [lb=11]hiarta at hun kammadi hana at jata. enn vm adra
+        [lb=11] hiarta at hun kammadi hana at jata. enn vm adra
                          
-        [lb=12]ina ramerd var hun þriin  tyk j godum verkum. 
+        [lb=12] ina ramerd var hun þriin  tyk j godum verkum. 
                          
-        [lb=13]jatadi allar inar yndir adar hid minta inn 
+        [lb=13] jatadi allar inar yndir adar hid minta inn 
                          
-        [lb=14]hueriu ri fyrir inum preti. enn þessi ein ynd var svo at 
+        [lb=14] hueriu ri fyrir inum preti. enn þessi ein ynd var svo at 
                          
-        [lb=15]hun treyti alldri at jata akir ins kamulleiks. 
+        [lb=15] hun treyti alldri at jata akir ins kamulleiks. 
                          
-        [lb=16]en janan vid enda innar ædu kom hun þar nockud
+        [lb=16] en janan vid enda innar ædu kom hun þar nockud
                          
-        [lb=17]vid þat at jata eigi opinberliga helld em med nockurum malkrokum
+        [lb=17] vid þat at jata eigi opinberliga helld em med nockurum malkrokum
                          
-        [pb=277]
+        [pb=277] 
                          
-        [lb=1]
+        [lb=1] 
                            
                          
         
@@ -1364,76 +1364,76 @@
         
                       
                       
-        [lb=10][head]Vor rv ga konu aptr vit sin.[/head] 
+        [lb=10]  [head] Vor rv ga konu aptr vit sin. [/head]  
                        
                          
-        [lb=11]Ein kona hurv iddara þess er Rotergarus het 
+        [lb=11] Ein kona hurv iddara þess er Rotergarus het 
                          
-        [lb=12]dreymdi þann drm. at hun þotti bera
+        [lb=12] dreymdi þann drm. at hun þotti bera
                          
-        [lb=13]eitt merki svo autt sem blod. hun var þa olett
+        [lb=13] eitt merki svo autt sem blod. hun var þa olett
                          
-        [lb=14]at ueinbarni. Sem hun vaknar miir hun ki
+        [lb=14] at ueinbarni. Sem hun vaknar miir hun ki
                          
-        [lb=15]otliga ins vit.  tok at tala ijmiliga 
+        [lb=15] otliga ins vit.  tok at tala ijmiliga 
                          
-        [lb=16]hluti. hennar bondi vndrat þetta miok. eptir lit
+        [lb=16] hluti. hennar bondi vndrat þetta miok. eptir lit
                          
-        [lb=17]in tima segi hun ia at u kritilig trv em hun heir
+        [lb=17] in tima segi hun ia at u kritilig trv em hun heir
               
-        [pb=292]
+        [pb=292] 
                          
-        [lb=1]heir þar til y var j milli hennar briota. 
+        [lb=1] heir þar til y var j milli hennar briota. 
                          
-        [lb=2]o þar ut. pottadi dioullinn svo þessa konu
+        [lb=2] o þar ut. pottadi dioullinn svo þessa konu
                          
-        [lb=3]huerar ond hann hugdi til in kylldu haa. hennar vinir
+        [lb=3] huerar ond hann hugdi til in kylldu haa. hennar vinir
                          
-        [lb=4]baru micinn angr akir þessaar ohamingiu. em henni
+        [lb=4] baru micinn angr akir þessaar ohamingiu. em henni
                          
-        [lb=5]hai til boit. þei æra hana til margra heilagra tada.
+        [lb=5] hai til boit. þei æra hana til margra heilagra tada.
                          
-        [lb=6]væntandi at hun mætti a aptr ina heilu hun
+        [lb=6] væntandi at hun mætti a aptr ina heilu hun
                          
-        [lb=7]vakti  j kirkiu heilagra þenningar j þeim tad
+        [lb=7] vakti  j kirkiu heilagra þenningar j þeim tad
                          
-        [lb=8]er Fucanum heitir. enn heilog þenning. þat er einn
+        [lb=8] er Fucanum heitir. enn heilog þenning. þat er einn
                          
-        [lb=9]Gud j þrimr peronis. villdi eigi þar veita henni heilu.
+        [lb=9] Gud j þrimr peronis. villdi eigi þar veita henni heilu.
                          
-        [lb=10]enn hann villdi þann heid veita himinikis drottningu
+        [lb=10] enn hann villdi þann heid veita himinikis drottningu
                          
-        [lb=11]Guds mod Marie þessi konu var geit þat vatn a
+        [lb=11] Guds mod Marie þessi konu var geit þat vatn a
                          
-        [lb=12]morgum pretum em vigt var med morgum æringum  helgat
+        [lb=12] morgum pretum em vigt var med morgum æringum  helgat
                          
-        [lb=13]med morgum bleunum: enn idan þat kom  hana ætit
+        [lb=13] med morgum bleunum: enn idan þat kom  hana ætit
                          
-        [lb=14]þar vid miok hennar krankleiki.  vard hun idan miclu odari.
+        [lb=14] þar vid miok hennar krankleiki.  vard hun idan miclu odari.
                          
-        [lb=15]Sidan eitt r var lidit idan hun ell j þenna kranklei
+        [lb=15] Sidan eitt r var lidit idan hun ell j þenna kranklei
                          
-        [lb=16]ka er hun lutt til kirkiu heilagra Marie yrir etum
+        [lb=16] ka er hun lutt til kirkiu heilagra Marie yrir etum
               
-        [pb=293]
+        [pb=293] 
                          
-        [lb=1]tum purificacionis. þa kirkiu midudu odum Grickir at
+        [lb=1] tum purificacionis. þa kirkiu midudu odum Grickir at
                          
-        [lb=2]þvi egi j midium einum toum kogi. er hun miok
+        [lb=2] þvi egi j midium einum toum kogi. er hun miok
                          
-        [lb=3]olik odum kirkium at mid.  vidkvæmilig heremitis. 
+        [lb=3] olik odum kirkium at mid.  vidkvæmilig heremitis. 
                          
-        [lb=4]Hon vakir þar vm nottina  y agdri hatid  vard
+        [lb=4] Hon vakir þar vm nottina  y agdri hatid  vard
                          
-        [lb=5]svo heil yrir verdleik þeiar helgutu jungrv. em hun hedi
+        [lb=5] svo heil yrir verdleik þeiar helgutu jungrv. em hun hedi
                          
-        [lb=6]alldri þolt þa illu ott. þuiat hennar vit kom ullkom
+        [lb=6] alldri þolt þa illu ott. þuiat hennar vit kom ullkom
                          
-        [lb=7]liga aptr. svo var  houdit vel heillt. Sial
+        [lb=7] liga aptr. svo var  houdit vel heillt. Sial
                          
-        [lb=8]hun  hennar bondi  allir þeia vinir. loudu Gud 
+        [lb=8] hun  hennar bondi  allir þeia vinir. loudu Gud 
                          
-        [lb=9]hans modi Mariam. yrir þessa Jarteign.
+        [lb=9] hans modi Mariam. yrir þessa Jarteign.
                       
                    
         
@@ -1443,19 +1443,19 @@
         
         
 
-        [pb=303]
+        [pb=303] 
 
-        [lb=6]
-[head]
+        [lb=6] 
+ [head] 
 hveru 
 til 
 kom 
 conceptio 
-. [/head]
+.  [/head] 
              
 
 
-        [lb=7]
+        [lb=7] 
 A 
 Þeim 
 tima 
@@ -1463,7 +1463,7 @@ em
 vilhialmur 
 batard 
 her
-        [lb=8]tugi 
+        [lb=8] tugi 
 nomannie 
 lagdi 
 vndir 
@@ -1471,7 +1471,7 @@ sik
 england
     
 
-        [lb=9]
+        [lb=9] 
 var 
 a 
 aboti 
@@ -1483,7 +1483,7 @@ j
 kirkiu 
 heilags 
 augus
-        [lb=10]tini 
+        [lb=10] tini 
 biskups 
  
    englandi 
@@ -1496,7 +1496,7 @@ hans
 eptir 
     
 
-        [lb=11]
+        [lb=11] 
 komend 
 biskuparnir 
 huila 
@@ -1508,7 +1508,7 @@ at
    england
     
 
-        [lb=12]
+        [lb=12] 
 er 
 vnnit 
 a 
@@ -1520,7 +1520,7 @@ in
 vopn 
 ok 
 herk
-        [lb=13]ap 
+        [lb=13] ap 
 at 
 þei 
 ari 
@@ -1535,7 +1535,7 @@ brott
 Enn 
     
 
-        [lb=14]
+        [lb=14] 
 er 
 hinn 
 mattugati 
@@ -1544,7 +1544,7 @@ hertugi
 vilhjalmur
     
 
-        [lb=15]
+        [lb=15] 
 heyir 
 þat 
 . 
@@ -1557,7 +1557,7 @@ elphinum
 j 
     
 
-        [lb=16]
+        [lb=16] 
 danmork 
 at 
 hann 
@@ -1571,10 +1571,10 @@ heraga
     
     
 
-        [pb=304]
+        [pb=304] 
     
 
-        [lb=1]
+        [lb=1] 
 heraga 
 . 
 Abotinn 
@@ -1587,7 +1587,7 @@ gera
 konungins 
     
 
-        [lb=2]
+        [lb=2] 
 eyindi 
 . 
 ok 
@@ -1600,7 +1600,7 @@ er
 vilhialmur 
     
 
-        [lb=3]
+        [lb=3] 
 konung 
 endi 
 honum 
@@ -1614,7 +1614,7 @@ tima
 verit 
     
 
-        [lb=4]
+        [lb=4] 
 þiggur 
 hann 
 heim 
@@ -1628,7 +1628,7 @@ tigur
 kip 
     
 
-        [lb=5]
+        [lb=5] 
 med 
 inum 
 kompanum 
@@ -1640,7 +1640,7 @@ vour
 komnir 
 miok 
 la
-        [lb=6]ngt 
+        [lb=6] ngt 
 j 
 ha 
 . 
@@ -1654,7 +1654,7 @@ at
 þei 
     
 
-        [lb=7]
+        [lb=7] 
 ia 
 ser 
 enga 
@@ -1668,7 +1668,7 @@ haka
 nerut 
     
 
-        [lb=8]
+        [lb=8] 
 þei 
 þangat 
 til 
@@ -1682,7 +1682,7 @@ buin
 . 
  
 
-        [lb=9]
+        [lb=9] 
 bidiandi 
 suo 
 til 
@@ -1694,7 +1694,7 @@ milldati
 ok 
     
 
-        [lb=10]
+        [lb=10] 
 hinn 
 mattugati 
 gud 
@@ -1706,7 +1706,7 @@ j
 ha 
  
 
-        [lb=11]
+        [lb=11] 
 ka 
 . 
 at 
@@ -1720,7 +1720,7 @@ dektir
 med 
     
 
-        [lb=12]
+        [lb=12] 
 tomi 
 ok 
 bylgium 
@@ -1732,7 +1732,7 @@ tala
 þessa 
     
 
-        [lb=13]
+        [lb=13] 
 hluti 
 ok 
 marga 
@@ -1746,7 +1746,7 @@ einn
 mann 
     
 
-        [lb=14]
+        [lb=14] 
 j 
 biskups 
 krvdi 
@@ -1760,7 +1760,7 @@ kallar
 til 
 in 
 el
-        [lb=15]phinum 
+        [lb=15] phinum 
 abota 
 ok 
 talar 
@@ -1774,7 +1774,7 @@ e
 þu 
  
 
-        [lb=16]
+        [lb=16] 
 girnit 
 at 
    odat 
@@ -1791,9 +1791,9 @@ j
     
     
 
-        [pb=305]
+        [pb=305] 
 
-        [lb=1]
+        [lb=1] 
 þitt 
 land
 . 
@@ -1807,7 +1807,7 @@ at
 þu 
 kalt 
 hall
-        [lb=2]da 
+        [lb=2] da 
 hatidliga 
 getnadar 
 dag 
@@ -1817,7 +1817,7 @@ krit
 Abotinn 
     
 
-        [lb=3]
+        [lb=3] 
 uaar 
 . 
 hveru 
@@ -1833,7 +1833,7 @@ degi
 biskup 
     
 
-        [lb=4]
+        [lb=4] 
 in 
 uarar 
 . 
@@ -1844,7 +1844,7 @@ decembris
 kaltu 
 yagda 
 
-        [lb=5]
+        [lb=5] 
 hatid 
 hallda 
 . 
@@ -1857,7 +1857,7 @@ j
 ollum 
 todum 
 
-        [lb=6]
+        [lb=6] 
 huat 
 er 
 þu 
@@ -1872,7 +1872,7 @@ ollum
 halldinn 
 . 
 
-        [lb=7]
+        [lb=7] 
 Abotinn 
 py 
 . 
@@ -1884,7 +1884,7 @@ kal
 haa 
 . 
 
-        [lb=8]
+        [lb=8] 
 ok 
  
 huern 
@@ -1900,7 +1900,7 @@ egit
 ok 
 yngt 
 
-        [lb=9]
+        [lb=9] 
  
 hennar 
 burdar 
@@ -1912,7 +1912,7 @@ egiat
 hennar 
 getnadar 
 
-        [lb=10]
+        [lb=10] 
 degi 
 . 
 ok 
@@ -1925,7 +1925,7 @@ nativitas
 kal 
 hier 
 egi
-        [lb=11]at 
+        [lb=11] at 
 conceptio 
  
 þessum 
@@ -1935,7 +1935,7 @@ Sem
 abotinn 
 heir 
 
-        [lb=12]
+        [lb=12] 
 heyt 
 þessi 
 od 
@@ -1948,7 +1948,7 @@ vitradit
 . 
 enn 
 ved
-        [lb=13]it 
+        [lb=13] it 
 minkar 
 . 
 bæta 
@@ -1961,7 +1961,7 @@ a
 idan 
 hægan 
 
-        [lb=14]
+        [lb=14] 
 by 
 . 
 allt 
@@ -1975,7 +1975,7 @@ england
 hann 
 gerdi 
 kunn
-        [lb=15]iga 
+        [lb=15] iga 
 þa 
 hluti 
 em 
@@ -1986,7 +1986,7 @@ ok
 ed 
 ollum 
 
-        [lb=16]
+        [lb=16] 
 þeim 
 er 
 hann 
@@ -1996,8 +1996,8 @@ kipadi
 j 
 ramenienis 
 kirkiu
-        [pb=306]
-        [lb=1]iu 
+        [pb=306] 
+        [lb=1] iu 
 hueri 
 er 
 hann 
@@ -2008,7 +2008,7 @@ y
 ogd 
 hatid 
 
-        [lb=2]
+        [lb=2] 
 kyldi 
  
 hveriu 
@@ -2018,7 +2018,7 @@ hatidliga
 etta 
 jdus 
 
-        [lb=3]
+        [lb=3] 
 decembris 
 . 
 hellt 
@@ -2028,7 +2028,7 @@ ama
 med 
 onnvm 
 godvil
-        [lb=4]ia 
+        [lb=4] ia 
 alla 
 daga 
 ins 
@@ -2040,7 +2040,7 @@ er
 y 
 agdan 
 
-        [lb=5]
+        [lb=5] 
 dag 
 hallda 
 gudi 
@@ -2053,7 +2053,7 @@ mod
 veittit 
 a 
 
-        [lb=6]
+        [lb=6] 
 yni 
 þeiar 
 omu 
@@ -2063,7 +2063,7 @@ drottningar
 marie 
 
 
-        [lb=7]
+        [lb=7] 
 rid 
 ok 
 heila 
@@ -2076,7 +2076,7 @@ eili
 huild 
 j 
 
-        [lb=8]
+        [lb=8] 
 himiniki 
 . 
 þat 
@@ -2090,7 +2090,7 @@ er
 liir 
 ok 
 
-        [lb=9]
+        [lb=9] 
 ikir 
 einn 
 gud 
@@ -2107,35 +2107,35 @@ amen
         
         
                       
-        [pb=315]
+        [pb=315] 
                       
-        [lb=8][head]Af liknekiu voar rv[/head]
+        [lb=8]  [head] Af liknekiu voar rv [/head] 
                        
                          
-        [lb=9]J Valle gethemani þeim em er milli jerusalem
+        [lb=9] J Valle gethemani þeim em er milli jerusalem
                          
-        [lb=10]ok iallins oliveti. þar em leidi voar rv
+        [lb=10] ok iallins oliveti. þar em leidi voar rv
                          
-        [lb=11]ok hun var grainn j iod. tanda ioir pilarar
+        [lb=11] ok hun var grainn j iod. tanda ioir pilarar
                          
-        [lb=12]gænir at lit. ok  einum pilarnum er likne
+        [lb=12] gænir at lit. ok  einum pilarnum er likne
                          
-        [lb=13]kia Guds modur Marie. em hun hai on von
+        [lb=13] kia Guds modur Marie. em hun hai on von
                          
-        [lb=14]hera jhesum christum j admi ser. hun er suo kæ ok bio
+        [lb=14] hera jhesum christum j admi ser. hun er suo kæ ok bio
                          
-        [lb=15]t em einn pegill. yogd kript er eigi gio eda
+        [lb=15] t em einn pegill. yogd kript er eigi gio eda
                          
-        [lb=16]pentud med manna hondum. helld ant hun þar em vax
+        [lb=16] pentud med manna hondum. helld ant hun þar em vax
                          
-        [lb=17]in a þeim ama teini. ækir þangat mikit olk
+        [lb=17] in a þeim ama teini. ækir þangat mikit olk
                          
-        [lb=18]þviat þar verda margar jarteignir ok heid hinni helgu
+        [lb=18] þviat þar verda margar jarteignir ok heid hinni helgu
                          tu
             
-        [pb=316]
+        [pb=316] 
                          
-        [lb=1]tu Guds mod ok jungrv Marie.
+        [lb=1] tu Guds mod ok jungrv Marie.
                       
                    
         
@@ -2145,48 +2145,48 @@ amen
         
         
                       
-        [lb=2][head]Oleum laut a likneki voar rv.[/head]
+        [lb=2]  [head] Oleum laut a likneki voar rv. [/head] 
                        
                          
-        [lb=3]J æ atta milr ra damaco er a ta
+        [lb=3] J æ atta milr ra damaco er a ta
                          
-        [lb=4]d em heitir ardenay.  einu ialli
+        [lb=4] d em heitir ardenay.  einu ialli
                          
-        [lb=5]ar er kirkia ællar jungrv MARIE. þar ero tol nu
+        [lb=5] ar er kirkia ællar jungrv MARIE. þar ero tol nu
                          
-        [lb=6]nnr  atta munkar. j þessi kirkiu er kriat  ei
+        [lb=6] nnr  atta munkar. j þessi kirkiu er kriat  ei
                          
-        [lb=7]nni tabula likneki ællar guds modur MARIE
+        [lb=7] nni tabula likneki ællar guds modur MARIE
                          
-        [lb=8] þann hatt em vant er at kria j contantino
+        [lb=8]  þann hatt em vant er at kria j contantino
                          
-        [lb=9]poli. var þessi tabula j iherusalem ad patriarcha 
+        [lb=9] poli. var þessi tabula j iherusalem ad patriarcha 
                          
-        [lb=10]ga hana einni abbadii. enn hun lutti til y a
+        [lb=10] ga hana einni abbadii. enn hun lutti til y a
                          
-        [lb=11]gds tadar. A þessi liknekiu rennr þat oleum em 
+        [lb=11] gds tadar. A þessi liknekiu rennr þat oleum em 
                          
-        [lb=12]sætara er enn balsamus a hueriu iukir menn verda he
+        [lb=12] sætara er enn balsamus a hueriu iukir menn verda he
                          
-        [lb=13]ilir. e þei ero murdir med. kritnir menn vardveita þetta
+        [lb=13] ilir. e þei ero murdir med. kritnir menn vardveita þetta
                          
-        [lb=14]oleum. ia ami tadur er miok vegamadur a
+        [lb=14] oleum. ia ami tadur er miok vegamadur a
                          
-        [lb=15]aracenis. sækia margir a þeim aracenis er þar
+        [lb=15] aracenis. sækia margir a þeim aracenis er þar
                          
-        [lb=16]byggia næ tueim innvm  hueriu ri.  ha 
+        [lb=16] byggia næ tueim innvm  hueriu ri.  ha 
                          
-        [lb=17]tid uppnumningar vorrar rv.  hennar burdardegi.
+        [lb=17] tid uppnumningar vorrar rv.  hennar burdardegi.
                          
-        [lb=18]þeim em þeia vm þessa liknekiu. kennit at
+        [lb=18] þeim em þeia vm þessa liknekiu. kennit at
                          
-        [lb=]hun
+        [lb=] hun
                          
-        [pb=317]
+        [pb=317] 
                          
-        [lb=1]hun hai kiot  likam em liandi madr vm briotin 
+        [lb=1] hun hai kiot  likam em liandi madr vm briotin 
                          
-        [lb=2]upp þadan.
+        [lb=2] upp þadan.
                       
                    
         
@@ -2196,86 +2196,86 @@ amen
         
         
                          
-        [lb=3][head]Vor rv hialpadi kritnum monnum[/head]
+        [lb=3]  [head] Vor rv hialpadi kritnum monnum [/head] 
                        
                          
-        [lb=4]A Dogum leonis keisara hins þridia  odu
+        [lb=4] A Dogum leonis keisara hins þridia  odu
                          
-        [lb=5]ri hans ikis. kuomu araceni til mikla gard
+        [lb=5] ri hans ikis. kuomu araceni til mikla gard
                          
-        [lb=6]med otaligan iolda kipa. ok villdu vinna tad
+        [lb=6] med otaligan iolda kipa. ok villdu vinna tad
                          
-        [lb=7]inn. Lydurinn tod tykliga  mot ok vardi borgina
+        [lb=7] inn. Lydurinn tod tykliga  mot ok vardi borgina
                          
-        [lb=8]eigi at eins med uopnum. helldur ok med bænum til Guds.
+        [lb=8] eigi at eins med uopnum. helldur ok med bænum til Guds.
                          
-        [lb=9]suo at otallig ioldi var drepinn a aracenis
+        [lb=9] suo at otallig ioldi var drepinn a aracenis
                          
-        [lb=10]med þeii jarteign em hier egir. J mikla gardi j munklii
+        [lb=10] med þeii jarteign em hier egir. J mikla gardi j munklii
                          
-        [lb=11]heilagra jungrv Marie vidur holl þa em  io
+        [lb=11] heilagra jungrv Marie vidur holl þa em  io
                          
-        [lb=12]num er næ kirkiu vors hera er ophia heitir er lik
+        [lb=12] num er næ kirkiu vors hera er ophia heitir er lik
                          
-        [lb=13]nekia heilagra guds mod Marie kriut
+        [lb=13] nekia heilagra guds mod Marie kriut
                          
-        [lb=14]em hun hedi inn on vorn hera jesum christum  inum ar
+        [lb=14] em hun hedi inn on vorn hera jesum christum  inum ar
                          
-        [lb=15]mlegg. þessa liknekiu hadi kriat hinn hel
+        [lb=15] mlegg. þessa liknekiu hadi kriat hinn hel
                          
-        [lb=16]gi lucas ewangelita  einni tabula eptir vexti ok
+        [lb=16] gi lucas ewangelita  einni tabula eptir vexti ok
                          
-        [lb=17]ionu hinnar helgu Marie. þa er hun lidi 
+        [lb=17] ionu hinnar helgu Marie. þa er hun lidi 
                          jardiki
                          
-        [pb=318]
+        [pb=318] 
                          
-        [lb=1]jardiki. þessi kript kallat odiguria  girka tun
+        [lb=1] jardiki. þessi kript kallat odiguria  girka tun
                          
-        [lb=2]gu. þat er leidtogi  vort mal. þviat Guds modir Maria.
+        [lb=2] gu. þat er leidtogi  vort mal. þviat Guds modir Maria.
                          
-        [lb=3]witradit tueimur blindum monnum. ok leiddi þa til kirk
+        [lb=3] witradit tueimur blindum monnum. ok leiddi þa til kirk
                          
-        [lb=4]iunnar. ok ga þeim þar med yn. y var agt. ok o
+        [lb=4] iunnar. ok ga þeim þar med yn. y var agt. ok o
                          
-        [lb=5]lkit atanda. ok bidianda til Guds bardit dagliga
+        [lb=5] lkit atanda. ok bidianda til Guds bardit dagliga
                          
-        [lb=6]mot heidnum monnum. Þa minti einn borgar madr  at 
+        [lb=6] mot heidnum monnum. Þa minti einn borgar madr  at 
                          
-        [lb=7]þei kyldi taka y agda kript ser til verndar. þei ger
+        [lb=7] þei kyldi taka y agda kript ser til verndar. þei ger
                          
-        [lb=8]du suo. ok badu til voar frv  þenna hatt. Heilug
+        [lb=8] du suo. ok badu til voar frv  þenna hatt. Heilug
                          
-        [lb=9]Guds modir er suo opt heir o relat. leys o nu
+        [lb=9] Guds modir er suo opt heir o relat. leys o nu
                          
-        [lb=10]a valldi ouina þins onar. ok e þu villt eigi at
+        [lb=10] a valldi ouina þins onar. ok e þu villt eigi at
                          
-        [lb=11]ver auckvim þinni liknekiu j ioninn. ok þegar j
+        [lb=11] ver auckvim þinni liknekiu j ioninn. ok þegar j
                          
-        [lb=12]tad eis upp einn to bodi. suo at hann braut
+        [lb=12] tad eis upp einn to bodi. suo at hann braut
                          
-        [lb=13]um kip aracenorum. enn umum okti hann med
+        [lb=13] um kip aracenorum. enn umum okti hann med
                          
-        [lb=14]ollum þeim monnum er  voru. Enn ad bodinn eis upp
+        [lb=14] ollum þeim monnum er  voru. Enn ad bodinn eis upp
                          
-        [lb=15]etti a em liknekit bar. þat leyniliga nid j
+        [lb=15] etti a em liknekit bar. þat leyniliga nid j
                          ioinn
                          
-        [pb=319]
+        [pb=319] 
                          
-        [lb=1]ioinn. Ok  litlum tima tyndizt allr a mikli her
+        [lb=1] ioinn. Ok  litlum tima tyndizt allr a mikli her
                          
-        [lb=2]umur a þeim elldi er a ionvm kom. enn umir out
+        [lb=2] umur a þeim elldi er a ionvm kom. enn umir out
                          
-        [lb=3]a elldingum. med hagli ok dunum o loptinu. suo at
+        [lb=3] a elldingum. med hagli ok dunum o loptinu. suo at
                          
-        [lb=4]a ollum þeim mikla kipa iolda wdu varla eptir
+        [lb=4] a ollum þeim mikla kipa iolda wdu varla eptir
                          
-        [lb=5]imm kip. gerdi almattigur gud þessa jarteign til dy
+        [lb=5] imm kip. gerdi almattigur gud þessa jarteign til dy
                          
-        [lb=6]dar inu nani yrir verdleika innar modur. at ollum ver
+        [lb=6] dar inu nani yrir verdleika innar modur. at ollum ver
                          
-        [lb=7]di audyn hans ovinædilig milldi.
+        [lb=7] di audyn hans ovinædilig milldi.
                       
                    
         
@@ -2285,100 +2285,100 @@ amen
         
         
                       
-        [lb=11][head]klerk do gull a hond Marie[/head]
+        [lb=11]  [head] klerk do gull a hond Marie [/head] 
                        
                          
-        [lb=12]Klerkar nockurir logu opp yrir einni kirkiu.
+        [lb=12] Klerkar nockurir logu opp yrir einni kirkiu.
                          
-        [lb=13]Einn a þeim a er hadi þat ing gull  hendi
+        [lb=13] Einn a þeim a er hadi þat ing gull  hendi
                          
-        [lb=14]inn nockur jungru hans vnnota hadi get honum
+        [lb=14] inn nockur jungru hans vnnota hadi get honum
                          
-        [lb=15]til atar vid ig. otta at hann bioti þat ama gull e
+        [lb=15] til atar vid ig. otta at hann bioti þat ama gull e
                          
-        [lb=16]hann lær optliga oppinn. ny hann þui til kirkiunnar. 
+        [lb=16] hann lær optliga oppinn. ny hann þui til kirkiunnar. 
                          
-        [lb=17]at hann geymi gullit. ein huers tadar. til þess er hann
+        [lb=17] at hann geymi gullit. ein huers tadar. til þess er hann
                          
-        [pb=328]
+        [pb=328] 
                          
-        [lb=1]hann tek þat eptir leikinn. hann geng jn j kirkiuna yrir
+        [lb=1] hann tek þat eptir leikinn. hann geng jn j kirkiuna yrir
                          
-        [lb=2]likneki junrv Marie.  em hann ser vpp  krip
+        [lb=2] likneki junrv Marie.  em hann ser vpp  krip
                          
-        [lb=3]tina. vndrat hann hennar egd.  heilsar  hana all
+        [lb=3] tina. vndrat hann hennar egd.  heilsar  hana all
                          
-        [lb=4]andi  kne. Eptir þat agdi hann. anliga ert þu o
+        [lb=4] andi  kne. Eptir þat agdi hann. anliga ert þu o
                          
-        [lb=5]g.  ollum konvm  jungvm ert þu egri.  eigi id þeii
+        [lb=5] g.  ollum konvm  jungvm ert þu egri.  eigi id þeii
                          
-        [lb=6]em mer ga þetta gull til ullkominnar elku. ok a
+        [lb=6] em mer ga þetta gull til ullkominnar elku. ok a
                          
-        [lb=7]kir þess nita ek henni. enn ek jata at hedan a kal
+        [lb=7] kir þess nita ek henni. enn ek jata at hedan a kal
                          
-        [lb=8] ek þic elka  þer þiorana. þo med þeim kildaga e
+        [lb=8]  ek þic elka  þer þiorana. þo med þeim kildaga e
                          
-        [lb=9]þu villt virda mic at elka. yagd klerk do 
+        [lb=9] þu villt virda mic at elka. yagd klerk do 
                          
-        [lb=10]gullit  ing liknekiunni. þann em hun etti
+        [lb=10] gullit  ing liknekiunni. þann em hun etti
                          
-        [lb=11]ad vpp. enn idan gullit kom þar  vard vndarlig hlu
+        [lb=11] ad vpp. enn idan gullit kom þar  vard vndarlig hlu
                          
-        [lb=12]t. kriptinn beygdi þegar inginn at gullinu. em
+        [lb=12] t. kriptinn beygdi þegar inginn at gullinu. em
                          
-        [lb=13]vor rv amþykti med þui þat er klerkinn hadi tal
+        [lb=13] vor rv amþykti med þui þat er klerkinn hadi tal
                          
-        [lb=14]at. Sem ueinninn ser þat vndar hann þat miok  þickir
+        [lb=14] at. Sem ueinninn ser þat vndar hann þat miok  þickir
                          
-        [lb=15]micils vert. hann kallar til in þa em vti voru yrir kirkiu
+        [lb=15] micils vert. hann kallar til in þa em vti voru yrir kirkiu
                          
-        [lb=16]nni.  agdi þeim hueru hann hadi heilat voi rv.  med
+        [lb=16] nni.  agdi þeim hueru hann hadi heilat voi rv.  med
                          
-        [pb=329]
+        [pb=329] 
                          
-        [lb=1]med huerium kildaga hann jatadi ik henni til elku.
+        [lb=1] med huerium kildaga hann jatadi ik henni til elku.
                          
-        [lb=2]Sem þei heyra þat eggja þei hann  at hann kal nita 
+        [lb=2] Sem þei heyra þat eggja þei hann  at hann kal nita 
                          
-        [lb=3]verolldinni.  hallda þat em heir heitid. at hann e
+        [lb=3] verolldinni.  hallda þat em heir heitid. at hann e
                          
-        [lb=4]verdug at verda þionustu madr  vin Guds mod. em
+        [lb=4] verdug at verda þionustu madr  vin Guds mod. em
                          
-        [lb=5]ial hann jatadi. en þuiat þynir veralldligra avd 
+        [lb=5] ial hann jatadi. en þuiat þynir veralldligra avd 
                          
-        [lb=6]æa tack hans hiarta. tok hann þessu þungliga. 
+        [lb=6] æa tack hans hiarta. tok hann þessu þungliga. 
                          
-        [lb=7] geandi gudi enga þock yrir þessa jarteign.  e
+        [lb=7]  geandi gudi enga þock yrir þessa jarteign.  e
                          
-        [lb=8]ck ser hurv. enn hellt ecki þat em hann het voi
+        [lb=8] ck ser hurv. enn hellt ecki þat em hann het voi
                          
-        [lb=9]rv yrir liknekivnni. A yrtu nott em hann va
+        [lb=9] rv yrir liknekivnni. A yrtu nott em hann va
                          
-        [lb=10]hia inni konu. vitradi heilug jungrv Maria
+        [lb=10] hia inni konu. vitradi heilug jungrv Maria
                          
-        [lb=11]em hun æti milli hans  hans budar j ænginni. 
+        [lb=11] em hun æti milli hans  hans budar j ænginni. 
                          
-        [lb=12] etti ram  inum ingri þat gull em hann do 
+        [lb=12]  etti ram  inum ingri þat gull em hann do 
                          
-        [lb=13]ing liknekiunni. akandi hann vm inn
+        [lb=13] ing liknekiunni. akandi hann vm inn
                          
-        [lb=14]otrvnat  laumælgi. Sem hann vaknar a ue
+        [lb=14] otrvnat  laumælgi. Sem hann vaknar a ue
                          
-        [lb=15]ni. þreiar hann ollum megum hia ser  leitar likne
+        [lb=15] ni. þreiar hann ollum megum hia ser  leitar likne
                          
-        [lb=16]kiunnar.  er hann innr hana eigi. hygg hann at þat mvn
+        [lb=16] kiunnar.  er hann innr hana eigi. hygg hann at þat mvn
                          
-        [lb=17]verit haa ion huering. hann onar annann tima 
+        [lb=17] verit haa ion huering. hann onar annann tima 
                          
-        [pb=330]
+        [pb=330] 
                          
-        [lb=1] ser hana nu tanda hia ser. eigi blidliga talan
+        [lb=1]  ser hana nu tanda hia ser. eigi blidliga talan
                          
-        [lb=2]di em y. helld ognar hun honum hinar hod 
+        [lb=2] di em y. helld ognar hun honum hinar hod 
                          
-        [lb=3]utu kualir nuandi ra honum inni ionu.
+        [lb=3] utu kualir nuandi ra honum inni ionu.
                          
-        [lb=4]akir þess at hann hanadi henni.  hellt ecki itt heit. Sem hann vaknar verd hann miok hædd a þessi 
+        [lb=4] akir þess at hann hanadi henni.  hellt ecki itt heit. Sem hann vaknar verd hann miok hædd a þessi 
                        
                    
         
@@ -2388,42 +2388,42 @@ amen
         
         
          
-        [lb=15][head]Saraceni gatu ecki gert vont likneki
+        [lb=15]  [head] Saraceni gatu ecki gert vont likneki
             
-        [lb=16]vorar rv[/head]
+        [lb=16] vorar rv [/head] 
           
             
-        [lb=17]A Nockurum tima em araceni heriudu 
+        [lb=17] A Nockurum tima em araceni heriudu 
             
-        [lb=]kritna
+        [lb=] kritna
             
-        [pb=341]
+        [pb=341] 
             
-        [lb=1]kritna menn. kuomut þei jnn j kirkiu Guds modur MAR
+        [lb=1] kritna menn. kuomut þei jnn j kirkiu Guds modur MAR
             
-        [lb=2]IE. þei tungv  butv nidur med inum piotum allar
+        [lb=2] IE. þei tungv  butv nidur med inum piotum allar
             
-        [lb=3]liknekiur heilagra manna þær em þei   murum kirki
+        [lb=3] liknekiur heilagra manna þær em þei   murum kirki
             
-        [lb=4]unnar. umum tungu þei vt augun. dum butu þei
+        [lb=4] unnar. umum tungu þei vt augun. dum butu þei
             
-        [lb=5]neit. hendur eda ætur margar kluu þei j undur med
+        [lb=5] neit. hendur eda ætur margar kluu þei j undur med
             
-        [lb=6]inum vopnum. þei hlupu med mikilli eidi  vitley
+        [lb=6] inum vopnum. þei hlupu med mikilli eidi  vitley
             
-        [lb=7]i at liknekiu Guds modur MARIE.  suo opt em þei
+        [lb=7] i at liknekiu Guds modur MARIE.  suo opt em þei
             
-        [lb=8]leitudu hana oan at tinga. toudu þei at þarla
+        [lb=8] leitudu hana oan at tinga. toudu þei at þarla
             
-        [lb=9]uu. þviat suo kulu þeia hendur. at þeia piot kuo
+        [lb=9] uu. þviat suo kulu þeia hendur. at þeia piot kuo
             
-        [lb=10]mu huergi næ liknekiunni. tundum lo huer o
+        [lb=10] mu huergi næ liknekiunni. tundum lo huer o
             
-        [lb=11]viliandi annars piot brott a.  a þessu lo 
+        [lb=11] viliandi annars piot brott a.  a þessu lo 
             
-        [lb=12]þa suo miklum otta. at þei wdu þui egnir. at ara brott
+        [lb=12] þa suo miklum otta. at þei wdu þui egnir. at ara brott
             
-        [lb=13]em kiotat.
+        [lb=13] em kiotat.
          
       
         
@@ -2434,146 +2434,146 @@ amen
         
          
             
-        [lb=14][head]acrita kueikti ecki lampa.[/head]
+        [lb=14]  [head] acrita kueikti ecki lampa. [/head] 
           
             
-        [lb=15]Sa var einn vng bodir j nockuu klautri. idlat
+        [lb=15] Sa var einn vng bodir j nockuu klautri. idlat
             
-        [lb=16] gods linadar vm marga hluti. enn þat tar
+        [lb=16]  gods linadar vm marga hluti. enn þat tar
             
-        [lb=17]hadi hann. at hann var acrita j þeii omu kirkiu voru þriar
+        [lb=17] hadi hann. at hann var acrita j þeii omu kirkiu voru þriar
             
-        [lb=18]eda ioar liknekiu voar rv Guds mod Marie agliga
+        [lb=18] eda ioar liknekiu voar rv Guds mod Marie agliga
       
-        [pb=342]
+        [pb=342] 
             
-        [lb=1]liga bunar med gull  gervar med miclum hagleik. em
+        [lb=1] liga bunar med gull  gervar med miclum hagleik. em
             
-        [lb=2]hun hai ser j admi vorn launara. var yir inu alltari
+        [lb=2] hun hai ser j admi vorn launara. var yir inu alltari
             
-        [lb=3]huer kriptin. Sa id var j þeii kirkiu. at  hinum
+        [lb=3] huer kriptin. Sa id var j þeii kirkiu. at  hinum
             
-        [lb=4]hætum hatidum er þar voru halldnar. næ imtan  hueriu
+        [lb=4] hætum hatidum er þar voru halldnar. næ imtan  hueriu
             
-        [lb=5]ri. kylldi benna lios j lampa yrir ser hueri voar rv
+        [lb=5] ri. kylldi benna lios j lampa yrir ser hueri voar rv
             
-        [lb=6]kript. ra þui er heilagt var  meu aptaninn  notti
+        [lb=6] kript. ra þui er heilagt var  meu aptaninn  notti
             
-        [lb=7]na  jalan daginn allt til kuelld at gera svo lio
+        [lb=7] na  jalan daginn allt til kuelld at gera svo lio
             
-        [lb=8]a  biarta alla kirkiuna. Þat bar til  dogum þessa a
+        [lb=8] a  biarta alla kirkiuna. Þat bar til  dogum þessa a
             
-        [lb=9]crite at eigi matti a oleum at kaupa j þui heradi. 
+        [lb=9] crite at eigi matti a oleum at kaupa j þui heradi. 
             
-        [lb=10]ekt þat litid en næ ecki lutti til.  þuiat hann 
+        [lb=10] ekt þat litid en næ ecki lutti til.  þuiat hann 
             
-        [lb=11]væntir at þat megi at. vill hann para em met  ge
+        [lb=11] væntir at þat megi at. vill hann para em met  ge
             
-        [lb=12]yma þat oleum em hann heir  vill þar lata hellt
+        [lb=12] yma þat oleum em hann heir  vill þar lata hellt
             
-        [lb=13]mia at benni j kirkiunni em honum þickir mint þu
+        [lb=13] mia at benni j kirkiunni em honum þickir mint þu
             
-        [lb=14]a.  þui tendar hann ecki þessa lampa  helga þo 
+        [lb=14] a.  þui tendar hann ecki þessa lampa  helga þo 
             
-        [lb=15]s dag. huitaunnu er vanir voru at bena nott  
+        [lb=15] s dag. huitaunnu er vanir voru at bena nott  
             
-        [lb=16]dag.  yogdum hatidum. Munkinn eck þegar
+        [lb=16] dag.  yogdum hatidum. Munkinn eck þegar
             
-        [lb=17]kiota pinu þuiat  tys daginn j helgu viku tok hann
+        [lb=17] kiota pinu þuiat  tys daginn j helgu viku tok hann
             
-        [pb=343]
+        [pb=343] 
             
-        [lb=1]hann kiotliga svo kaliga febres at hann hellt varla i
+        [lb=1] hann kiotliga svo kaliga febres at hann hellt varla i
             
-        [lb=2]nu viti enn ad yndit hann vera vel heill. hann andad
+        [lb=2] nu viti enn ad yndit hann vera vel heill. hann andad
             
-        [lb=3]it manadaginn j trinitatis viku. enn laugardags
+        [lb=3] it manadaginn j trinitatis viku. enn laugardags
             
-        [lb=4]morgininn ad em hann var miok at kominn dauda ynit
+        [lb=4] morgininn ad em hann var miok at kominn dauda ynit
             
-        [lb=5]honum drottning einglanna hin milldata Guds modir Maria
+        [lb=5] honum drottning einglanna hin milldata Guds modir Maria
             
-        [lb=6]em itiandi j oan verdu idi nockuu þui em var næ einni
+        [lb=6] em itiandi j oan verdu idi nockuu þui em var næ einni
             
-        [lb=7]a y ogdum liknekium. hann þottit þa kalla em
+        [lb=7] a y ogdum liknekium. hann þottit þa kalla em
             
-        [lb=8]minnandit ins hka  krankleika. Heilog Mar 
+        [lb=8] minnandit ins hka  krankleika. Heilog Mar 
             
-        [lb=9]iamykuna mer munkinum ynit hun svo biot at hann
+        [lb=9] iamykuna mer munkinum ynit hun svo biot at hann
             
-        [lb=10]matti varla j mot ia. hun lit til hans nockut med
+        [lb=10] matti varla j mot ia. hun lit til hans nockut med
             
-        [lb=11]eidi  agdi. þu toktokt  brott lios þat em mer var til
+        [lb=11] eidi  agdi. þu toktokt  brott lios þat em mer var til
             
-        [lb=12]heids  jardiki.  þui kal ek taka ra þier æinliga 
+        [lb=12] heids  jardiki.  þui kal ek taka ra þier æinliga 
             
-        [lb=13]lios þessa lis. Brodirin vard kaliga hædd vid
+        [lb=13] lios þessa lis. Brodirin vard kaliga hædd vid
             
-        [lb=14]þessa oguligu heitan em eigi var undarligt.  ellr til ota
+        [lb=14] þessa oguligu heitan em eigi var undarligt.  ellr til ota
             
-        [lb=15]voi rv med homuligum grat  bad hana yrir lata ser þat
+        [lb=15] voi rv med homuligum grat  bad hana yrir lata ser þat
             
-        [lb=16]em hann hadi migert vid hana. heitandi at bæta vid
+        [lb=16] em hann hadi migert vid hana. heitandi at bæta vid
             
-        [lb=17]hana  gera alldri idan þat ama. Enn þuiat hennar heitan  ogn ylgir
+        [lb=17] hana  gera alldri idan þat ama. Enn þuiat hennar heitan  ogn ylgir
             
-        [pb=344]
+        [pb=344] 
             
-        [lb=1]ylgir janan mykun ser hun til hans miclu blidligar enn
+        [lb=1] ylgir janan mykun ser hun til hans miclu blidligar enn
             
-        [lb=2]y.  viandi honum med hendinni til þess tigs em var yrir
+        [lb=2] y.  viandi honum med hendinni til þess tigs em var yrir
             
-        [lb=3]otum hennar.  egir. it her. hann ettit nid yrir æt henni ki
+        [lb=3] otum hennar.  egir. it her. hann ettit nid yrir æt henni ki
             
-        [lb=4]alandi a micilli hædlu. hun huar þegar brott. Sem
+        [lb=4] alandi a micilli hædlu. hun huar þegar brott. Sem
             
-        [lb=5] hann huar aptr til ials ins. kallar hann aman b
+        [lb=5]  hann huar aptr til ials ins. kallar hann aman b
             
-        [lb=6]ædna  egir þeim greiniliga vitranina. Vm daginn
+        [lb=6] ædna  egir þeim greiniliga vitranina. Vm daginn
             
-        [lb=7]eptir. bid hann med miclum grat at þei lati benna oll
+        [lb=7] eptir. bid hann med miclum grat at þei lati benna oll
             
-        [lb=8]yogd lioker. vm nottina  daginn eptir þui inn
+        [lb=8] yogd lioker. vm nottina  daginn eptir þui inn
             
-        [lb=9]vant var  þuilikri hatid. hann het þui  gudi. at 
+        [lb=9] vant var  þuilikri hatid. hann het þui  gudi. at 
             
-        [lb=10]e hann engi ina heilu em hann girntit kylldi hann til
+        [lb=10] e hann engi ina heilu em hann girntit kylldi hann til
             
-        [lb=11]heids eiliri jungrv  mod hins anna lios ha
+        [lb=11] heids eiliri jungrv  mod hins anna lios ha
             
-        [lb=12]llda onum vana vm lios yrir hennar liknekium. 
+        [lb=12] llda onum vana vm lios yrir hennar liknekium. 
             
-        [lb=13]auka em hann matti. Enn þuiat a dom er modir an
+        [lb=13] auka em hann matti. Enn þuiat a dom er modir an
             
-        [lb=14]leikins hadi dictat.  ram agt. med inum
+        [lb=14] leikins hadi dictat.  ram agt. med inum
             
-        [lb=15]annoda munni matti eigi begdat andat hann  þridia
+        [lb=15] annoda munni matti eigi begdat andat hann  þridia
             
-        [lb=16]degi idan hun hadi honum vitrat. var þat  mana daginn
+        [lb=16] degi idan hun hadi honum vitrat. var þat  mana daginn
             
-        [pb=345]
+        [pb=345] 
             
-        [lb=1]daginn eptir fetum trinititatis em hann hadi nockut
+        [lb=1] daginn eptir fetum trinititatis em hann hadi nockut
             
-        [lb=2]upphait yirbot innar yndar j þui at  ya
+        [lb=2] upphait yirbot innar yndar j þui at  ya
             
-        [lb=3]gdi hatid heilagar Guds þenningar bunnu lios
+        [lb=3] gdi hatid heilagar Guds þenningar bunnu lios
             
-        [lb=4]em at onu var yrir liknekium voar rv. Einn
+        [lb=4] em at onu var yrir liknekium voar rv. Einn
             
-        [lb=5]bodir idlat  heilag a er leidd var o inum
+        [lb=5] bodir idlat  heilag a er leidd var o inum
             
-        [lb=6]likama  langa ria dag. huerium er hin 
+        [lb=6] likama  langa ria dag. huerium er hin 
             
-        [lb=7]helgi nicholaus biskup yndi bædi pila a
+        [lb=7] helgi nicholaus biskup yndi bædi pila a
             
-        [lb=8]di  svo dyd godra manna. a þenna bod þa enn j 
+        [lb=8] di  svo dyd godra manna. a þenna bod þa enn j 
             
-        [lb=9]pilum. met akir þess at hann vanrækti optliga 
+        [lb=9] pilum. met akir þess at hann vanrækti optliga 
             
-        [lb=10]margt þat em hans tett  viglu heydi til. ein 
+        [lb=10] margt þat em hans tett  viglu heydi til. ein 
             
-        [lb=11]kanliga vm þionutu j he 
+        [lb=11] kanliga vm þionutu j he 
           
        
         
@@ -2583,222 +2583,222 @@ amen
         
         
    
-        [pb=434]
+        [pb=434] 
             
-        [lb=17][head]Ungur madr vard byskup med hialp voar rv[/head]
+        [lb=17]  [head] Ungur madr vard byskup med hialp voar rv [/head] 
           
             
-        [lb=18]EJnn geii toliga ikr j þyuerkunni atti ser
+        [lb=18] EJnn geii toliga ikr j þyuerkunni atti ser
             
-        [lb=19]gæta rv. til tekna a godu kyni. þau at
+        [lb=19] gæta rv. til tekna a godu kyni. þau at
             
-        [lb=20]tu einn on vngann. vænan til hofdingia akir vaxtar ok rid
+        [lb=20] tu einn on vngann. vænan til hofdingia akir vaxtar ok rid
             leika
    
-        [pb=435]
+        [pb=435] 
             
-        [lb=1]leika. ok em ungi madr þeira son er kominn  kilningar alldur.
+        [lb=1] leika. ok em ungi madr þeira son er kominn  kilningar alldur.
             
-        [lb=2]vill herra greiinn adir hans at hann verdi o mentur huerium manni
+        [lb=2] vill herra greiinn adir hans at hann verdi o mentur huerium manni
             
-        [lb=3]er j var þvi iki. þvi by hann gæta erd med vegligu oruneyti
+        [lb=3] er j var þvi iki. þvi by hann gæta erd med vegligu oruneyti
             
-        [lb=4]ok nogum ikdomi. ok endir inn vnga on vetur j ran j
+        [lb=4] ok nogum ikdomi. ok endir inn vnga on vetur j ran j
             
-        [lb=5]þann houd kola er halldinn er j paris. Ok em vngi madr
+        [lb=5] þann houd kola er halldinn er j paris. Ok em vngi madr
             
-        [lb=6]kemur j kolann. ytir hann gullpeninginum j hond meitara ok
+        [lb=6] kemur j kolann. ytir hann gullpeninginum j hond meitara ok
             
-        [lb=7]enn leiri mennmanna. suo at toliga verd hann vinæll jnnan
+        [lb=7] enn leiri mennmanna. suo at toliga verd hann vinæll jnnan
             
-        [lb=8]litils tima. þviat eigi þurti ikdominn at para. hier med tekur hann
+        [lb=8] litils tima. þviat eigi þurti ikdominn at para. hier med tekur hann
             
-        [lb=9]gerdizt suo at þegar honum leidizt nam ed koli. kal hann haa
+        [lb=9] gerdizt suo at þegar honum leidizt nam ed koli. kal hann haa
             
-        [lb=10]blitt olo leika ok paera em hann lytir. hier med tekur hann
+        [lb=10] blitt olo leika ok paera em hann lytir. hier med tekur hann
             
-        [lb=11]ser ueina ædir þa ok klædir agurliga. lætur þa ganga
+        [lb=11] ser ueina ædir þa ok klædir agurliga. lætur þa ganga
             
-        [lb=12]med ser vt ok jnn em hann e einn hera. yrir þetta allt aman
+        [lb=12] med ser vt ok jnn em hann e einn hera. yrir þetta allt aman
             
-        [lb=13]æ hann meira a hegoma heimins en litum klerkdom
+        [lb=13] æ hann meira a hegoma heimins en litum klerkdom
             
-        [lb=14]ins. þviat hann geng dagliga miok krautbuinn. þa eins
+        [lb=14] ins. þviat hann geng dagliga miok krautbuinn. þa eins
             
-        [lb=15]hugandi nockut litid til bækur er honum þickir kemtan
+        [lb=15] hugandi nockut litid til bækur er honum þickir kemtan
             
-        [lb=16]at. Suo opt em hann vtettir godit gerir hann menn  gard
+        [lb=16] at. Suo opt em hann vtettir godit gerir hann menn  gard
             
-        [lb=17]odur ins. ok heir huat hann vill. þviat milli arandi menn bera
+        [lb=17] odur ins. ok heir huat hann vill. þviat milli arandi menn bera
             
-        [lb=18]greianum gladlig tidindi. egia on hans suo mikinn klerk
+        [lb=18] greianum gladlig tidindi. egia on hans suo mikinn klerk
             vodinn
    
-        [pb=436]
+        [pb=436] 
             
-        [lb=1]vodinn nu þegar. at hann e gætatur madr j ollvm paris
+        [lb=1] vodinn nu þegar. at hann e gætatur madr j ollvm paris
             
-        [lb=2]næt yirmeitaranum. engu menn yrir þvilikar sagnir godar vid tokur
+        [lb=2] næt yirmeitaranum. engu menn yrir þvilikar sagnir godar vid tokur
             
-        [lb=3] greians gardi. ok e j nog at bera þeim unga manni. þviat nu þetti
+        [lb=3]  greians gardi. ok e j nog at bera þeim unga manni. þviat nu þetti
             
-        [lb=4]vel komit þat er hann hadi rægazt þetta vm alla þyuerkuna.
+        [lb=4] vel komit þat er hann hadi rægazt þetta vm alla þyuerkuna.
             
-        [lb=5]at greians on j paris e hinn remti klerkur ok likatur madr
+        [lb=5] at greians on j paris e hinn remti klerkur ok likatur madr
             
-        [lb=6]til mikils hodingia. Ok næ þessum tima andizt j þyuerk
+        [lb=6] til mikils hodingia. Ok næ þessum tima andizt j þyuerk
             
-        [lb=7]unni einn mikils hattar byskup a ikri kirkiu ok volldugu æti
+        [lb=7] unni einn mikils hattar byskup a ikri kirkiu ok volldugu æti
             
-        [lb=8]at þeii kirkiu voru kors bæd er koning attu. ok þei ara ram
+        [lb=8] at þeii kirkiu voru kors bæd er koning attu. ok þei ara ram
             
-        [lb=9]til electionem eptir greptadan byskup inn. ok kioa menn j tad hins
+        [lb=9] til electionem eptir greptadan byskup inn. ok kioa menn j tad hins
             
-        [lb=10]ram arna. kemur þat eitt ollum amt at eigi e kirkiunni annat
+        [lb=10] ram arna. kemur þat eitt ollum amt at eigi e kirkiunni annat
             
-        [lb=11]vænna til æmdar ok upphelldis. enn on ikata mannz er j
+        [lb=11] vænna til æmdar ok upphelldis. enn on ikata mannz er j
             
-        [lb=12]var eii halu landins gerit hennar omadr. þvi kioa þei
+        [lb=12] var eii halu landins gerit hennar omadr. þvi kioa þei
             
-        [lb=13]amþyckilega ok ullkomliga greians ou a paris. ser ok
+        [lb=13] amþyckilega ok ullkomliga greians ou a paris. ser ok
             
-        [lb=14]inni kirkiu til omannz ok byskups. gera þar vm be em log bioda
+        [lb=14] inni kirkiu til omannz ok byskups. gera þar vm be em log bioda
             
-        [lb=15]ok enda uetr j paris. Ok em ungi madr heir þau be
+        [lb=15] ok enda uetr j paris. Ok em ungi madr heir þau be
             
-        [lb=16]tekit. brotid ok yir leit. odna hans badar kinnur. þviat nu er
+        [lb=16] tekit. brotid ok yir leit. odna hans badar kinnur. þviat nu er
             
-        [lb=17]a dagur kominn at hann æ kilit huat hegomlig rægd heir
+        [lb=17] a dagur kominn at hann æ kilit huat hegomlig rægd heir
             
-        [lb=18]a honum talat. eda huat hann er med ser j annleikinum. weit
+        [lb=18] a honum talat. eda huat hann er med ser j annleikinum. weit
             hann
     
-        [pb=437]
+        [pb=437] 
             
-        [lb=1]hann ealaut ok vidkennizt nu. þo at eint e. at margir
+        [lb=1] hann ealaut ok vidkennizt nu. þo at eint e. at margir
             
-        [lb=2]a kos bæd kirkiunnar ero remri klerkar. enn þeia byskups
+        [lb=2] a kos bæd kirkiunnar ero remri klerkar. enn þeia byskups
             
-        [lb=3]eni. þvi kilr hann at vigla byskupins nyt honum j mn
+        [lb=3] eni. þvi kilr hann at vigla byskupins nyt honum j mn
             
-        [lb=4]e hann kal vera læriueinn inna undir manna. huar a hann angrat
+        [lb=4] e hann kal vera læriueinn inna undir manna. huar a hann angrat
             
-        [lb=5]rliga. suo at hann veit med engu moti in oædi. þic
+        [lb=5] rliga. suo at hann veit med engu moti in oædi. þic
             
-        [lb=6]kir em var en meta uiuirda at verdalios at inni aræ
+        [lb=6] kir em var en meta uiuirda at verdalios at inni aræ
             
-        [lb=7]di. suo budugur madr em hann var. ok upphain j veralldar met
+        [lb=7] di. suo budugur madr em hann var. ok upphain j veralldar met
             
-        [lb=8]nadi. þvi err hann þangat til ulltings em nog er yrir. ok eingum brat
+        [lb=8] nadi. þvi err hann þangat til ulltings em nog er yrir. ok eingum brat
             
-        [lb=9]er otti. þat er at bidia til guds mod nockuar dagar at hann
+        [lb=9] er otti. þat er at bidia til guds mod nockuar dagar at hann
             
-        [lb=10]duelr endimennina suo at þei a eingan okud inna ey
+        [lb=10] duelr endimennina suo at þei a eingan okud inna ey
             
-        [lb=11]inda. þviat vngi madr nytur huorki uens ne matar. geng
+        [lb=11] inda. þviat vngi madr nytur huorki uens ne matar. geng
             
-        [lb=12]þegiandi vt ok jnn ok heir enga gledi. Hier kemur at einn
+        [lb=12] þegiandi vt ok jnn ok heir enga gledi. Hier kemur at einn
             
-        [lb=13]morginn arla em hans menn eru j uefni Ris hann upp lagliga
+        [lb=13] morginn arla em hans menn eru j uefni Ris hann upp lagliga
             
-        [lb=14]ok leynizt vt a huinu. ok heir sik ram j tadinn til Mariu
+        [lb=14] ok leynizt vt a huinu. ok heir sik ram j tadinn til Mariu
             
-        [lb=15]kirkiu er kallat  þeia tungu notum damma. þat ueg
+        [lb=15] kirkiu er kallat  þeia tungu notum damma. þat ueg
             
-        [lb=16]liga muteri er botid med veggiunum vida em hattur er til j
+        [lb=16] liga muteri er botid med veggiunum vida em hattur er til j
             
-        [lb=17]tokirkium. ok j eitt a þessum vtbotum vikur ungi madr til bæ
+        [lb=17] tokirkium. ok j eitt a þessum vtbotum vikur ungi madr til bæ
             nar
     
-        [pb=438]
+        [pb=438] 
             
-        [lb=1]nar. gengu þar pilarar tueir yrir raman enn leyni yrir jnnann. suo at
+        [lb=1] nar. gengu þar pilarar tueir yrir raman enn leyni yrir jnnann. suo at
             
-        [lb=2]huorki jnnan ne utan o ambitu matti y ia mann en allt
+        [lb=2] huorki jnnan ne utan o ambitu matti y ia mann en allt
             
-        [lb=3]geck ram yrirbotid. Hier vt j vegginn var glergluggur vænn ok 
+        [lb=3] geck ram yrirbotid. Hier vt j vegginn var glergluggur vænn ok 
             
-        [lb=4]liknekia voar rv. hier katar hann ser lautum ram  golit med
+        [lb=4] liknekia voar rv. hier katar hann ser lautum ram  golit med
             
-        [lb=5]trum. bidiandi Guds mod nockuar ia j inu vandkuædi. ok
+        [lb=5] trum. bidiandi Guds mod nockuar ia j inu vandkuædi. ok
             
-        [lb=6]eptir bæn gera igur  hann hogi. ok þegar birtizt honum æl drott
+        [lb=6] eptir bæn gera igur  hann hogi. ok þegar birtizt honum æl drott
             
-        [lb=7]ning Maria ett j ama tad em hann la. hun birtizt honum
+        [lb=7] ning Maria ett j ama tad em hann la. hun birtizt honum
             
-        [lb=8]bædi blid. ok þo med vitanar yirbragdi. hun talar suo.
+        [lb=8] bædi blid. ok þo med vitanar yirbragdi. hun talar suo.
             
-        [lb=9]Heyt houm vid on minn bæn þina. litid houm vid tr þin
+        [lb=9] Heyt houm vid on minn bæn þina. litid houm vid tr þin
             
-        [lb=10]ok ed houm vid kinnroda þinn. er þat þo yir þik komit ett at
+        [lb=10] ok ed houm vid kinnroda þinn. er þat þo yir þik komit ett at
             
-        [lb=11]verdugu. þviat þu elkadir janan mie leik ok æku enn
+        [lb=11] verdugu. þviat þu elkadir janan mie leik ok æku enn
             
-        [lb=12]mentan þina. Nu akir þess at þu heir  mik treyt. er ek
+        [lb=12] mentan þina. Nu akir þess at þu heir  mik treyt. er ek
             
-        [lb=13]komin bædi at hugga þik ok hirta þik. j þui hugga ek
+        [lb=13] komin bædi at hugga þik ok hirta þik. j þui hugga ek
             
-        [lb=14]þik. at engi þinna vndir manna kal betur kilia bok þina en þu
+        [lb=14] þik. at engi þinna vndir manna kal betur kilia bok þina en þu
             
-        [lb=15]j þvi hirti ek þik at þu kalt alla þina æi hyggbiugur vera
+        [lb=15] j þvi hirti ek þik at þu kalt alla þina æi hyggbiugur vera
             
-        [lb=16]suo at þu megir allt þitt embætti æmiliga gera. æ ek þier þetta
+        [lb=16] suo at þu megir allt þitt embætti æmiliga gera. æ ek þier þetta
             
-        [lb=17]til minningar ok læringar. at þu þionir kapara þinum enn yni
+        [lb=17] til minningar ok læringar. at þu þionir kapara þinum enn yni
             
-        [lb=18]minum þvi ramar j litillæti alla þina daga. Munt þu ram
+        [lb=18] minum þvi ramar j litillæti alla þina daga. Munt þu ram
             kuæmdir
     
-        [pb=439]
+        [pb=439] 
             
-        [lb=1]kuæmdir þessaa oda kiott inna em þu vaknar. Eptir suo tal
+        [lb=1] kuæmdir þessaa oda kiott inna em þu vaknar. Eptir suo tal
             
-        [lb=2]at lid droningin brott at yn. en hann vaknar ok prettur upp gæddur
+        [lb=2] at lid droningin brott at yn. en hann vaknar ok prettur upp gæddur
             
-        [lb=3]suo mikilli gio heilags anda. at n allri duol dicktar
+        [lb=3] suo mikilli gio heilags anda. at n allri duol dicktar
             
-        [lb=4]hann nyia antiphonam aancta Maria. bædi j enn at odum
+        [lb=4] hann nyia antiphonam aancta Maria. bædi j enn at odum
             
-        [lb=5]ok hliodum. Su anttiphona er suo allin. Aue beatiima ciuitas
+        [lb=5] ok hliodum. Su anttiphona er suo allin. Aue beatiima ciuitas
             
-        [lb=6]diuinitatis.. eterno felix gaudio. habitaculum iusticie. caritatis lilium
+        [lb=6] diuinitatis.. eterno felix gaudio. habitaculum iusticie. caritatis lilium
             
-        [lb=7]mater nobilis. obecraplamatoem quatinus redemptos angui
+        [lb=7] mater nobilis. obecraplamatoem quatinus redemptos angui
             
-        [lb=8]ne tueatur. ut uiuentes Christo ymniemus. ima antiqvum
+        [lb=8] ne tueatur. ut uiuentes Christo ymniemus. ima antiqvum
             
-        [lb=9]expurga ipsius oraculo. uite mediatrix. auxiliatrix. reparatrix.
+        [lb=9] expurga ipsius oraculo. uite mediatrix. auxiliatrix. reparatrix.
             
-        [lb=10]illuminatrix. adiutrix. ueni iuna reos genitrix omnipotentis.
+        [lb=10] illuminatrix. adiutrix. ueni iuna reos genitrix omnipotentis.
             
-        [lb=11]Nu em hann heir antiphonam naliga vti. suo htt ok huellt at
+        [lb=11] Nu em hann heir antiphonam naliga vti. suo htt ok huellt at
             
-        [lb=12]heyir vm alla kirkiuna. koma hans menn jnn j muterit er hans ho
+        [lb=12] heyir vm alla kirkiuna. koma hans menn jnn j muterit er hans ho
             
-        [lb=13]du aknat ok leita arit. ganga nu eptir hliodum hans. ok verda eg
+        [lb=13] du aknat ok leita arit. ganga nu eptir hliodum hans. ok verda eg
             
-        [lb=14]nir. inna hann j ama tad miklu gladara. en hann var jnnan margra
+        [lb=14] nir. inna hann j ama tad miklu gladara. en hann var jnnan margra
             
-        [lb=15]daga. hann ser moti þeim ok egir þeim ynina haandi hia ser
+        [lb=15] daga. hann ser moti þeim ok egir þeim ynina haandi hia ser
             
-        [lb=16]bada hennar notta. þann annan at klerkdom er j nog. ok
+        [lb=16] bada hennar notta. þann annan at klerkdom er j nog. ok
             
-        [lb=17]þann annan at lauleiki er j brott. ok hyggur dreginn til geym
+        [lb=17] þann annan at lauleiki er j brott. ok hyggur dreginn til geym
             
-        [lb=18]lu litillætis. suo at hann vard med ta at ganga vt a kirk
+        [lb=18] lu litillætis. suo at hann vard med ta at ganga vt a kirk
             iunni
    
-        [pb=440]
+        [pb=440] 
             
-        [lb=1]iunni. err hann idan kyndiliga til innar kirkiu. ok var alla i
+        [lb=1] iunni. err hann idan kyndiliga til innar kirkiu. ok var alla i
             
-        [lb=2]na daga æmilig byskup. ok narpai til bækur enn letir menn adir
+        [lb=2] na daga æmilig byskup. ok narpai til bækur enn letir menn adir
             
-        [lb=3]gerdi hann gudi þar yrir margolld lo ok hans ignadi modur mikla
+        [lb=3] gerdi hann gudi þar yrir margolld lo ok hans ignadi modur mikla
             
-        [lb=4]vinattu. þviat nu var hans auga upplokit at elka ondina ok
+        [lb=4] vinattu. þviat nu var hans auga upplokit at elka ondina ok
             
-        [lb=5]at bergia ok ia hueru æt er rv Maria.
+        [lb=5] at bergia ok ia hueru æt er rv Maria.
          
       
         
@@ -2808,92 +2808,92 @@ amen
         
         
                          
-        [lb=6][head]Kona var jodut med barni ok lidi.[/head]
+        [lb=6]  [head] Kona var jodut med barni ok lidi. [/head] 
                        
                          
-        [lb=7]VEgligt musteri ællar meyiar Marie tend j 
+        [lb=7] VEgligt musteri ællar meyiar Marie tend j 
                          
-        [lb=8] þeim tad  er bergis heitir. u kirkia er mi
+        [lb=8]  þeim tad  er bergis heitir. u kirkia er mi
                          
-        [lb=9]ok ik ok heir mikla sokn vndir sik. þar syktizt j sokninni ein
+        [lb=9] ok ik ok heir mikla sokn vndir sik. þar syktizt j sokninni ein
                          
-        [lb=10]hurv hardla ik. hun var j þeim krankdomi em konum er titt at
+        [lb=10] hurv hardla ik. hun var j þeim krankdomi em konum er titt at
                          
-        [lb=11]fæda barn. hun var ongrvd rliga vm langan tima med hry
+        [lb=11] fæda barn. hun var ongrvd rliga vm langan tima med hry
                          
-        [lb=12]gd ok yiretu bonda ins ok annaa avina. enn feck ongan
+        [lb=12] gd ok yiretu bonda ins ok annaa avina. enn feck ongan
                          
-        [lb=13]letti. vtan vm idir let hon ialt lifit likamans suo at burdur
+        [lb=13] letti. vtan vm idir let hon ialt lifit likamans suo at burdur
                          
-        [lb=14]inn var allr med henni. idan er lik hennar sueipat eptir id til kirkiu
+        [lb=14] inn var allr med henni. idan er lik hennar sueipat eptir id til kirkiu
                          
-        [lb=15]boit ok til gratar buit. Saung yir henni kirkiu pretr voar frv
+        [lb=15] boit ok til gratar buit. Saung yir henni kirkiu pretr voar frv
                          
-        [lb=16]thoias at nani. ok eptir þionustu gera. var hun j iod
+        [lb=16] thoias at nani. ok eptir þionustu gera. var hun j iod
                          
-        [lb=17]lagin ok ylld hennar gro eptir vana. lidur a dagur er hun var
+        [lb=17] lagin ok ylld hennar gro eptir vana. lidur a dagur er hun var
                          
-        [lb=18]jodut . ok nottin med. ok annan dag moti hadegi gengv
+        [lb=18] jodut . ok nottin med. ok annan dag moti hadegi gengv
                          menn
               
-        [pb=441]
+        [pb=441] 
                          
-        [lb=1]menn vm kiriu gardinn inn optliga gerit at tokirkium. var ek þar
+        [lb=1] menn vm kiriu gardinn inn optliga gerit at tokirkium. var ek þar
                          
-        [lb=2]medal annaa egir a er jarteignina bar ram ok þui næt
+        [lb=2] medal annaa egir a er jarteignina bar ram ok þui næt
                          
-        [lb=3]heydum ver barns grat. ver hugdum j ytu at kona nockur
+        [lb=3] heydum ver barns grat. ver hugdum j ytu at kona nockur
                          
-        [lb=4]mundi haa gengit j gardinn med ungt barn. leitudum ver þa
+        [lb=4] mundi haa gengit j gardinn med ungt barn. leitudum ver þa
                          
-        [lb=5]vm kring kirkiuna. ok undum eigi. idan leitudum ver ut um
+        [lb=5] vm kring kirkiuna. ok undum eigi. idan leitudum ver ut um
                          
-        [lb=6]gardinn. bar þa fyrir o hliodit. ok þui vikum ver aptur j gardinn. tod
+        [lb=6] gardinn. bar þa fyrir o hliodit. ok þui vikum ver aptur j gardinn. tod
                          
-        [lb=7]þessi gratur suo langt ok iellt. at ver mattum þui leita inn
+        [lb=7] þessi gratur suo langt ok iellt. at ver mattum þui leita inn
                          
-        [lb=8]o lyti. oum ver nu þangat  veg inn o þetti næt ber ok
+        [lb=8] o lyti. oum ver nu þangat  veg inn o þetti næt ber ok
                          
-        [lb=9]tendur upp  hurvinnar leg. er ya dag var grain at þessi
+        [lb=9] tendur upp  hurvinnar leg. er ya dag var grain at þessi
                          
-        [lb=10]gratur er þar j iod nidur. eru nu til kalladir uitrvtu menn ok
+        [lb=10] gratur er þar j iod nidur. eru nu til kalladir uitrvtu menn ok
                          
-        [lb=11]þickir ollum ad at graa til j Guds nani. ok em þat eer gert
+        [lb=11] þickir ollum ad at graa til j Guds nani. ok em þat eer gert
                          
-        [lb=12]birtazt þar a heydir hlutir. þat er at hureyia liir ok
+        [lb=12] birtazt þar a heydir hlutir. þat er at hureyia liir ok
                          
-        [lb=13]heir þriligt meybarn lianda j adnu ser. eis nu upp
+        [lb=13] heir þriligt meybarn lianda j adnu ser. eis nu upp
                          
-        [lb=14]mikit haeyti ok vndan þessa hlutar. þutu menn at med
+        [lb=14] mikit haeyti ok vndan þessa hlutar. þutu menn at med
                          
-        [lb=15]ked. ok purdu hueru væri umm hennar hag. enn hon uar
+        [lb=15] ked. ok purdu hueru væri umm hennar hag. enn hon uar
                          
-        [lb=16]adi bædi hliott ok att. enn þo agdi hun suo mikit. at
+        [lb=16] adi bædi hliott ok att. enn þo agdi hun suo mikit. at
                          
-        [lb=17]hun heir heitid j ott inni n manna vitodi  Guds modur
+        [lb=17] hun heir heitid j ott inni n manna vitodi  Guds modur
                          
-        [lb=18]Mariam. at gea henni þat barn til æinligra þion
+        [lb=18] Mariam. at gea henni þat barn til æinligra þion
                          utu
              
-        [pb=442]
+        [pb=442] 
                          
-        [lb=1]utu at þeii mu kirkiu. Sidangeck hun til kirkiu. ok
+        [lb=1] utu at þeii mu kirkiu. Sidangeck hun til kirkiu. ok
                          
-        [lb=2]var þar vij. daga. ecki blandadizt 
+        [lb=2] var þar vij. daga. ecki blandadizt 
                          
-        [lb=3]lengtum hennar at hn at bidiazt yrir. truduj
+        [lb=3] lengtum hennar at hn at bidiazt yrir. truduj
                          
-        [lb=4]menn at Guds modir heir henni suo bodit. at bera eigi j hmæ
+        [lb=4] menn at Guds modir heir henni suo bodit. at bera eigi j hmæ
                          
-        [lb=5]li þa hluti er hun hadi vis vodit. Eptir vij. daga
+        [lb=5] li þa hluti er hun hadi vis vodit. Eptir vij. daga
                          
-        [lb=6]lidna andazt hun j fridi annan tima ok er groud. enn
+        [lb=6] lidna andazt hun j fridi annan tima ok er groud. enn
                          
-        [lb=7]dottir hennar lidi. var hun kird ok nend þyi. enn idan
+        [lb=7] dottir hennar lidi. var hun kird ok nend þyi. enn idan
                          
-        [lb=8]hun vox upp j þionutu kirkiunnar. var leingt nafn hennar
+        [lb=8] hun vox upp j þionutu kirkiunnar. var leingt nafn hennar
                          
-        [lb=9]ok kollut kirkiu kolla.
+        [lb=9] ok kollut kirkiu kolla.
                       
                    
         
@@ -2905,7 +2905,7 @@ amen
             
             
                 
-        [lb=11]
+        [lb=11] 
                 ueni 
                 ok 
                 longum 
@@ -2913,7 +2913,7 @@ amen
                 uara 
                 endibo 
                 
-        [lb=12]
+        [lb=12] 
                 danum 
                 . 
                 Hui 
@@ -2927,7 +2927,7 @@ amen
                 er 
                 þo 
                 
-        [lb=13]
+        [lb=13] 
                  
                 byskuparnir 
                 yrir 
@@ -2941,7 +2941,7 @@ amen
                 Sendi 
                 bod 
                 
-        [lb=14]
+        [lb=14] 
                 inn 
                 uarar 
                 . 
@@ -2956,7 +2956,7 @@ amen
                 ollum 
                 byskupum 
                 
-        [lb=15]
+        [lb=15] 
                 at 
                 gera 
                 uigluna 
@@ -2971,7 +2971,7 @@ amen
                 aptur 
                 j 
                 
-        [lb=16]
+        [lb=16] 
                 uen 
                 ok 
                 eigi 
@@ -2985,7 +2985,7 @@ amen
                 endi 
                 bod 
                 
-        [lb=17]
+        [lb=17] 
                 inn 
                 tindi 
                 JHesu 
@@ -3001,7 +3001,7 @@ amen
                 vor 
                 herra 
                 
-        [lb=18]
+        [lb=18] 
                 tala 
                 þa 
                 til 
@@ -3019,7 +3019,7 @@ amen
                 heyrir 
                 en 
                 
-        [lb=19]
+        [lb=19] 
                 dibodann 
                 . 
                 hueru 
@@ -3036,9 +3036,9 @@ amen
                 . 
                 vor
     
-        [pb=455]
+        [pb=455] 
                 
-        [lb=1]
+        [lb=1] 
                 vo 
                 rv 
                 uara 
@@ -3057,7 +3057,7 @@ amen
                 at 
                 suo 
                 
-        [lb=2]
+        [lb=2] 
                 hlydinn 
                 em 
                 þessi 
@@ -3074,7 +3074,7 @@ amen
                 vera 
                 . 
                 
-        [lb=3]
+        [lb=3] 
                 þegar 
                 hann 
                 veit 
@@ -3087,7 +3087,7 @@ amen
                 . 
                 endi 
                 
-        [lb=4]
+        [lb=4] 
                 bodi 
                 err 
                 annan 
@@ -3101,7 +3101,7 @@ amen
                 kal 
                 upp 
                 
-        [lb=5]
+        [lb=5] 
                 ia 
                 . 
                 egir 
@@ -3117,7 +3117,7 @@ amen
                 at 
                 engi 
                 
-        [lb=6]
+        [lb=6] 
                 er 
                 undan 
                 erd 
@@ -3133,7 +3133,7 @@ amen
                 litlu 
                 miukara 
                 
-        [lb=7]
+        [lb=7] 
                 vtan 
                 hann 
                 uara 
@@ -3149,7 +3149,7 @@ amen
                  
                 enga 
                 
-        [lb=8]
+        [lb=8] 
                 lund 
                 upp 
                 e 
@@ -3165,7 +3165,7 @@ amen
                 þuiat 
                 u 
                 
-        [lb=9]
+        [lb=9] 
                 mæda 
                 er 
                 meiri 
@@ -3178,7 +3178,7 @@ amen
                 ok 
                 ti 
                 
-        [lb=10]
+        [lb=10] 
                 rdan 
                 a 
                 langri 
@@ -3193,7 +3193,7 @@ amen
                 morgum 
                 embæ 
                 
-        [lb=11]
+        [lb=11] 
                 ttis 
                 giord 
                  
@@ -3208,7 +3208,7 @@ amen
                 . 
                 Le 
                 
-        [lb=12]
+        [lb=12] 
                 gatus 
                 uara 
                 . 
@@ -3221,7 +3221,7 @@ amen
                 þura 
                 ull 
                 
-        [lb=13]
+        [lb=13] 
                 ikur 
                 madr 
                 . 
@@ -3236,7 +3236,7 @@ amen
                 þui 
                 me 
                 
-        [lb=14]
+        [lb=14] 
                 iri 
                 em 
                 þu 
@@ -3252,7 +3252,7 @@ amen
                 uil 
                 ek 
                 
-        [lb=15]
+        [lb=15] 
                 at 
                 þu 
                 berir 
@@ -3268,7 +3268,7 @@ amen
                 ek 
                 gera 
                 
-        [lb=16]
+        [lb=16] 
                 e 
                 minn 
                 þungi 
@@ -3282,7 +3282,7 @@ amen
                 hatt 
                 . 
                 
-        [lb=17]
+        [lb=17] 
                 at 
                 huer 
                 madr 
@@ -3295,9 +3295,9 @@ amen
                 vittiar 
                 mins 
    
-        [pb=456]
+        [pb=456] 
                 
-        [lb=1]
+        [lb=1] 
                 mins 
                 legtadar 
                 kilit 
@@ -3309,7 +3309,7 @@ amen
                 ynda 
                 . 
                 
-        [lb=2]
+        [lb=2] 
                 Med 
                 suo 
                 greindu 
@@ -3321,7 +3321,7 @@ amen
                 hera 
                 . 
                 
-        [lb=3]
+        [lb=3] 
                 ok 
                 at 
                 þui 
@@ -3334,7 +3334,7 @@ amen
                 blidliga 
                 til 
                 
-        [lb=4]
+        [lb=4] 
                 innar 
                 modur 
                 suo 
@@ -3349,7 +3349,7 @@ amen
                 min 
                 kota 
                 
-        [lb=5]
+        [lb=5] 
                 bod 
                 byskupins 
                 . 
@@ -3362,7 +3362,7 @@ amen
                 heilog 
                 maria
                 
-        [lb=6]
+        [lb=6] 
                 uara 
                 . 
                 irir 
@@ -3379,7 +3379,7 @@ amen
                 met 
                 am 
                 
-        [lb=7]
+        [lb=7] 
                 hliodar 
                 þinni 
                 mykunn 
@@ -3393,7 +3393,7 @@ amen
                 ok 
                 þessu 
                 
-        [lb=8]
+        [lb=8] 
                 næt 
                 ny 
                 uo 
@@ -3405,7 +3405,7 @@ amen
                 suo 
                 tal 
                 
-        [lb=9]
+        [lb=9] 
                 andi 
                 . 
                 ar 
@@ -3419,7 +3419,7 @@ amen
                 dul 
                 gera 
                 
-        [lb=10]
+        [lb=10] 
                 enn 
                 ek 
                 kal 
@@ -3434,7 +3434,7 @@ amen
                 j 
                 nendan 
                 
-        [lb=11]
+        [lb=11] 
                 dag 
                 til 
                 tekin 
@@ -3447,7 +3447,7 @@ amen
                 kirkiu 
                 megi 
                 
-        [lb=12]
+        [lb=12] 
                 þui 
                 gætari 
                 verda 
@@ -3462,7 +3462,7 @@ amen
                 . 
                 le 
                 
-        [lb=13]
+        [lb=13] 
                 gatus 
                 bodar 
                 alla 
@@ -3476,7 +3476,7 @@ amen
                 ok 
                 blidur 
                 
-        [lb=14]
+        [lb=14] 
                 em 
                 vel 
                 matti 
@@ -3490,7 +3490,7 @@ amen
                 byskupa 
                 . 
                 
-        [lb=15]
+        [lb=15] 
                 A 
                 greindan 
                 dag 
@@ -3503,7 +3503,7 @@ amen
                 greindar 
                 kirkiu 
                 
-        [lb=16]
+        [lb=16] 
                 med 
                 suo 
                 himnekum 
@@ -3517,7 +3517,7 @@ amen
                 i 
                 liandi 
                 
-        [lb=17]
+        [lb=17] 
                 byskupar 
                 . 
                 ok 
@@ -3531,7 +3531,7 @@ amen
                 j 
                 o 
                 
-        [lb=18]
+        [lb=18] 
                 gongu 
                 all 
                 embættis 
@@ -3547,9 +3547,9 @@ amen
                 miukan 
                 ok 
     
-        [pb=457]
+        [pb=457] 
                 
-        [lb=1]
+        [lb=1] 
                 ok 
                 ramann 
                 j 
@@ -3562,7 +3562,7 @@ amen
                 htt 
                 . 
                 
-        [lb=2]
+        [lb=2] 
                 ok 
                 eigi 
                 þui 
@@ -3575,7 +3575,7 @@ amen
                 pyria 
                 hva 
                 
-        [lb=3]
+        [lb=3] 
                 dan 
                 hann 
                 veri 
@@ -3588,7 +3588,7 @@ amen
                 ok 
                 hver 
                 
-        [lb=4]
+        [lb=4] 
                 byskupanna 
                 kemur 
                 j 
@@ -3599,7 +3599,7 @@ amen
                 upp 
                 hugko 
                 
-        [lb=5]
+        [lb=5] 
                 t 
                 augu 
                 þeira 
@@ -3612,7 +3612,7 @@ amen
                 byskup 
                 muni 
                 
-        [lb=6]
+        [lb=6] 
                 eta 
                 um 
                 daginn 
@@ -3625,7 +3625,7 @@ amen
                 hans 
                 herbergia 
                 
-        [lb=7]
+        [lb=7] 
                 þar 
                 j 
                 tadnum 
@@ -3640,7 +3640,7 @@ amen
                 honum 
                 veita 
                 
-        [lb=8]
+        [lb=8] 
                 itt 
                 bord 
                 . 
@@ -3655,7 +3655,7 @@ amen
                 at 
                 mar 
                 
-        [lb=9]
+        [lb=9] 
                 ga 
                 ysti 
                 eck 
@@ -3671,7 +3671,7 @@ amen
                 j 
                 brot 
                 
-        [lb=10]
+        [lb=10] 
                 tu 
                 suo 
                 einkanliga 
@@ -3683,7 +3683,7 @@ amen
                 kunni 
                 grein 
                 
-        [lb=11]
+        [lb=11] 
                  
                 hans 
                 brott 
@@ -3698,7 +3698,7 @@ amen
                 a 
                 ueni 
                 
-        [lb=12]
+        [lb=12] 
                 til 
                 um 
                 huxanar 
@@ -3713,7 +3713,7 @@ amen
                 þeim 
                 ant 
                 
-        [lb=13]
+        [lb=13] 
                 til 
                 um 
                 tima 
@@ -3730,7 +3730,7 @@ amen
                 tolu 
                 em 
                 
-        [lb=14]
+        [lb=14] 
                 ætur 
                 var 
                 at 
@@ -3745,7 +3745,7 @@ amen
                 . 
                 bidian 
                 
-        [lb=15]
+        [lb=15] 
                 di 
                 at 
                 gud 
@@ -3759,7 +3759,7 @@ amen
                 enn 
                 a 
                 
-        [lb=16]
+        [lb=16] 
                 invm 
                 verdleik 
                 þiggur 
@@ -3771,7 +3771,7 @@ amen
                 var 
                 lein 
                 
-        [lb=17]
+        [lb=17] 
                 ra 
                 upphai 
                 til 
@@ -3785,9 +3785,9 @@ amen
                 vandadi 
                 or 
    
-        [pb=438]
+        [pb=438] 
                 
-        [lb=1]
+        [lb=1] 
                 or 
                 miok 
                 vigu 
@@ -3800,7 +3800,7 @@ amen
                 priuilegium 
                 . 
                 
-        [lb=2]
+        [lb=2] 
                 þuiat 
                 suo 
                 mikil 
@@ -3816,7 +3816,7 @@ amen
                 at 
                 eigi 
                 
-        [lb=3]
+        [lb=3] 
                 leiri 
                 vid 
                 ialrar 
@@ -3831,7 +3831,7 @@ amen
                 þangat 
                 mikil 
                 
-        [lb=4]
+        [lb=4] 
                 oku 
                 a 
                 nodur 
@@ -3844,7 +3844,7 @@ amen
                 heit 
                 yrir 
                 
-        [lb=5]
+        [lb=5] 
                 ymiligar 
                 neilur 
                 . 
@@ -3859,7 +3859,7 @@ amen
                 greina 
                 . 
                 
-        [lb=6]
+        [lb=6] 
                 Er 
                 enn 
                 j 
@@ -3872,7 +3872,7 @@ amen
                 guddoms 
                 ve 
                 
-        [lb=7]
+        [lb=7] 
                 lldit 
                 med 
                 rnan 
@@ -3886,7 +3886,7 @@ amen
                 marga 
                 utvegu 
                 
-        [lb=8]
+        [lb=8] 
                 til 
                 hialpar 
                 mannolkinu 
@@ -3899,7 +3899,7 @@ amen
                 . 
                 kal 
                 
-        [lb=9]
+        [lb=9] 
                 hier 
                 ok 
                 ylgia 
@@ -3913,7 +3913,7 @@ amen
                 þeii 
                 lo 
                 
-        [lb=10]
+        [lb=10] 
                 gerd 
                 j 
                 adra 
@@ -3926,7 +3926,7 @@ amen
                 ramar 
                 em
                 
-        [lb=11]
+        [lb=11] 
                 drottinn 
                 JHCesus 
                 birtir 
@@ -3943,146 +3943,146 @@ amen
         
         
          
-        [lb=12][head]Vor rv leitadi med preti ad acremento j elldi[/head]
+        [lb=12]  [head] Vor rv leitadi med preti ad acremento j elldi [/head] 
           
             
-        [lb=13]þ A er lidit vor ra hingat bud uors hera Jhesu kristz. m. ccc.
+        [lb=13] þ A er lidit vor ra hingat bud uors hera Jhesu kristz. m. ccc.
             
-        [lb=14] xxx. ra. gerdit þuilikur at budur yrir nodan hait
+        [lb=14]  xxx. ra. gerdit þuilikur at budur yrir nodan hait
             
-        [lb=15]at kapella ein geck upp med ovum elldi.  allr a
+        [lb=15] at kapella ein geck upp med ovum elldi.  allr a
             
-        [lb=16]bæ er næi tod.  j þann punkt. em elldur leikur kapellu
+        [lb=16] bæ er næi tod.  j þann punkt. em elldur leikur kapellu
             
-        [lb=17]na. minnit preturinn hennar kapellan at vors drottins likami
+        [lb=17] na. minnit preturinn hennar kapellan at vors drottins likami
             
-        [lb=]var
+        [lb=] var
             
-        [pb=459]
+        [pb=459] 
             
-        [lb=1]var j þeim hka yir h alltari. þvi gydir hann sik karlmannliga.
+        [lb=1] var j þeim hka yir h alltari. þvi gydir hann sik karlmannliga.
             
-        [lb=2]narandi jnn j husit loganda. ok innur kerit heillt med Guds vil
+        [lb=2] narandi jnn j husit loganda. ok innur kerit heillt med Guds vil
             
-        [lb=3]ia. enn eptir þann mæta und þonguir at pretinum suo trang
+        [lb=3] ia. enn eptir þann mæta und þonguir at pretinum suo trang
             
-        [lb=4]logi med heitum buna a vaxanda elld ganginum. at hann 
+        [lb=4] logi med heitum buna a vaxanda elld ganginum. at hann 
             
-        [lb=5]verr inum truar vopnum heriliga ser  bak em vond lei
+        [lb=5] verr inum truar vopnum heriliga ser  bak em vond lei
             
-        [lb=6]gu madr. þviat j elmt  auuita hædlu. katar hann
+        [lb=6] gu madr. þviat j elmt  auuita hædlu. katar hann
             
-        [lb=7]nid j elldinn þvi himneka tormerki  ly idan. suo
+        [lb=7] nid j elldinn þvi himneka tormerki  ly idan. suo
             
-        [lb=8]kiliandi vid inn launara.  hann aumur lis leitandi. me
+        [lb=8] kiliandi vid inn launara.  hann aumur lis leitandi. me
             
-        [lb=9]i likams enn andar. ennur j næta þorp. liggiandi þar j
+        [lb=9] i likams enn andar. ennur j næta þorp. liggiandi þar j
             
-        [lb=10]eckiu jlla halldinn vm þia daga. huar eptir hann ve
+        [lb=10] eckiu jlla halldinn vm þia daga. huar eptir hann ve
             
-        [lb=11]all  minnit ina omannliga gerd. ok vitianda heilogum an
+        [lb=11] all  minnit ina omannliga gerd. ok vitianda heilogum an
             
-        [lb=12]da. gætur hann inn glæp hatt  beikliga. kallandi sik 
+        [lb=12] da. gætur hann inn glæp hatt  beikliga. kallandi sik 
             
-        [lb=13]hi..  kara enn ettum kenni manni.  yrir andar al em
+        [lb=13] hi..  kara enn ettum kenni manni.  yrir andar al em
             
-        [lb=14] akar holldit. gleymir hann ollum vanmætti limanna
+        [lb=14]  akar holldit. gleymir hann ollum vanmætti limanna
             
-        [lb=15] prettar upp a ænginni. ram rennandi med kunda til þeia
+        [lb=15]  prettar upp a ænginni. ram rennandi med kunda til þeia
             
-        [lb=16]kola er nu lagu j tad kirkiunnar. hier gula hann grat
+        [lb=16] kola er nu lagu j tad kirkiunnar. hier gula hann grat
             
-        [lb=17]andi dag  nott  annan dag ram til hadegis æ lei
+        [lb=17] andi dag  nott  annan dag ram til hadegis æ lei
             
-        [lb=]tandi
+        [lb=] tandi
             
-        [pb=460]
+        [pb=460] 
             
-        [lb=1]tandi  sik nubbandi. þar til at næi ser. litur hann suo uæna 
+        [lb=1] tandi  sik nubbandi. þar til at næi ser. litur hann suo uæna 
             
-        [lb=2]jungrv. at alldegi y a þvilika mann auga. huer suo talar
+        [lb=2] jungrv. at alldegi y a þvilika mann auga. huer suo talar
             
-        [lb=3]honum til. Hvat leitar þu pretur harm þunginn. enn hann alugur ty
+        [lb=3] honum til. Hvat leitar þu pretur harm þunginn. enn hann alugur ty
             
-        [lb=4]nur at moti.  þoir engu uara. þviat hann kildi inn glæp o
+        [lb=4] nur at moti.  þoir engu uara. þviat hann kildi inn glæp o
             
-        [lb=5]bæriligan hueriu eyra. Hun egir þa enn. huat heir þik suo mikit
+        [lb=5] bæriligan hueriu eyra. Hun egir þa enn. huat heir þik suo mikit
             
-        [lb=6]hent. at eigi mattu madr vitond haa med þier. er eigi suo mæ
+        [lb=6] hent. at eigi mattu madr vitond haa med þier. er eigi suo mæ
             
-        [lb=7]lt at optliga kunna betur tueir enn einn vandædin at
+        [lb=7] lt at optliga kunna betur tueir enn einn vandædin at
             
-        [lb=8]ada. Huat meira. þar til py hun bleut harm þungit hiar
+        [lb=8] ada. Huat meira. þar til py hun bleut harm þungit hiar
             
-        [lb=9]ta at. med hunangligum eim inna oda. at pretur jatar
+        [lb=9] ta at. med hunangligum eim inna oda. at pretur jatar
             
-        [lb=10]verkit. at jatning geri. egir hun blidliga til hans. nu kal
+        [lb=10] verkit. at jatning geri. egir hun blidliga til hans. nu kal
             
-        [lb=11]ek ombuna þier trunat.  vera j leitinni med þier. ok
+        [lb=11] ek ombuna þier trunat.  vera j leitinni med þier. ok
             
-        [lb=12]ett j mum poum em hun tend  aulkanum. he
+        [lb=12] ett j mum poum em hun tend  aulkanum. he
             
-        [lb=13]ur hun virduliga kerit vpp o kolonum. suo egiandi pretinum.
+        [lb=13] ur hun virduliga kerit vpp o kolonum. suo egiandi pretinum.
             
-        [lb=14]Til þess pretur minn at þu kylldit þvi ramar j litillata yir
+        [lb=14] Til þess pretur minn at þu kylldit þvi ramar j litillata yir
             
-        [lb=15]bot þins miuerka vid gud gædara þinn.  mik er kryd
+        [lb=15] bot þins miuerka vid gud gædara þinn.  mik er kryd
             
-        [lb=16]di hans guddom minu holldi. þa gack næ.  ia þinum 
+        [lb=16] di hans guddom minu holldi. þa gack næ.  ia þinum 
             
-        [lb=17]augum hueru loligt  æ lianda acramentum þu yrir let
+        [lb=17] augum hueru loligt  æ lianda acramentum þu yrir let
             
-        [lb=]
+        [lb=] 
             
-        [pb=461]
+        [pb=461] 
             
-        [lb=1] lydur. ok næ gangandi at upploknu kerinu. ie hann
+        [lb=1]  lydur. ok næ gangandi at upploknu kerinu. ie hann
             
-        [lb=2]j kautanum deyugan remta hlut a mann ingi. huar a
+        [lb=2] j kautanum deyugan remta hlut a mann ingi. huar a
             
-        [lb=3]hun ellr ram med ny eingnum harmi. þar til er liknar ædurin
+        [lb=3] hun ellr ram med ny eingnum harmi. þar til er liknar ædurin
             
-        [lb=4]elir hun til hugganar suo mælandi. Oveikt er pretur minn
+        [lb=4] elir hun til hugganar suo mælandi. Oveikt er pretur minn
             
-        [lb=5]tak helldur tyka von a milldi Guds  minni. þviat hier mun
+        [lb=5] tak helldur tyka von a milldi Guds  minni. þviat hier mun
             
-        [lb=6]gerat em opt verd. at onur minn lætur kina milldi ina
+        [lb=6] gerat em opt verd. at onur minn lætur kina milldi ina
             
-        [lb=7]yir a brot manna. þu kalt taka med þessum haleita theaur. 
+        [lb=7] yir a brot manna. þu kalt taka med þessum haleita theaur. 
             
-        [lb=8]bera han byskupi ydum med annligri bodan þins annmarka  gudligar
+        [lb=8] bera han byskupi ydum med annligri bodan þins annmarka  gudligar
             
-        [lb=9]kipanar j þessu mali. Hier med be honum þann Guds uilia  minn
+        [lb=9] kipanar j þessu mali. Hier med be honum þann Guds uilia  minn
             
-        [lb=10]at  ama gunduelli em nu tondum vid eii han vegli
+        [lb=10] at  ama gunduelli em nu tondum vid eii han vegli
             
-        [lb=11]gt muteri. at j eilia minning dykit hier þetta ama
+        [lb=11] gt muteri. at j eilia minning dykit hier þetta ama
             
-        [lb=12]acramentum drottinligt. votta þat  byskupinum med uggu
+        [lb=12] acramentum drottinligt. votta þat  byskupinum med uggu
             
-        [lb=13]trauti a gud drottins halu  minni. at j þessum tad kal
+        [lb=13] trauti a gud drottins halu  minni. at j þessum tad kal
             
-        [lb=14]suo mikil mykunn ikia at huer em hingat ækir med jdan 
+        [lb=14] suo mikil mykunn ikia at huer em hingat ækir med jdan 
             
-        [lb=15]alati ynda. kal rials  hreinn brott ara. Eptir suo tal
+        [lb=15] alati ynda. kal rials  hreinn brott ara. Eptir suo tal
             
-        [lb=16]at. het vo drottning heim til himinikis. enn pretur  byskupinn. ella
+        [lb=16] at. het vo drottning heim til himinikis. enn pretur  byskupinn. ella
             
-        [lb=17]suo hueria grein. em ad var kriat. j o mæli modur annleik
+        [lb=17] suo hueria grein. em ad var kriat. j o mæli modur annleik
             
-        [lb=]ins
+        [lb=] ins
             
-        [pb=462]
+        [pb=462] 
             
-        [lb=1]ins. tok a blead tadur vidur kuæmiligt nan a i
+        [lb=1] ins. tok a blead tadur vidur kuæmiligt nan a i
             
-        [lb=2]nni ehirdlu  ra bæi Guds mykunn.  kallat  lati
+        [lb=2] nni ehirdlu  ra bæi Guds mykunn.  kallat  lati
             
-        [lb=3]nu. dei vicus þat þydum ver Guds by. þeim e lo  dyd er alla
+        [lb=3] nu. dei vicus þat þydum ver Guds by. þeim e lo  dyd er alla
             
-        [lb=4]goda hluti vinnur  ueitir  himni  jodu a er JHesus MA
+        [lb=4] goda hluti vinnur  ueitir  himni  jodu a er JHesus MA
                
-        [lb=5]RIU on konung j veralldir verallda. Amen.
+        [lb=5] RIU on konung j veralldir verallda. Amen.
          
       
         
@@ -4092,111 +4092,111 @@ amen
         
         
        
-        [pb=462]
+        [pb=462] 
                        
-        [lb=6]
-                      [head]Konung ætladi at rida i kirkiu vorar rv .[/head] 
+        [lb=6] 
+                       [head] Konung ætladi at rida i kirkiu vorar rv . [/head]  
                       
                          
-        [lb=7]
+        [lb=7] 
                          I
                           Einglandi er a tadur einn milli annaa er valigam 
                           
-        [lb=8]
+        [lb=8] 
                          heitir . hann tendur upp a lind i megin landins . þar er 
                          
-        [lb=9]
+        [lb=9] 
                          kapella vorar rv s
                           uo ræg at þeiar kirkiu er þ
                            ar tend 
                           
-        [lb=10]
+        [lb=10] 
                          innan tadar er eigi getid i landinu hia hinni . hun er gi 
                          
-        [lb=11]
+        [lb=11] 
                          o med vænum s
                           uo koti, at uel ma egiat at  henni 
                           
-        [lb=12]
+        [lb=12] 
                          edt ecki annat utan gull ok silur . ok groptur bædi uti ok 
                            
-        [lb=13]
+        [lb=13] 
                          inni . em eigi þar undra . þuiat okn ok our er suo mikit  kat 
                            
-        [lb=14]
+        [lb=14] 
                          til henar . at ein bodir þar til kipadur ma nær ecki gera alla 
                           
-        [lb=15]
+        [lb=15] 
                          daga annat . enn tanda vid allltarid . ok taka vid peningum 
                           
-        [lb=16]
+        [lb=16] 
                          kapella þei er litil uexti . enn þo ega suo einglis menn 
                          
-        [lb=17]
+        [lb=17] 
                          at i henni verdi alld riumatt hueru margt olk er inni 
                          
-        [lb=18]
+        [lb=18] 
                          tendur . huat proat att vera med berum taknum er geijmazt æ 
                          inliga
                          
-        [pb=463]
+        [pb=463] 
                          
-        [lb=1]
+        [lb=1] 
                          inliga i þei kapellu . þuiat suo em einn einglandz konung heyrdi 
                          
-        [lb=2]
+        [lb=2] 
                          þat agt. em nu var agt. villdi hann eyna annindi þea hlutir . 
                          
-        [lb=3]
+        [lb=3] 
                          ok id ram til tadarins med margs kyns stettir valld manna . ok 
                           
-        [lb=4]
+        [lb=4] 
                          muga manna vt i ra . haandi þa hugsan at ida med kungligri 
                          
-        [lb=5]
+        [lb=5] 
                          mekt inn i iala kapelluna med allann inn kara . eid 
                           
-        [lb=6]
+        [lb=6] 
                          drottning hans med honum ok þeira on ungur madr ok em konungurinn ke 
                           
-        [lb=7]
+        [lb=7] 
                          mur innan tadar . þar em idandi menn eru uanir a baki at 
                          
-        [lb=8]
+        [lb=8] 
                          tiga. ok ganga þadan med litillæti i Guds modur hus . tendr 
                          
-        [lb=9]
+        [lb=9] 
                          eit at undir honum suo undir drottninginni ok yni þeira . 
                          
-        [lb=10]
+        [lb=10] 
                          em oll e a marmara ge . ok suo em þau eru oll ohrærilig . suo er 
                           
-        [lb=11]
+        [lb=11] 
                          audullinn ok madrin huat limt ok bundit vid annat . suo at ecki ma 
                           
-        [lb=12]
+        [lb=12] 
                          leyat ra odru. y enn konungrinn idrat ins obbeldis . ok 
                            
-        [lb=13]
+        [lb=13] 
                          iatar nu a baki at tiga . ok ganga til guds modur kapellu 
                           
-        [lb=14]
+        [lb=14] 
                          e hann verdr laus . hier med heitur hann at gera takn þessa hlu 
                          
-        [lb=15]
+        [lb=15] 
                          tar til æinligra mining
                           ar .  þann hatt. at gera liking eptir 
                           
-        [lb=16]
+        [lb=16] 
                          ser ok einu med bendu ilri . suo eptir drottninnni . ok þeira 
                         
-        [lb=17]
+        [lb=17] 
                          yni . ok at þessu heiti tadetu . litur liknar brunur my 
                           unnarinnar
                          
-        [pb=464]
+        [pb=464] 
                          
-        [lb=1]
+        [lb=1] 
                          unnarinnar
                          þeia 
                          idan
@@ -4210,7 +4210,7 @@ amen
                          blitt
                          ara
                          
-        [lb=2]
+        [lb=2] 
                          leii .
                          ig
                          
@@ -4222,7 +4222,7 @@ amen
                          m
                          nnu
                          
-        [lb=3]   
+        [lb=3]    
                          litillæti.
                          ylldi
                          konunginn
@@ -4234,7 +4234,7 @@ amen
                          grein.
                          er
                          
-        [lb=4]
+        [lb=4] 
                          hans
                          teikn
                          
@@ -4248,7 +4248,7 @@ amen
                          vpp
                          
                          
-        [lb=5]
+        [lb=5] 
                          hfud
                          iddaranum
                          em
@@ -4261,7 +4261,7 @@ amen
                          vel
                          pa
                          
-        [lb=6]
+        [lb=6] 
                          nnar.
                          Tiat
                          þessi
@@ -4272,7 +4272,7 @@ amen
                          greindum
                          æfintyr
                          
-        [lb=7]
+        [lb=7] 
                          gudi
                          til
                          los
@@ -4292,15 +4292,15 @@ amen
         [div:type=miracle:n=218]
         
         
-             [head]
+              [head] 
                bræd 
                ungu 
                alve 
                regina
-            [/head]
+             [/head] 
              
                
-        [lb=9]
+        [lb=9] 
                I 
                   Paris
                   var 
@@ -4314,7 +4314,7 @@ amen
                   ok 
                   uel 
                   
-        [lb=10]
+        [lb=10] 
                   kritin 
                   giorn 
                   at 
@@ -4325,7 +4325,7 @@ amen
                   æmiliga 
                   tida 
                   
-        [lb=11]
+        [lb=11] 
                   gerd 
                   . 
                   ok 
@@ -4339,7 +4339,7 @@ amen
                   tettir 
                   klerka 
                   
-        [lb=12]
+        [lb=12] 
                   ok 
                   klotar 
                   manna 
@@ -4351,7 +4351,7 @@ amen
                   optinnis 
                   huerir 
                   
-        [lb=13]
+        [lb=13] 
                   eglu 
                   menn 
                   bet 
@@ -4364,7 +4364,7 @@ amen
                  em 
                   predicara 
                   
-        [lb=14]
+        [lb=14] 
                   linadur 
                   e 
                   orkunligur 
@@ -4377,7 +4377,7 @@ amen
                   þei 
                   y 
                   
-        [lb=15]
+        [lb=15] 
                   ngia 
                   hatt 
                   ok 
@@ -4391,7 +4391,7 @@ amen
                   einkanliga 
                   til 
                   
-        [lb=16]
+        [lb=16] 
                   þeira 
                   kirkiu .
                   bædi 
@@ -4407,7 +4407,7 @@ amen
                   hiarta 
                   at 
                   
-        [lb=17]
+        [lb=17] 
                   huert 
                   kuelld 
                   adur 
@@ -4424,9 +4424,9 @@ amen
                   . 
                   rium
                
-        [pb=465]
+        [pb=465] 
                
-        [lb=1]
+        [lb=1] 
                rium 
                .
                þuiat 
@@ -4441,7 +4441,7 @@ amen
                þei 
                yngia 
                
-        [lb=2]
+        [lb=2] 
                voar 
                rv 
                antiphonam 
@@ -4453,7 +4453,7 @@ amen
                onginn 
                . 
                
-        [lb=3]
+        [lb=3] 
                i 
                þeiri 
                kirkiu 
@@ -4468,7 +4468,7 @@ amen
                tod 
                me 
                
-        [lb=4]
+        [lb=4] 
                itarligt 
                verk 
                vorar 
@@ -4481,7 +4481,7 @@ amen
                bleut 
                he 
                
-        [lb=5]
+        [lb=5] 
                llt 
                i 
                admi 
@@ -4496,7 +4496,7 @@ amen
                gengu 
                bæd 
                
-        [lb=6]
+        [lb=6] 
                proceionaliter 
                hvert 
                kvelld 
@@ -4507,7 +4507,7 @@ amen
                ok 
                ungu 
                
-        [lb=7]
+        [lb=7] 
                suo 
                ætt 
               em 
@@ -4521,7 +4521,7 @@ amen
                punktur 
                þionutunnar 
                
-        [lb=8]
+        [lb=8] 
                rvnni 
                hardla 
                vel 
@@ -4534,7 +4534,7 @@ amen
                nockut 
                kuelld 
                
-        [lb=9]
+        [lb=9] 
                ber 
                suo 
                til 
@@ -4553,7 +4553,7 @@ amen
                jan 
                ram 
                
-        [lb=10]
+        [lb=10] 
                get 
                heni 
                andar 
@@ -4568,7 +4568,7 @@ amen
                ord 
                anti 
                
-        [lb=11]
+        [lb=11] 
                phonunnar 
                . 
                eia 
@@ -4582,7 +4582,7 @@ amen
                Guds 
                modur 
                
-        [lb=13]
+        [lb=13] 
                upp 
                a 
                ætinu 
@@ -4598,7 +4598,7 @@ amen
               em 
                þeir 
                
-        [lb=14]
+        [lb=14] 
                tanda 
                vmbergis 
                . 
@@ -4613,7 +4613,7 @@ amen
                þann 
                tima 
                
-        [lb=15]
+        [lb=15] 
               em 
                odunum 
                ramlidr 
@@ -4624,7 +4624,7 @@ amen
                oculos 
                ad 
                
-        [lb=16]
+        [lb=16] 
                nos 
                conuerte 
                . 
@@ -4637,7 +4637,7 @@ amen
                vm 
                . 
                
-        [lb=17]
+        [lb=17] 
                bergis 
                til 
                huers 
@@ -4651,7 +4651,7 @@ amen
                þat 
               em 
                
-        [lb=18]
+        [lb=18] 
                þei 
                egia 
                . 
@@ -4664,9 +4664,9 @@ amen
                nobis 
                post
                
-        [pb=466]
+        [pb=466] 
                
-        [lb=1]
+        [lb=1] 
                post 
                hoc 
                exilium 
@@ -4680,7 +4680,7 @@ amen
                . 
                okk 
                
-        [lb=2]
+        [lb=2] 
                tiar 
                hann 
                huers 
@@ -4695,7 +4695,7 @@ amen
                at 
                huor 
                
-        [lb=3]
+        [lb=3] 
                tueggi 
                hennar 
                gerd 
@@ -4706,7 +4706,7 @@ amen
                grein 
                it 
                
-        [lb=4]
+        [lb=4] 
                ningarinnar 
                . 
                Eptir 
@@ -4719,7 +4719,7 @@ amen
                rvini 
                . 
                
-        [lb=5]
+        [lb=5] 
                hugleidir 
                hun 
                godmannliga 
@@ -4730,7 +4730,7 @@ amen
                hun
                ha 
                
-        [lb=6]
+        [lb=6] 
                yrir 
                ed 
                . 
@@ -4744,7 +4744,7 @@ amen
                yri 
                od 
                
-        [lb=7]
+        [lb=7] 
                rum 
                loligum 
                peronum 
@@ -4757,7 +4757,7 @@ amen
                at 
                eigi 
                
-        [lb=8]
+        [lb=8] 
                oradi{ezh}t 
                þeia 
                amuika 
@@ -4768,7 +4768,7 @@ amen
                ulltu 
                hioli 
                
-        [lb=9]
+        [lb=9] 
                þessa 
                lidanda 
                lis 
@@ -4781,7 +4781,7 @@ amen
                heitari 
                elku 
                
-        [lb=10]
+        [lb=10] 
                til 
                þess 
                linadar 
@@ -4795,7 +4795,7 @@ amen
               em 
                ram 
                
-        [lb=11]
+        [lb=11] 
                at 
                eer 
                bleut 
@@ -4811,208 +4811,208 @@ amen
         
         
                 
-        [lb=12][head]kal ga ku vori rv  eck apt .c. kua[/head]
+        [lb=12]  [head] kal ga ku vori rv  eck apt .c. kua [/head] 
                  
                 
-        [lb=13]Karl bio  atti ser konu.  ecki barna. karl 
+        [lb=13] Karl bio  atti ser konu.  ecki barna. karl 
                 
-        [lb=14]var svo oik. at hann atti eigi meira j kuikum
+        [lb=14] var svo oik. at hann atti eigi meira j kuikum
                 
-        [lb=15]kuiti enn eina ku. hann at j godu heradi þar em bæ
+        [lb=15] kuiti enn eina ku. hann at j godu heradi þar em bæ
                 
-        [lb=16] di var innan land biskups toll.  æmilig klt med ymi
+        [lb=16]  di var innan land biskups toll.  æmilig klt med ymi
                 
-        [lb=17]um linadi. Suo geng til enis. eitt huert fetum voar
+        [lb=17] um linadi. Suo geng til enis. eitt huert fetum voar
       
-        [pb=467]
+        [pb=467] 
                     
-        [lb=1]voar rv Guds mod. at karl err til messu  heydi einn predicara
+        [lb=1] voar rv Guds mod. at karl err til messu  heydi einn predicara
                     
-        [lb=2]tala agt a dyd  mykunn drottningarinnar. ok medal 
+        [lb=2] tala agt a dyd  mykunn drottningarinnar. ok medal 
                     
-        [lb=3] annaa greina etti hann svo allin od voar rv æmd 
+        [lb=3]  annaa greina etti hann svo allin od voar rv æmd 
                     
-        [lb=4] rialleik. er svo rabæ vodinn j kritni Guds agdi hann. at huer
+        [lb=4]  rialleik. er svo rabæ vodinn j kritni Guds agdi hann. at huer
                     
-        [lb=5]madr em med godyi ter einn hlut j hennar æmd. hann tek
+        [lb=5] madr em med godyi ter einn hlut j hennar æmd. hann tek
                     
-        [lb=6]hundrat allt apt j mot. þessa klu hugetir karl med
+        [lb=6] hundrat allt apt j mot. þessa klu hugetir karl med
                     
-        [lb=7]ser.  þickir alluænlig til vaxtar. kem heim til kerlingar svo
+        [lb=7] ser.  þickir alluænlig til vaxtar. kem heim til kerlingar svo
                     
-        [lb=8]glad em lteiti. hun py hui ert þu svo glad karl 
+        [lb=8] glad em lteiti. hun py hui ert þu svo glad karl 
                     
-        [lb=9]minn. heir þu þegit nockut. ja agdi hann. þegit þo minna
+        [lb=9] minn. heir þu þegit nockut. ja agdi hann. þegit þo minna
                     
-        [lb=10]e. e braugd vantar nu eigi. þuiat bodirinn agdi svo j dag. at
+        [lb=10] e. e braugd vantar nu eigi. þuiat bodirinn agdi svo j dag. at
                     
-        [lb=11]vo rv er svo dreinglundut. at j mot einu utlagi. leg
+        [lb=11] vo rv er svo dreinglundut. at j mot einu utlagi. leg
                     
-        [lb=12]g hun hundrat allt. nu mattu ia kerling min hver
+        [lb=12] g hun hundrat allt. nu mattu ia kerling min hver
                     
-        [lb=13]u hagliga eru kipti vid hana. þuiat meiri munu vid þick
+        [lb=13] u hagliga eru kipti vid hana. þuiat meiri munu vid þick
                     
-        [lb=14]ia e vid eigum hundrat kua. enn eina.  þui er kiot veg
+        [lb=14] ia e vid eigum hundrat kua. enn eina.  þui er kiot veg
                     
-        [lb=15]at þegar j dag. kulu vid a hamar ku ockarri  kipta henni j 
+        [lb=15] at þegar j dag. kulu vid a hamar ku ockarri  kipta henni j 
                     
-        [lb=16]j und yrir atæka menn Guds mod til los. Suo gerir hann j
+        [lb=16] j und yrir atæka menn Guds mod til los. Suo gerir hann j
                     
-        [lb=17]tad. ækir kuna. drep  latrar. kiptir idan. svo at idla
+        [lb=17] tad. ækir kuna. drep  latrar. kiptir idan. svo at idla
           
-        [pb=468]
+        [pb=468] 
                     
-        [lb=1]la vm kuelldit var alldri par eptir. þuiat atækum monnum var
+        [lb=1] la vm kuelldit var alldri par eptir. þuiat atækum monnum var
                     
-        [lb=2]svo til viat. at karl matti  einum degi veita ina al
+        [lb=2] svo til viat. at karl matti  einum degi veita ina al
                     
-        [lb=3]eigu. Huat leingra. vm morgininn eptir er hann uppi þegar j ot
+        [lb=3] eigu. Huat leingra. vm morgininn eptir er hann uppi þegar j ot
                     
-        [lb=4]tu tek vidar oxi ina. huet hana  by til midar vek
+        [lb=4] tu tek vidar oxi ina. huet hana  by til midar vek
                     
-        [lb=5]idan kerlingu ina  egir svo vpp hvatliga  a mer net
+        [lb=5] idan kerlingu ina  egir svo vpp hvatliga  a mer net
                     
-        [lb=6]e nockut er til. þuiat svo mun til at huga ad vetrar huar
+        [lb=6] e nockut er til. þuiat svo mun til at huga ad vetrar huar
                     
-        [lb=7]þat hundrat kua kal jnni tanda. er vid eigum þa þui er ein 
+        [lb=7] þat hundrat kua kal jnni tanda. er vid eigum þa þui er ein 
                     
-        [lb=8]ynt huat yrir ligg j umar. at j kogar hggi  vidar
+        [lb=8] ynt huat yrir ligg j umar. at j kogar hggi  vidar
                     
-        [lb=9]talgu nott  dag. at eigi tandi buit bert j hagli  kulda. 
+        [lb=9] talgu nott  dag. at eigi tandi buit bert j hagli  kulda. 
                     
-        [lb=10]suo gerit j tad em hann egir. geng ra hui med oxi ina  þat
+        [lb=10] suo gerit j tad em hann egir. geng ra hui med oxi ina  þat
                     
-        [lb=11]uita em hann kunni a. heir sic ut j morkina.  ellir vid
+        [lb=11] uita em hann kunni a. heir sic ut j morkina.  ellir vid
                     
-        [lb=12]hinninn enn harda. uo er hann jdinn j tarinu. at ueiti þonar ia
+        [lb=12] hinninn enn harda. uo er hann jdinn j tarinu. at ueiti þonar ia
                     
-        [lb=13]lldan  honum. þar med svo glad em galinn væri. eytir micin lon
+        [lb=13] lldan  honum. þar med svo glad em galinn væri. eytir micin lon
                     
-        [lb=14]gum kuædi  kuidlinga. svo hatt  huellt at kued j
+        [lb=14] gum kuædi  kuidlinga. svo hatt  huellt at kued j
                     
-        [lb=15]morkinni. Ok akir þess at honum þickir æ j inni hugsan at hu
+        [lb=15] morkinni. Ok akir þess at honum þickir æ j inni hugsan at hu
                     
-        [lb=16]it mvni einna verda enn kynar þarf jnn etia. er hann svo
+        [lb=16] it mvni einna verda enn kynar þarf jnn etia. er hann svo
                     
-        [lb=17]daguillr j inni lyti  vmangi at alldri er grein med honum
+        [lb=17] daguillr j inni lyti  vmangi at alldri er grein med honum
          
-        [pb=469]
+        [pb=469] 
                     
-        [lb=1]honum huort yir tanda helgir unnudagar eda ykir timar. He
+        [lb=1] honum huort yir tanda helgir unnudagar eda ykir timar. He
                     
-        [lb=2]dan gerit svo einn drottins dag em en tend hann j hggi 
+        [lb=2] dan gerit svo einn drottins dag em en tend hann j hggi 
                     
-        [lb=3]haeyti. eptir nana at einn jnnlendkr biskup gerir nalæg
+        [lb=3] haeyti. eptir nana at einn jnnlendkr biskup gerir nalæg
                     
-        [lb=4]ann ueg med inu olki.  þui heyir hann huatliga haligan
+        [lb=4] ann ueg med inu olki.  þui heyir hann huatliga haligan
                     
-        [lb=5]om er eytir j morkinni. þar med þat er hann undar þo mei
+        [lb=5] om er eytir j morkinni. þar med þat er hann undar þo mei
                     
-        [lb=6]at oxin geng svo titt  þann tima. þuiat drottins daga ha
+        [lb=6] at oxin geng svo titt  þann tima. þuiat drottins daga ha
                     
-        [lb=7]lld var almenniliga bodit med virktum geymat j þui landi. þui
+        [lb=7] lld var almenniliga bodit med virktum geymat j þui landi. þui
                     
-        [lb=8]helld hann todugt biskupinn at þessi madr er her æt vm e
+        [lb=8] helld hann todugt biskupinn at þessi madr er her æt vm e
                     
-        [lb=9]med ollu vitlaus vodinn.  yrir þa ok byd hann inum uei
+        [lb=9] med ollu vitlaus vodinn.  yrir þa ok byd hann inum uei
                     
-        [lb=10]num at anga hann j tad em hertekinn mann. svo lytja þei hann med
+        [lb=10] num at anga hann j tad em hertekinn mann. svo lytja þei hann med
                     
-        [lb=11]ser at þar liggja midar eni oll eptir. hallda hann  geyma
+        [lb=11] ser at þar liggja midar eni oll eptir. hallda hann  geyma
                     
-        [lb=12]em einn ouita. enn þo ellr honum þat til lettis at þei eru pilltar
+        [lb=12] em einn ouita. enn þo ellr honum þat til lettis at þei eru pilltar
                     
-        [lb=13]nockuir j biskupins ylgd at hann kenna vel med elagkap
+        [lb=13] nockuir j biskupins ylgd at hann kenna vel med elagkap
                     
-        [lb=14] eins huera vinattu. þei mykia honum  lina ina naudgan
+        [lb=14]  eins huera vinattu. þei mykia honum  lina ina naudgan
                     
-        [lb=15]huat er þei mattu. Suo kem dags at kuelldi. at hera
+        [lb=15] huat er þei mattu. Suo kem dags at kuelldi. at hera
                     
-        [lb=16]biskupinn id upp  einn godan bugard er hann atti.  geng til her
+        [lb=16] biskupinn id upp  einn godan bugard er hann atti.  geng til her
                     
-        [lb=17]bergis. var honum þar yrir buin ein toa miok æmilig. var þar
+        [lb=17] bergis. var honum þar yrir buin ein toa miok æmilig. var þar
                     
-        [lb=18]annan veg næi dyunum tein on vt j vegginn  tiahlldat
+        [lb=18] annan veg næi dyunum tein on vt j vegginn  tiahlldat
          
-        [pb=470]
+        [pb=470] 
                     
-        [lb=1]lldat yrir raman. suo at j onhuinu var naliga mykt.
+        [lb=1] lldat yrir raman. suo at j onhuinu var naliga mykt.
                     
-        [lb=2]vtan þat litid kim em kata kunni gegnum hubuninginn
+        [lb=2] vtan þat litid kim em kata kunni gegnum hubuninginn
                     
-        [lb=3]þa er log voru noglig ram j husit. Sem byskupinn  allr hans
+        [lb=3] þa er log voru noglig ram j husit. Sem byskupinn  allr hans
                     
-        [lb=4]kari itur j inni nad. med agran kot. gera þei pilltar er y
+        [lb=4] kari itur j inni nad. med agran kot. gera þei pilltar er y
                     
-        [lb=5]gatum ver. suo mikla vinattu hinum gripna karli. at med o
+        [lb=5] gatum ver. suo mikla vinattu hinum gripna karli. at med o
                     
-        [lb=6]loi tiardins er yrir var huinu. kiota þei honum vndir tia
+        [lb=6] loi tiardins er yrir var huinu. kiota þei honum vndir tia
                     
-        [lb=7]lldit upp  onin. þviat hier kell hann er. huat em leira æt
+        [lb=7] lldit upp  onin. þviat hier kell hann er. huat em leira æt
                     
-        [lb=8]er haa þar. ganga þei vm suo pilltar kompanar hans at bædi
+        [lb=8] er haa þar. ganga þei vm suo pilltar kompanar hans at bædi
                     
-        [lb=9]anat honum matur  dyckur j nog. þickir honum nu eitt 
+        [lb=9] anat honum matur  dyckur j nog. þickir honum nu eitt 
                     
-        [lb=10]kota at yrir mykri æ han ecki at hat. han tal
+        [lb=10] kota at yrir mykri æ han ecki at hat. han tal
                     
-        [lb=11]ar þa. Heilug MARIA agdi han. allgod væri nu vit
+        [lb=11] ar þa. Heilug MARIA agdi han. allgod væri nu vit
                     
-        [lb=12]in e liosit væri nægra. ok litlu idar leidit nid o þekiu
+        [lb=12] in e liosit væri nægra. ok litlu idar leidit nid o þekiu
                     
-        [lb=13]nni eitt bennanda blys  tendur rammi yrir honum suo biart at
+        [lb=13] nni eitt bennanda blys  tendur rammi yrir honum suo biart at
                     
-        [lb=14]ram j gegnum tialldit allt j annann vegg vm þuert husit tendur
+        [lb=14] ram j gegnum tialldit allt j annann vegg vm þuert husit tendur
                     
-        [lb=15]þessi birti. enn þat lios j undur kipt er adur var j huinu
+        [lb=15] þessi birti. enn þat lios j undur kipt er adur var j huinu
                     
-        [lb=16]suo at tueim megin hia ynit þat ei kæa enn eitt þoku
+        [lb=16] suo at tueim megin hia ynit þat ei kæa enn eitt þoku
                     
-        [lb=17]mytur. byskupinn  allt hans amæti litur þessa nyiung undan
+        [lb=17] mytur. byskupinn  allt hans amæti litur þessa nyiung undan
                     
-        [lb=]di
+        [lb=] di
          
-        [pb=471]
+        [pb=471] 
                     
-        [lb=1]di geyi miok  kalla inn kuiaa. byd honum ara 
+        [lb=1] di geyi miok  kalla inn kuiaa. byd honum ara 
                     
-        [lb=2]eptir leita huat valldi þessum hlut. hann gerir suo. geng ram
+        [lb=2] eptir leita huat valldi þessum hlut. hann gerir suo. geng ram
                     
-        [lb=3]at onhuinu.  lyptir tialldinu. enn idan er honum þat ann
+        [lb=3] at onhuinu.  lyptir tialldinu. enn idan er honum þat ann
                     
-        [lb=4]at at bygia bædi augu. huerur hann aptur  heir ecki ey
+        [lb=4] at at bygia bædi augu. huerur hann aptur  heir ecki ey
                     
-        [lb=5]indi. byskup py huat tala e. þat er at tala hera egir hann
+        [lb=5] indi. byskup py huat tala e. þat er at tala hera egir hann
                     
-        [lb=6]at j onhuinu er lios suo mikit  agurt. at ek hygg
+        [lb=6] at j onhuinu er lios suo mikit  agurt. at ek hygg
                     
-        [lb=7]þat trautt þessaar veralldar. byskup egir. huat er þar leira. en lios
+        [lb=7] þat trautt þessaar veralldar. byskup egir. huat er þar leira. en lios
                     
-        [lb=8]eitt. kuiarenn uara. þat er min hugan egir hann at þar iti
+        [lb=8] eitt. kuiarenn uara. þat er min hugan egir hann at þar iti
                     
-        [lb=9]karlin a er þier letud anga j gæ em galinn væri. byskup
+        [lb=9] karlin a er þier letud anga j gæ em galinn væri. byskup
                     
-        [lb=10]egir. þetta er med kynium miklum. e a lgbrot madrinn kal ha
+        [lb=10] egir. þetta er med kynium miklum. e a lgbrot madrinn kal ha
                     
-        [lb=11]a meiri kemtan en at likendum. nu ar j annann ti
+        [lb=11] a meiri kemtan en at likendum. nu ar j annann ti
                     
-        [lb=12]ma  ge vort bod. em þu villt vel ara. tak  þat blys eda
+        [lb=12] ma  ge vort bod. em þu villt vel ara. tak  þat blys eda
                     
-        [lb=13]kerti er þar kinn  æ os. hann err þviat hann þodi eigi annat.
+        [lb=13] kerti er þar kinn  æ os. hann err þviat hann þodi eigi annat.
                     
-        [lb=14] janram em hann heir tialldinu lypt  nalgat liosit. at
+        [lb=14]  janram em hann heir tialldinu lypt  nalgat liosit. at
                     
-        [lb=15]hann matti þat hondla. lidur þat vpp j gegnum þekiuna. suo
+        [lb=15] hann matti þat hondla. lidur þat vpp j gegnum þekiuna. suo
                     
-        [lb=16]er hann  leiri adir til knudir a byskupinum þrim innum.  a
+        [lb=16] er hann  leiri adir til knudir a byskupinum þrim innum.  a
                     
-        [lb=17]mii j huert inn. enn æ em þei brott ara. kemur u blega
+        [lb=17] mii j huert inn. enn æ em þei brott ara. kemur u blega
                     
-        [lb=]da
+        [lb=] da
          
-        [pb=472]
+        [pb=472] 
                     
-        [lb=1]
+        [lb=1] 
                     da 
                     birti 
                     aptur 
@@ -5027,7 +5027,7 @@ amen
                     Hier 
                     kemur 
                     
-        [lb=2]
+        [lb=2] 
                     j 
                     idotu 
                     . 
@@ -5040,7 +5040,7 @@ amen
                     inu 
                     æti 
                     
-        [lb=3]
+        [lb=3] 
                      
                     geng 
                     at 
@@ -5056,7 +5056,7 @@ amen
                     . 
                     hann 
                     
-        [lb=4]
+        [lb=4] 
                     mælit 
                     þadan 
                     yrir 
@@ -5069,7 +5069,7 @@ amen
                     kemur 
                     þier 
                     
-        [lb=5]
+        [lb=5] 
                     karl 
                     lios 
                     þetta 
@@ -5085,7 +5085,7 @@ amen
                     maria 
                     
                     
-        [lb=6]
+        [lb=6] 
                     veitir 
                     mer 
                     þat 
@@ -5103,7 +5103,7 @@ amen
                     mik 
                     . 
                     
-        [lb=7]
+        [lb=7] 
                     þier 
                     hertokut 
                     mik 
@@ -5119,7 +5119,7 @@ amen
                      
                     alla 
                     
-        [lb=8]
+        [lb=8] 
                     vega 
                     gled 
                     . 
@@ -5135,7 +5135,7 @@ amen
                     yd 
                     . 
                     
-        [lb=9]
+        [lb=9] 
                     biskup 
                     uara 
                     . 
@@ -5151,7 +5151,7 @@ amen
                     suo 
                     tora 
                     
-        [lb=10]
+        [lb=10] 
                     hluti 
                     . 
                     hann 
@@ -5167,7 +5167,7 @@ amen
                     at 
                     mykunn 
                     
-        [lb=11]
+        [lb=11] 
                     hennar 
                     er 
                     omælld 
@@ -5183,7 +5183,7 @@ amen
                     Gio 
                     suo 
                     
-        [lb=12]
+        [lb=12] 
                     uel 
                     dugnandis 
                     mann 
@@ -5194,7 +5194,7 @@ amen
                     vndirtodu 
                     þessa 
                     
-        [lb=13]
+        [lb=13] 
                     enis 
                     . 
                     þuiat 
@@ -5210,7 +5210,7 @@ amen
                     . 
                     karl 
                     
-        [lb=14]
+        [lb=14] 
                     myskit 
                     nu 
                     em 
@@ -5225,7 +5225,7 @@ amen
                     upp 
                     til 
                     raag
-        [lb=15]nar 
+        [lb=15] nar 
                     allann 
                     euentum 
                     . 
@@ -5238,7 +5238,7 @@ amen
                     er 
                     þar 
                     
-        [lb=16]
+        [lb=16] 
                     ylgir 
                     em 
                     y 
@@ -5253,7 +5253,7 @@ amen
                     biskup 
                     . 
                     
-        [lb=17]
+        [lb=17] 
                     Mikil 
                      
                     rabæ 
@@ -5273,47 +5273,47 @@ amen
                         . 
                     
         
-        [pb=473]
+        [pb=473] 
                     
-        [lb=1]hegoma enn huat er nu. er nockut alt lios þetta hid
+        [lb=1] hegoma enn huat er nu. er nockut alt lios þetta hid
                     
-        [lb=2]micla  biarta. huat er at þui egir karl. ek villdi kaupa kuat
+        [lb=2] micla  biarta. huat er at þui egir karl. ek villdi kaupa kuat
                     
-        [lb=3]biskup huat byd þu vid egir karl. bugard þenna egir biskup med ollu
+        [lb=3] biskup huat byd þu vid egir karl. bugard þenna egir biskup med ollu
                     
-        [lb=4]þui godi em hier ylgir j autu  lauu er þetta nockus vert
+        [lb=4] þui godi em hier ylgir j autu  lauu er þetta nockus vert
                     
-        [lb=5]egir karl. ek kal greina yrir þier egir biskup huer eignin er. Hier
+        [lb=5] egir karl. ek kal greina yrir þier egir biskup huer eignin er. Hier
                     
-        [lb=6]geng  hundrat kua. imtan hundut auda. attatigir heta
+        [lb=6] geng  hundrat kua. imtan hundut auda. attatigir heta
                     
-        [lb=7]yxn uin  geit at þui kapi. bærinn ial er svo buinn
+        [lb=7] yxn uin  geit at þui kapi. bærinn ial er svo buinn
                     
-        [lb=8]at hubunadi klædun.  bendu ilri em  bætir vm micit.
+        [lb=8] at hubunadi klædun.  bendu ilri em  bætir vm micit.
                     
-        [lb=9]Þessa eign alla tak þu  morgin med handsolum svo at mitt
+        [lb=9] Þessa eign alla tak þu  morgin med handsolum svo at mitt
                     
-        [lb=10] er liosit j verd. kal uara vel er vid bodit em von er vm
+        [lb=10]  er liosit j verd. kal uara vel er vid bodit em von er vm
                     
-        [lb=11]likann mann. enn eingi er von j. at vid laum nockuu kaupi
+        [lb=11] likann mann. enn eingi er von j. at vid laum nockuu kaupi
                     
-        [lb=12]hier vm. y enn ek æ nockua viu. huort min rv vill
+        [lb=12] hier vm. y enn ek æ nockua viu. huort min rv vill
                     
-        [lb=13]þui amþyckia. þui kom til min i morgin. e þier þa amt
+        [lb=13] þui amþyckia. þui kom til min i morgin. e þier þa amt
                     
-        [lb=14]j hug mvn ek þa egja annat huort ja eda nei. Vpp ra
+        [lb=14] j hug mvn ek þa egja annat huort ja eda nei. Vpp ra
                     
-        [lb=15]þessu greinir eigi til ullrar raagnar hveru uo rv Guds modir ga
+        [lb=15] þessu greinir eigi til ullrar raagnar hveru uo rv Guds modir ga
                     
-        [lb=16]inum vin amþykjtar viu hier vm. enn þat er bodat
+        [lb=16] inum vin amþykjtar viu hier vm. enn þat er bodat
                     
-        [lb=17] biart vordit. at  næta dag eptir eid biskupinn
+        [lb=17]  biart vordit. at  næta dag eptir eid biskupinn
                     
-        [lb=18]brott a þeim gardi.  leydi gamla manni alla þa ullælu
+        [lb=18] brott a þeim gardi.  leydi gamla manni alla þa ullælu
         
-        [pb=474]
+        [pb=474] 
                     
-        [lb=1]
+        [lb=1] 
                     ull 
                     ælu 
                     er 
@@ -5325,7 +5325,7 @@ amen
                     hann 
                     kerlingu 
                     
-        [lb=2]
+        [lb=2] 
                     ina 
                     ok 
                     heim 
@@ -5340,7 +5340,7 @@ amen
                     yrir 
                     ve 
                     
-        [lb=3]
+        [lb=3] 
                     itlu 
                     voar 
                     rv 
@@ -5354,7 +5354,7 @@ amen
                     einn 
                     bu 
                     
-        [lb=4]
+        [lb=4] 
                     geis 
                     eda 
                     ikati 
@@ -5366,7 +5366,7 @@ amen
                     ollum 
                     kall 
                     
-        [lb=5]
+        [lb=5] 
                     adur 
                     . 
                     neytti 
@@ -5380,7 +5380,7 @@ amen
                     at 
                     med 
                     
-        [lb=6]
+        [lb=6] 
                     dagligum 
                     olmuum
                     eigi
@@ -5393,7 +5393,7 @@ amen
                     med
                     
                     
-        [lb=7]     
+        [lb=7]      
                     vinattu 
                     voar 
                     rv 
@@ -5406,7 +5406,7 @@ amen
                     manna 
                     . 
                     
-        [lb=8]
+        [lb=8] 
                     byskup 
                     ylldi 
                     kipan 
@@ -5420,7 +5420,7 @@ amen
                     mei 
                     enn 
                     
-        [lb=9]
+        [lb=9] 
                     hundrat 
                     allt 
                     moti 
@@ -5433,7 +5433,7 @@ amen
                     verdadi 
                     hann 
                     
-        [lb=10]
+        [lb=10] 
                     inni 
                     l 
                     eilia 
@@ -5444,7 +5444,7 @@ amen
                     enn 
                     bond 
                     
-        [lb=11]
+        [lb=11] 
                     inn 
                     er 
                     suo 
@@ -5457,7 +5457,7 @@ amen
                     þarnadi 
                     þo 
                     
-        [lb=12]
+        [lb=12] 
                     einkis 
                     j 
                     . 
@@ -5470,7 +5470,7 @@ amen
                     em 
                     hann 
                     
-        [lb=13]
+        [lb=13] 
                     adi 
                     meira 
                     gudi 
@@ -5483,7 +5483,7 @@ amen
                     ok 
                     dyrligri 
                     
-        [lb=14]
+        [lb=14] 
                     mod. 
                 
                
@@ -5495,304 +5495,304 @@ amen
         
                       
                       
-        [lb=14][head]Vo rv relti bod ra jotni. [/head] 
+        [lb=14]  [head] Vo rv relti bod ra jotni.  [/head]  
                        
                          
-        [lb=15]Tvei predicara bæd gongu  kip med þeim kp
+        [lb=15] Tvei predicara bæd gongu  kip med þeim kp
                          
-        [lb=16]monnum er igldu j autveg. ok er þei koma i
+        [lb=16] monnum er igldu j autveg. ok er þei koma i
                          
-        [lb=17]inu ri j þann io er heitir eytra allt. ellr by svo at kyt
+        [lb=17] inu ri j þann io er heitir eytra allt. ellr by svo at kyt
                          
-        [pb=475]
+        [pb=475] 
                          
-        [lb=1]kyt tend in ollu. ero þei þa komnir upp undir eitt eydi
+        [lb=1] kyt tend in ollu. ero þei þa komnir upp undir eitt eydi
                          
-        [lb=2]land. var þar at ia miok hardla to kamt fra ionum. svo at undir
+        [lb=2] land. var þar at ia miok hardla to kamt fra ionum. svo at undir
                          
-        [lb=3]bar allt annat landlegit. kaupmenn hala sic vndir tron
+        [lb=3] bar allt annat landlegit. kaupmenn hala sic vndir tron
                          
-        [lb=4]dina þar til er þei na ackeris lægi. kata idan gunnærum.
+        [lb=4] dina þar til er þei na ackeris lægi. kata idan gunnærum.
                          
-        [lb=5] kiota bati til land. þviat menn voru hareknir  var ovitni
+        [lb=5]  kiota bati til land. þviat menn voru hareknir  var ovitni
                          
-        [lb=6]at letta likamanum. þviat jodin var hin yiligta til yndar.
+        [lb=6] at letta likamanum. þviat jodin var hin yiligta til yndar.
                          
-        [lb=7]Bædnir er ver nendum oru j batinn med oom kipoum. 
+        [lb=7] Bædnir er ver nendum oru j batinn med oom kipoum. 
                          
-        [lb=8]luttut til land. gongu idan med paeran tuei  tuei
+        [lb=8] luttut til land. gongu idan med paeran tuei  tuei
                          
-        [lb=9]ram  morkina  kemtu ser huat ser huern lyti. bæd
+        [lb=9] ram  morkina  kemtu ser huat ser huern lyti. bæd
                          
-        [lb=10]helldu ser aman inn þeia egla byd.  leingra lagi ei
+        [lb=10] helldu ser aman inn þeia egla byd.  leingra lagi ei
                          
-        [lb=11]ka ram  koginn. var anna þeia barn at alldri. enn anna
+        [lb=11] ka ram  koginn. var anna þeia barn at alldri. enn anna
                          
-        [lb=12]miok hnignandi em þeia id er at tempra inar erdir. at
+        [lb=12] miok hnignandi em þeia id er at tempra inar erdir. at
                          
-        [lb=13]hinn elldri hai kaut  yfir bud gudligra mala. enn hinn
+        [lb=13] hinn elldri hai kaut  yfir bud gudligra mala. enn hinn
                          
-        [lb=14]yngri læring  þionutu. Nu lid svo at yrir þeia let
+        [lb=14] yngri læring  þionutu. Nu lid svo at yrir þeia let
                          
-        [lb=15] gledi landins. greina þei varla timann. hueru langt olo
+        [lb=15]  gledi landins. greina þei varla timann. hueru langt olo
                          
-        [lb=16]kipherann hadi geit. nua þei svo remi apt j ueg em
+        [lb=16] kipherann hadi geit. nua þei svo remi apt j ueg em
                          
-        [lb=17]allir þeia kumpanar ero til bat komnir  bida þeia. Sem
+        [lb=17] allir þeia kumpanar ero til bat komnir  bida þeia. Sem
                          
-        [pb=476]
+        [pb=476] 
                          
-        [lb=1]Sem bæd hodu litt vikit apt j veg heyra þei op
+        [lb=1] Sem bæd hodu litt vikit apt j veg heyra þei op
                          
-        [lb=2]eitt svo micit  okranligt em likara var ovinarins odd.
+        [lb=2] eitt svo micit  okranligt em likara var ovinarins odd.
                          
-        [lb=3]enn nockus man. þat ama vnd heyi allt ram til ioarins.
+        [lb=3] enn nockus man. þat ama vnd heyi allt ram til ioarins.
                          
-        [lb=4] þvi taka kipara þat liota anga ad at yta batinum
+        [lb=4]  þvi taka kipara þat liota anga ad at yta batinum
                          
-        [lb=5] haa sic ut til kips med ollum kunda. Enn a predicara
+        [lb=5]  haa sic ut til kips med ollum kunda. Enn a predicara
                          
-        [lb=6]bædum er þat egianda at j ytu em opit kom vndir. ny
+        [lb=6] bædum er þat egianda at j ytu em opit kom vndir. ny
                          
-        [lb=7]t hinn elldri bodirinn apt med gudligri trv.  tend j 
+        [lb=7] t hinn elldri bodirinn apt med gudligri trv.  tend j 
                          
-        [lb=8]mum oum. þar er þei ia erd micla bader amt. þuiat morkin
+        [lb=8] mum oum. þar er þei ia erd micla bader amt. þuiat morkin
                          
-        [lb=9]hiter inar limar. yrir þat ovægis al er hun þolir a þeim er
+        [lb=9] hiter inar limar. yrir þat ovægis al er hun þolir a þeim er
                          
-        [lb=10]ra byt milli trianna. svo kal  jodin þar med em
+        [lb=10] ra byt milli trianna. svo kal  jodin þar med em
                          
-        [lb=11]hetum væri  keid idit. lid nu eigi langt ad þei lita
+        [lb=11] hetum væri  keid idit. lid nu eigi langt ad þei lita
                          
-        [lb=12]huar ram kem o morkinni micill ovin. þat er einn jotun
+        [lb=12] huar ram kem o morkinni micill ovin. þat er einn jotun
                          
-        [lb=13]miok iandlig er at latinu mali kallat monocul
+        [lb=13] miok iandlig er at latinu mali kallat monocul
                          
-        [lb=14]us j þeim londum. þuiat hann heir eitt auga j midiu enni.
+        [lb=14] us j þeim londum. þuiat hann heir eitt auga j midiu enni.
                          
-        [lb=15]Hann krear at bædunum med lugkiotre s. þuiat þei
+        [lb=15] Hann krear at bædunum med lugkiotre s. þuiat þei
                          
-        [lb=16]bida ull vel med kritiligri tadetu. hann grip þa bada em
+        [lb=16] bida ull vel med kritiligri tadetu. hann grip þa bada em
                          
-        [pb=477]
+        [pb=477] 
                          
-        [lb=1]em litil bon  eygir  ina auxl ser hvoum þeira te
+        [lb=1] em litil bon  eygir  ina auxl ser hvoum þeira te
                          
-        [lb=2]k idan til ota.  ennr svo micit inn y apt j morkina. 
+        [lb=2] k idan til ota.  ennr svo micit inn y apt j morkina. 
                          
-        [lb=3]svo langan veg vm ider at hun eydi. verd þa iall yrir homrum
+        [lb=3] svo langan veg vm ider at hun eydi. verd þa iall yrir homrum
                          
-        [lb=4]lukt alla vega illiligt. uppen hann vndir iallit til by
+        [lb=4] lukt alla vega illiligt. uppen hann vndir iallit til by
                          
-        [lb=5]gdar innar. var þar hellir to  svo allinn. at yrir midium hellis 
+        [lb=5] gdar innar. var þar hellir to  svo allinn. at yrir midium hellis 
                          
-        [lb=6]dyunum tod klett uduliga to.  svo batt at þeir matti
+        [lb=6] dyunum tod klett uduliga to.  svo batt at þeir matti
                          
-        [lb=7] eingin beg vpp koma.  þui var hggin ein neidi gata
+        [lb=7]  eingin beg vpp koma.  þui var hggin ein neidi gata
                          
-        [lb=8]annann veg med berginu vpp at munnanum. hier tryk hann
+        [lb=8] annann veg med berginu vpp at munnanum. hier tryk hann
                          
-        [lb=9]upp boluad hund med itt aneingi.  kem jnn arandi
+        [lb=9] upp boluad hund med itt aneingi.  kem jnn arandi
                          
-        [lb=10]er j hellinum elld  ani med lka nockurum. vapar
+        [lb=10] er j hellinum elld  ani med lka nockurum. vapar
                          
-        [lb=11]hann þeim nid  golit. enn kyt kidu j elldinn. svo at þegar
+        [lb=11] hann þeim nid  golit. enn kyt kidu j elldinn. svo at þegar
                          
-        [lb=12]er login uppi. idan grip hann einn jarn tein svo toan em ta væri. 
+        [lb=12] er login uppi. idan grip hann einn jarn tein svo toan em ta væri. 
                          
-        [lb=13]hann var att tend j annan enda svo huas em liugandi brodd.
+        [lb=13] hann var att tend j annan enda svo huas em liugandi brodd.
                          
-        [lb=14]þenna dauda lein keyir hann j gegnum elldra bodurinn. veg
+        [lb=14] þenna dauda lein keyir hann j gegnum elldra bodurinn. veg
                          
-        [lb=15]hann idan  lopt yir midiann logann.  et annan teins
+        [lb=15] hann idan  lopt yir midiann logann.  et annan teins
                          
-        [lb=16]endann.  þann hlad em hann hadi gert odum megin elldins
+        [lb=16] endann.  þann hlad em hann hadi gert odum megin elldins
                          
-        [lb=17]til þuilikra gerda enn helld ial odum megum. ny nu vid
+        [lb=17] til þuilikra gerda enn helld ial odum megum. ny nu vid
                          
-        [lb=18] teikir em verda ma. þar til er litlu idar. kippir hann at ser ir
+        [lb=18]  teikir em verda ma. þar til er litlu idar. kippir hann at ser ir
                          
-        [pb=478]
+        [pb=478] 
                          
-        [lb=1]iur a teininum ok læ vpp j ik med miklum traulldomi þat
+        [lb=1] iur a teininum ok læ vpp j ik med miklum traulldomi þat
                          
-        [lb=2]er hann hadi teikt. enn katar teininum nid  golit hia ser
+        [lb=2] er hann hadi teikt. enn katar teininum nid  golit hia ser
                          
-        [lb=3]suo at hinn mioi endirinn veit at elldinum. Sa ynge bodir
+        [lb=3] suo at hinn mioi endirinn veit at elldinum. Sa ynge bodir
                          
-        [lb=4]inn eptir liir serr nu med harmi hugar oll þessi tidindi. ok hugsar
+        [lb=4] inn eptir liir serr nu med harmi hugar oll þessi tidindi. ok hugsar
                          
-        [lb=5]med ser. at jansnart em karl heir lokat bandinni mvn hann
+        [lb=5] med ser. at jansnart em karl heir lokat bandinni mvn hann
                          
-        [lb=6]ætla honum  hel. Þvi semur hann ser karlmanligt
+        [lb=6] ætla honum  hel. Þvi semur hann ser karlmanligt
                          
-        [lb=7]ad. med kalli til vors drottins. ok sierliga einkanliga til
+        [lb=7] ad. med kalli til vors drottins. ok sierliga einkanliga til
                          
-        [lb=8]hans bleadar modur. jungfrv ancte Marie at hun leingi hans li
+        [lb=8] hans bleadar modur. jungfrv ancte Marie at hun leingi hans li
                          
-        [lb=9]e þat loat aþeim er ollu tyrir. at hann mætti egia kritnum
+        [lb=9] e þat loat aþeim er ollu tyrir. at hann mætti egia kritnum
                          
-        [lb=10]monnum hueru þessi hlutur gerdizt. Nu em hubondi tend em
+        [lb=10] monnum hueru þessi hlutur gerdizt. Nu em hubondi tend em
                          
-        [lb=11]hardat j tinu. þuckla bodirinn jarnteininum at elld
+        [lb=11] hardat j tinu. þuckla bodirinn jarnteininum at elld
                          
-        [lb=12]inum em hogligazt. suo at endinn nair elldinum. ok þessu tima
+        [lb=12] inum em hogligazt. suo at endinn nair elldinum. ok þessu tima
                          
-        [lb=13]em hann kilur at lidur at badinni. enn endinn mvn vera
+        [lb=13] em hann kilur at lidur at badinni. enn endinn mvn vera
                          
-        [lb=14]gloandi. pruttur hann vpp. bædi hart ok titt. þriur teinin u elld
+        [lb=14] gloandi. pruttur hann vpp. bædi hart ok titt. þriur teinin u elld
                          
-        [lb=15]inum ok þveitir gloanda raman j augat jotninum. Verdur
+        [lb=15] inum ok þveitir gloanda raman j augat jotninum. Verdur
                          
-        [lb=16]nu vid kippur mikill. þviat hann tauckur vpp ok vill hena in.
+        [lb=16] nu vid kippur mikill. þviat hann tauckur vpp ok vill hena in.
                          
-        [lb=17]er honum nu leikurinn ohægi. enn y þviat til ædi bodurins
+        [lb=17] er honum nu leikurinn ohægi. enn y þviat til ædi bodurins
                          
-        [lb=18]vann hann blindan med ollu. Er nu krækil blinda hav
+        [lb=18] vann hann blindan med ollu. Er nu krækil blinda hav
                          
-        [lb=19]d
+        [lb=19] d
                          
-        [pb=479]
+        [pb=479] 
                          
-        [lb=1]d vm hellinn. þviat eingi var von brott kuomv. þviat j tad
+        [lb=1] d vm hellinn. þviat eingi var von brott kuomv. þviat j tad
                          
-        [lb=2]em karl eck verkann. baud hann hellis dynar aptur alla
+        [lb=2] em karl eck verkann. baud hann hellis dynar aptur alla
                          
-        [lb=3]eptir lagda id. Brodir heir vm langa tund hardla
+        [lb=3] eptir lagda id. Brodir heir vm langa tund hardla
                          
-        [lb=4]gott lios a elldinum. hueru hann kal vndan ara. enn karl ækir
+        [lb=4] gott lios a elldinum. hueru hann kal vndan ara. enn karl ækir
                          
-        [lb=5]eptir med meidlum. ok kari eidi. ber ser vid biargit. suo at hann
+        [lb=5] eptir med meidlum. ok kari eidi. ber ser vid biargit. suo at hann
                          
-        [lb=6]lakir j undur a aum. mædit nu bratt med ollu aman
+        [lb=6] lakir j undur a aum. mædit nu bratt med ollu aman
                          
-        [lb=7]blods ok houd meini. suo at han legt til ata veall
+        [lb=7] blods ok houd meini. suo at han legt til ata veall
                          
-        [lb=8]karl. ok ma eigi vpptanda. Hann egir þa med mikilli grimd. suo
+        [lb=8] karl. ok ma eigi vpptanda. Hann egir þa med mikilli grimd. suo
                          
-        [lb=9]allin od. Eigi kal þier vinna hid bannetta kaugur barn
+        [lb=9] allin od. Eigi kal þier vinna hid bannetta kaugur barn
                          
-        [lb=10]þott þu kridir j kuma kot vndan mer ionlauum þessa
+        [lb=10] þott þu kridir j kuma kot vndan mer ionlauum þessa
                          
-        [lb=11]hendr kulu in hena  þier j morgin. þviat hellir minn kal
+        [lb=11] hendr kulu in hena  þier j morgin. þviat hellir minn kal
                          
-        [lb=12]geyma þin j nott. Eptir þetta legt karl nid til uens
+        [lb=12] geyma þin j nott. Eptir þetta legt karl nid til uens
                          
-        [lb=13]kilr bodir at þat er leingi nætur at hann ma enga o ha
+        [lb=13] kilr bodir at þat er leingi nætur at hann ma enga o ha
                          
-        [lb=14]a yrir meinlætum ok ra ari. enn þvi lengur em hann vakti þvi
+        [lb=14] a yrir meinlætum ok ra ari. enn þvi lengur em hann vakti þvi
                          
-        [lb=15]hardara haut hann idan vppleid  nottina. Brodir ellr
+        [lb=15] hardara haut hann idan vppleid  nottina. Brodir ellr
                          
-        [lb=16]nu ram enn a nyiu. einkannliga næt gudi til voar rv
+        [lb=16] nu ram enn a nyiu. einkannliga næt gudi til voar rv
                          
-        [lb=17]sanctam Mariam at hun kuli ela þann veg til ram kuæm
+        [lb=17] sanctam Mariam at hun kuli ela þann veg til ram kuæm
                          
-        [lb=18]dar em hann tekur upp. Hann hadi kynning engit j erdum
+        [lb=18] dar em hann tekur upp. Hann hadi kynning engit j erdum
                          
-        [lb=19]þeia
+        [lb=19] þeia
                          
-        [pb=480]
+        [pb=480] 
                          
-        [lb=1]þeia karls. at einn balkur terkr ok to. var vm þverann hellinn j ann
+        [lb=1] þeia karls. at einn balkur terkr ok to. var vm þverann hellinn j ann
                          
-        [lb=2]ann enda. ok þar yrir jnnan var geit e karls hardla tort em
+        [lb=2] ann enda. ok þar yrir jnnan var geit e karls hardla tort em
                          
-        [lb=3]lagda e er vant at vera. Hier ædur hann til j trauti guds em karl
+        [lb=3] lagda e er vant at vera. Hier ædur hann til j trauti guds em karl
                          
-        [lb=4]heir engit hyt mikinn at hann þrir einn buckinn er tærtur var.
+        [lb=4] heir engit hyt mikinn at hann þrir einn buckinn er tærtur var.
                          
-        [lb=5]ok kitla hann suo klokliga med linda knii inum at bukkurinn
+        [lb=5] ok kitla hann suo klokliga med linda knii inum at bukkurinn
                          
-        [lb=6]ma deyia. enn ecki æpa. hann læ a honum belg med ollum
+        [lb=6] ma deyia. enn ecki æpa. hann læ a honum belg med ollum
                          
-        [lb=7]ledum. ok honum. byt hann suo vid moni. at hann er kominn j
+        [lb=7] ledum. ok honum. byt hann suo vid moni. at hann er kominn j
                          
-        [lb=8]belginn. þviat med Guds tenadi ok voar rv. ætlar hann at leggia
+        [lb=8] belginn. þviat med Guds tenadi ok voar rv. ætlar hann at leggia
                          
-        [lb=9] þa hættu at ganga j geipur jotninum. þviat hann þickit
+        [lb=9]  þa hættu at ganga j geipur jotninum. þviat hann þickit
                          
-        [lb=10]vita at ala morgins mvn hann eit lata ara til gras. þar med
+        [lb=10] vita at ala morgins mvn hann eit lata ara til gras. þar med
                          
-        [lb=11]þickizt hann undirtanda hueru hakinn er mikill. at eigi mvn karl la
+        [lb=11] þickizt hann undirtanda hueru hakinn er mikill. at eigi mvn karl la
                          
-        [lb=12]ta audina vt triuka n inni grein. ok tekning. at
+        [lb=12] ta audina vt triuka n inni grein. ok tekning. at
                          
-        [lb=13]eigi ari leiri enn kalladir ero. Þetta gerit alla leid em
+        [lb=13] eigi ari leiri enn kalladir ero. Þetta gerit alla leid em
                          
-        [lb=14]bodir hugadi. at akir blindleika ins. et hann nidur j
+        [lb=14] bodir hugadi. at akir blindleika ins. et hann nidur j
                          
-        [lb=15]midium dyum. suo at huer ok einn audr kal ongvan veg ha
+        [lb=15] midium dyum. suo at huer ok einn audr kal ongvan veg ha
                          
-        [lb=16]annann
+        [lb=16] annann
                          
-        [pb=481]
+        [pb=481] 
                          
-        [lb=1]annann enn millum hans ota. ok akir þess at bodir hadi drep
+        [lb=1] annann enn millum hans ota. ok akir þess at bodir hadi drep
                          
-        [lb=2]it outu audinn. kilr hann þegar at allt buit met vid hann
+        [lb=2] it outu audinn. kilr hann þegar at allt buit met vid hann
                          
-        [lb=3]at ganga yt  din wdu honum
+        [lb=3] at ganga yt  din wdu honum
                          
-        [lb=4]miok long uo at hendurnar gengu eigi allt nid at klau
+        [lb=4] miok long uo at hendurnar gengu eigi allt nid at klau
                          
-        [lb=5]unum. var þvilikt em hann dægi æturnar eptir ser. ok hlammadi
+        [lb=5] unum. var þvilikt em hann dægi æturnar eptir ser. ok hlammadi
                          
-        [lb=6]ram  hellis golinu. Suo æd hann til vt gongv vm þat
+        [lb=6] ram  hellis golinu. Suo æd hann til vt gongv vm þat
                          
-        [lb=7]vonda hlid. er adgreindit. tyrkur karl vm bakit 
+        [lb=7] vonda hlid. er adgreindit. tyrkur karl vm bakit 
                          
-        [lb=8]honum. ok egir uo. Ho ho otri minn. latt er enn bakit ok ei
+        [lb=8] honum. ok egir uo. Ho ho otri minn. latt er enn bakit ok ei
                          
-        [lb=9]tar idur. bakar j klauum. hlamar j helli vind inum  vita
+        [lb=9] tar idur. bakar j klauum. hlamar j helli vind inum  vita
                          
-        [lb=10]Suo kilia þei em gud kipadi ok modir hans. at bodir kemt
+        [lb=10] Suo kilia þei em gud kipadi ok modir hans. at bodir kemt
                          
-        [lb=11]vt a helli. ok ærir a ser belginn leitar idan uggan tad ok
+        [lb=11] vt a helli. ok ærir a ser belginn leitar idan uggan tad ok
                          
-        [lb=12]klokann. at hann mælit þadan yrir vid blinda karl em honu likar.
+        [lb=12] klokann. at hann mælit þadan yrir vid blinda karl em honu likar.
                          
-        [lb=13]Hann egir suo. Oll u bolvan er jd nedta helviti heir j ser.
+        [lb=13] Hann egir suo. Oll u bolvan er jd nedta helviti heir j ser.
                          
-        [lb=14]teypit hundrat olld yir þitt bannetta houd. þviat þu
+        [lb=14] teypit hundrat olld yir þitt bannetta houd. þviat þu
                          
-        [lb=15]ert a liotati iandans þæll. er innat ma. Wid þessi
+        [lb=15] ert a liotati iandans þæll. er innat ma. Wid þessi
                          
-        [lb=16]hardindis od ell u eidi med daudligri grimd j briot karli
+        [lb=16] hardindis od ell u eidi med daudligri grimd j briot karli
                          
-        [lb=17]at hann gleymdi ina vanæri tekur  as o hellis
+        [lb=17] at hann gleymdi ina vanæri tekur  as o hellis
                          
-        [lb=18]dyunum. ok hleypur ram klettinn er ver greindvm y at
+        [lb=18] dyunum. ok hleypur ram klettinn er ver greindvm y at
                          
-        [lb=19]tod
+        [lb=19] tod
                          
-        [pb=482]
+        [pb=482] 
                          
-        [lb=1]tod j midiu. ok huat leingra. enn hann kollvarpa ser a ram
+        [lb=1] tod j midiu. ok huat leingra. enn hann kollvarpa ser a ram
                          
-        [lb=2]ok bytur sik hals. Enn bodir loar inn drottinn þvi ramar. þviat
+        [lb=2] ok bytur sik hals. Enn bodir loar inn drottinn þvi ramar. þviat
                          
-        [lb=3]nu er honum eitt at ogledi. at rateknu andlati bodur i
+        [lb=3] nu er honum eitt at ogledi. at rateknu andlati bodur i
                          
-        [lb=4]ns. e arit er ra honum ilgt. þviat eigi þickir honum kemtiligt
+        [lb=4] ns. e arit er ra honum ilgt. þviat eigi þickir honum kemtiligt
                          
-        [lb=5]at bua þar lengi. Hann tekur nu til huatra ota inn met
+        [lb=5] at bua þar lengi. Hann tekur nu til huatra ota inn met
                          
-        [lb=6]matti hann oka. ok nytur þess at hann atti goda kumpana
+        [lb=6] matti hann oka. ok nytur þess at hann atti goda kumpana
                          
-        [lb=7]þviat þeir haa halldit kipinv vid landit. ok villdu eigi brott ara
+        [lb=7] þviat þeir haa halldit kipinv vid landit. ok villdu eigi brott ara
                          
-        [lb=8]y enn vmm veri gert at þei pydi nockut til suo valdra vors
+        [lb=8] y enn vmm veri gert at þei pydi nockut til suo valdra vors
                          
-        [lb=9]drottins þiona em þeir hodu mit. hann teiknar nu ok
+        [lb=9] drottins þiona em þeir hodu mit. hann teiknar nu ok
                          
-        [lb=10]kallar huat er hann ma. enn þei oa j mot honum  omu
+        [lb=10] kallar huat er hann ma. enn þei oa j mot honum  omu
                          
-        [lb=11]tund. ok lytia til kips med miklum agnadi. egir hann kip
+        [lb=11] tund. ok lytia til kips med miklum agnadi. egir hann kip
                          
-        [lb=12]um ogu ina gudi til los. ok hans haleitre modur er
+        [lb=12] um ogu ina gudi til los. ok hans haleitre modur er
                          
-        [lb=13]bleut ikir n enda.
+        [lb=13] bleut ikir n enda.
                           
                        
         
