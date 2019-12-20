@@ -31,7 +31,7 @@ class Extractor:
             xml_soup = BeautifulSoup(file, features='lxml')
             xml_soup = Extractor.strip_whitespace(xml_soup)
             Extractor.samples.append(("part_01__p1ff", xml_soup))
-        with open('../../transcription/transcriptions/transformed/75_transformed.xml', encoding='utf-8') as file:
+        with open('../../transcription/transcriptions/transformed/part_02_transformed.xml', encoding='utf-8') as file:
             xml_soup = BeautifulSoup(file, features='lxml')
             xml_soup = Extractor.strip_whitespace(xml_soup)
             Extractor.samples.append(("part_02__p473ff", xml_soup))
