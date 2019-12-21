@@ -41,29 +41,43 @@
         [/p]
     </xsl:template>
     
-    <xsl:template match="tei:pb">
+    <xsl:template match="tei:pb[@n]">
         [pb=<xsl:value-of select="@n"/>] </xsl:template>
+    <xsl:template match="tei:pb">
+        [pb] </xsl:template>
     
-    <xsl:template match="tei:lb">
+    <xsl:template match="tei:lb[@n]">
         [lb=<xsl:value-of select="@n"/>] </xsl:template>
+    <xsl:template match="tei:lb">
+        [lb/>] </xsl:template>
     
     <xsl:template match="tei:head"> [head] <xsl:apply-templates/> [/head] </xsl:template>
     
     <xsl:template match="tei:add[@place]"> [add:place=<xsl:value-of select="@place"/>]<xsl:apply-templates/>[/add] </xsl:template>
+    <xsl:template match="tei:add"> [add]<xsl:apply-templates/>[/add] </xsl:template>
     
-    <xsl:template match="tei:fw[@place]"> [catch]<xsl:apply-templates/>[/catch] </xsl:template>
+    <xsl:template match="tei:fw"> [catch]<xsl:apply-templates/>[/catch] </xsl:template>
     
+    <xsl:template match="tei:supplied[@reason]"> [supplied:reason=<xsl:value-of select="@reason"/>] <xsl:apply-templates/> [/supplied] </xsl:template>
+    <xsl:template match="tei:supplied"> [supplied] <xsl:apply-templates/> [/supplied] </xsl:template>
+    
+    <xsl:template match="tei:surplus[@reason]"> [surplus:reason=<xsl:value-of select="@reason"/>] <xsl:apply-templates/> [/surplus] </xsl:template>
+    <xsl:template match="tei:surplus"> [surplus] <xsl:apply-templates/> [/surplus] </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend]"> [hi:rend=<xsl:value-of select="@rend"/>] <xsl:apply-templates/> [/hi] </xsl:template>
+    <xsl:template match="tei:hi"> [hi] <xsl:apply-templates/> [/hi] </xsl:template>
+    
+    <xsl:template match="tei:name[@type]"> [name:type=<xsl:value-of select="@type"/>] <xsl:apply-templates/> [/name] </xsl:template>
+    <xsl:template match="tei:name"> [name] <xsl:apply-templates/> [/name] </xsl:template>
+    
+    <xsl:template match="tei:gap"> [gap<xsl:for-each select="@*">:<xsl:value-of select="name(.)"/>=<xsl:value-of select="."/></xsl:for-each>] </xsl:template>
+    
+    <xsl:template match="tei:g[@ref]">{<xsl:value-of select="substring(@ref,2)"/>}</xsl:template>
     
     
     <!-- TODO: corr -->
     <!-- TODO: sic -->
-    <!-- TODO: hi -->
-    <!-- TODO: supplied -->
     <!-- TODO: abbreviation -->
-    <!-- TODO: g -->
-    <!-- TODO: surplus -->
-    <!-- TODO: gap -->
-    <!-- TODO: name -->
     
     
     
