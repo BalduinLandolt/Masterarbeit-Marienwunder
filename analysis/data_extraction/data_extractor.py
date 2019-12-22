@@ -479,6 +479,21 @@ class Extractor:
         frequs = cls.get_word_frequencies(abbreviations, print_no=5)
         return frequs
 
+    @classmethod
+    def get_lines(cls, data):
+        """
+        Get a list of all lines in a document.
+
+        Args:
+            data (BeautifulSoup): XML data
+
+        Returns:
+            list of Tag: all <line> tags.
+        """
+        tmp = copy.copy(data)
+        cls.replace_wordparts(tmp)
+        return tmp.find_all('line')
+
     @staticmethod
     def extract_page_overview_info():
         """
@@ -520,21 +535,6 @@ class Extractor:
                        Extractor.get_character_count(line), Extractor.get_abbreviation_count(line)]
                 rows.append(row)
         Extractor.write_to_csv('data_by_line.csv', names, rows)
-
-    @classmethod
-    def get_lines(cls, data):
-        """
-        Get a list of all lines in a document.
-
-        Args:
-            data (BeautifulSoup): XML data
-
-        Returns:
-            list of Tag: all <line> tags.
-        """
-        tmp = copy.copy(data)
-        cls.replace_wordparts(tmp)
-        return tmp.find_all('line')
 
     @classmethod
     def extract_abbreviations(cls):
