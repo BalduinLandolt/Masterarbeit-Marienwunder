@@ -120,6 +120,24 @@ class Extractor:
 
         return len(data.find_all('abbreviation'))
 
+    @classmethod
+    def get_character_count(cls, soup):
+        """Get number of characters in XML.
+
+        Counts all characters in XML data. <g> is counted as 1 character.
+
+        Args:
+            soup (Tag): XML data
+
+        Returns:
+            int: number of characters
+        """
+        tmp = copy.copy(soup)
+        for g in tmp.find_all('g'):
+            g.replace_with('^')
+        text = tmp.get_text()
+        return len(text)
+
     @staticmethod
     def extract_page_overview_info():
         """
@@ -512,24 +530,6 @@ class Extractor:
         tmp = copy.copy(data)
         cls.replace_wordparts(tmp)
         return tmp.find_all('line')
-
-    @classmethod
-    def get_character_count(cls, soup):
-        """Get number of characters in XML.
-
-        Counts all characters in XML data. <g> is counted as 1 character.
-
-        Args:
-            soup (Tag): XML data
-
-        Returns:
-            int: number of characters
-        """
-        tmp = copy.copy(soup)
-        for g in tmp.find_all('g'):
-            g.replace_with('^')
-        text = tmp.get_text()
-        return len(text)
 
     @classmethod
     def extract_abbreviations(cls):
