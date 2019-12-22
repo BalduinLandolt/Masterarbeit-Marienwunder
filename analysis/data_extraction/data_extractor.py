@@ -378,6 +378,11 @@ class Extractor:
         return xml_soup
 
     @classmethod
+    def get_abbreviation_touples(cls):
+        # TODO
+        pass
+
+    @classmethod
     def get_abbreviation_marks_raw(cls, soup):
         """
         Get all abbreviation marks as raw.
@@ -540,15 +545,12 @@ class Extractor:
             section_name = section[0]
             data = section[1]
             abbreviations = Extractor.get_abbreviation_touples()
+            # TODO
             # for i, line in enumerate(lines):
             #     row = [section_index, section_name, i, Extractor.get_word_count(line),
             #            Extractor.get_character_count(line), Extractor.get_abbreviation_count(line)]
             #     rows.append(row)
         Extractor.write_to_csv('abbreviations.csv', names, rows)
-
-    @classmethod
-    def get_abbreviation_touples(cls):
-        pass
 
 
 if __name__ == '__main__':
