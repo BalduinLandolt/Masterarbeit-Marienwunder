@@ -23,89 +23,6 @@ class Extractor:
     samples = []
 
     @staticmethod
-    def extract():
-        """ Extract everything.
-
-        convenience method that calls all extractions that are implemented.
-
-        Returns:
-            None: None
-        """
-
-        # load xml file
-        with open('../../transcription/transcriptions/transformed/part_01_transformed.xml', encoding='utf-8') as file:
-            xml_soup = BeautifulSoup(file, features='lxml')
-            xml_soup = Extractor.strip_whitespace(xml_soup)
-            Extractor.samples.append(("part_01__p1ff", xml_soup))
-        with open('../../transcription/transcriptions/transformed/part_02_transformed.xml', encoding='utf-8') as file:
-            xml_soup = BeautifulSoup(file, features='lxml')
-            xml_soup = Extractor.strip_whitespace(xml_soup)
-            Extractor.samples.append(("part_02__p473ff", xml_soup))
-            # TODO: make this dynamic
-
-        cls = Extractor
-        xml_soup = copy.copy(Extractor.samples[0][1])
-        xml_soup.html.body.append(copy.copy(Extractor.samples[1][1].html.body.xml))
-
-        # get page count
-        pg_count = Extractor.get_page_count(xml_soup)
-        print('Number of pages: {}'.format(pg_count))
-
-        # get line count
-        l_count = Extractor.get_line_count(xml_soup)
-        print('Number of lines: {}'.format(l_count))
-
-        # get word count
-        w_count = Extractor.get_word_count(xml_soup)
-        print('Number of words: {}'.format(w_count))
-
-        # get average words per line
-        av_words_per_line = w_count / l_count
-        print('Average words per line: {}'.format(av_words_per_line))
-
-        # get words with minimal raw mark-up
-        words_raw_rep = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_ALL)
-        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep, plot=False, print_no=5)
-
-        # get words expansion-only
-        words_raw_rep_ex_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_EX)
-
-        # get words abbreviation-only
-        words_raw_rep_am_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_AM)
-
-        abbreviation_marks = Extractor.get_abbreviation_marks_raw(xml_soup)
-        abbreviation_mark_frequencies = Extractor.get_abbreviation_mark_frequencies(xml_soup)
-
-        expansions = Extractor.get_expansions_raw(xml_soup)
-        expansion_frequencies = Extractor.get_expansion_frequencies(xml_soup)
-
-        abbreviations = Extractor.get_abbreviations_raw(xml_soup)
-        abbreviation_frequencies = Extractor.get_abbreviation_frequencies(xml_soup)
-
-        # Data export to CSV
-        # ------------------
-
-        # most frequent stuff
-        Extractor.write_to_csv("most_frequent_words.csv", ["word", "frequency"], raw_word_frequencies.most_common())
-        Extractor.write_to_csv("most_frequent_abbreviation_marks.csv", ["abbreviation_mark", "frequency"],
-                               abbreviation_mark_frequencies.most_common())
-        Extractor.write_to_csv("most_frequent_expansions.csv", ["expansion", "frequency"],
-                               expansion_frequencies.most_common())
-        Extractor.write_to_csv("most_frequent_abbreviations.csv", ["abbreviation", "frequency"],
-                               abbreviation_frequencies.most_common())
-
-        # overview
-        Extractor.extract_page_overview_info()
-
-        # data by line
-        Extractor.extract_data_by_line()
-
-        # abbreviation marks
-        Extractor.extract_abbreviations()
-
-        # TODO: ...
-
-    @staticmethod
     def get_abbreviation_count(data):
         """Count abbreviations
 
@@ -494,6 +411,9 @@ class Extractor:
         cls.replace_wordparts(tmp)
         return tmp.find_all('line')
 
+    # Extract Data
+    # ============
+
     @staticmethod
     def extract_page_overview_info():
         """
@@ -551,6 +471,92 @@ class Extractor:
             #            Extractor.get_character_count(line), Extractor.get_abbreviation_count(line)]
             #     rows.append(row)
         Extractor.write_to_csv('abbreviations.csv', names, rows)
+
+    # Call actual extraction
+    # ======================
+
+    @staticmethod
+    def extract():
+        """ Extract everything.
+
+        convenience method that calls all extractions that are implemented.
+
+        Returns:
+            None: None
+        """
+
+        # load xml file
+        with open('../../transcription/transcriptions/transformed/part_01_transformed.xml', encoding='utf-8') as file:
+            xml_soup = BeautifulSoup(file, features='lxml')
+            xml_soup = Extractor.strip_whitespace(xml_soup)
+            Extractor.samples.append(("part_01__p1ff", xml_soup))
+        with open('../../transcription/transcriptions/transformed/part_02_transformed.xml', encoding='utf-8') as file:
+            xml_soup = BeautifulSoup(file, features='lxml')
+            xml_soup = Extractor.strip_whitespace(xml_soup)
+            Extractor.samples.append(("part_02__p473ff", xml_soup))
+            # TODO: make this dynamic
+
+        cls = Extractor
+        xml_soup = copy.copy(Extractor.samples[0][1])
+        xml_soup.html.body.append(copy.copy(Extractor.samples[1][1].html.body.xml))
+
+        # get page count
+        pg_count = Extractor.get_page_count(xml_soup)
+        print('Number of pages: {}'.format(pg_count))
+
+        # get line count
+        l_count = Extractor.get_line_count(xml_soup)
+        print('Number of lines: {}'.format(l_count))
+
+        # get word count
+        w_count = Extractor.get_word_count(xml_soup)
+        print('Number of words: {}'.format(w_count))
+
+        # get average words per line
+        av_words_per_line = w_count / l_count
+        print('Average words per line: {}'.format(av_words_per_line))
+
+        # get words with minimal raw mark-up
+        words_raw_rep = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_ALL)
+        raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep, plot=False, print_no=5)
+
+        # get words expansion-only
+        words_raw_rep_ex_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_EX)
+
+        # get words abbreviation-only
+        words_raw_rep_am_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_AM)
+
+        abbreviation_marks = Extractor.get_abbreviation_marks_raw(xml_soup)
+        abbreviation_mark_frequencies = Extractor.get_abbreviation_mark_frequencies(xml_soup)
+
+        expansions = Extractor.get_expansions_raw(xml_soup)
+        expansion_frequencies = Extractor.get_expansion_frequencies(xml_soup)
+
+        abbreviations = Extractor.get_abbreviations_raw(xml_soup)
+        abbreviation_frequencies = Extractor.get_abbreviation_frequencies(xml_soup)
+
+        # Data export to CSV
+        # ------------------
+
+        # most frequent stuff
+        Extractor.write_to_csv("most_frequent_words.csv", ["word", "frequency"], raw_word_frequencies.most_common())
+        Extractor.write_to_csv("most_frequent_abbreviation_marks.csv", ["abbreviation_mark", "frequency"],
+                               abbreviation_mark_frequencies.most_common())
+        Extractor.write_to_csv("most_frequent_expansions.csv", ["expansion", "frequency"],
+                               expansion_frequencies.most_common())
+        Extractor.write_to_csv("most_frequent_abbreviations.csv", ["abbreviation", "frequency"],
+                               abbreviation_frequencies.most_common())
+
+        # overview
+        Extractor.extract_page_overview_info()
+
+        # data by line
+        Extractor.extract_data_by_line()
+
+        # abbreviation marks
+        Extractor.extract_abbreviations()
+
+        # TODO: ...
 
 
 if __name__ == '__main__':
