@@ -139,26 +139,6 @@ class Extractor:
         return len(text)
 
     @staticmethod
-    def extract_page_overview_info():
-        """
-        Extracts page overview information and writes it to a CSV file.
-
-        Returns:
-            None: None
-        """
-        # TODO: could extraction be more generic, and with arguments to specify?
-        field_names = ["sample", "sample_name", "no_pages", "no_lines", "no_words", "no_characters", "no_abbreviations"]
-        rows = []
-        for section_index, section in enumerate(Extractor.samples):
-            section_name = section[0]
-            data = section[1]
-            row = [section_index, section_name, Extractor.get_page_count(data), Extractor.get_line_count(data),
-                   Extractor.get_word_count(data), Extractor.get_character_count(data),
-                   Extractor.get_abbreviation_count(data)]
-            rows.append(row)
-        Extractor.write_to_csv("page_overview.csv", field_names, rows)
-
-    @staticmethod
     def write_to_csv(file, names, rows):
         """Writes data to CSV file.
 
@@ -493,6 +473,26 @@ class Extractor:
         abbreviations = cls.get_abbreviations_raw(soup)
         frequs = cls.get_word_frequencies(abbreviations, print_no=5)
         return frequs
+
+    @staticmethod
+    def extract_page_overview_info():
+        """
+        Extracts page overview information and writes it to a CSV file.
+
+        Returns:
+            None: None
+        """
+        # TODO: could extraction be more generic, and with arguments to specify?
+        field_names = ["sample", "sample_name", "no_pages", "no_lines", "no_words", "no_characters", "no_abbreviations"]
+        rows = []
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            row = [section_index, section_name, Extractor.get_page_count(data), Extractor.get_line_count(data),
+                   Extractor.get_word_count(data), Extractor.get_character_count(data),
+                   Extractor.get_abbreviation_count(data)]
+            rows.append(row)
+        Extractor.write_to_csv("page_overview.csv", field_names, rows)
 
     @staticmethod
     def extract_data_by_line():
