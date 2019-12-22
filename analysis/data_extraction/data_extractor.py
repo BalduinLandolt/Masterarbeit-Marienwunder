@@ -21,10 +21,10 @@ class Extractor:
     @staticmethod
     def extract():
         """
-            convenience method that calls all extractions that are implemented.
+        convenience method that calls all extractions that are implemented.
 
-            :return: None
-            """
+        :return: None
+        """
 
         # load xml file
         with open('../../transcription/transcriptions/transformed/part_01_transformed.xml', encoding='utf-8') as file:
@@ -91,8 +91,11 @@ class Extractor:
         # overview
         Extractor.extract_page_overview_info()
 
-        # actual data
+        # data by line
         Extractor.extract_data_by_line()
+
+        # abbreviation marks
+        Extractor.extract_abbreviations()
 
         # TODO: ...
 
@@ -300,6 +303,25 @@ class Extractor:
             g.replace_with('^')
         text = tmp.get_text()
         return len(text)
+
+    @classmethod
+    def extract_abbreviations(cls):
+        # TODO: consider stop-list
+        names = ["sample", "sample_name", "am", "ex"]
+        rows = []
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            abbreviations = Extractor.get_abbreviation_touples()
+            # for i, line in enumerate(lines):
+            #     row = [section_index, section_name, i, Extractor.get_word_count(line),
+            #            Extractor.get_character_count(line), Extractor.get_abbreviation_count(line)]
+            #     rows.append(row)
+        Extractor.write_to_csv('abbreviations.csv', names, rows)
+
+    @classmethod
+    def get_abbreviation_touples(cls):
+        pass
 
 
 if __name__ == '__main__':
