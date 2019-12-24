@@ -483,6 +483,12 @@ class Extractor:
 
     @classmethod
     def extract_abbreviations(cls):
+        """
+        Extracts abbreviation marks to csv file.
+
+        Returns:
+            None: None
+        """
         # TODO: consider stop-list
         names = ["sample", "sample_name", "am", "ex"]
         rows = []
@@ -490,8 +496,6 @@ class Extractor:
             section_name = section[0]
             data = section[1]
             abbreviations = Extractor.get_abbreviation_tuples(data)
-            print(abbreviations)
-            # TODO
             for abbr in abbreviations:
                 row = [section_index, section_name, abbr[2], abbr[0]]
                 rows.append(row)
