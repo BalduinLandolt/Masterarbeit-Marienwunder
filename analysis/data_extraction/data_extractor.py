@@ -147,7 +147,7 @@ class Extractor:
             w (Tag): Tag potentially containing a glyph.
 
         Returns:
-            Tag: copy of the input Tag, where <g> is replaced with raw representation.
+            Tag: copy of the input Tag, where g tag is replaced with raw representation.
         """
         res = copy.copy(w)
         for glyph in res.find_all('g'):
@@ -171,14 +171,14 @@ class Extractor:
         """
         res = copy.copy(w)
         if res.name == 'abbreviation':
-            Extractor.extract_abbreviation_contents(res, type)
+            Extractor.extract_abbreviation_contents_as_raw(res, type)
         else:
             for abbr in res.find_all('abbreviation'):
-                abbr.replace_with(Extractor.extract_abbreviation_contents(abbr, type))
+                abbr.replace_with(Extractor.extract_abbreviation_contents_as_raw(abbr, type))
         return res
 
     @staticmethod
-    def extract_abbreviation_contents(abbr, type):
+    def extract_abbreviation_contents_as_raw(abbr, type):
         """
         Extract contents of a single abbreviation.
 
@@ -190,19 +190,34 @@ class Extractor:
         Returns:
             str: raw representation of the abbreviation.
         """
+        tup = Extractor.get_abbreviation_content_tuple(abbr)
+        if type == Extractor.TYPE_EXTRACT_ALL:
+            rw = '({};{};{})'.format(tup[0], tup[1], tup[2])
+        elif type == Extractor.TYPE_EXTRACT_EX:
+            rw = '({})'.format(tup[0])
+        elif type == Extractor.TYPE_EXTRACT_AM:
+            rw = '({})'.format(tup[2])
+        return rw
+
+    @staticmethod
+    def get_abbreviation_content_tuple(abbr):
+        """
+        Extract contents of a single abbreviation.
+
+        Args:
+            abbr (Tag): the abbreviation
+
+        Returns:
+            tuple of str: raw representation of the abbreviation.
+        """
         abbr.smooth()
         ex = abbr.ex.string or ''
         infix = abbr.infix.string or ''
         am = abbr.am.string or ex
         am = am.replace('{', '')
         am = am.replace('}', '')
-        if type == Extractor.TYPE_EXTRACT_ALL:
-            rw = '({};{};{})'.format(ex, infix, am)
-        elif type == Extractor.TYPE_EXTRACT_EX:
-            rw = '({})'.format(ex)
-        elif type == Extractor.TYPE_EXTRACT_AM:
-            rw = '({})'.format(am)
-        return rw
+        return ex, infix, am
+
 
     @staticmethod
     def make_raw(w, type):
@@ -295,9 +310,19 @@ class Extractor:
         return xml_soup
 
     @classmethod
-    def get_abbreviation_touples(cls):
-        # TODO
-        pass
+    def get_abbreviation_tuples(cls, soup):
+        """
+        Get all abbreviations as a list of tuples.
+
+        Args:
+            soup (BeautifulSoup): xml data
+
+        Returns:
+            list of tuple: A list of tuples, each containing three stings: ex, infix and am.
+        """
+        soup = cls.resolve_glyph(soup)
+        res = [Extractor.get_abbreviation_content_tuple(abbr) for abbr in soup.find_all('abbreviation')]
+        return res
 
     @classmethod
     def get_abbreviation_marks_raw(cls, soup):
@@ -378,7 +403,7 @@ class Extractor:
         res = []
         for am in ams:
             tmp = cls.resolve_glyph(am)
-            res.append(cls.extract_abbreviation_contents(tmp, cls.TYPE_EXTRACT_ALL))
+            res.append(cls.extract_abbreviation_contents_as_raw(tmp, cls.TYPE_EXTRACT_ALL))
         return res
 
     @classmethod
@@ -464,12 +489,12 @@ class Extractor:
         for section_index, section in enumerate(Extractor.samples):
             section_name = section[0]
             data = section[1]
-            abbreviations = Extractor.get_abbreviation_touples()
+            abbreviations = Extractor.get_abbreviation_tuples(data)
+            print(abbreviations)
             # TODO
-            # for i, line in enumerate(lines):
-            #     row = [section_index, section_name, i, Extractor.get_word_count(line),
-            #            Extractor.get_character_count(line), Extractor.get_abbreviation_count(line)]
-            #     rows.append(row)
+            for abbr in abbreviations:
+                row = [section_index, section_name, abbr[2], abbr[0]]
+                rows.append(row)
         Extractor.write_to_csv('abbreviations.csv', names, rows)
 
     # Call actual extraction
