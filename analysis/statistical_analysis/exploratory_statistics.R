@@ -51,5 +51,9 @@ ggplot(data_by_line, aes(data_by_line$no_abbreviations, fill=factor(data_by_line
   geom_density(alpha=0.5, adjust=0.65) 
 ggplot(data_by_line, aes(y=data_by_line$no_abbreviations, x=factor(data_by_line$sample))) + geom_boxplot()
 
+# test normal distribution
+shapiro.test(data_by_line$no_abbreviations)
+shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 0)])
+shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 1)])
 
 
