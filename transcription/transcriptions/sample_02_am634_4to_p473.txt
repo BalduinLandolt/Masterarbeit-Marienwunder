@@ -1,6 +1,10 @@
-/*AM 634 4to, p. 473 ff. Transcribed by Johan and Balduin*/
+/*AM 634 4to, p. 472 ff. Transcribed by Matthew, Johan and Balduin*/
 
-# TODO: transcribe beginning of page
+[div:type=miracle:n=73]
+[p]
+[lb=1] d(ro;osup)ttin(n;bar) veitti þuilika {slong}æmd m(ed;ezh) þ(es;bar)si {fins}og(ru;vsup) {jscap}(ar)teign
+[lb=2] t(il;isup) dyrd(ar) {slong}in(n;bar)i helgu mod{rrot} .
+[/p]
 
 [div:type=miracle:n=74]
 
