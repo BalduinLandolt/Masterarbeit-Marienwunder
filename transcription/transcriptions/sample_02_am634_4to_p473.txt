@@ -1,7 +1,28 @@
 /*AM 634 4to, p. 473 ff. Transcribed by Johan and Balduin*/
 
-[div:type=miracle]
+# TODO: transcribe beginning of page
+
+[div:type=miracle:n=74]
+
+[pb=472]
+[lb=3] [head] Maria hialpadi m(un;bar)ku(m;bar) [/head]
 [p]
+
+[lb=4] [supplied:reason=omitted]M[/supplied]vnk(ar) nockr(er) {slong}todu w(id;isup) {aalig} eina {fins}(yrir;isup) dag (ok) {slong}ke¬
+[lb=5]mtu s(er) talandi heimolig(ar) {slong}og(ur). (ok) m(ar)ga
+[lb=6] þ(ar){fins}lau{slong}liga hluti. þ(ei;bar)m hey{rrot}(iz;zsup) {slong}e(m;bar) m(enn;bar) {rscap}oi m(ed;ezh) m(ik;csup)lu ha
+[lb=7] rey{slong}ti (ok) gny y{fins}(er) {aalig}na. m(un;)k(ar)n(er) {slong}py{rrot}(ia;asup) hu(er)ir e(r;)ut þi(er). þ(ei;bar){rrot}
+[lb=8] {slong}eg(ia;isup). w(er) eru(m;bar) dio{fins}l(ar). (ok) {fins}æru(m;bar) m(ed;ezh) o{sscap} ond t(il;isup) heluitis
+[lb=9] [name:type=person] eb{rrot}onij [/name] ho{fins}di(n;bar)gia {fins}(ra;ra)cka k(onun;bar)gs hird(ar). þ(via;bar)t h(an;bar)n ka{slong}tadi
+[lb=10] m(un;bar)ka li{fins}nadi þ(ei;bar)m {slong}e(m;bar) h(an;bar)n tok {jscap} m(un;)kli{fins}i hi(n;)s helga
+[lb=11] [name:type=person] galli [/name] . (ok) {slong}n(er)izt apt(ur) t(il;isup) v(er)alld(ar)in(ar). Sem m(un;bar)k(ar)n(er) hey(ra;ra)
+[lb=12] þ(e;bar)tta ott(az;azh) þ(ei;bar){rrot} aka{fins}liga (ok) kalla hatt. heilug [name:type=person] [hi:rend=caps] Maria [/hi] [/name]
+[lb=13] hialp þu o{sscap}. dio{fins}larn(er) m(æ;bar)ltu. nu hialpadi yd{rrot} þ(at;bar)
+[lb=14] e(r;er) þi(er) kollud(ut;tsup) [name:type=person] [hi:rend=caps] Mariam [/hi] [/name] . þ(uia;bar)t nu he{fins}du(m;bar) v(er) ætlat at
+[lb=15] {slong}lita yd{rrot} kuika {jscap} {slong}und(ur) (ok) d{rrot}eckia yd(ur) {slong}id(an;nsup). þ(uia;bar)t v(er)
+[lb=16] {fins}undu(m;bar) yd{rrot} {fins}(ar)andi m(ed;ezh) lau{slong}ung. (ok) talandi {aalig} þ(ei;bar)m
+[lb=17] ti(m;bar)a {slong}e(m;bar) e(igi;isup) e(r;er) {slong}kip(ad;dsup). Munk(ar)n(er) þacka nu G(udi;isup) (ok) h(an;bar)s mod(ur) {slong}i
+[lb=18] na myskun(n;bar). (ok) {fins}(ar)a apt(ur) t(il;isup) klaust(ur){slong}ins. en(n;bar) dio{fins}larn(er) [catch]{slong}kunda[/catch]
 
 [pb=473]
 [lb=1] {slong}kunda t(il;isup) heluitis .
@@ -15,7 +36,7 @@
 [lb=2] Illu(ir;er)ki(ar;er) leid{rrot}ettu{ezh}t .
 [/head]
 [p]
-[lb=3] HEilag(ur) [name=person] hugo [/name] aboti [name=person] clugiacen{slong}is [/name] {rscap}ei{slong}ti m(or;osup)g
+[lb=3] [supplied:reason=omitted]H[/supplied]Eilag(ur) [name=person] hugo [/name] aboti [name=person] clugiacen{slong}is [/name] {rscap}ei{slong}ti m(or;osup)g
 [lb=4] m(un;bar)kli{fins}i g(u;d;combcurl)i t(il;isup) heid(ur;rrot)s . h(an;bar)n el{slong}kadi einkanli¬
 [lb=5]ga vo(ra) {fins}(rv;vsup) helga G(uds;usmod)mod(ur) [name=person] mariam [/name] . (ok) {slong}tundadi
 [lb=6] miok {aalig} helga olmu{slong}ug(er)d . mædandi {slong}in(n;bar) likam
@@ -31,7 +52,7 @@
 [lb=16] v(ar;rsup)d h(an;bar)n j elldi þ(es;bar)sa{rscap}(ar;rsup) pinu eit(ar;rsup)i m(ed;ezh) g(u;d;combcurl)lig(ri;isup) a{slong}t . w(er)¬
 [lb=17]andi {slong}tad {fins}a{slong}t(ur) j uppteknu(m;bar) godu(m;bar) hlutu(m;bar) m(ed;ezh) glo¬
 [lb=18]du hi(ar;rsup)ta . taladi h(an;bar)n ongan(n;bar) dag . {fins}y{rscap} en(n;bar) h(an;bar)n ha{fins}(di;isup)
-[lb] [catch]{slong}agt[/catch] 
+[lb] [catch]{slong}agt[/catch]
 
 
 [pb=474]
@@ -59,7 +80,7 @@
 [lb=11] [hi=3][supplied=omitted] J [/supplied][/hi] b(isku;bar)ps_dæmi pictane(n;bar){slong}is b(isku;bar)ps . v(ar;rsup) aboti {slong}a e(r;er)
 [lb=12] [name=person] gigo [/name] het . heilag(ur) j {slong}inu(m;bar) li{fins}nadi . (ok) {fins}ræg(ur)
 [lb=13] miokg a{fins} {slong}inu(m;bar) godu(m;bar) hlut(um;msup) . (ok) þo at þ(es;bar)si {slong}æ(m;bar)i¬
-[lb=14]ligi 
+[lb=14]ligi
 
 
 [/p]
