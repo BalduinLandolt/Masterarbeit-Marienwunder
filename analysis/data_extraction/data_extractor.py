@@ -491,6 +491,7 @@ class Extractor:
         """
         # TODO: consider stop-list
         names = ["sample", "sample_name", "am", "ex"]
+        # TODO: add word, so one gets "context"
         rows = []
         for section_index, section in enumerate(Extractor.samples):
             section_name = section[0]
