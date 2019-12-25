@@ -15,9 +15,7 @@ library(reshape2)
 # load custom functions
 normalize = function(value, sample){
   no_abbreviations = page_overview$no_abbreviations[page_overview$sample == sample]
-  print(paste("number of abbreviations: ",no_abbreviations))
   res = value/no_abbreviations
-  print(paste("res: ",res))
   return(res)
 }
 
