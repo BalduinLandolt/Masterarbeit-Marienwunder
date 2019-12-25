@@ -4,6 +4,8 @@
 
 # set working directory
 # setwd() # adjust to set working dir
+current_working_dir <- dirname(rstudioapi::getActiveDocumentContext()$path) # NB: only works in RStudio!
+setwd(current_working_dir) # Dito!
 getwd()
 
 # load package
@@ -15,6 +17,8 @@ page_overview = read.csv("../tmp_data/page_overview.csv")
 head(page_overview)
 data_by_line = read.csv("../tmp_data/data_by_line.csv")
 head(data_by_line)
+abbreviations = read.csv("../tmp_data/abbreviations.csv")
+head(abbreviations)
 
 
 page_overview$s_fact = as.factor(page_overview$sample)
