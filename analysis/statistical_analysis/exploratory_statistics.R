@@ -86,3 +86,15 @@ abbr_count$Freq_normalized = mapply(normalize, abbr_count$Freq, abbr_count$sampl
 plot = ggplot(abbr_count, aes(abbr_count$am, abbr_count$Freq_normalized, fill=abbr_count$sample))
 plot = plot + geom_bar(position = "dodge", stat = "identity")
 plot
+
+# plot abbreviation mark distribution
+plot = ggplot(abbreviations, aes(abbreviations$ex))
+plot = plot + geom_bar()
+plot
+
+ex_count = data.frame(table(abbreviations$sample, abbreviations$ex, dnn = c("sample", "ex")))
+ex_count$Freq_normalized = mapply(normalize, ex_count$Freq, ex_count$sample)
+
+plot = ggplot(ex_count, aes(ex_count$ex, ex_count$Freq_normalized, fill=ex_count$sample))
+plot = plot + geom_bar(position = "dodge", stat = "identity")
+plot
