@@ -10,6 +10,16 @@ getwd()
 
 # load package
 library(ggplot2)
+library(reshape2)
+
+# load custom functions
+normalize = function(value, sample){
+  no_abbreviations = page_overview$no_abbreviations[page_overview$sample == sample]
+  print(paste("number of abbreviations: ",no_abbreviations))
+  res = value/no_abbreviations
+  print(paste("res: ",res))
+  return(res)
+}
 
 
 # read data from file
@@ -61,3 +71,18 @@ shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 0)])
 shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 1)])
 
 
+
+# abbreviations
+# -------------
+
+# plot abbreviation mark distribution
+plot = ggplot(abbreviations, aes(abbreviations$am))
+plot = plot + geom_bar()
+plot
+
+abbr_count = data.frame(table(abbreviations$sample, abbreviations$am, dnn = c("sample", "am")))
+abbr_count$Freq_normalized = mapply(normalize, abbr_count$Freq, abbr_count$sample)
+
+plot = ggplot(abbr_count, aes(abbr_count$am, abbr_count$Freq_normalized, fill=abbr_count$sample))
+plot = plot + geom_bar(position = "dodge", stat = "identity")
+plot
