@@ -1,5 +1,1037 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
+   <page n="472">
+      <line n="1">
+         <w>d<abbreviation>
+               <am>
+                  <g ref="#osup"/>
+               </am>
+               <infix/>
+               <ex>ro</ex>
+            </abbreviation>ttin<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>n</ex>
+            </abbreviation>
+         </w>
+         <w>veitti</w>
+         <w>þuilika</w>
+         <w>
+            <g ref="#slong"/>æmd</w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#ezh"/>
+               </am>
+               <infix/>
+               <ex>ed</ex>
+            </abbreviation>
+         </w>
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>es</ex>
+            </abbreviation>si</w>
+         <w>
+            <g ref="#fins"/>og<abbreviation>
+               <am>
+                  <g ref="#vsup"/>
+               </am>
+               <infix/>
+               <ex>ru</ex>
+            </abbreviation>
+         </w>
+         <w>j<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>teign</w>
+      </line>
+      <line n="2">
+         <w>t<abbreviation>
+               <am>
+                  <g ref="#isup"/>
+               </am>
+               <infix/>
+               <ex>il</ex>
+            </abbreviation>
+         </w>
+         <w>dyrd<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#slong"/>in<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>n</ex>
+            </abbreviation>i</w>
+         <w>helgu</w>
+         <w>mod<g ref="#rrot"/>
+         </w>
+         <pc>.</pc>
+      </line>
+      <line n="3">
+         <w>Maria</w>
+         <w>hialpadi</w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>un</ex>
+            </abbreviation>ku<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+      </line>
+      <line n="4">
+         <w>Mvnk<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>
+         </w>
+         <w>nockr<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#slong"/>todu</w>
+         <w>w<abbreviation>
+               <am>
+                  <g ref="#isup"/>
+               </am>
+               <infix/>
+               <ex>id</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#aalig"/>
+         </w>
+         <w>eina</w>
+         <w>
+            <g ref="#fins"/>
+            <abbreviation>
+               <am>
+                  <g ref="#isup"/>
+               </am>
+               <infix/>
+               <ex>yrir</ex>
+            </abbreviation>
+         </w>
+         <w>dag</w>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#slong"/>ke</w>
+      </line>
+      <line n="5">
+         <wordpart>mtu</wordpart>
+         <w>s<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+         <w>talandi</w>
+         <w>heimolig<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#slong"/>og<abbreviation>
+               <am>
+                  <g ref="#ur"/>
+               </am>
+               <infix/>
+               <ex>ur</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>ga</w>
+      </line>
+      <line n="6">
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>
+            <g ref="#fins"/>lau<g ref="#slong"/>liga</w>
+         <w>hluti</w>
+         <pc>.</pc>
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>ei</ex>
+            </abbreviation>m</w>
+         <w>hey<g ref="#rrot"/>
+            <abbreviation>
+               <am>
+                  <g ref="#zsup"/>
+               </am>
+               <infix/>
+               <ex>i<g ref="#ezh"/>t</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#slong"/>e<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>enn</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#rscap"/>oi</w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#ezh"/>
+               </am>
+               <infix/>
+               <ex>ed</ex>
+            </abbreviation>
+         </w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#csup"/>
+               </am>
+               <infix/>
+               <ex>ik</ex>
+            </abbreviation>lu</w>
+         <w>ha</w>
+      </line>
+      <line n="7">
+         <wordpart>rey<g ref="#slong"/>ti</wordpart>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>gny</w>
+         <w>y<g ref="#fins"/>
+            <abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#aalig"/>na</w>
+         <pc>.</pc>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>un</ex>
+            </abbreviation>k<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>n<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#slong"/>py<g ref="#rrot"/>
+            <abbreviation>
+               <am>
+                  <g ref="#asup"/>
+               </am>
+               <infix/>
+               <ex>ia</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>hu<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>ir</w>
+         <w>e<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>r</ex>
+            </abbreviation>ut</w>
+         <w>þi<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>ei</ex>
+            </abbreviation>
+            <g ref="#rrot"/>
+         </w>
+      </line>
+      <line n="8">
+         <w>
+            <g ref="#slong"/>eg<abbreviation>
+               <am>
+                  <g ref="#isup"/>
+               </am>
+               <infix/>
+               <ex>ia</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>w<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+         <w>eru<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+         <w>dio<g ref="#fins"/>l<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#fins"/>æru<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#ezh"/>
+               </am>
+               <infix/>
+               <ex>ed</ex>
+            </abbreviation>
+         </w>
+         <w>o<g ref="#sscap"/>
+         </w>
+         <w>ond</w>
+         <w>t<abbreviation>
+               <am>
+                  <g ref="#isup"/>
+               </am>
+               <infix/>
+               <ex>il</ex>
+            </abbreviation>
+         </w>
+         <w>heluitis</w>
+      </line>
+      <line n="9">
+         <w>eb<g ref="#rrot"/>onij</w>
+         <w>ho<g ref="#fins"/>di<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>n</ex>
+            </abbreviation>gia</w>
+         <w>
+            <g ref="#fins"/>
+            <abbreviation>
+               <am>
+                  <g ref="#ra"/>
+               </am>
+               <infix/>
+               <ex>ra</ex>
+            </abbreviation>cka</w>
+         <w>k<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>onun</ex>
+            </abbreviation>gs</w>
+         <w>hird<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>via</ex>
+            </abbreviation>t</w>
+         <w>h<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>an</ex>
+            </abbreviation>n</w>
+         <w>ka<g ref="#slong"/>tadi</w>
+      </line>
+      <line n="10">
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>un</ex>
+            </abbreviation>ka</w>
+         <w>li<g ref="#fins"/>nadi</w>
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>ei</ex>
+            </abbreviation>m</w>
+         <w>
+            <g ref="#slong"/>e<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+         <w>h<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>an</ex>
+            </abbreviation>n</w>
+         <w>tok</w>
+         <w>
+            <g ref="#jscap"/>
+         </w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#un"/>
+               </am>
+               <infix/>
+               <ex>un</ex>
+            </abbreviation>kli<g ref="#fins"/>i</w>
+         <w>hi<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>n</ex>
+            </abbreviation>s</w>
+         <w>helga</w>
+      </line>
+      <line n="11">
+         <w>galli</w>
+         <pc>.</pc>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#slong"/>n<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>i<g ref="#ezh"/>t</w>
+         <w>apt<abbreviation>
+               <am>
+                  <g ref="#ur"/>
+               </am>
+               <infix/>
+               <ex>ur</ex>
+            </abbreviation>
+         </w>
+         <w>t<abbreviation>
+               <am>
+                  <g ref="#isup"/>
+               </am>
+               <infix/>
+               <ex>il</ex>
+            </abbreviation>
+         </w>
+         <w>v<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>alld<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>i<abbreviation>
+               <am>
+                  <g ref="#nleg"/>
+               </am>
+               <infix/>
+               <ex>nn</ex>
+            </abbreviation>
+            <abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>Sem</w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>un</ex>
+            </abbreviation>k<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>n<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+         <w>hey<abbreviation>
+               <am>
+                  <g ref="#ra"/>
+               </am>
+               <infix/>
+               <ex>ra</ex>
+            </abbreviation>
+         </w>
+      </line>
+      <line n="12">
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>e</ex>
+            </abbreviation>tta</w>
+         <w>ott<abbreviation>
+               <am>
+                  <g ref="#zsup"/>
+               </am>
+               <infix/>
+               <ex>a<g ref="#ezh"/>t</ex>
+            </abbreviation>
+         </w>
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>ei</ex>
+            </abbreviation>
+            <g ref="#rrot"/>
+         </w>
+         <w>aka<g ref="#fins"/>liga</w>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>kalla</w>
+         <w>hatt</w>
+         <pc>.</pc>
+         <w>heilug</w>
+         <w>Maria</w>
+      </line>
+      <line n="13">
+         <w>hialp</w>
+         <w>þu</w>
+         <w>o<g ref="#sscap"/>
+         </w>
+         <pc>.</pc>
+         <w>dio<g ref="#fins"/>larn<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>æ</ex>
+            </abbreviation>ltu</w>
+         <pc>.</pc>
+         <w>nu</w>
+         <w>hialpadi</w>
+         <w>yd<g ref="#rrot"/>
+         </w>
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>at</ex>
+            </abbreviation>
+         </w>
+      </line>
+      <line n="14">
+         <w>e<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>r</ex>
+            </abbreviation>
+         </w>
+         <w>þi<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+         <w>kollud<abbreviation>
+               <am>
+                  <g ref="#tsup"/>
+               </am>
+               <infix/>
+               <ex>ut</ex>
+            </abbreviation>
+         </w>
+         <w>Mariam</w>
+         <pc>.</pc>
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>uia</ex>
+            </abbreviation>t</w>
+         <w>nu</w>
+         <w>he<g ref="#fins"/>du<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+         <w>v<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+         <w>ætlat</w>
+         <w>at</w>
+      </line>
+      <line n="15">
+         <w>
+            <g ref="#slong"/>lita</w>
+         <w>yd<g ref="#rrot"/>
+         </w>
+         <w>kuika</w>
+         <w>
+            <g ref="#jscap"/>
+         </w>
+         <w>
+            <g ref="#slong"/>und<abbreviation>
+               <am>
+                  <g ref="#ur"/>
+               </am>
+               <infix/>
+               <ex>ur</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>d<g ref="#rrot"/>eckia</w>
+         <w>yd<abbreviation>
+               <am>
+                  <g ref="#ur"/>
+               </am>
+               <infix/>
+               <ex>ur</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#slong"/>id<abbreviation>
+               <am>
+                  <g ref="#nsup"/>
+               </am>
+               <infix/>
+               <ex>an</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>uia</ex>
+            </abbreviation>t</w>
+         <w>v<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+      </line>
+      <line n="16">
+         <w>
+            <g ref="#fins"/>undu<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+         <w>yd<g ref="#rrot"/>
+         </w>
+         <w>
+            <g ref="#fins"/>
+            <abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>andi</w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#ezh"/>
+               </am>
+               <infix/>
+               <ex>ed</ex>
+            </abbreviation>
+         </w>
+         <w>lau<g ref="#slong"/>ung</w>
+         <pc>.</pc>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>talandi</w>
+         <w>
+            <g ref="#aalig"/>
+         </w>
+         <w>þ<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>ei</ex>
+            </abbreviation>m</w>
+      </line>
+      <line n="17">
+         <w>ti<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>a</w>
+         <w>
+            <g ref="#slong"/>e<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+         <w>e<abbreviation>
+               <am>
+                  <g ref="#isup"/>
+               </am>
+               <infix/>
+               <ex>igi</ex>
+            </abbreviation>
+         </w>
+         <w>e<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>r</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#slong"/>kip<abbreviation>
+               <am>
+                  <g ref="#dsup"/>
+               </am>
+               <infix/>
+               <ex>ad</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>Munk<abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>n<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+         <w>þacka</w>
+         <w>nu</w>
+         <w>G<abbreviation>
+               <am>
+                  <g ref="#isup"/>
+               </am>
+               <infix/>
+               <ex>udi</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>h<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>an</ex>
+            </abbreviation>s</w>
+         <w>mod<abbreviation>
+               <am>
+                  <g ref="#ur"/>
+               </am>
+               <infix/>
+               <ex>ur</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#slong"/>i</w>
+      </line>
+      <line n="18">
+         <wordpart>na</wordpart>
+         <w>myskun<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>n</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#fins"/>
+            <abbreviation>
+               <am>
+                  <g ref="#ar"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>a</w>
+         <w>apt<abbreviation>
+               <am>
+                  <g ref="#ur"/>
+               </am>
+               <infix/>
+               <ex>ur</ex>
+            </abbreviation>
+         </w>
+         <w>t<abbreviation>
+               <am>
+                  <g ref="#isup"/>
+               </am>
+               <infix/>
+               <ex>il</ex>
+            </abbreviation>
+         </w>
+         <w>klaust<abbreviation>
+               <am>
+                  <g ref="#ur"/>
+               </am>
+               <infix/>
+               <ex>ur</ex>
+            </abbreviation>
+            <g ref="#slong"/>ins</w>
+         <pc>.</pc>
+         <w>en<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>n</ex>
+            </abbreviation>
+         </w>
+         <w>dio<g ref="#fins"/>larn<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+         </w>
+      </line>
+   </page>
    <page n="473">
       <line n="1">
          <w>
@@ -1696,6 +2728,258 @@
       </line>
       <line n="14">
          <wordpart>ligi</wordpart>
+         <w>h<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>er</ex>
+            </abbreviation>
+            <g ref="#rrot"/>a</w>
+         <w>v<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>ær</ex>
+            </abbreviation>i</w>
+         <w>prydd<abbreviation>
+               <am>
+                  <g ref="#ur"/>
+               </am>
+               <infix/>
+               <ex>ur</ex>
+            </abbreviation>
+         </w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#ezh"/>
+               </am>
+               <infix/>
+               <ex>ed</ex>
+            </abbreviation>
+         </w>
+         <w>dygd</w>
+         <w>heilag<g ref="#rrot"/>
+            <abbreviation>
+               <am>
+                  <g ref="#rsup"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>
+         </w>
+         <w>bindindi</w>
+         <w>j</w>
+      </line>
+      <line n="15">
+         <w>
+            <g ref="#fins"/>o<g ref="#slong"/>tu<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>uoku<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#slong"/>tad<g ref="#fins"/>e<g ref="#slong"/>ti</w>
+         <w>heilag<abbreviation>
+               <am>
+                  <g ref="#ra"/>
+               </am>
+               <infix/>
+               <ex>ra</ex>
+            </abbreviation>
+         </w>
+         <w>bæna</w>
+         <pc>.</pc>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#csup"/>
+               </am>
+               <infix/>
+               <ex>ik</ex>
+            </abbreviation>lu<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+      </line>
+      <line n="16">
+         <w>o<g ref="#rrot"/>leika</w>
+         <w>v<abbreviation>
+               <am>
+                  <g ref="#isup"/>
+               </am>
+               <infix/>
+               <ex>id</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <g ref="#fins"/>atæka</w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>enn</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>þa</w>
+         <w>v<abbreviation>
+               <am>
+                  <g ref="#rsup"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>
+         </w>
+         <w>h<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>an</ex>
+            </abbreviation>n</w>
+         <w>s<abbreviation>
+               <am>
+                  <g ref="#osup"/>
+               </am>
+               <infix/>
+               <ex>uo</ex>
+            </abbreviation>
+         </w>
+         <w>hego<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>lig<abbreviation>
+               <am>
+                  <g ref="#ur"/>
+               </am>
+               <infix/>
+               <ex>ur</ex>
+            </abbreviation>
+         </w>
+         <w>
+            <abbreviation>
+               <am>
+                  <g ref="#ok"/>
+               </am>
+               <infix/>
+               <ex>ok</ex>
+            </abbreviation>
+         </w>
+         <w>van</w>
+      </line>
+      <line n="17">
+         <wordpart>
+            <g ref="#slong"/>tillt<abbreviation>
+               <am>
+                  <g ref="#ur"/>
+               </am>
+               <infix/>
+               <ex>ur</ex>
+            </abbreviation>
+         </wordpart>
+         <w>j</w>
+         <w>
+            <g ref="#slong"/>inu</w>
+         <w>tali</w>
+         <w>þa</w>
+         <w>e<abbreviation>
+               <am>
+                  <g ref="#er"/>
+               </am>
+               <infix/>
+               <ex>r</ex>
+            </abbreviation>
+         </w>
+         <w>h<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>an</ex>
+            </abbreviation>n</w>
+         <w>v<abbreviation>
+               <am>
+                  <g ref="#rsup"/>
+               </am>
+               <infix/>
+               <ex>ar</ex>
+            </abbreviation>
+         </w>
+         <w>od<g ref="#rrot"/>u<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>m</ex>
+            </abbreviation>
+         </w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#bar"/>
+               </am>
+               <infix/>
+               <ex>onnu</ex>
+            </abbreviation>m</w>
+         <w>m<abbreviation>
+               <am>
+                  <g ref="#ezh"/>
+               </am>
+               <infix/>
+               <ex>ed</ex>
+            </abbreviation>
+         </w>
+         <pc>.</pc>
+         <w>at</w>
+         <w>
+            <g ref="#slong"/>a</w>
       </line>
    </page>
 </xml>
