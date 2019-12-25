@@ -2,7 +2,7 @@
 
 [div:type=miracle:n=73]
 [p]
-[lb=1] d(ro;osup)ttin(n;bar) veitti þuilika {slong}æmd m(ed;ezh) þ(es;bar)si {fins}og(ru;vsup) {jscap}(ar)teign
+[lb=1] d(ro;osup)ttin(n;bar) veitti þuilika {slong}æmd m(ed;ezh) þ(es;bar)si {fins}og(ru;vsup) j(ar)teign
 [lb=2] t(il;isup) dyrd(ar) {slong}in(n;bar)i helgu mod{rrot} .
 [/p]
 
@@ -17,9 +17,9 @@
 [lb=6] þ(ar){fins}lau{slong}liga hluti . þ(ei;bar)m hey{rrot}(i{ezh}t;zsup) {slong}e(m;bar) m(enn;bar) {rscap}oi m(ed;ezh) m(ik;csup)lu /*c or k?*/ ha¬
 [lb=7]rey{slong}ti (ok) gny y{fins}(er) {aalig}na. m(un;bar)k(ar)n(er) {slong}py{rrot}(ia;asup) . hu(er)ir e(r;er)ut þi(er) . þ(ei;bar){rrot}
 [lb=8] {slong}eg(ia;isup) . w(er) eru(m;bar) dio{fins}l(ar) . (ok) {fins}æru(m;bar) m(ed;ezh) o{sscap} ond t(il;isup) heluitis
-[lb=9] [name:type=person] eb{rrot}onij [/name] ho{fins}di(n;bar)gia {fins}(ra;ra)cka k(onun;bar)gs hird(ar) . þ(via;bar)t h(an;bar)n ka{slong}tadi
+[lb=9] [name:type=person] eb{rrot}onij [/name] ho{fins}di(n;bar)gia {fins}(ra)cka k(onun;bar)gs hird(ar) . þ(via;bar)t h(an;bar)n ka{slong}tadi
 [lb=10] m(un;bar)ka li{fins}nadi þ(ei;bar)m {slong}e(m;bar) h(an;bar)n tok {jscap} m(un;)kli{fins}i hi(n;bar)s helga
-[lb=11] [name:type=person] galli [/name] . (ok) {slong}n(er)i{ezh}t apt(ur) t(il;isup) v(er)alld(ar)i(nn;nleg)(ar). Sem m(un;bar)k(ar)n(er) hey(ra;ra)
+[lb=11] [name:type=person] galli [/name] . (ok) {slong}n(er)i{ezh}t apt(ur) t(il;isup) v(er)alld(ar)i(nn;nleg)(ar). Sem m(un;bar)k(ar)n(er) hey(ra)
 [lb=12] þ(e;bar)tta ott(a{ezh}t;zsup) þ(ei;bar){rrot} aka{fins}liga (ok) kalla hatt . heilug [name:type=person] [hi:rend=caps] Maria [/hi] [/name]
 [lb=13] hialp þu o{sscap} . dio{fins}larn(er) m(æ;bar)ltu . nu hialpadi yd{rrot} þ(at;bar)
 [lb=14] e(r;er) þi(er) kollud(ut;tsup) [name:type=person] [hi:rend=caps] Mariam [/hi] [/name] . þ(uia;bar)t nu he{fins}du(m;bar) v(er) ætlat at
@@ -85,7 +85,11 @@
 [lb=11] [hi=3][supplied=omitted] J [/supplied][/hi] b(isku;bar)ps_dæmi pictane(n;bar){slong}is b(isku;bar)ps . v(ar;rsup) aboti {slong}a e(r;er)
 [lb=12] [name=person] gigo [/name] het . heilag(ur) j {slong}inu(m;bar) li{fins}nadi . (ok) {fins}ræg(ur)
 [lb=13] miokg a{fins} {slong}inu(m;bar) godu(m;bar) hlut(um;msup) . (ok) þo at þ(es;bar)si {slong}æ(m;bar)i¬
-[lb=14]ligi
+[lb=14]ligi h(er;bar){rrot}a v(ær;er)i prydd(ur) m(ed;ezh) dygd heilag{rrot}(ar;rsup) bindindi j
+[lb=15] {fins}o{slong}tu(m;bar) (ok) uoku(m;bar) . (ok) {slong}tad{fins}e{slong}ti heilag(ra) bæna. (ok) m(ik;csup)lu(m;bar)
+[lb=16] o{rrot}leika v(id;isup) {fins}atæka m(enn;bar) . þa v(ar;rsup) h(an;bar)n s(uo;osup) hego(m;bar)lig(ur) (ok) van¬
+[lb=17]{slong}tillt(ur) j {slong}inu tali þa e(r;er) h(an;bar)n v(ar;rsup) od{rrot}u(m;bar) m(onnu;bar)m m(ed;ezh) . at {slong}a
+[lb] [catch]{slong}e(m;bar)[/catch]
 
 
 [/p]
