@@ -12,10 +12,30 @@ getwd()
 library(ggplot2)
 library(reshape2)
 
+
 # load custom functions
+# ---------------------
+
+# normalize by total amount of abbreviations for a sample
 normalize = function(value, sample){
   no_abbreviations = page_overview$no_abbreviations[page_overview$sample == sample]
   res = value/no_abbreviations
+  return(res)
+}
+
+# extract abbreviation mark subframe
+get_subframe_am = function(abbr_mk){
+  res = subset(abbreviations[which(abbreviations$am == abbr_mk),])
+  res$am = factor(res$am)
+  res$ex = factor(res$ex)
+  return(res)
+}
+
+# extract expansion subframe
+get_subframe_ex = function(ex){
+  res = subset(abbreviations[which(abbreviations$ex == ex),])
+  res$am = factor(res$am)
+  res$ex = factor(res$ex)
   return(res)
 }
 
@@ -85,7 +105,7 @@ plot = ggplot(abbr_count, aes(abbr_count$am, abbr_count$Freq_normalized, fill=ab
 plot = plot + geom_bar(position = "dodge", stat = "identity")
 plot
 
-# plot abbreviation mark distribution
+# plot expansion distribution
 plot = ggplot(abbreviations, aes(abbreviations$ex))
 plot = plot + geom_bar()
 plot
@@ -96,3 +116,43 @@ ex_count$Freq_normalized = mapply(normalize, ex_count$Freq, ex_count$sample)
 plot = ggplot(ex_count, aes(ex_count$ex, ex_count$Freq_normalized, fill=ex_count$sample))
 plot = plot + geom_bar(position = "dodge", stat = "identity")
 plot
+
+
+# look at them separately
+sub_frame_am = as.vector(lapply(levels(abbreviations$am), get_subframe_am))
+
+for (val in sub_frame_am){
+  fr = as.data.frame(val)
+  ex_count = data.frame(table(fr$sample, fr$ex, dnn = c("sample", "ex")))
+  ex_count$Freq_normalized = mapply(normalize, ex_count$Freq, ex_count$sample)
+  plot = ggplot(ex_count, aes(ex_count$ex, ex_count$Freq_normalized, fill=ex_count$sample))
+  plot = plot + geom_bar(position = position_dodge(width = 1), stat = "identity")
+  plot = plot + geom_text(aes(label=ex_count$Freq), vjust=-0.3, size=3.5, check_overlap = TRUE, position = position_dodge(width = 1))
+  plot = plot + ggtitle(paste("AM: ", levels(fr$am)))
+  print(plot)
+}
+
+sub_frame_ex = as.vector(lapply(levels(abbreviations$ex), get_subframe_ex))
+
+for (val in sub_frame_ex){
+  fr = as.data.frame(val)
+  am_count = data.frame(table(fr$sample, fr$am, dnn = c("sample", "am")))
+  am_count$Freq_normalized = mapply(normalize, am_count$Freq, am_count$sample)
+  plot = ggplot(am_count, aes(am_count$am, am_count$Freq_normalized, fill=am_count$sample))
+  plot = plot + geom_bar(position = position_dodge(width = 1), stat = "identity")
+  plot = plot + geom_text(aes(label=am_count$Freq), vjust=-0.3, size=3.5, check_overlap = TRUE, position = position_dodge(width = 1))
+  plot = plot + ggtitle(paste("EX: ", levels(fr$ex)))
+  print(plot)
+}
+
+
+
+
+
+
+
+
+
+
+
+
