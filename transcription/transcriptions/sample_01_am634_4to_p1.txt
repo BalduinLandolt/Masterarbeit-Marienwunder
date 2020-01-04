@@ -13,12 +13,12 @@
 [lb=8] [name=person] david [/name] k(onun;bar)gi . (ok) [name=person] ab{rrot}aham [/name] h{ocurl}{fins}(ud;dsup)_{fins}ed{rrot} . ok ne{fins}n(ir;er) þ(ui;isup)
 [lb=9] [name=person] Mathe(us) [/name] {fins}y(rr;rscap) [name=person] david [/name] k(onun;bar)g . ath k(onun;bar)gdo(m;bar){rrot}in(n;bar) m(er)kir eili{fins}t
 [lb=10] R(iki;isup) . (ok) eili{fins}(an;nsup) g(u;d;combcurl)dom all{ezh}ualdanda gud{slong}. Ok þ(ui;isup)
-[lb=11] [name=person] ab{rrot}aham [/name] {slong}id(arr;rsup) . þo at h(ann;bar) wæri {fins}y{rrot}r {jscap} hei(m;bar)e . ath
+[lb=11] [name=person] ab{rrot}aham [/name] {slong}id(arr;ar) . þo at h(ann;bar) wæri {fins}y{rrot}r {jscap} hei(m;bar)e . ath
 [lb=12] g(u;d;combcurl)  het h(onu;bar)m ath taka {aalig} {slong}ig m(ann;nsup)dom (ok) lata b(er)a{ezh}t
 [lb=13] o{rrot} h(a;bar)n{slong} ætt . (ok) {fins}(ra) h(a;bar)n{slong} ætt_m({ocurl}nnu;msup) . {jscap} þ(en;bar)na heim . ok w(ar)
 [lb=14] þui [name=person] Maria [/name] d(ro;osup)ttni(n;bar)g bædi k(onun;bar)ga kyn{slong} (ok) ken(n;bar)i_m(anna;asup) .
-[lb=15] ath h(on;osup) {fins}æddi þ(an;bar)n {slong}on e(r;er) bædi e(r;er) k(onun;bar)g{rrot} . (ok) ken(n;bar)i_m(adr;rsup) .  k(onun;bar)g{rrot}
-[lb=16] {jscap} guddo(m;bar){slong} velldi . ken(n;bar)i_m(adr;rsup) {jscap} pi{slong}l {slong}ine . þa e(r;er) h(an;bar)n {fins}ærdi
+[lb=15] ath h(on;osup) {fins}æddi þ(an;bar)n {slong}on e(r;er) bædi e(r;er) k(onun;bar)g{rrot} . (ok) ken(n;bar)i_m(adr;ar) .  k(onun;bar)g{rrot}
+[lb=16] {jscap} guddo(m;bar){slong} velldi . ken(n;bar)i_m(adr;ar) {jscap} pi{slong}l {slong}ine . þa e(r;er) h(an;bar)n {fins}ærdi
 [lb=17] {slong}ig {slong}ial{fins}(an;nsup) {jscap} {fins}o{rrot}n gudi {fins}er(ur) {aalig} k(ro;osup){slong}{slong}in(um;msup) /*nicht eher "e"? ->*/ halga . [name=person] Mar¬
 [lb=18]ia [/name] w(ar) bo{rrot}in {jscap} n(or;bar)g þ(ei;bar){rrot}e e(r;er) [name=place] na{ezh}areth [/name] heit(ir;er) . en(n;bar) {fins}ædd
 
