@@ -10,7 +10,8 @@ getwd()
 
 # load package
 library(ggplot2)
-library(reshape2)
+library(reshape2) #unused?
+#library(cowplot)
 
 
 # load custom functions
@@ -53,35 +54,62 @@ page_overview$s_fact = as.factor(page_overview$sample)
 page_overview$abbreviations_per_word = page_overview$no_abbreviations/page_overview$no_words
 page_overview$abbreviations_per_line = page_overview$no_abbreviations/page_overview$no_lines
 page_overview$abbreviations_per_page = page_overview$no_abbreviations/page_overview$no_pages
-page_overview$abbreviations_per_100chars = page_overview$no_abbreviations/page_overview$no_characters*1000
+page_overview$abbreviations_per_1000chars = page_overview$no_abbreviations/page_overview$no_characters*1000
 page_overview$lines_per_page = page_overview$no_lines/page_overview$no_pages
 page_overview$chars_per_page = page_overview$no_characters/page_overview$no_pages
 page_overview$chars_per_line = page_overview$no_characters/page_overview$no_lines
 
 
+# ensures output folder exists
+if (!dir.exists()){
+  dir.create("../out/plots")
+}
+# NB: to be sure the time stamp of the output plots is correct, make sure to delete all previously existing plots
+
 
 # plot words per line
-ggplot(data_by_line, aes(data_by_line$no_words)) + geom_histogram(fill="red")
-qplot(data_by_line$no_words, geom="histogram", fill=factor(data_by_line$sample))
-ggplot(data_by_line, aes(data_by_line$no_words, fill=factor(data_by_line$sample))) + geom_histogram(position = "dodge")
-ggplot(data_by_line, aes(y=data_by_line$no_words, x=factor(data_by_line$sample))) + geom_boxplot()
+plot = ggplot(data_by_line, aes(data_by_line$no_words)) + geom_histogram(fill="red")
+ggsave("../out/plots/hist_wordsPerLine.png", plot = plot)
+
+plot = qplot(data_by_line$no_words, geom="histogram", fill=factor(data_by_line$sample))
+ggsave("../out/plots/hist_wordsPerLine_bySample_stack.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(data_by_line$no_words, fill=factor(data_by_line$sample))) + geom_histogram(position = "dodge")
+ggsave("../out/plots/hist_wordsPerLine_bySample_dodge.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(y=data_by_line$no_words, x=factor(data_by_line$sample))) + geom_boxplot()
+ggsave("../out/plots/box_wordsPerLine_bySample.png", plot = plot)
 
 
 # plot characters per line
-qplot(data_by_line$no_characters, geom="histogram", fill=factor(data_by_line$sample))
-ggplot(data_by_line, aes(data_by_line$no_characters, fill=factor(data_by_line$sample))) + geom_histogram(position = "dodge")
-ggplot(data_by_line, aes(y=data_by_line$no_characters, x=factor(data_by_line$sample))) + geom_boxplot()
+plot = qplot(data_by_line$no_characters, geom="histogram", fill=factor(data_by_line$sample))
+ggsave("../out/plots/hist_charactersPerLine_bySample_stack.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(data_by_line$no_characters, fill=factor(data_by_line$sample))) + geom_histogram(position = "dodge")
+ggsave("../out/plots/hist_charactersPerLine_bySample_dodge.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(y=data_by_line$no_characters, x=factor(data_by_line$sample))) + geom_boxplot()
+ggsave("../out/plots/box_charactersPerLine_bySample.png", plot = plot)
 
 
 # plot abbreviations per line
-qplot(data_by_line$no_abbreviations, geom="histogram", fill=factor(data_by_line$sample))
-ggplot(data_by_line, aes(data_by_line$no_abbreviations, fill=factor(data_by_line$sample))) +
+plot = qplot(data_by_line$no_abbreviations, geom="histogram", fill=factor(data_by_line$sample))
+ggsave("../out/plots/hist_abbreviationsPerLine_bySample_stack.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(data_by_line$no_abbreviations, fill=factor(data_by_line$sample))) +
   geom_histogram(position = "dodge", bins = max(data_by_line$no_abbreviations))
-ggplot(data_by_line, aes(data_by_line$no_abbreviations, fill=factor(data_by_line$sample))) +
-  geom_density(fill="red", adjust=0.65) 
-ggplot(data_by_line, aes(data_by_line$no_abbreviations, fill=factor(data_by_line$sample))) +
+ggsave("../out/plots/hist_abbreviationsPerLine_bySample_dodge.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(data_by_line$no_abbreviations, fill=factor(data_by_line$sample))) +
+  geom_density(fill="red", adjust=0.65)
+ggsave("../out/plots/density_abbreviationsPerLine.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(data_by_line$no_abbreviations, fill=factor(data_by_line$sample))) +
   geom_density(alpha=0.5, adjust=0.65) 
-ggplot(data_by_line, aes(y=data_by_line$no_abbreviations, x=factor(data_by_line$sample))) + geom_boxplot()
+ggsave("../out/plots/density_abbreviationsPerLine_bySample.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(y=data_by_line$no_abbreviations, x=factor(data_by_line$sample))) + geom_boxplot()
+ggsave("../out/plots/box_abbreviationsPerLine_bySample.png", plot = plot)
 
 # test normal distribution
 shapiro.test(data_by_line$no_abbreviations)
