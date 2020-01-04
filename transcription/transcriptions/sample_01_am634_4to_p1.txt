@@ -19,8 +19,9 @@
 [lb=14] þui [name=person] Maria [/name] d(ro;osup)ttni(n;bar)g bædi k(onun;bar)ga kyn{slong} (ok) ken(n;bar)i_m(anna;asup) .
 [lb=15] ath h(on;osup) {fins}æddi þ(an;bar)n {slong}on e(r;er) bædi e(r;er) k(onun;bar)g{rrot} . (ok) ken(n;bar)i_m(adr;ar) .  k(onun;bar)g{rrot}
 [lb=16] {jscap} guddo(m;bar){slong} velldi . ken(n;bar)i_m(adr;ar) {jscap} pi{slong}l {slong}ine . þa e(r;er) h(an;bar)n {fins}ærdi
-[lb=17] {slong}ig {slong}ial{fins}(an;nsup) {jscap} {fins}o{rrot}n gudi {fins}er(ur) {aalig} k(ro;osup){slong}{slong}in(um;msup) /*nicht eher "e"? ->*/ halga . [name=person] Mar¬
+[lb=17] {slong}ig {slong}ial{fins}(an;nsup) {jscap} {fins}o{rrot}n gudi {fins}er(ur) {aalig} k(ro;osup){slong}{slong}in(um;msup) helga . [name=person] Mar¬
 [lb=18]ia [/name] w(ar) bo{rrot}in {jscap} n(or;bar)g þ(ei;bar){rrot}e e(r;er) [name=place] na{ezh}areth [/name] heit(ir;er) . en(n;bar) {fins}ædd
+
 
 [pb=2]
 [lb=1] w{pplig} {jscap} b(or;bar)g þ(ei;bar){rrot}e e(r;er) [name=place] {jscap}o{rrot}{slong}ala_b(or;bar)g [/name] heit(ir;er) . (ok) lærd {jscap} g(u;d;combcurl){slong} m(us)t¬
@@ -41,7 +42,7 @@
 [lb=16] en(n;bar) min(n;bar)a aura_l{aalig}n a{fins} hei(m;bar)e þad(an;nsup) {fins}(ra) . Ein(n;bar) hlutta
 [lb=17] {fins}i(ar){slong} ga{fins}v þau t(il;isup) m(us)teri{slong} d(ro;osup)ttin{slong} . bædi þ(ar) t(il;isup) pry¬
 [lb=18]di (ok) þ(ei;bar)m m(onnu;bar)m t(il;isup) atvin(n;bar)u e(r;er) þ(ar) þionudv . An(n;bar)a(n;bar)
-[lb] [catch]hlutin(n;bar)[/catch]
+[lb] [catch]hlutin(n;bar)[/catch] 
 
 [/p]
 
