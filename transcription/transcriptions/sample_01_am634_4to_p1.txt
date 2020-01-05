@@ -55,7 +55,7 @@
 [lb=8] {slong}kylldi þ(at;bar) b(ar)n þiona d(ro;osup)ttni {jscap} h(a;bar)n{slong} mu{slong}t(er)i . þau badu
 [lb=9] g(u;d;combcurl) a{fins} ollu(m;bar) hug ath h(an;bar)n m(un;bar)di hey(ra) heit þ(ei;bar){rrot}a . ok þau
 [lb=10] {fins}(oro;osup) {aalig} hu(er){rrot}e hatid e(r;er) þa w(ar) halldin {jscap} [name=person] moi{slong}e{slong} [/name] l{ocurl}g(um;msup) . pa¬
-[lb=11] {slong}k(ar) . (ok) en(n;bar) {fins}imtug(an;nsup)di dag(ur) {fins}(ra) pa{slong}ka_degi . þa ha{fins}di
+[lb=11]{slong}k(ar) . (ok) en(n;bar) {fins}imtug(an;nsup)di dag(ur) {fins}(ra) pa{slong}ka_degi . þa ha{fins}di
 [lb=12] [name=person] Moy{slong}es [/name] þegit l{ocurl}g a{fins} g(u;d;combcurl)i . k(ir;bar)kiu_dag{rrot} (ok) {slong}a e(r;er) wigt
 [lb=13] w(ar) (ok) helgat [name=person] {slong}alamo(n;bar)s [/name] m(us)teri . (ok) tialld_buda_hatid
 [lb=14] {jscap} min(n;bar)ing þe{slong}{slong} e(r;er) [name=person] Moi{slong}es [/name] helgadi g(u;d;combcurl)i {jscap} eydim(or;osup)k

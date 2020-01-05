@@ -597,8 +597,7 @@
           </name>
           <w>l<g ref="#ocurl" />g<choice><abbr><am><g ref="#msup" /></am></abbr><expan><ex>um</ex></expan></choice></w>
           <pc>.</pc>
-          <w>pa<lb n="11" /></w>
-          <w><g ref="#slong" />k<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>pa<lb n="11" /><g ref="#slong" />k<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
           <pc>.</pc>
           <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
           <w>en<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice></w>
