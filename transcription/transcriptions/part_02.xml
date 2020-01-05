@@ -330,8 +330,8 @@
           <w><g ref="#aalig" /></w>
           <w>vegin<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice></w>
           <w>le<g ref="#slong" />andi</w>
-          <w>þ<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
-          <w><g ref="#slong" />in<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>þ<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w><g ref="#slong" />in<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
           <w>tid<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
           <w>m<choice><abbr><am><g ref="#ezh" /></am></abbr><expan><ex>ed</ex></expan></choice></w>
           <w>b<g ref="#rrot" /></w>
@@ -345,10 +345,10 @@
           <w>j</w>
           <w>mot</w>
           <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice>m</w>
-          <w>m<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice>g<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>m<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>g<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
           <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
           <w><g ref="#slong" />ty<lb n="11" /><g ref="#rrot" />k<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
-          <w>illuirki<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>illuirki<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
           <pc>.</pc>
           <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
           <w>g<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>ri</ex></expan></choice>pu</w>
@@ -373,7 +373,7 @@
           <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice>m</w>
           <w>t<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>il</ex></expan></choice></w>
    <lb n="13" />
-          <w>ko<g ref="#slong" />t<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>ko<g ref="#slong" />t<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
           <w>j</w>
           <w><g ref="#fins" /><choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>din<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice>i</w>
           <pc>.</pc>
@@ -411,13 +411,13 @@
           <pc>.</pc>
           <w>helld<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
    <lb n="16" />
-          <w>v<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice>d</w>
+          <w>v<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>d</w>
           <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
           <w>j</w>
           <w>elldi</w>
-          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>es</ex></expan></choice>sa<g ref="#rscap" /><choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>es</ex></expan></choice>sa<g ref="#rscap" /><choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
           <w>pinu</w>
-          <w>eit<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice>i</w>
+          <w>eit<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>i</w>
           <w>m<choice><abbr><am><g ref="#ezh" /></am></abbr><expan><ex>ed</ex></expan></choice></w>
           <w>g<choice><abbr>d<am><g ref="#combcurl" /></am></abbr><expan><ex>u</ex>d</expan></choice>lig<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>ri</ex></expan></choice></w>
           <w>a<g ref="#slong" />t</w>
@@ -431,7 +431,7 @@
           <w>hlutu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
           <w>m<choice><abbr><am><g ref="#ezh" /></am></abbr><expan><ex>ed</ex></expan></choice></w>
           <w>glo<lb n="18" />du</w>
-          <w>hi<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice>ta</w>
+          <w>hi<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>ta</w>
           <pc>.</pc>
           <w>taladi</w>
           <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
@@ -458,24 +458,24 @@
           <w>bænu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
           <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
           <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
-          <w>v<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>v<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
           <w>wa<lb n="2" />n<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
           <pc>.</pc>
           <w>En<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice></w>
           <w><g ref="#slong" />em</w>
-          <w>illu<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>ir</ex></expan></choice>ki<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice>n<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>illu<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>ir</ex></expan></choice>ki<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>n<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
           <w><g ref="#slong" /><g ref="#aalig" /></w>
           <w><g ref="#slong" />tad<g ref="#fins" />e<g ref="#slong" />ti</w>
           <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>s</w>
           <w>helga</w>
-          <w>li<g ref="#fins" /><lb n="3" />nad<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>li<g ref="#fins" /><lb n="3" />nad<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
           <pc>.</pc>
           <w>kuomu<g ref="#ezh" />t</w>
           <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /></w>
           <w>v<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>it</ex></expan></choice></w>
           <w>j</w>
           <w><g ref="#slong" />inu</w>
-          <w>hi<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice>ta</w>
+          <w>hi<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>ta</w>
           <pc>.</pc>
           <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
           <w>ga<g ref="#fins" />u</w>
@@ -494,7 +494,7 @@
           <w>audmiukli<lb n="5" />ga</w>
           <w>at</w>
           <w>G<choice><abbr><am><g ref="#usmod" /></am></abbr><expan><ex>uds</ex></expan></choice></w>
-          <w>m<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>adr</ex></expan></choice></w>
+          <w>m<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>adr</ex></expan></choice></w>
           <w>leti</w>
           <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice>m</w>
           <w><g ref="#fins" /><choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>yrir</ex></expan></choice></w>
@@ -513,7 +513,7 @@
           <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /></w>
           <w>mætti</w>
           <w>v<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>da</w>
-          <w>hluttak<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice>ar</w>
+          <w>hluttak<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>ar</w>
           <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>s</w>
           <w>bæ<lb n="7" />na</w>
           <pc>.</pc>
@@ -572,7 +572,7 @@
           <w>pictane<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice><g ref="#slong" />is</w>
           <w>b<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>isku</ex></expan></choice>ps</w>
           <pc>.</pc>
-          <w>v<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>v<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
           <w>aboti</w>
           <w><g ref="#slong" />a</w>
           <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
@@ -606,7 +606,7 @@
           <w>prydd<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
           <w>m<choice><abbr><am><g ref="#ezh" /></am></abbr><expan><ex>ed</ex></expan></choice></w>
           <w>dygd</w>
-          <w>heilag<g ref="#rrot" /><choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>heilag<g ref="#rrot" /><choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
           <w>bindindi</w>
           <w>j</w>
    <lb n="15" />
@@ -628,7 +628,7 @@
           <w>m<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>enn</ex></expan></choice></w>
           <pc>.</pc>
           <w>þa</w>
-          <w>v<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>v<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
           <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
           <w>s<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>uo</ex></expan></choice></w>
           <w>hego<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice>lig<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
@@ -640,7 +640,7 @@
           <w>þa</w>
           <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
           <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
-          <w>v<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>v<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
           <w>od<g ref="#rrot" />u<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
           <w>m<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>onnu</ex></expan></choice>m</w>
           <w>m<choice><abbr><am><g ref="#ezh" /></am></abbr><expan><ex>ed</ex></expan></choice></w>

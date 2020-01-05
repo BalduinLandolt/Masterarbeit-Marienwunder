@@ -1354,7 +1354,7 @@
          <w>le<g ref="#slong"/>andi</w>
          <w>þ<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -1363,7 +1363,7 @@
          <w>
             <g ref="#slong"/>in<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -1433,7 +1433,7 @@
             </abbreviation>m</w>
          <w>m<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -1469,7 +1469,7 @@
          </wordpart>
          <w>illuirki<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -1616,7 +1616,7 @@
       <line n="13">
          <w>ko<g ref="#slong"/>t<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -1811,7 +1811,7 @@
       <line n="16">
          <w>v<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -1834,7 +1834,7 @@
             </abbreviation>sa<g ref="#rscap"/>
             <abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -1843,7 +1843,7 @@
          <w>pinu</w>
          <w>eit<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -1933,7 +1933,7 @@
          <wordpart>du</wordpart>
          <w>hi<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -2055,7 +2055,7 @@
             </abbreviation>n</w>
          <w>v<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -2091,7 +2091,7 @@
                <ex>ir</ex>
             </abbreviation>ki<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -2123,7 +2123,7 @@
       <line n="3">
          <wordpart>nad<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -2153,7 +2153,7 @@
             <g ref="#slong"/>inu</w>
          <w>hi<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -2261,7 +2261,7 @@
          </w>
          <w>m<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>adr</ex>
@@ -2372,7 +2372,7 @@
             </abbreviation>da</w>
          <w>hluttak<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -2608,7 +2608,7 @@
          <pc>.</pc>
          <w>v<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -2763,7 +2763,7 @@
          <w>heilag<g ref="#rrot"/>
             <abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -2869,7 +2869,7 @@
          <w>þa</w>
          <w>v<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>
@@ -2947,7 +2947,7 @@
             </abbreviation>n</w>
          <w>v<abbreviation>
                <am>
-                  <g ref="#rsup"/>
+                  <g ref="#ar"/>
                </am>
                <infix/>
                <ex>ar</ex>

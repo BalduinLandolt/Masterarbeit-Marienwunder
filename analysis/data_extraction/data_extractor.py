@@ -239,7 +239,7 @@ class Extractor:
         tmp = Extractor.resolve_glyph(w)
         tmp = Extractor.resolve_abbreviations(tmp, type)
         tmp.smooth()
-        return tmp.string
+        return tmp.string or tmp.text
 
     @staticmethod
     def get_words_raw_rep(file, type, replace_wordparts=True):
