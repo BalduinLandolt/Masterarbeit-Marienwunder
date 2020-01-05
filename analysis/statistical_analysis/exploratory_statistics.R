@@ -42,11 +42,11 @@ get_subframe_ex = function(ex){
 
 
 # read data from file
-page_overview = read.csv("../tmp_data/page_overview.csv")
+page_overview = read.csv("../tmp_data/page_overview.csv", encoding = 'UTF-8')
 head(page_overview)
-data_by_line = read.csv("../tmp_data/data_by_line.csv")
+data_by_line = read.csv("../tmp_data/data_by_line.csv", encoding = 'UTF-8')
 head(data_by_line)
-abbreviations = read.csv("../tmp_data/abbreviations.csv")
+abbreviations = read.csv("../tmp_data/abbreviations.csv", encoding = 'UTF-8')
 head(abbreviations)
 
 
