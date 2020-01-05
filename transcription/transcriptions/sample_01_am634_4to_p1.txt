@@ -48,7 +48,28 @@
 [lb=1] hlutin(n;bar) ga{fins}u þau utlend(um;msup) m(onnu;bar)m {fins}atæk(um;msup) þ(ei;bar)m {slong}e(m;bar) þ(ar)
 [lb=2] attv {ocurl}ngua dugnad(ar)_m(enn;bar) eda {fins}rænd(r;ur) . þau h{ocurl}{fins}du
 [lb=3] {slong}ial{fins} hin(n;bar) þ(ri;isup)dia hlut {fins}i(ar)en{slong} {slong}i(er) t(il;isup) at_vin(n;bar)u . Nu w(ar) þ(ei;bar){rrot}a
+[lb=4] {rscap}ettlæti dy{rrot}ligt {fins}(yrir;isup) gvdi (ok) m(onnu;bar)m . (ok) aud{slong}æ millde 
+[lb=5] þ(ei;bar){rrot}a . (ok) þotti þ(ei;bar)m {slong}i(er) þe{slong}{slong} ein{slong} want, e(r;er) þav attu ei(n;bar)g¬
+[lb=6]an(n;bar) er{fins}i(n;bar)gia . Þau h{ocurl}{fins}du þa {slong}am(an;nsup) w(er)it . xx . vet(ur) . 
+[lb=7] þa hetu þau {aalig} g(u;d;combcurl) ath e{fins} h(an;bar)n gæ{fins}i þ(ei;bar)m b(ar)n . þa
+[lb=8] {slong}kylldi þ(at;bar) b(ar)n þiona d(ro;osup)ttni {jscap} h(a;bar)n{slong} mu{slong}t(er)i . þau badu
+[lb=9] g(u;d;combcurl) a{fins} ollu(m;bar) hug ath h(an;bar)n m(un;bar)di hey(ra) heit þ(ei;bar){rrot}a . ok þau
+[lb=10] {fins}(oro;osup) {aalig} hu(er){rrot}e hatid e(r;er) þa w(ar) halldin {jscap} [name=person] moi{slong}e{slong} [/name] l{ocurl}g(um;msup) . pa¬
+[lb=11] {slong}k(ar) . (ok) en(n;bar) {fins}imtug(an;nsup)di dag(ur) {fins}(ra) pa{slong}ka_degi . þa ha{fins}di
+[lb=12] [name=person] Moy{slong}es [/name] þegit l{ocurl}g a{fins} g(u;d;combcurl)i . k(ir;bar)kiu_dag{rrot} (ok) {slong}a e(r;er) wigt
+[lb=13] w(ar) (ok) helgat [name=person] {slong}alamo(n;bar)s [/name] m(us)teri . (ok) tialld_buda_hatid
+[lb=14] {jscap} min(n;bar)ing þe{slong}{slong} e(r;er) [name=person] Moi{slong}es [/name] helgadi g(u;d;combcurl)i {jscap} eydim(or;osup)k
+[lb=15] þ(at;bar) e(r;er) h(an;bar)n ha{fins}di lat(id;dsup) g(er)a . Þau [name=person] Joachim [/name] (ok)
+[lb=16] [name=person] anna [/name] wæntu ath hv(er){rrot}i hatid rth g(u;d;combcurl) m(un;bar)di þau
+[lb=17] ath þe{slong}{slong}u hug(g;bar)a . 
+# ca. two blank lines here!
+[lb] [catch] þath [/catch] 
 
 [/p]
 
 [/div]
+
+
+
+
+
