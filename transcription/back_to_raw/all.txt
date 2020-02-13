@@ -1,0 +1,1449 @@
+
+/*Raw output from transformation*/
+
+
+[div:type=volume:n=1]
+
+
+[div:type=miracle:n=74]
+
+
+[pb=472]
+[lb=3] [head] Maria hialpadi m(un;bar)ku(m;bar) [/head]
+[p]
+
+
+[lb=4] [hi:rend=2] [supplied:reason=omitted] M [/supplied] [/hi] vnk(ar) nockr(er) {slong}todu w(id;isup) {aalig} eina {fins}(yrir;isup) dag (ok) {slong}ke
+[lb=5] mtu s(er) talandi heimolig(ar) {slong}og(ur). (ok) m(ar)ga
+[lb=6] þ(ar){fins}lau{slong}liga hluti. þ(ei;bar)m hey{rrot}(iz;zsup) {slong}e(m;bar) m(enn;bar) {rscap}oi m(ed;ezh) m(ik;csup)lu ha
+[lb=7] rey{slong}ti (ok) gny y{fins}(er) {aalig}na. m(un;)k(ar)n(er) {slong}py{rrot}(ia;asup) hu(er)ir e(r;)ut þi(er). þ(ei;bar){rrot}
+[lb=8] {slong}eg(ia;isup). w(er) eru(m;bar) dio{fins}l(ar). (ok) {fins}æru(m;bar) m(ed;ezh) o{sscap} ond t(il;isup) heluitis
+[lb=9] [name:type=person] eb{rrot}onij [/name] ho{fins}di(n;bar)gia {fins}(ra)cka k(onun;bar)gs hird(ar). þ(via;bar)t h(an;bar)n ka{slong}tadi
+[lb=10] m(un;bar)ka li{fins}nadi þ(ei;bar)m {slong}e(m;bar) h(an;bar)n tok {jscap} m(un;)kli{fins}i hi(n;)s helga
+[lb=11] [name:type=person] galli [/name] . (ok) {slong}n(er)izt apt(ur) t(il;isup) v(er)alld(ar)in(ar). Sem m(un;bar)k(ar)n(er) hey(ra)
+[lb=12] þ(e;bar)tta ott(az;azh) þ(ei;bar){rrot} aka{fins}liga (ok) kalla hatt. heilug [name:type=person] [hi:rend=caps] Maria [/hi] [/name]
+[lb=13] hialp þu o{sscap}. dio{fins}larn(er) m(æ;bar)ltu. nu hialpadi yd{rrot} þ(at;bar)
+[lb=14] e(r;er) þi(er) kollud(ut;tsup) [name:type=person] [hi:rend=caps] Mariam [/hi] [/name] . þ(uia;bar)t nu he{fins}du(m;bar) v(er) ætlat at
+[lb=15] {slong}lita yd{rrot} kuika {jscap} {slong}und(ur) (ok) d{rrot}eckia yd(ur) {slong}id(an;nsup). þ(uia;bar)t v(er)
+[lb=16] {fins}undu(m;bar) yd{rrot} {fins}(ar)andi m(ed;ezh) lau{slong}ung. (ok) talandi {aalig} þ(ei;bar)m
+[lb=17] ti(m;bar)a {slong}e(m;bar) e(igi;isup) e(r;er) {slong}kip(ad;dsup). Munk(ar)n(er) þacka nu G(udi;isup) (ok) h(an;bar)s mod(ur) {slong}i
+[lb=18] na myskun(n;bar). (ok) {fins}(ar)a apt(ur) t(il;isup) klaust(ur){slong}ins. en(n;bar) dio{fins}larn(er) [catch]{slong}kunda[/catch]
+[pb=473]
+[lb=1] {slong}kunda t(il;isup) heluitis.
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=75]
+
+[head]
+[lb=2] Illu(ir;isup)ki(ar) leid{rrot}ettu{ezh}t . [/head]
+[p]
+
+
+[lb=3] [hi:rend=2] [supplied:reason=omitted] H [/supplied] [/hi] Eilag(ur) [name:type=person] hugo [/name] aboti [name:type=person] clugiacen{slong}is [/name] {rscap}ei{slong}ti m(or;osup)g
+[lb=4] m(un;bar)kli{fins}i g(u;)d(;combcurl)i t(il;isup) heid(ur)s . h(an;bar)n el{slong}kadi einkanli
+[lb=5] ga vo(ra) {fins}(rv;vsup) helga G(uds;us)mod(ur) [name:type=person] [hi:rend=caps] mariam [/hi] [/name] . (ok) {slong}tundadi
+[lb=6] miok {aalig} helga olmu{slong}ug(er)d . mædandi {slong}in(n;bar) likam
+[lb=7] m(ed;ezh) meinlætu(m;bar) {fins}(yrir;isup) g(u;)d(;combcurl)s {slong}ak(ir;er) . (ok) einkanliga m(ed;ezh) hei
+[lb=8] lag(ri;isup) þ{ocurl}gn . A nockuru(m;bar) tima {slong}e(m;bar) h(an;bar)n {fins}o{rrot} t(il;isup) [name:type=place] {rscap}oms [/name] .
+[lb=9] (ok) {fins}o{rrot} {slong}nem(m;bar)a {aalig} vegin(n;bar) le{slong}andi þ(ar) {slong}in(ar) tid(ir;er) m(ed;ezh) b{rrot}
+[lb=10] æd{rrot}unu(m;bar) e(r;er) h(onu;bar)m {fins}ylgdu . ko(m;bar)a j mot þ(ei;bar)m m(ar)g(ir;er) (ok) {slong}ty
+[lb=11] {rrot}k(ir;er) illuirki(ar) . (ok) g(ri;isup)pu h(an;bar)n en(n;bar) {rscap}æna þa {slong}em m(ed;ezh) h(onu;bar)m
+[lb=12] {fins}(oru;osup) ollu(m;bar) þ(ei;bar)m hlut(um;msup) {slong}e(m;bar) h(an;bar)n ha{fins}di {fins}lutt m(ed;ezh) s(er) þ(ei;bar)m t(il;isup)
+[lb=13] ko{slong}t(ar) j {fins}(er)din(n;bar)i . (ok) {slong}etia {slong}ial{fins}(an;nsup) h(an;bar)n j gey(m;bar){slong}lu ein(n;bar){slong}am(an;nsup) .
+[lb=14] en(n;bar) þott h(an;bar)n þyldi m(ik;csup)la þuing(an;nsup) a{fins} {slong}inu(m;bar) ouinu(m;bar) .
+[lb=15] let h(an;bar)n alld(ri;isup) a{fins} G(uds;us) lo{fins}i (ok) h(an;bar)s mod(ur) [name:type=place] [hi:rend=caps] marie [/hi] [/name] . helld(ur)
+[lb=16] v(ar)d h(an;bar)n j elldi þ(es;bar)sa{rscap}(ar) pinu heit(ar)i m(ed;ezh) g(u;)d(;combcurl)lig(ri;isup) a{slong}t . w(er)
+[lb=17] andi {slong}tad {fins}a{slong}t(ur) j uppteknu(m;bar) godu(m;bar) hlutu(m;bar) m(ed;ezh) glo
+[lb=18] du hi(ar)ta . taladi h(an;bar)n ongan(n;bar) dag . {fins}y{rscap} en(n;bar) h(an;bar)n ha{fins}(di;isup) [catch]{slong}agt [/catch]
+[pb=474]
+[lb=1] {slong}agt p(ri;isup)ma(m;bar) (ok) letanias . m(ed;ezh) þ(ei;bar)m bænu(m;bar) e(r;er) h(an;bar)n v(ar) wa
+[lb=2] n(ur) . En(n;bar) {slong}em illu(ir;isup)ki(ar)n(ir;er) {slong}{aalig} {slong}tad{fins}e{slong}ti h(an;bar)s helga li{fins}
+[lb=3] nad(ar) . kuomu{ezh}t þ(ei;bar){rrot} v(it;isup) j {slong}inu hi(ar)ta . (ok) ga{fins}u apt(ur)
+[lb=4] allt þ(at;bar) {slong}e(m;bar) þ(ei;bar){rrot} ho{fins}du {fins}(yrir;isup) h(onu;bar)m g(ri;isup)p(it;tsup) . bidi(an;nsup)di audmiukli
+[lb=5] ga at G(uds;us) m(adr;ar) leti þ(ei;bar)m {fins}(yrir;isup) . þær mei(n;bar)g(er)d(ir;er) {slong}e(m;bar) þ(ei;bar){rrot} ho{fins}du
+[lb=6] h(onu;bar)m g(er)t . (ok) at þ(ei;bar){rrot} mætti v(er)da hluttak(ar)ar h(an;bar)s bæ
+[lb=7] na . þ(ei;bar){rrot} ge{fins}a s(uo;osup) G(uds;us) m(ann;nsup) lidug(an;nsup) m(ed;ezh) {slong}æmd . (ok) {fins}æ(ra) h(ann;bar)
+[lb=8] hei(m;bar) t(il;isup) {slong}ins klau{slong}t(ur)s . en(n;bar) {slong}ial{fins}(ir;er) þ(ei;bar){rrot} lata a{fins} {slong}in(n;bar)i
+[lb=9] ill{ezh}ku . takandi m(ed;ezh) litillæti hjalp{slong}amliga jd(ra)n .
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=76]
+
+
+[lb=10] [head] Munk(ar) badu {fins}(yrir;isup) abota [/head]
+[p]
+
+
+[lb=11] [hi:rend=2] [supplied:reason=omitted] J [/supplied] [/hi] b(ysku;bar)ps dæmi [name:type=place] pictane(n;bar){slong}is [/name] b(ysku;bar)ps. v(ar) aboti {slong}a e(r;er)
+[lb=12] [name:type=person] gigo [/name] het. heilag(ur) j {slong}inu(m;bar) li{fins}nadi. (ok) {fins}ræg(ur)
+[lb=13] miog a{fins} {slong}inu(m;bar) godu(m;bar) hlutu(m;bar). (ok) þo at þ(es;bar)si {slong}æ(m;bar)i
+[lb=14] ligi h(er;bar){rrot}a v(ær;er)i prydd(ur) m(ed;ezh) dygd heilag{rrot}(ar) bindindi j
+[lb=15] {fins}o{slong}tu(m;bar) (ok) uoku(m;bar). (ok) {slong}tad{fins}e{slong}ti heilag(ra) bæna. (ok) m(ik;csup)lu(m;bar)
+[lb=16] o{rrot}leika v(id;isup) {fins}atæka m(enn;bar). þa v(ar) h(an;bar)n s(uo;osup) hego(m;bar)lig(ur) (ok) van
+[lb=17] {slong}tillt(ur) j {slong}inu tali þa e(r;er) h(an;bar)n v(ar) od{rrot}u(m;bar) m(onnu;bar)m m(ed;ezh). at {slong}a
+[lb] [catch]{slong}e(m;bar)[/catch]
+[pb=475]
+[lb=1] {slong}e(m;bar) h(an;bar)n hey{rrot}di tala (ok) visi e(igi;isup) h(an;bar)s li{fins}n(ad;dsup) m(un;bar)di e(igi;isup) vænta
+[lb=2] ath m(ed;ezh) h(onu;bar)m v(ær;er)i nockut m(er)ki dygda heilags li{fins}nad(ar).
+[lb=3] wirdulig(ur) h(er;bar)ra [name:type=person] hugo [/name] minti h(an;bar)n optliga ath h(an;bar)n bæ
+[lb=4] tti {slong}ig vm þ(en;bar)na hlut. ok {aalig} nockuru(m;bar) tima {slong}em a
+[lb=5] boti [name:type=place] cluinace(n;bar){slong}is [/name] {fins}o{rrot} at vi{slong}it(er)a h(an;bar)s m(un;bar)kli{fins}i {slong}e(m;bar) h(onu;bar)m
+[lb=6] hey{rrot}di t(il;isup). vitr(azt;zsup) {fins}y{rscap} ne{fins}nd(ur) aboti [name:type=person] gigo [/name] þ(es;bar)s(u;)m abota
+[lb=7] [name:type=person] hugoni [/name] þ{rrot}im nottu(m;bar) ad{rrot} h(an;bar)n kæ(m;bar)i j h(an;bar)s klau{slong}t(ur). w(ar)
+[lb=8] h(an;bar)n miog h{rrot}ygg(ur). (ok) taladi ecki {slong}yna(n;bar)di {slong}in(n;bar) mvn(n;bar)
+[lb=9] {fins}ullan(n;bar) m(ed;ezh) lei{rscap}. (ok) va{rscap}(ir;er)n(ar) duptug(ar). Sem hin(n;bar)
+[lb=10] v(ir;isup)duligi [name:type=person] hugo [/name] vakn(ar) {slong}kilr h(an;bar)n at [name:type=person] gigo [/name] e(r;er) lidin(n;bar)
+[lb=11] o{rrot} þ(es;bar)s(u;)m hei(m;bar)e. en(n;bar) þ(via;bar)t h(an;bar)n ha{fins}di {slong}in(n;bar) mun(n;bar) (ok) va{rscap}(ir;isup) vt(an;nsup)
+[lb=12] {slong}tilling ha{fins}t t(il;isup) hego(m;bar)lig(ra) o{rrot}da (ok) ouid(ur)kuæ(m;bar)iligs hla
+[lb=13] t(ur)s {slong}ynd(izt;zsup) h(an;bar)n ha{fins}a tek(it;tsup) pinu {slong}ynd(ar)in(ar) {aalig} þ(ei;bar)m {slong}omu(m;bar)
+[lb=14] limu(m;bar). vm m(or;osup)ginin ept(ir;er) v(ar)d h(an;bar)n vi{slong}ari a{fins} þ(es;bar)si {slong}yn.
+[lb=15] þ(via;bar)t þ(es;bar)s m(un;bar)kli{fins}is {rscap}un(n;bar)u mot h(onu;bar)m {slong}eg(ia;asup)ndi þ(ei;bar){rrot}a abota
+[lb=16] [name:type=person] gigone(m;bar) [/name] andada(n;bar) v(er)a. ok e(r;er) h(an;bar)n he{fins}(ir;er) {slong}am(an;nsup) kallat
+[lb=17] b{rrot}æd(ur)na. bid(ur) h(an;bar)n at þ(ei;bar){rrot} {slong}kylldi bid(ia;asup) t(il;isup) G(uds;us) (ok) vo{rscap}(ar)
+[lb=18] {fins}(rv;vsup) {fins}(yrir;isup) h(an;bar)s {fins}(re;esup)l{slong}i. halldandi {slong}i{ocurl} daga {slong}am{fins}leytt þ{ocurl}gn.
+[lb] [catch]hinu(m;bar)[/catch]
+[pb=476]
+[lb=1] hinu(m;bar) {slong}ionda degi þ(ei;bar){rrot}(ar) þagn(ar) lidnu(m;bar) vit(ra){ezh}t [name:type=person] gigo [/name] en(n;bar)
+[lb=2] {fins}y{rscap} {slong}ogdu(m;bar) abota. þackandi h(onu;bar)m at {fins}(yrir;isup) h(an;bar)s bæn
+[lb=3] m(ed;ezh) b{rrot}æd(ra)na {fins}ullti(n;bar)gi v(ar) h{rrot}ein{slong}od {slong}ynd h(an;bar)s v(ar)ra. wir
+[lb=4] dulig(ur) {fins}ad(ir;er) [name:type=person] hugo [/name] v(ar)d h(ar)dla glad{rrot} a{fins} þ(es;bar)su. (ok) {slong}eg(ir;er) b{rrot}æd
+[lb=5] {rrot}unu(m;bar) þeg(ar) vm m(or;osup)ginin(n;nleg) þ(at;bar) {slong}em h(onu;bar)m w(ar) vit(ra)d. min(n;bar)andi
+[lb=6] {aalig} at þ(ar) {fins}(yrir;isup) þackadi þ(ei;bar){rrot} G(udi;isup) (ok) gæ{ezh}ku hin(n;nleg)(ar) milldu{ezh}tu
+[lb=7] mod{rrot} G(uds;us) [name:type=person] MARIE [/name] e(r;er) alld(ri;isup) e(r;er) omin(n;bar)ig þ(ei;bar){rrot}a {slong}em h(en;bar)n(ar)
+[lb=8] min(n;bar)a{ezh}t.
+
+[/p]
+
+
+[/div]
+
+
+[/div]
+
+[div:type=volume:n=2]
+
+
+[div:type=miracle:n=92]
+
+
+[lb=16] [head] H(er;) seg(ir;) a{fins} vor {fins}(rv;) tidum. [/head]
+[p]
+
+
+[lb=17] [hi:rend=2] [supplied:reason=omitted] S [/supplied] [/hi] wo {slong}eg(ir;) [name:type=person] Pet(ru;)s [/name] . at i þ(vi;) m(un;)kli{fins}i {slong}e(m;) he [catch]it(ir;)[/catch]
+[pb=42]
+[lb=1] it(ir;) [name:type=person] pet(ra;) p(e;)tru{slong}a [/name] {slong}ka(m;)t {fins}(ra;) m(un;)kli{fins}i heilags uincencij
+[lb=2] v(ar;) {slong}kip(ad;) a{fins} b{rrot}æd{rrot}u(m;) (ok) halld(it;) um þ(ri;)a vet(ur;). ath ept(ir;)
+[lb=3] þær tid(ir;) {slong}e(m;) b{rrot}æd{rrot}un(um;) v(ar;) {slong}kylldugt at {slong}yng(ia;). {slong}ky
+[lb=4] lldi þ(ei;){rrot} le{slong}a tid(ir;) vo{rscap}(ar;) {fins}(rv;). Ein(n;) m(un;)kr e(r;) [name:type=person] ga{ezh}o [/name] h(et;). {rscap}a(n;)g
+[lb=5] lat(ur;) (ok) ill{ezh} li{fins}nad(ar;). en(n;) miok o{rrot}dig(ur;) ok m(ar;)gtalad(ur;)
+[lb=6] kærdi sik {fins}a{slong}t um þ(at;). (ok) {slong}agdi. e(igi;) {rscap}ettliga mega leg
+[lb=7] g(ia;) s(uo;) mikin(n;) þunga {aalig} b{rrot}æd(ur;)na. um þ(at;) {fins}(ra;)m {slong}e(m;)
+[lb=8] bod(it;) w(ar;) j þ(ei;){rrot}a {rscap}eglu. (ok) {slong}agdi þ(ei;)m vel mega nægiazt
+[lb=9] þo at þ(ei;){rrot} legdi engar nyiu(n;)g(ar;) jn(n;) j {slong}in(n;) {slong}id. h(an;)n
+[lb=10] {fins}eck her t(il;) m(ar;)g(ar;) g(re;)in(ir;) (ok) {slong}kyn{slong}emdir at {slong}an(n;)a {slong}itt
+[lb=11] mal. (ok) m(ed;) {slong}in(n;)i þ{rrot}ætu {fins}eck h(an;)n þ(vi;) v(id;) ko(m;)it. at
+[lb=12] b{rrot}æd(ur;)n(ir;) letu a{fins} at {slong}eg(ia;) tid(ir;) ju(n;)g{fins}(rv;) [name:type=person] [hi:rend=caps] Marie [/hi] [/name] .
+[lb=13] þeg(ar;) {rscap}i{slong}u upp m(ar;)g(ir;) nolldug(ir;) m(enn;). (ok) g(er;)du otallig(ar;)
+[lb=14] meing(er;)d(ir;) (ok) {slong}kada þ(ui;) {slong}ama klau{slong}t(ri;). v(ar;) g(ri;)p(it;) god{ezh}
+[lb=15] m(un;)kan(n;)a. ok {rscap}ænt(ir;) þ(ei;){rrot}a m(enn;). b{rrot}end(ir;) þ(ei;){rrot}a bæ(ir;). (ok) {slong}ær
+[lb=16] d(ir;) (ok) d{rrot}epn(ir;) þ(ei;){rrot}a þionu{slong}tu m(enn;). þ(ei;){rrot} {slong}enda (ok) {fins}(ar;)a
+[lb=17] {slong}ial{fins}ir t(il;) {slong}axl(an;)d{ezh} kei{slong}a(ra;). (ok) at þar{fins}lau{slong}u. þ(uia;)t þ(ei;){rrot} [catch]{fins}[/catch]
+[pb=43]
+[lb=1] {fins}a enga {rscap}etti(n;)g {slong}in(n;)a mala. þa kuo(m;)u þ(ei;){rrot} t(il;) mi(n;)
+[lb=2] {slong}agdi {fins}yr {slong}agd(ur;) b(ysku;)p [name:type=person] Pet(ru;)s [/name] . kæ(ra;)ndi {fins}(yrir;) m(er;) {slong}ina ve{slong}o
+[lb=3] ld. {slong}agdi ek. sak(ir;) þ(e;){sscap} þ(ei;)m þ(e;)tta ha{fins}a t(il;) bo{rrot}(it;). ath
+[lb=4] þ(ei;)r ho{fins}du {fins}ra s(er;) {rscap}ek(it;) mod(ur;) hi(n;)s {slong}an(n;)a {fins}(ri;)d(ar;). þ(ei;){rrot}a
+[lb=5] {slong}endi m(enn;) {fins}alla þeg(ar;) t(il;) j(ar;)d(ar;). {slong}eg(ia;)ndi s(ik;) alld(ri;) hed(an;)
+[lb=6] a{fins} {slong}k(ul;)u uppge{fins}a at {slong}eg(ia;) lo{fins} {slong}ællar ju(n;)g{fins}(rv;) [name:type=person] [hi:rend=caps] Ma
+[lb=7] rie [/hi] [/name] . {fins}ei(n;)gu s(uo;) þeg(ar;) {fins}(ri;)d (ok) nad(ir;). (ok) helldu vel {slong}itt
+[lb=8] heit. Mo{rrot}gu(m;) {aalig}ru(m;) {slong}id(ar;) {slong}e(m;) lid(it;) v(ar;) {fins}ra hi(n;)gat burd
+[lb=9] v(or;)s h(e{rrot};)ra [name:type=person] (Jesu kristi;) [/name] þu{slong}und niutig(ir;) (ok) {fins}im {aalig}r.
+[lb=10] {slong}kipadi [name:type=person] urban(us;) [/name] p(afi;). {aalig} ken(n;)i m(anna;) þi(n;)gi v(id;) [name:type=place] clarom(on;)te(m;) [/name]
+[lb=11] j [name:type=place] gallia [/name] at le{slong}a {slong}kylldi tid(ir;) a{fins} ju(n;)g{fins}(rv;) [name:type=person] [hi:rend=caps] marie [/hi] [/name] . (ok)
+[lb=12] h(en;)ni {slong}kylldi syng(ia;) hatidliga hu(er;)n laug(ar;) dag.
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=148]
+
+
+[pb=272]
+[lb=15] [head] ho{rrot}kona leid{rrot}etti{ezh}th . [/head]
+[p]
+
+
+[lb=16] [hi:rend=2] [supplied:reason=omitted] N [/supplied] [/hi] Ock(er;) kona v(ar;) {slong}u {slong}(e;)m el{slong}kadi eig
+[lb=17] inbonda an(n;dot)a{rscap}(ar;) (ok) lagd
+[lb] [catch]i{ezh}t[/catch]
+[pb=273]
+[lb=1] i{ezh}t vnd(er;) h(an;)n . v(ar;) h(an;)n s(uo;) galin(n;dot) {fins}(yrir;) þ(es;)si ho{rrot}konu at
+[lb=2] h(an;)n gleymdi naliga þ(ar;) {fins}(yrir;) {slong}in(n;dot)i hus{fins}(rv;) . en þo at
+[lb=3] þ(es;)si ve{slong}la kona v(ær;)i j s(uo;) vondu(m;) li{fins}nadi þa mi
+[lb=4] nt(i{ezh}t;) hu(n;) ja{fins}nan hu(er;)n tima {slong}(e;)m hu(n;) ko(m;) t(il;) k(ir;)kiu .
+[lb=5] hv(ar;) {slong}(e;)m hu(n;) {slong}a likne{slong}ki {slong}æll(ar;) ju(n;)g{fins}(rv;) [hi:rend=caps] [name:type=person] marie [/name] [/hi] at
+[lb=6] heil{slong}a {aalig} h(an;)a {fins}y{rrot}{slong}t . {slong}eg(ia;)ndi m(ed;) ollu(m;) godvilia
+[lb=7] engiliga kuediu Ave [hi:rend=caps] [name:type=person] maria [/name] [/hi] ad{rrot} hu(n;) ho{fins}
+[lb=8] vpp adr(ar;) {slong}in(ar;) bæn(ir;) . Eigin kona {fins}y{rscap}{slong}agds
+[lb=9] bonda ha{fins}(di;) miog g(ri;)mlig(an;) hug . {aalig} h(en;)ni . h(ar;)m(an;)di
+[lb=10] at h(en;)n(ar;) ma(dr;) v(ir;)di mei(ra;) ho{rrot}konvna en s(ik;) . en(n;dot) þ(uia;)t
+[lb=11] hu(n;) þo{rrot}di ecki {slong}ak(ir;) otta {slong}ins bonda at g(er;)a h(en;)ni
+[lb=12] t(il;) meins . (ok) e(igi;) helld{rrot} at {aalig}{slong}aka h(an;)a opinb(er;)liga
+[lb=13] vend(ir;) hu(n;) ollu {slong}inu {aalig}kalli t(il;) vor(ar;) {fins}(rv;) G(uds;) mod{rrot}
+[lb=14] sæll(ar;) [hi:rend=caps] [name:type=person] marie [/name] [/hi] . bidi(an;)di at hu(n;) leti g(u;)d d(ro;)tti(n;)s {rscap}ei
+[lb=15] di koma y{fins}(ir;) þ(es;)sa konu e(r;) h(an;)a {rscap}ænti {slong}in(um;) eig
+[lb=16] in bonda . (ok) hu(n;) {slong}k(yl;)di e(igi;) lei(n;)gi þola at ohegnd(ur;)
+[lb=17] v(ær;)i h(en;)n(ar;) lioti ho{rrot}domr . Ok s(e;)m hu(n;) hugdi s(ik;)
+[lb] [catch]m(ed;)[/catch]
+[pb=274]
+[lb=1] m(ed;) {slong}inu(m;) jdulig(um;) g(ra;)ti m(un;)du ha{fins}a vppuak(it;) mot
+[lb=2] h(en;)ni {rscap}eidi him(in;){rscap}(iki;)s d(ro;)ttni(n;)g(ar;) . þa vit(ra;){ezh}t h(en;)ni {slong}u {slong}ial{fins}
+[lb=3] ble{ezh}ada ju(n;)g{fins}(rv;) . j dr{ocurl}mi . (ok) sag(di;) t(il;) h(en;)n(ar;) . {slong}ak(ir;) hu(er;)s
+[lb=4] bid(ur;) þu a{fins} m(er;) dagliga m(ed;) m(ik;)lu(m;) goduilia at
+[lb=5] he{fins}nd ko(m;)i y{fins}(ir;) þa konu . ek ma ecki g(er;)a þ(at;) e(r;) h(enn;)i
+[lb=6] {slong}e j mot . þ(uia;)t hv(n;) bod(ar;) m(er;) þ(an;)n min {fins}agn(ad;) {slong}(e;)m eng(in;)
+[lb=7] {slong}kepna ma m(ik;) s(uo;) heil{slong}a at m(er;) {slong}e þeck(ar;)a . ed{rrot}
+[lb=8] hygg(ur;) þu at ek {slong}k(al;) v(er;)a þ(ei;)ri {rscap}eid {fins}(yrir;) þina {slong}k(yl;)d
+[lb=9] e(r;) m(ik;) vek(ur;) upp t(il;) {fins}agnad(ar;) . min(n;dot)andi m(ik;) {aalig} mi
+[lb=10] na ovmrædiliga dy{rrot}d . S(e;)m konan hey{rrot}di
+[lb=11] þ(e;)tta a{fins} vo{rscap}i {fins}(rv;) . let hu(n;) a{fins} at bid(ia;) . þ(es;)s {slong}(e;)m {fins}y{rscap}
+[lb=12] bad hu(n;) . En ein(n;dot) dag b(er;){rrot} s(uo;) t(il;) at h(en;)n(ar;) elia kem(ur;)
+[lb=13] j mot h(en;)ni j nockur(um;) stad h(un;) talar þeg(ar;) t(il;)
+[lb=14] h(en;)n(ar;) ho{rrot}du(m;) o{rrot}du(m;) {aalig} þ(en;)na h{aalig}tt . þu hin {fins}ula{ezh}
+[lb=15] ta puta g(er;)ir m(er;) m(ik;)in h(ar;)m dagliga e(r;) m(ed;) þi
+[lb=16] nu {slong}o{rrot}li{fins}i {slong}lit(ur;) b(ro;)tt a{fins} m(er;) mitt eigit kiot min(n;)
+[lb] [catch]bonda[/catch]
+[pb=275]
+[lb=1] bonda en(n;) ti(er;) m(er;) þina nær v(er;)u . dir{fins}and(izt;) at {fins}(ar;)a
+[lb=2] j mot m(er;) e(r;) ek hata vm {fins}(ra;)m alla hluti . {slong}uo
+[lb=3] gi(ar;)na villdi ek (ok) en(n;) helld(ur;) v(ær;)i {slong}k(yl;)dukt at ek
+[lb=4] pindi þ(ik;) . þ(uia;)t þu g(en;)g{rrot} dagliga (ok) g(er;)ir h(ar;)m mi
+[lb=5] nu hug{slong}kioti . s(uo;) ey{rrot}un(um;) (ok) augunu(m;) . En(n;) {slong}id(an;) ek
+[lb=6] þo{rrot}di ecki at ad g(er;)a . v(ar;) {slong}u ein min von t(il;) he{fins}
+[lb=7] nd(ar;) at g(u;)ds mod(ir;) m(un;)di þik dæma m(ed;) {slong}in(n;)i {rscap}ei
+[lb=7] di . en(n;) s(ia;)l{fins} hu(n;) {slong}ag(di;) m(er;) at {slong}u {slong}ama kued(ia;) . {slong}(e;)m
+[lb=8] þu e(r;)t hv(er;)n dag von h(an;)a at heil{slong}a m(ed;) . blid
+[lb=9] kadi h(an;)a s(uo;) miok at hu(n;) villdi eingi h(ar;)dindi
+[lb=10] þi(er;) g(er;)a . S(e;)m hu(n;) hey{rrot}(ir;) þ(e;)tta leit(ar;) hu(n;) ept(ir;) {slong}(e;)m
+[lb=11] v(an;)dliga{ezh}t hu(or;)t þ(e;)tta e(r;) {slong}att . (ok) {slong}id(an;) seg(ir;) hu(n;) . vit {fins}(yrir;)
+[lb=12] vi{slong}t at hed(an;) a{fins} {slong}k(al;) ek e(igi;) el{slong}ka þin(n;) bonda . (ok) e(igi;)
+[lb=13] {slong}k(al;) h(an;)n nock(ur;)a lika(m;)s munut v(id;) m(ik;) d{rrot}yg(ia;) . þi(er;) t(il;)
+[lb=14] ang(ur;)s . helld(ur;) heit ek (ok) þ(ar;) m(ed;) . þ(ei;){rrot}i {slong}(e;)m {fins}(yrir;) mina lit
+[lb=15] la þionu{slong}tu veitti m(er;) s(uo;) m(ik;)la my{slong}kun . {slong}k(al;) ek {fins}(yrir;)
+[lb=16] h(en;)n(ar;) el{slong}ku li{fins}a h(re;)inliga hed(an;) a{fins} . ok {slong}(e;)m hin he
+[lb] [catch]llt[/catch]
+[pb=276]
+[lb=1] llt hreinli{fins}i lagdi þ(es;)si nid{rrot} allan(n;) {slong}in(n;) h(ar;)m . (ok) kæ(rv;) .
+[lb=2] g(er;)di þ(e;)tta badu(m;) þ(ei;)m t(il;) æ(r;)v {slong}u {slong}(e;)m ble{ezh}ut e(r;) vm {fins}(ra;)m
+[lb=3] all(ar;) kon(ur;) G(uds;) mod(ir;) [hi:rend=caps] maria [/hi]
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=149]
+
+
+[lb=4] [head] Kona li{fins}nade at jata s(ic;) [/head]
+[p]
+
+
+[lb=5] [hi:rend=2] [supplied:reason=omitted] V [/supplied] [/hi] jd{rrot} þ(an;)n {slong}tad e(r;) [name:type=place] lingonen{slong}is [/name] heit(ir;) v(ar;) ein
+[lb=6] kona {slong}u {slong}(e;)m h(ar;)dla miok el{slong}kadi {gscap}(uds;) mo
+[lb=7] d{rrot} [name:type=person] [hi:rend=caps] Mariam [/hi] [/name] . þionadi h(en;)ni (ok) h(en;)n(ar;) {slong}yni m(ed;) heilag
+[lb=8] leik (ok) {rscap}ettlæti. En þa e(r;) hu(n;) v(ar;) vng. ha{fins}(di;) hu(n;)
+[lb=9] g(er;)t þa eina {slong}ynd. e(r;) e(igi;) v(ar;) þ(u;)ng (ok) m(ic;)il a{fins} {slong}ial{fins}(ri;) s(er;).
+[lb=10] en(n;) þo þ(o;)tti h(en;)ni hu(n;) s(vo;) h{rrot}ædilig (ok) hættlig j {slong}inu
+[lb=11] hi(ar;)ta at hu(n;) {slong}kam(m;)ad(i{ezh};) h(an;)a at jata. en(n;) vm ad(ra;)
+[lb=12] {slong}ina {fins}(ra;)m{fins}(er;)d v(a;)r hu(n;) þ(ri;){fins}in (ok) {slong}ty{rrot}k j godu(m;) v(er;)ku(m;). (ok)
+[lb=13] jatadi all(ar;) {slong}in(ar;) {slong}ynd(ir;) ad{rrot}(ar;) hid min{ezh}ta {slong}in(n;) {aalig}
+[lb=14] hu(er;)iu {aalig}ri f(yrir;) {slong}inu(m;) p(re;){slong}ti. en(n;) þ(es;)si ein {slong}ynd v(ar;) s(vo;) at
+[lb=15] hu(n;) t(re;)y{slong}t(i{ezh};) alld(ri;) at jata {slong}ak(ir;) {slong}ins {slong}kam{fins}ulleiks.
+[lb=16] en ja{fins}nan v(id;) enda {slong}inn(ar;) {rscap}ædu ko(m;) hu(n;) þ(ar;) nock(ud;)
+[lb=17] v(id;) þ(at;) at jata e(igi;) opinb(er;)liga helld{rrot} {slong}(e;)m m(ed;) n(oc;)kur(um;) [catch]malkroku(m;)[/catch]
+[pb=277]
+[lb=1]
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=152]
+
+
+[lb=10] [head] V(or;) {fins}(rv;) ga{fins} konu apt(r;) vit sin. [/head]
+[p]
+
+
+[lb=11] [supplied:reason=omitted] E [/supplied] in kona hu{slong}{fins}(rv;) {rscap}(iddara;) þ(es;)s e(r;) [name:type=person] Rotergar(us;) [/name] het
+[lb=12] dreymdi þ(an;)n dr{ocurl}m. at hu(n;) þott(i{ezh};) b(er;)a
+[lb=13] eitt m(er;)ki s(vo;) {rscap}autt s(e;)m blod. hu(n;) v(ar;) þa olett
+[lb=14] at {slong}ueinb(ar;)ni. S(e;)m hu(n;) vakn(ar;) mi{slong}{slong}ir hu(n;) {slong}ki
+[lb=15] otliga {slong}ins vit{ezh}. (ok) tok at tala ijmi{slong}{slong}liga
+[lb=16] hluti. h(en;)n(ar;) bondi vnd(ra;){ezh}t þ(e;)tta miok. ept(ir;) lit
+[lb=17] in tima seg(i{ezh};) hu(n;) {slong}ia at {slong}u k(ri;){slong}tilig t(rv;) {slong}(e;)m hu(n;) [catch]he{fins}(ir;)[/catch]
+[pb=292]
+[lb=1] he{fins}(ir;) þ(ar;) t(il;) {fins}y{rscap} v(ar;) j milli h(en;)n(ar;) b(ri;)o{slong}ta. (ok)
+[lb=2] {fins}o{rrot} þ(ar;) ut. {slong}pottadi dio{fins}ullin(n;) s(vo;) þ(es;)sa konu
+[lb=3] hu(er;){rrot}(ar;) ond h(an;)n hugd(i{ezh} ;)til {slong}in {slong}k(yll;)du ha{fins}a. h(en;)n(ar;) vin(ir;)
+[lb=4] baru m(ic;)in(n;) ang(r;) {slong}ak(ir;) þ(es;)sa{rscap}(ar;) ohami(n;)giu. {slong}(e;)m h(en;)ni
+[lb=5] ha{fins}(i;) t(il;) bo{rrot}(it;). þ(ei;){rrot} {fins}æ(ra;) h(an;)a t(il;) m(ar;)g(ra;) heilag(ra;) {slong}tada.
+[lb=6] vænt(an;)di at hu(n;) mætti {fins}a apt(r;) {slong}ina heil{slong}u hu(n;)
+[lb=7] vakti (ok) j k(ir;)kiu heilag(ra;){rrot} þ{rrot}en(n;)ing(ar;) j þ(ei;)m {slong}tad
+[lb=8] e(r;) [name:type=place] Fu{slong}canu(m;) [/name] heit(ir;). en(n;) heilog þ{rrot}en(n;)ing. þ(at;) e(r;) ein(n;)
+[lb=9] G(u;)d j þ(ri;)m(r;) p(er;){slong}onis. villdi e(igi;) þ(ar ;)veita h(en;)ni heil{slong}u.
+[lb=10] en(n;) h(an;)n villdi þ(an;)n heid({rrot};) veita him(in;){rscap}(iki;)s d(ro;)ttni(n;)gu
+[lb=11] G(uds;) mod{rrot} [name:type=person] [hi:rend=caps] Marie [/hi] [/name] þ(es;)si konu v(ar;) ge{fins}(it;) þ(at;) vatn a{fins}
+[lb=12] m(or;)gu(m;) p(re;){slong}tu(m;) {slong}(e;)m vigt v(ar;) m(ed;) m(or;)gu(m;) {slong}æringu(m;) (ok) helg(at;)
+[lb=13] m(ed;) m(or;)gu(m;) ble{ezh}unu(m;): en(n;) {slong}id(an;) þ(at;) ko(m;) {aalig} h(an;)a æ{slong}ti{ezh}t
+[lb=14] þ(ar;) v(id;) miok h(en;)n(ar;) k(ra;)nkleiki. (ok) v(ar;)d hu(n;) {slong}id(an;) m(ic;)lu od(ar;)i.
+[lb=15] Sid(an;) eitt {aalig}r v(ar;) lid(it;) {slong}id(an;) hu(n;) {fins}ell j þ(en;)na k(ra;)nklei
+[lb=16] ka e(r;) hu(n;) {fins}lutt t(il;) k(ir;)kiu heilag(ra;){rrot} [name:type=person] [hi:rend=caps] Marie [/hi] [/name] {fins}(yrir;) {fins}e [catch]{slong}tu(m;)[/catch]
+[pb=293]
+[lb=1] {slong}tu(m;) p(ur;)ificac(i;)o(n;)is. þa k(ir;)kiu {slong}midudu {fins}o{rrot}du(m;) G(ri;)ck(ir;) at
+[lb=2] þ(vi;) {slong}eg(i{ezh};) j midiu(m;) ein(um;) {slong}to{rrot}u(m;) {slong}kogi. e(r;) hu(n;) miok
+[lb=3] olik od{rrot}(um;) k(ir;)kiu(m;) at {slong}mid. (ok) vid{rrot}kvæ(m;)ilig h(er;)emitis.
+[lb=4] H(on;) vak(ir;) þ(ar;) vm nottina {aalig} {fins}y{rscap} {slong}agd(ri;) hatid (ok) v(ar;)d
+[lb=5] s(vo;) heil {fins}(yrir;) v(er;)dleik þ(ei;){rrot}(ar;) helg(u{ezh}t;)u ju(n;)g{fins}r(v;). {slong}(e;)m hu(n;) he{fins}(di;)
+[lb=6] alld(ri;) þolt þa illu {slong}ott. þ(uia;)t h(en;)n(ar;) vit ko(m;) {fins}ullko(m;)
+[lb=7] liga apt(r;). s(vo;) v(a;)r (ok) ho{fins}ud(it;) vel heillt. Sial{fins}
+[lb=8] hu(n;) (ok) h(en;)n(ar;) bondi (ok) allir þ(ei;){rrot}a vin(ir;). lo{fins}udu G(u;)d (ok)
+[lb=9] h(an;)s mod(i{rrot};) [name:type=person] [hi:rend=caps] Mariam [/hi] [/name] . {fins}(yrir;) þ(es;)sa J(ar;)teign.
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=155]
+
+
+[pb=303]
+[lb=6] [head] hv(er){slong}u t(il;isup) ko(m;bar) (con;condes)cep(t;bar)io . [/head]
+[p]
+
+
+[lb=7] [hi:rend=2] [supplied:reason=omitted] A [/supplied] [/hi] Þ(ei;bar)m tima {slong}(e;)m(;bar) vilhialm(ur) ba{slong}t(ar)d{rrot} h(er)
+[lb=8] tugi no{rrot}man(n;dot)ie lagdi vnd(ir;er) s(ik;csup) [name:type=place] engl(an;)d(;combcurl) [/name]
+[lb=9] v(ar) {slong}a aboti e(r;er) [name:type=person] elphin(us) [/name] het . j k(ir;bar)kiu heilags [name:type=person] aug(us)
+[lb=10] tini [/name] b(isku;bar)ps {aalig} [name:type=place] engl(an;)d(;combcurl) [/name] i j hu(er){rrot}i {slong}ial{fins}(ur) h(an;bar)n (ok) h(an;bar)s ept(ir;er)
+[lb=11] kom(en;bar)d{rrot} b(isku;bar)p(ar)n(ir;er) huila . S(e;)m(;bar) [name:type=org] dan(ir;er) [/name] hey(ra) at [name:type=place] engl(an;)d(;combcurl) [/name]
+[lb=12] e(r;er) vn(n;bar)it a{fins} [name:type=org] no{rrot}man(n;bar)is [/name] : bua þ(ei;bar){rrot} {slong}in vopn (ok) h(er){slong}k
+[lb=13] ap at þ(ei;bar){rrot} {fins}(ar)i t(il;isup) [name:type=place] engl(an;)d(;combcurl){ezh} [/name] (ok) {rscap}æki þa {aalig} b(ro;osup)tt . En(n;dot)
+[lb=14] e(r;er) hin(n;nleg) mattuga{ezh}ti no{rrot}dm(anna;asup) h(er)tugi [name:type=person] vilhjalm(ur) [/name]
+[lb=15] hey{rrot}(ir;er) þ(at;bar) . {slong}end(ir;er) h(an;bar)n {fins}y{rscap}{slong}agd(an;nsup) . abota [name:type=person] elphinu(m;bar) [/name] j
+[lb=16] [name:type=place] danm(or;osup)k [/name] at h(an;bar)n {fins}o{rrot}vitnad(i{ezh}t;zsup) hu(or;osup)t {slong}aun(n;dot) v(ær;er)i þ(es;bar)si [catch]h(er){slong}aga[/catch]
+[pb=304]
+[lb=1] h(er){slong}aga . Abotin(n;nleg) kem(ur) nu j [name:type=place] danm(or;osup)k [/name] at g(er)a k(onun;bar)g{slong}ins
+[lb=2] ey{rrot}indi . (ok) {fins}ær(ir;er) dana k(onun;bar)gi þær gia{fins}(ir;er) e(r;er) [name:type=person] vilhialm(ur) [/name]
+[lb=3] k(onun;bar)g{rrot} {slong}endi h(onu;bar)m . S(e;)m(;bar) h(an;bar)n he{fins}(ir;er) langan(n;dot) tima þ(ar) v(er)it
+[lb=4] þigg(ur) h(an;bar)n heim ley{fins}i a{fins} k(onun;bar)ginu(m;bar) . (ok) {slong}tig(ur) {aalig} {slong}kip
+[lb=5] m(ed;ezh) {slong}inu(m;bar) kompanu(m;bar) . þa e(r;er) þ(ei;bar){rrot} v(our;osup) komn(ir;er) miok la
+[lb=6] ngt j ha{fins} . kem(ur) at þ(ei;bar)m s(uo;osup) m(ik;csup)ill {slong}to{rrot}m(ur) at þ(ei;bar){rrot}
+[lb=7] {slong}ia s(er) enga von li{fins}s . j þ(ui;isup)liku(m;bar) ha{slong}ka . {slong}n(er)u{ezh}t
+[lb=8] þ(ei;bar){rrot} þ(a;bar)ng(at;tsup) t(il;isup) t(ra)u{slong}t{ezh} . {slong}(e;)m(;bar)m ja{fins}n(an;nsup) e(r;er) hialpin buin .
+[lb=9] bidiandi s(uo;osup) t(il;isup) G(uds;us) . Hey{rrot} hin(n;dot) millda{ezh}ti (ok)
+[lb=10] hin(n;dot) mattug(a{ezh}t;zsup)i g(u;)d(;combcurl) . my{slong}kuna o(ss;sscap) j þ(e;bar)s(su;)m ha
+[lb=11] {slong}ka . at e(igi;isup) {fins}a(im;msup) v(er) eili{fins}a pinu . d{rrot}ekt(ir;er) m(ed;ezh)
+[lb=12] {slong}to{rrot}mi (ok) bylgiu(m;bar) {slong}iov(ar)ins . S(e;)m(;bar) þ(ei;bar){rrot} tala þ(es;bar)sa
+[lb=13] hluti (ok) m(ar)ga ad{rrot}a þ(e;bar)s(su;)m lika . {slong}ia þ(ei;bar){rrot} ein(n;dot) m(ann;nsup)
+[lb=14] j b(isku;bar)ps {slong}k(rv;vsup)di m(ed;ezh) mit(rv;vsup) v(it;isup) {slong}kip(it;tsup) . (ok) kall(ar) t(il;isup) {slong}in [name:type=person] el
+[lb=15] phinu(m;bar) [/name] abota (ok) tal(ar) t(il;isup) h(an;bar)s . þ(e;bar)s(su;)m o{rrot}du(m;bar) . e{fins} þu
+[lb=16] girn(i{ezh}t;zsup) at {fins}o{rrot}d(a{ezh}t;zsup) {slong}ia{fins}(ar) ha{slong}ka . (ok) ko(m;bar)a heill hei(m;bar) j [catch]þitt[/catch]
+[pb=305]
+[lb=1] þitt l(an;)d(;combcurl) . {slong}k(al;bar)tu jata m(er) j G(uds;us) vitni at þu {slong}k(al;bar)t hall
+[lb=2] da hatidliga getnad(ar) dag mod(ur) k(ri;isup){slong}t{ezh} . Abotin(n;nleg)
+[lb=3] {slong}ua{rrot}(ar) . hv(er){slong}u {slong}k(al;bar) ek þ(at;bar) g(er)a eda {aalig} hv(er)iu(m;bar) degi . b(isku;bar)p
+[lb=4] in {slong}u(ar)ar . {slong}etta jd(us) decemb(ri;isup)s . {slong}k(al;bar)tu {fins}y{rscap}{slong}agda
+[lb=5] hatid hallda . (ok) p(re;bar)dica (ok) eggia {aalig} j ollu(m;bar) {slong}tod(um;msup)
+[lb=6] hu(at;tsup) e(r;er) þu o{rrot}k(ar) . at þ(es;bar)si dag(ur) {slong}e a{fins} ollu(m;bar) halldin(n;nleg) .
+[lb=7] Abotin(n;nleg) {slong}py{rscap} . huilikt tida halld {slong}k(al;bar) þa ha{fins}a .
+[lb=8] (ok) {aalig} hu(er)n h{aalig}tt . h(an;bar)n {slong}eg(ir;er) . allt þ(at;bar) {slong}e(m;bar) {slong}eg(i{ezh}t;zsup) (ok) {slong}yng{ezh}t
+[lb=9] {aalig} h(en;bar)n(ar) burd(ar) degi {slong}k(al;bar) (ok) {slong}egia{ezh}t {aalig} h(en;bar)n(ar) getnad(ar)
+[lb=10] degi . (ok) s(uo;osup) {slong}(e;)m(;bar)m þ(ar) {slong}tend{rrot} nativitas . {slong}k(al;bar) hi(er) {slong}egi
+[lb=11] a{ezh}t (con;condes)ceptio {aalig} þ(es;bar)s(u;)m degi . S(e;)m(;bar) abotin(n;dot) he{fins}(ir;er)
+[lb=12] hey{rrot}t þ(es;bar)si o{rrot}d . hu(er){fins}(ur) {slong}a {slong}(e;)m(;bar) h(onu;bar)m vit(ra)d(i{ezh}t;zsup) . en(n;dot) ved
+[lb=13] {rrot}it mink(ar) . bæta þ(ei;bar){rrot} {rscap}eida {slong}in(n;dot) . (ok) {fins}a {slong}id(an;nsup) hæg(an;nsup)
+[lb=14] by{rscap} . allt þ(ar) t(il;isup) e(r;er) þ(ei;bar){rrot} taka [name:type=place] engl(an;)d(;combcurl) [/name] . h(an;bar)n g(er)di kun(n;dot)
+[lb=15] iga þa hluti {slong}(e;bar)m h(an;bar)n ha{fins}di hey{rrot}t (ok) {slong}ed ollu(m;bar)
+[lb=16] þ(ei;bar)m e(r;er) h(an;bar)n matti (ok) {slong}kipadi j [name:type=person] ramen{slong}ien{slong}is [/name] k(ir;bar)k [catch]iu[/catch]
+[pb=306]
+[lb=1] iu hu(er){rrot}i e(r;er) h(an;bar)n {slong}ty{rrot}di at þ(es;bar)si {fins}y{rscap} {slong}ogd hatid
+[lb=2] {slong}k(yl;bar)di {aalig} hv(er)iu {aalig}ri halld(a{ezh}t;zsup) hatidliga {slong}etta jd(us)
+[lb=3] decemb(ri;isup)s . hellt h(an;bar)n þ(at;bar) {slong}ama m(ed;ezh) {slong}on(n;bar)vm godvil
+[lb=4] ia alla daga {slong}ins li{fins}s . Ollu(m;bar) þ(ei;bar)m e(r;er) {fins}y{rscap} {slong}agd(an;nsup)
+[lb=5] dag hallda g(u;)d(;combcurl)i t(il;isup) heid(ur) (ok) h(an;bar)s mod{rrot} . veitt(i{ezh}t;zsup) a{fins}
+[lb=6] {slong}yni þ(ei;bar){rrot}(ar) {slong}omu ju(n;bar)g{fins}(rv;vsup) him(in;bar){rscap}(iki;isup)s d(ro;osup)ttni(n;bar)g(ar) [hi:rend=caps] marie [/hi]
+[lb=7] {fins}(ri;isup)d{rrot} (ok) heil{slong}a . en(n;dot) ept(ir;er) þ(e;bar)tta li{fins} eili{fins} huild j
+[lb=8] him(in;bar){rscap}(iki;isup) . þ(at;bar) lati s(er) {slong}oma at veita {slong}a e(r;er) li{fins}(ir;er) (ok)
+[lb=9] {rscap}ik(ir;er) ein(n;dot) g(u;)d(;combcurl) j þ{rscap}en(n;nleg)i(n;bar)gu am(en;bar) .
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=159]
+
+
+[pb=315]
+[lb=8] [head] Af likne{slong}kiu vo{rscap}(ar;) {fins}(rv;) [/head]
+[p]
+
+
+[lb=9] [hi:rend=2] [supplied:reason=omitted] J [/supplied] [/hi] Valle [name:type=place] geth{slong}emani [/name] þ(ei;)m {slong}(e;)m e(r;) milli [name:type=place] j(e;)r(usa;)l(em;) [/name]
+[lb=10] (ok;) {fins}iall{ezh}ins oliveti. þ(ar;) {slong}(e;)m leidi vo{rscap}(ar;) {fins}(rv;)
+[lb=11] (ok;) hu(n;) v(ar;) g(ra;){fins}in(n;) j io{rrot}d. {slong}tanda {fins}io{rrot}(ir;) pilar(ar;)
+[lb=12] g{rrot}æn(ir;) at lit. (ok;) {aalig} ein(um;) pilarnu(m;) e(r;) likne
+[lb=13] {slong}kia G(uds;) mod(ur;) [name:type=person] [hi:rend=caps] Marie [/hi] [/name] . {slong}(e;)m hu(n;) ha{fins}i {slong}on vo{rrot}n
+[lb=14] h(er;){rrot}a [name:type=person] jh(esu;)m (christum;) [/name] j {fins}admi s(er;). hu(n;) e(r;) s(uo;) {slong}kæ{rscap} (ok;) bio
+[lb=15] {rrot}t {slong}(e;)m ein(n;) {slong}pegill. {fins}y{rscap}{slong}ogd {slong}k(ri;)pt e(r;) e(igi;) gio{rscap} eda
+[lb=16] pent(ud;) m(ed;) m(anna;) h(on;)dum. helld{rrot} {fins}(an;){ezh}t hu(n;) þ(ar;) {slong}(e;)m vax
+[lb=17] in a{fins} þ(ei;)m {slong}ama {slong}teini. {slong}æk(ir;) þ(a;)ng(at;) m(ik;)it {fins}olk
+[lb=18] þ(via;)t þ(ar;) v(er;)da m(ar;)g(ar;) j(ar;)teign(ir;) (ok;) heid{rrot} hin(n;)i helgu{ezh} [catch]tu[/catch]
+[pb=316]
+[lb=1] tu G(uds;) mod{rrot} (ok;) ju(n;)g{fins}(rv;) [name:type=person] [hi:rend=caps] Marie [/hi] [/name] .
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=160]
+
+
+[lb=2] [head] Oleu(m;) {fins}laut a{fins} likne{slong}ki vo{rscap}(ar;) {fins}(rv;). [/head]
+[p]
+
+
+[lb=3] [hi:rend=2] [supplied:reason=omitted] J [/supplied] [/hi] æ{rscap} atta milr {fins}(ra;) [name:type=place] dama{slong}co [/name] e(r;) {slong}a {slong}ta
+[lb=4] d{rrot} {slong}(e;)m heit(ir;) [name:type=place] {slong}ardenay [/name] . {aalig} einu {fins}ialli
+[lb=5] {fins}(ar;) e(r;) k(ir;)kia {slong}ællar ju(n;)g{fins}(rv;) [name:type=person] MARIE [/name] . þ(ar;) e(ro;) tol{fins} nu
+[lb=6] n(n;)r (ok) atta m(un;)kar. j þ(es;)si k(ir;)kiu e(r;) {slong}k(ri;){fins}at {aalig} ei
+[lb=7] n(n;)i tabula likne{slong}ki {slong}æll(ar;) g(u;)ds mod(ur;) [name:type=person] MARIE [/name]
+[lb=8] {aalig} þ(an;)n hatt {slong}(e;)m vant e(r;) at {slong}k(ri;){fins}a j [name:type=place] co(n;){slong}tantino
+[lb=9] poli [/name] . v(ar;) þ(es;)si tabula j [name:type=place] ih(e;)r(usa;)l(e;)m [/name] ad{rrot} p(at;)riarcha
+[lb=10] ga{fins} h(an;)a ein(n;)i abbadi{slong}i. en(n;) hu(n;) {fins}lutti t(il;) {fins}y{rscap} {slong}a
+[lb=11] gds {slong}tad(ar;). A{fins} þ(es;)si likne{slong}kiu ren(n;)r þ(at;) oleu(m;) {slong}(e;)m
+[lb=12] sæt(ar;)a e(r;) en(n;) balsam(us;) a{fins} hu(er;)iu {slong}iuk(ir;) m(enn;) v(er;)da he
+[lb=13] ilir. e{fins} þ(ei;){rrot} e(ro;) {slong}m(ur;)d(ir;) m(ed;). k(ri;){slong}tn(ir;) m(enn;) v(ar;)dveita þ(e;)tta
+[lb=14] oleu(m;). {slong}ia {slong}ami {slong}tad(ur;) e(r;) miok veg{slong}amad(ur;) a{fins}
+[lb=15] [name:type=org] {slong}aracenis [/name] . sæk(ia;) m(ar;)g(ir;) a{fins} þ(ei;)m [name:type=org] {slong}aracenis [/name] e(r;) þ(ar;)
+[lb=16] bygg(ia;) næ{rscap} tueim {slong}in(n;)v(m;) {aalig} hu(er;)iu {aalig}ri. {aalig} ha
+[lb=17] tid uppnu(m;)ning(ar;) v(or;)rar {fins}(rv;). (ok) h(en;)n(ar;) burd(ar;)degi.
+[lb=18] þ(ei;)m {slong}(e;)m þ{rrot}ei{fins}a v(m;) þ(es;)sa likne{slong}kiu. ken(n;)i{ezh}t at
+[lb] [catch]hu(n;)[/catch]
+[pb=317]
+[lb=1] hu(n;) ha{fins}i kiot (ok) likam {slong}(e;)m li{fins}(an;)di m(adr;) vm b(ri;)o{slong}tin (ok)
+[lb=2] upp þad(an;).
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=161]
+
+
+[lb=3] [head] V(or;) {fins}(rv;) hialpadi k(ri;){slong}tn(um;) m(onnu;)m [/head]
+[p]
+
+
+[lb=4] [hi:rend=2] [supplied:reason=omitted] A [/supplied] [/hi] Dogu(m;) leonis keis(ar;)a hi(n;)s þ(ri;)dia {aalig} od{rrot}u
+[lb=5] {aalig}ri h(an;)s {rscap}(iki;)s. kuo(m;)u {slong}araceni t(il;) [name:type=place] m(ik;)la g(ar;)d{ezh} [/name]
+[lb=6] m(ed;) otalig(an;) {fins}iolda {slong}kipa. (ok;) villdu vin(n;)a {slong}tad
+[lb=7] in(n;). Lyd(ur;)in(n;) {slong}tod {slong}ty{rrot}kliga {aalig} mot (ok;) v(ar;)di b(or;)gina
+[lb=8] e(igi;) at eins m(ed;) uopnu(m;). helld(ur;) (ok;) m(ed;) bænu(m;) t(il;) G(uds;).
+[lb=9] s(uo;) at otallig{rrot} {fins}ioldi v(ar;) d(re;)pin(n;) a{fins} {slong}aracenis
+[lb=10] m(ed;) þ(ei;){rrot}i j(ar;)teign {slong}(e;)m hi(er;) {slong}eg(ir;). J [name:type=place] m(ik;)la g(ar;)di [/name] j m(un;)kli{fins}i
+[lb=11] heilag(ra;){rrot} ju(n;)g{fins}(rv;) [name:type=person] [hi:rend=caps] Marie [/hi] [/name] vid(ur;) holl þa {slong}(e;)m {aalig} {slong}io
+[lb=12] nu(m;) e(r;) næ{rscap} k(ir;)kiu v(or;)s h(er;){rrot}a e(r;) [name:type=place] {slong}ophia [/name] heit(ir;) e(r;) lik
+[lb=13] ne{slong}kia heilag(ra;){rrot} g(u;)ds mod{rrot} [name:type=person] [hi:rend=caps] Marie [/hi] [/name] {slong}k(ri;){fins}ut
+[lb=14] {slong}(e;)m hu(n;) he{fins}(di;) {slong}in(n;) {slong}on v(or;)n h(er;){rrot}a [name:type=person] j(esu;)m (christum;) [/name] {aalig} {slong}in(um;) ar
+[lb=15] mlegg. þ(es;)sa likne{slong}kiu ha{fins}di {slong}k(ri;){fins}at hin(n;) hel
+[lb=16] gi [name:type=person] lucas ew(an;)geli{slong}ta [/name] {aalig} ein(n;)i tabula ept(ir;) vexti (ok;)
+[lb=17] {aalig}{slong}ionu hin(nar;) helgu [name:type=person] [hi:rend=caps] Marie [/hi] [/name] . þa e(r;) hu(n;) li{fins}di {aalig} [catch]j(ar;)d{rscap}(iki;)[/catch]
+[pb=318]
+[lb=1] j(ar;)d{rscap}(iki;). þ(es;)si {slong}k(ri;)pt kalla{ezh}t odiguria {aalig} gir{slong}ka tu(n;)
+[lb=2] gu. þ(at;) e(r;) leidtogi {aalig} v(or;)t mal. þ(via;)t G(uds;) mod(ir;) [name:type=person] [hi:rend=caps] Maria [/hi] [/name] .
+[lb=3] witradi{ezh}t tueim(ur;) blindu(m;) m(onnu;)m. (ok;) leiddi þa t(il;) k(ir;)k
+[lb=4] iun(nar;). (ok;) ga{fins} þ(ei;)m þ(ar;) m(ed;) {slong}yn. {fins}y{rscap} v(ar;) {slong}agt. (ok;) {fins}o
+[lb=5] lk(it;) {fins}a{slong}t(an;)da. (ok;) bidianda t(il;) G(uds;) b(ar;)di{ezh}t dagliga
+[lb=6] mot heidnu(m;) m(onnu;)m. Þa minti ein(n;) b(or;)g(ar;) m(adr;) {aalig} at
+[lb=7] þ(ei;){rrot} {slong}k(yl;)di taka {fins}y{rscap} {slong}agda {slong}k(ri;)pt s(er;) t(il;) v(er;)nd(ar;). þ(ei;){rrot} g(er;)
+[lb=8] du s(uo;). (ok;) badu t(il;) vo{rscap}(ar;) f(rv;) {aalig} þ(en;)na hatt. Heilug
+[lb=9] G(uds;) mod(ir;) e(r;) s(uo;) opt he{fins}(ir;) o{sscap} {fins}(re;)l{slong}at. leys o{sscap} nu
+[lb=10] a{fins} valldi ouina þins {slong}on(ar;). (ok;) e{fins} þu villt e(igi;) at
+[lb=11] v(er;) {slong}auckvim þin(n;)i likne{slong}kiu j {slong}ionin(n;). (ok;) þeg(ar;) j
+[lb=12] {slong}tad {rscap}eis upp ein(n;) {slong}to{rscap} bodi. s(uo;) at h(an;)n b(ra;)ut
+[lb=13] {slong}um {slong}kip {slong}araceno(rum;). en(n;) {slong}umu(m;) {slong}okti h(an;)n m(ed;)
+[lb=14] ollu(m;) þ(ei;)m m(onnu;)m e(r;) {aalig} v(oru;). En(n;) ad{rrot} bodin(n;) {rscap}eis upp
+[lb=15] {slong}etti {slong}a {slong}(e;)m likne{slong}k(it;) b(ar;). þ(at;) leyniliga nid{rrot} j [catch]{slong}ioin(n;)[/catch]
+[pb=319]
+[lb=1] {slong}ioin(n;). Ok {aalig} litlu(m;) tima tynd(izt;) allr {slong}a m(ik;)li h(er;){rrot}
+[lb=2] {slong}um(ur;) a{fins} þ(ei;)m elldi e(r;) a{fins} {slong}ionv(m;) ko(m;). en(n;) {slong}um(ir;) {fins}o{rrot}u{ezh}t
+[lb=3] a{fins} elldi(n;)g(um;). m(ed;) hagli (ok;) dunu(m;) o{rrot} loptinu. s(uo;) at
+[lb=4] a{fins} ollu(m;) þ(ei;)m m(ik;)la {slong}kipa {fins}iolda w{rrot}du v(ar;)la ept(ir;)
+[lb=5] {fins}im(m;) {slong}kip. g(er;)di alm(at;)tig(ur;) g(u;)d þ(es;)sa j(ar;)teign til dy{rrot}
+[lb=6] d(ar;) {slong}inu na{fins}ni {fins}(yrir;) v(er;)dleika {slong}in(nar;) mod(ur;). at ollu(m;) v(er;)
+[lb=7] di aud{slong}yn h(an;)s ovin{rscap}ædilig milldi.
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=164]
+
+
+[lb=11] [head] klerk({rrot};) d{rrot}o gull a hond M(arie;) [/head]
+[p]
+
+
+[lb=12] [hi:rend=2] [supplied:reason=omitted] K [/supplied] [/hi] lerk(ar;) nockur(ir;) {slong}logu {slong}opp {fins}(yrir;) ein(n;)i k(ir;)kiu.
+[lb=13] Ein(n;) a{fins} þ(ei;)m {slong}a e(r;) ha{fins}(di;) þ(at;) {fins}i(n;)g{rrot} gull {aalig} h(en;)di
+[lb=14] {slong}in(n;) nockur ju(n;)g{fins}ru h(an;)s vn(n;)o{slong}ta ha{fins}(di;) ge{fins}(t;) h(onu;)m
+[lb=15] t(il;) a{slong}t(ar;) v(id;) {slong}ig. ott(a{ezh};) at h(an;)n b{rrot}ioti þ(at;) {slong}ama gull e{fins}
+[lb=16] h(an;)n {slong}lær optliga {slong}oppin(n;). {slong}ny{rscap} h(an;)n þ(ui;) t(il;) k(ir;)kiun(n;)(ar;).
+[lb=17] at h(an;)n geymi gullit. ein hu(er;)s {slong}tad(ar;). til þ(es;)s e(r;) [catch]h(an;)n[/catch]
+[pb=328]
+[lb=1] h(an;)n tek({rrot};) þ(at;) ept(ir;) leikin(n;). h(an;)n g(en;)g{rrot} jn j k(ir;)kiuna {fins}(yrir;)
+[lb=2] likne{slong}ki ju(n;){fins}(rv;) [name:type=person] [hi:rend=caps] Marie [/hi] [/name] . (ok) {slong}(e;)m h(an;)n s(er;) vpp {aalig} {slong}k(ri;)p
+[lb=3] tina. vnd(ra;){ezh}t h(an;)n h(en;)n(ar;) {fins}eg{rrot}d. (ok) heils(ar;) {aalig} h(an;)a {fins}all
+[lb=4] andi {aalig} kne. Ept(ir;) þ(at;) {slong}ag(di;) h(an;)n. {slong}anliga e(r;)t þu {fins}o
+[lb=5] g({rrot};). (ok) ollu(m;) konv(m;) (ok) ju(n;)g{fins}(v;)m e(r;)t þu {fins}eg(ri;). (ok) e(ig;)i {slong}id({rrot};) þ(ei;){rrot}i
+[lb=6] {slong}(e;)m m(er;) ga{fins} þ(e;)tta gull t(il;) {fins}ullko(m;)in(n;)(ar;) el{slong}ku. ok {slong}a
+[lb=7] k(ir;) þ(es;)s nita ek h(en;)ni. en(n;) ek jata at hed(an;) a{fins} {slong}k(al;)
+[lb=8] ek þ(ic;) el{slong}ka (ok) þ(er;) þio [sic](ra;)[/sic][corr](na;)[/corr] . þo m(ed;) þ(ei;)m {slong}kildaga e{fins}
+[lb=9] þu villt v(ir;)d(a{ezh};) m(ic;) at el{slong}ka. {fins}y{rscap}{slong}agd({rrot};) klerk({rrot};) d{rrot}o
+[lb=10] gullit {aalig} {fins}ing({rrot};) likne{slong}kiun(n;)i. þ(an;)n {slong}(e;)m hu(n;) {rscap}etti
+[lb=11] ad{rrot} vpp. en(n;) {slong}id(an;) gullit ko(m;) þ(ar;) {aalig} v(ar;)d vnd(ar;)lig({rrot};) hlu
+[lb=12] t({rrot};). {slong}k(ri;)ptin(n;) beygdi þeg(ar;) {fins}i(n;)g({rrot};)in(n;) at gullinu. {slong}(e;)m
+[lb=13] v(or;) {fins}(rv;) {slong}amþykti m(ed;) þ(ui;) þ(at;) e(r;) klerk({rrot};)in(n;) ha{fins}(di;) tal
+[lb=14] at. S(e;)m {slong}uein(n;)in(n;) s(er;) þ(at;) vnd{rrot}(ar;) h(an;)n þ(at;) miok (ok) þick(ir;)
+[lb=15] m(ic;)ils v(er;)t. h(an;)n kall(ar;) t(il;) {slong}in þa {slong}(e;)m vti v(oru;) {fins}(yrir;) k(ir;)kiu
+[lb=16] n(n;)i. (ok) {slong}ag(di;) þ(ei;)m hu(er;){slong}u h(an;)n ha{fins}(di;) heil{slong}at v(o;){rrot}i {fins}(rv;). (ok) [catch]m(ed;)[/catch]
+[pb=329]
+[lb=1] m(ed;) hu(er;)iu(m;) {slong}kildaga h(an;)n jat(ad;)i {slong}ik h(en;)ni t(il;) el{slong}ku.
+[lb=2] S(e;)m þ(ei;){rrot} hey(ra;) þ(at;) egg(ja;) þ(ei;){rrot} h(an;)n {aalig} at h(an;)n {slong}k(al;) nita
+[lb=3] v(er;)olldin(n;)i. (ok) hallda þ(at;) {slong}(e;)m he{fins}(ir;) heit(id;). at h(an;)n {slong}e
+[lb=4] v(er;)dug({rrot};) at v(er;)da þion(us;)tu m(adr;) (ok) vin G(uds;) mod({rrot};). {slong}(e;)m
+[lb=5] {slong}ial{fins}({rrot};) h(an;)n jatadi. en þ(uia;)t þy{rrot}n(ir;) v(er;)alldlig(ra;) avd
+[lb=6] æ{fins}a {slong}tack h(an;)s hi(ar;)ta. tok h(an;)n þ(es;)su þu(n;)gliga.
+[lb=7] ge{fins}(an;)di gudi enga þock {fins}(yrir;) þ(es;)sa j(ar;)teign. (ok) {fins}e
+[lb=8] ck s(er;) hu{slong}{fins}(rv;). en(n;) hellt ecki þ(at;) {slong}(e;)m h(an;)n het v(o;){rrot}i
+[lb=9] {fins}(rv;) {fins}(yrir;) likne{slong}kivn(n;)i. A {fins}y [supplied:reason=omitted] r [/supplied] {slong}tu nott {slong}(e;)m h(an;)n {slong}va{fins}
+[lb=10] hia {slong}in(n;)i konu. vit(ra;)d(i{ezh};) heilug ju(n;)g{fins}(rv;) [name:type=person] [hi:rend=caps] Maria [/hi] [/name]
+[lb=11] {slong}(e;)m hu(n;) {slong}æti milli h(an;)s (ok) h(an;)s b{rrot}ud(ar;) j {slong}ængin(n;)i.
+[lb=12] (ok) {rscap}etti {fins}(ra;)m {aalig} {slong}in(um;) {fins}ing(ri;) þ(at;) gull {slong}(e;)m h(an;)n d{rrot}o {aalig}
+[lb=13] {fins}ing{rrot} likne{slong}kiun(n;)i. {aalig}{slong}akandi h(an;)n vm {slong}in(n;)
+[lb=14] ot(rv;)nat (ok) lau{slong}mælgi. S(e;)m h(an;)n vakn(ar;) a{fins} {slong}ue
+[lb=15] {fins}ni. þ(rei;){fins}(ar;) h(an;)n ollu(m;) meg(um;) hia s(er;) (ok) leit(ar;) likne
+[lb=16] {slong}kiun(n;)(ar;). (ok) e(r;) h(an;)n {fins}in(n;)r h(an;)a e(ig;)i. hygg({rrot};) h(an;)n at þ(at;) mv(n;)
+[lb=17] v(er;)it ha{fins}a {slong}ion hu(er;){fins}i(n;)g. h(an;)n {slong}o{fins}n(ar;) an(n;)an(n;) tima [catch](ok)[/catch]
+[pb=330]
+[lb=1] (ok) s(er;) h(an;)a nu {slong}tanda hia s(er;). e(ig;)i blidliga talan
+[lb=2] di {slong}(e;)m {fins}y{rscap}. helld({rrot};) ogn(ar;) hu(n;) h(on;)um hin(ar;) ho{rrot}d
+[lb=3] u{ezh}tu kualir {slong}nuandi {fins}(ra;) h(onu;)m {slong}in(n;)i {aalig}{slong}ionu.
+[lb=4] {slong}ak(ir;) þ(es;)s at h(an;)n ha{fins}nadi h(en;)ni. (ok) hellt ecki {slong}itt heit. S(e;)m h(an;)n vakn(ar;) v(er;)d{rrot} h(an;)n miok h{rrot}ædd{rrot} a{fins} þ(es;)si [gap:reason=lost:extent=7]
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=170]
+
+
+[lb=15] [head] [name:type=org] Saraceni [/name] gatu ecki g(er;)t vo(n;)t likne{slong}ki
+[lb=16] v(or;){rrot}(ar;) {fins}(rv;) [/head]
+[p]
+
+
+[lb=17] [hi:rend=1] [supplied:reason=omitted] A [/supplied] [/hi] Nockuru(m;) tima {slong}(e;)m [name:type=org] {slong}araceni [/name] h(er;)iudu {aalig}
+[lb] [catch]k(ri;){slong}tna[/catch]
+[pb=341]
+[lb=1] k(ri;){slong}tna m(enn;). kuomu{ezh}t þ(ei;){rrot} jn(n;) j k(ir;)kiu G(uds;) mod(ur;) [name:type=person] MAR
+[lb=2] IE [/name] . þ(ei;){rrot} {slong}tungv (ok) b{rrot}utv nid(ur;) m(ed;) {slong}in(um;) {slong}piot(um;) allar
+[lb=3] likne{slong}ki(ur;) heilag(ra;) m(anna;) þær {slong}(e;)m þ(ei;){rrot} {slong}{aalig} {aalig} mur(um;) k(ir;)ki
+[lb=4] un(n;)(ar;). {slong}umu(m;) {slong}tungu þ(ei;){rrot} vt augun. {ocurl}d{rrot}u(m;) b{rrot}utu þ(ei;){rrot}
+[lb=5] ne{fins}(it;). hend(ur;) eda {fins}æt(ur;) m(ar;)g(ar;) klu{fins}u þ(ei;){rrot} j {slong}und(ur;) m(ed;)
+[lb=6] {slong}inu(m;) vopnu(m;). þ(ei;){rrot} hlupu m(ed;) m(ik;)illi {rscap}eidi (ok) vitley
+[lb=7] {slong}i at likne{slong}kiu G(uds;) mod(ur;) [name:type=person] MARIE [/name] . (ok) s(uo;) opt {slong}(e;)m þ(ei;){rrot}
+[lb=8] leitudu h(an;)a o{fins}(an;) at {slong}tinga. {slong}to{rrot}{fins}udu þ(ei;){rrot} at þ(ar;){fins}la
+[lb=9] u{slong}u. þ(via;)t s(uo;) {slong}kul{fins}u þ(ei;){rrot}a hend(ur;). at þ(ei;){rrot}a {slong}piot kuo
+[lb=10] mu hu(er;)gi næ{rscap} likne{slong}kiun(n;)i. {slong}tundu(m;) {slong}lo hu(er;){rrot} o
+[lb=11] viliandi an(n;)ars {slong}piot b(ro;)tt a{fins}. (ok) a{fins} þ(es;)su {slong}lo {aalig}
+[lb=12] þa s(uo;) m(ik;)lu(m;) otta. at þ(ei;){rrot} w{rrot}du þ(ui;) {fins}egn(ir;). at {fins}(ar;)a b(ro;)tt
+[lb=13] {slong}(e;)m {slong}kiota{ezh}t.
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=171]
+
+
+[lb=14] [head] {slong}ac(ri;){slong}ta kueikti ecki lampa. [/head]
+[p]
+
+
+[lb=15] [hi:rend=2] [supplied:reason=omitted] S [/supplied] [/hi] a v(ar;) ein(n;) vng({rrot};) b{rrot}od(ir;) j nock(u{rrot};)u klau{slong}tri. {slong}idlat({rrot};)
+[lb=16] (ok) gods li{fins}nad(ar;) vm m(ar;)ga hluti. en(n;) þ(at;) {slong}t(ar;){fins}
+[lb=17] ha{fins}di h(an;)n. at h(an;)n v(ar;) {slong}ac(ri;){slong}ta j þ(ei;){rrot}i {slong}omu k(ir;)kiu v(oru;) þri(ar;)
+[lb=18] eda {fins}io{rrot}(ar;) likne{slong}ki(u{rrot};) vo{rscap}(ar;) {fins}(rv;) G(uds;) mod{rrot} [name:type=person] [hi:rend=caps] Marie [/hi] [/name] {fins}ag({rrot};) [catch]liga[/catch]
+[pb=342]
+[lb=1] liga bun(ar;) m(ed;) gull (ok) g(er;)v(ar;) m(ed;) m(ic;)lu(m;) hagleik. {slong}(e;)m
+[lb=2] hu(n;) ha{fins}i s(er;) j {fins}admi v(or;)n lau{slong}n(ar;)a. v(ar;) y{fins}(ir;) {slong}inu allt(ar;)i
+[lb=3] hu(er;) {slong}k(ri;)ptin. Sa {slong}id{rrot} v(ar;) j þ(ei;){rrot}i k(ir;)kiu. at {aalig} hinu(m;)
+[lb=4] hæ{slong}tu(m;) hatidu(m;) e(r;) þ(ar;) v(oru;) halldn(ar;). næ{rscap} {fins}imt(an;) {aalig} hu(er;)iu
+[lb=5] {aalig}ri. {slong}k(yll;)di b{rrot}en(n;)a lios j lampa {fins}(yrir;) s(er;) hu(er;){rrot}i vo{rrot}(ar;) {fins}(rv;)
+[lb=6] {slong}k(ri;)pt. {fins}(ra;) þ(ui;) e(r;) heilagt v(ar;) {aalig} me{slong}{slong}u apt(an;)in(n;) (ok) notti
+[lb=7] na (ok) {slong}jal{fins}(an;) dagin(n;) allt t(il;) kuelld{ezh} at g(er;)a s(vo;) lio
+[lb=8] {slong}a (ok) bi(ar;)ta alla k(ir;)kiuna. Þ(at;) b(ar;) t(il;) {aalig} dog(um;) þ(es;)sa {slong}a
+[lb=9] c(ri;){slong}te at e(ig;)i matti {fins}a oleu(m;) at kaupa j þ(ui;) h(er;)adi.
+[lb=10] {fins}ek{ezh}t þ(at;) lit(id;) en næ{rscap} ecki {fins}lutt(i{ezh};) til. (ok) þ(uia;)t h(an;)n {ocurl}{rrot}
+[lb=11] vænt(ir;) at þ(at;) megi {fins}a{ezh}t. vill h(an;)n {slong}p(ar;)a {slong}(e;)m me{slong}t (ok) ge
+[lb=12] yma þ(at;) oleu(m;) {slong}(e;)m h(an;)n he{fins}(ir;) (ok) vill þ(ar;) lata hell{ezh}t
+[lb=13] mi{slong}{slong}a at b{rrot}en(n;)i j k(ir;)kiun(n;)i {slong}(e;)m h(onu;)m þick(ir;) min{ezh}t þ(u{rrot};)
+[lb=14] {fins}a. (ok) þ(ui;) tend{rrot}(ar;) h(an;)n ecki þ(es;)sa lampa {aalig} helga þo
+[lb=15] {rrot}s dag.(ok) huita{slong}un(n;)u e(r;) van(ir;) v(oru;) at b{rrot}e(n;)a nott (ok)
+[lb=16] dag. {aalig} {fins}y{rscap}{slong}ogdu(m;) hatidu(m;). Munk({rrot};)in(n;) {fins}eck þeg(ar;)
+[lb=17] {slong}kiota pinu þ(uia;)t {aalig} ty{rrot}s dagin(n;) j helgu viku tok [catch]h(an;)n[/catch]
+[pb=343]
+[lb=1] h(an;)n {slong}kiotliga s(vo;) {aalig}ka{fins}liga feb(re;)s at h(an;)n hellt v(ar;)la {slong}i
+[lb=2] nu viti en(n;) ad{rrot} {slong}ynd(i{ezh}t;) h(an;)n v(er;)a vel heill. h(an;)n andad
+[lb=3] i{ezh}t manadagin(n;) j t(ri;)nit(ati;)s viku. en(n;) laug(ar;)dags
+[lb=4] m(or;)ginin(n;) ad{rrot} {slong}(e;)m h(an;)n v(ar;) miok at ko(m;)in(n;) dauda {slong}yn(i{ezh}t;)
+[lb=5] h(onu;)m d(ro;)ttni(n;)g einglan(n;)a hin milld(a{ezh}t;)a G(uds;) mod(ir;) [name:type=person] [hi:rend=caps] Maria [/hi] [/name]
+[lb=6] {slong}(e;)m {slong}iti(an;)di j o{fins}(an;) v(er;)du {rscap}idi nock(u{rrot};)u þ(ui;) {slong}(e;)m v(ar;) næ{rscap} ein(n;)i
+[lb=7] a{fins} {fins}y{rscap} {slong}ogdu(m;) likne{slong}kiu(m;). h(an;)n þott(i{ezh}t;) þa kalla {slong}(e;)m
+[lb=8] min(n;)and(i{ezh}t;) {slong}ins h{aalig}{slong}ka (ok) k(ra;)nkleika. Heilog [name:type=person] [hi:rend=caps] Mar
+[lb=9] ia [/hi] [/name] my{slong}kuna m(er;) m(un;)kinu(m;) {slong}yn(i{ezh}t;) hu(n;) s(vo;) bio{rrot}t at h(an;)n
+[lb=10] matti v(ar;)la j mot {slong}ia. hu(n;) lit({rrot};) t(il;) h(an;)s nockut m(ed;)
+[lb=11] {rscap}eidi (ok) {slong}ag(di;). þu [sic]tok[/sic][corr]tokt[/corr] {aalig} b(ro;)tt lios þ(at;) {slong}(e;)m m(er;) v(ar;) t(il;)
+[lb=12] heid({rrot};)s {aalig} j(ar;)d{rscap}(iki;). (ok) þ(ui;) {slong}k(al;) ek taka {fins}(ra;) þi(er;) æ{fins}inliga
+[lb=13] lios þ(es;)sa li{fins}s. Brod(ir;)in v(ar;)d {aalig}ka{fins}liga h{rrot}ædd{rrot} v(id;)
+[lb=14] þ(es;)sa og(u{rrot};)ligu heit(an;) {slong}(e;)m e(ig;)i v(ar;) und(ar;)ligt. (ok) {fins}ellr t(il;) {fins}ota
+[lb=15] v(o;){rrot}i {fins}(rv;) med ho{rrot}muligu(m;) g(ra;)t (ok) bad h(an;)a {fins}(yrir;) lata s(er;) þ(at;)
+[lb=16] {slong}(e;)m h(ann;) ha{fins}di mi{slong}g(er;)t v(id;) h(an;)a. heitandi at bæta v(id;)
+[lb=17] h(an;)a (ok) g(er;)a alld(ri;) {slong}id(an;) þ(at;) {slong}ama. En(n;) þ(uia;)t h(en;)n(ar;) heit(an;) (ok) ogn [catch]{fins}ylg(ir;)[/catch]
+[pb=344]
+[lb=1] {fins}ylg(ir;) ja{fins}nan my{slong}kun s(er;) hu(n;) t(il;) h(an;)s m(ic;)lu blidlig(ar;) en(n;)
+[lb=2] {fins}y{rscap}. (ok) vi{slong}andi h(onu;)m m(ed;) h(en;)din(n;)i t(il;) þ(es;)s {slong}tigs {slong}(e;)m v(ar;) {fins}(yrir;)
+[lb=3] {fins}otu(m;) h(en;)n(ar;). (ok) {slong}eg(ir;). {slong}it h(er;). h(an;)n {slong}ett(i{ezh}t;) nid{rrot} {fins}(yrir;) {fins}æt({rrot};) h(en;)ni {slong}ki
+[lb=4] al{fins}(an;)di a{fins} m(ic;)illi h{rrot}æd{ezh}lu. hu(n;) hu(ar;){fins} þeg(ar;) b(ro;)tt. S(e;)m
+[lb=5] h(an;)n hu(ar;){fins} aptr t(il;) {slong}ial{fins}s {slong}ins. kallar h(an;)n {slong}am(an;) b{rrot}
+[lb=6] æd({rrot};)na (ok) {slong}eg(ir;) þ(ei;)m g(re;)iniliga vit(ra;)nina. Vm dagin(n;)
+[lb=7] ept(ir;). bid{rrot} h(an;)n m(ed;) m(ic;)lu(m;) g(ra;)t at þ(ei;){rrot} lati b{rrot}en(n;)a oll
+[lb=8] {fins}y{rscap}{slong}ogd lio{slong}k(er;). vm nottina (ok) dagin(n;) ept(ir;) þ(ui;) {slong}in(n;)
+[lb=9] vant v(ar;) {aalig} þuilik(ri;) hatid. h(an;)n het þ(ui;) (ok) g(u;)di. at
+[lb=10] e{fins} h(an;)n {fins}engi {slong}ina heil{slong}u {slong}(e;)m h(an;)n g(ir;)nt(i{ezh}t;) {slong}k(yll;)di h(an;)n t(il;)
+[lb=11] heid{rrot}s eili{fins}(ri;) ju(n;)g{fins}(rv;) (ok) mod({rrot};) hins {slong}an(n;)a lios ha
+[lb=12] llda {fins}o{rrot}nu(m;) vana vm lios {fins}(yrir;) h(en;)n(ar;) likne{slong}kiu(m;). (ok)
+[lb=13] auka {slong}(e;)m h(an;)n matti. En(n;) þ(uia;)t {slong}a dom({rrot};) e(r;) mod(ir;) {slong}an
+[lb=14] leik{slong}ins ha{fins}di dictat. (ok) {fins}(ra;)m {slong}agt. m(ed;) {slong}inu(m;)
+[lb=15] {slong}an(n;)o{rrot}da mun(n;)i matti e(ig;)i b{rrot}egd(a{ezh}t;) and(a{ezh}t;) h(an;)n {aalig} þ(ri;)dia
+[lb=16] degi {slong}id(an;) hu(n;) ha{fins}di h(onu;)m vit(ra;){ezh}t. v(ar;) þ(at;) {aalig} mana [catch]dagin(n;)[/catch]
+[pb=345]
+[lb=1] dagin(n;) ept(ir;) fe{slong}tu(m;) t(ri;)nit(itati;)s {slong}(e;)m h(an;)n ha{fins}(di;) nockut
+[lb=2] uppha{fins}(it;) y{fins}(ir;)bot {slong}in(nar;) {slong}ynd(ar;) j þui at {aalig} {fins}y{rscap}{slong}a
+[lb=3] gd{rrot}i hatid heilag{rrot}(ar;) G(uds;) þ{rrot}en(n;)ing(ar;) b{rrot}un(n;)u lios
+[lb=4] {slong}(e;)m at {fins}o{rrot}nu v(ar;) {fins}(yrir;) likne{slong}kiu(m;) vo{rrot}(ar;) {fins}(rv;). Ein(n;)
+[lb=5] b{rrot}od(ir;) {slong}idlat({rrot};) (ok) heilag({rrot};) {slong}a e(r;) leidd({rrot};) v(ar;) o{rrot} {slong}inu(m;)
+[lb=6] likama {aalig} langa {fins}ria dag. hu(er;)iu(m;) e(r;) hin
+[lb=7] helgi nicholaus b(isku;)p {slong}yndi bædi pi{slong}la {slong}a
+[lb=8] di (ok) s(vo;) dy{rrot}d god(ra;) m(anna;). {slong}a þ(en;)na b{rrot}od({rrot};) þa en(n;) j
+[lb=9] pi{slong}lu(m;). me{slong}t {slong}ak(ir;) þ(es;)s at h(an;)n v(an;)r(æ;)kti optliga
+[lb=10] m(ar;)gt þ(at;) {slong}(e;)m h(an;)s {slong}tett (ok) vig{slong}lu hey{rrot}di t(il;). ein
+[lb=11] kanliga vm þionu{slong}tu j he [gap:reason=lost:extent=6]
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=212]
+
+
+[pb=434]
+[lb=17] [head] Ung(ur;) m(adr;) v(ar;)d b(ysku;)p m(ed;) hialp vo{rscap}(ar;) {fins}(rv;) [/head]
+[p]
+
+
+[lb=18] [hi:rend=2] [supplied:reason=omitted] E [/supplied] [/hi] Jn(n;) g{rrot}ei{fins}i {slong}to{rrot}liga {rscap}ikr j [name:type=place] þyu(er;){slong}kun(n;)i [/name] atti s(er;)
+[lb=19] {aalig}gæta {fins}(rv;). t(il;) tekna a{fins} godu kyni. þau at
+[lb=20] tu ein(n;) {slong}on vngan(n;). vænan t(il;) hofdi(n;)g(ia;) {slong}ak(ir;) vaxt(ar;) (ok;) {fins}(ri;)d [catch]leika[/catch]
+[pb=435]
+[lb=1] leika. ok {slong}(e;)m ungi m(adr;) þ(ei;)ra son e(r;) ko(m;)in(n;) {aalig} {slong}kilni(n;)g(ar;) alld(ur;).
+[lb=2] vill h(er;)ra g(re;)i{fins}in(n;) {fins}ad(ir;) h(an;)s at h(an;)n v(er;)di {fins}o{rrot} ment(ur;) hu(er;)iu(m;) m(anni;)
+[lb=3] e(r;) j v(ar;) þ(vi;) {rscap}(iki;). þ(vi;) by{rrot} h(an;)n {aalig}gæta {fins}(er;)d m(ed;) vegligu {fins}(oru;)neyti
+[lb=4] (ok;) nog(um;) {rscap}ikdo(m;)i. (ok;) {slong}end(ir;) {slong}in(n;) vnga {slong}on ve{slong}t(ur;) j {fins}(ra;)n{ezh} j
+[lb=5] þ(an;)n ho{fins}(ud;) {slong}kola e(r;) halldin(n;) e(r;) j [name:type=place] p(ar;)is [/name] . Ok {slong}(e;)m vngi m(adr;)
+[lb=6] kem(ur;) j {slong}kolan(n;). yt(ir;) h(an;)n gullpeni(n;)gin(um;) j h(on;)d mei{slong}t(ar;)a (ok;)
+[lb=7] en(n;) {fins}leiri [sic]m(enn;)[/sic][corr]m(anna;).[/corr] s(uo;) at {slong}to{rrot}liga v(er;)d{rrot} h(an;)n vin{slong}æll jn(n;)an
+[lb=8] litils tima. þ(via;)t e(igi;) þ(ur;){fins}ti {rscap}ikdo(m;)in(n;) at {slong}p(ar;)a. hi(er;) m(ed;) tek(ur;) h(an;)n
+[lb=9] g(er;)d(izt;) s(uo;) at þeg(ar;) h(onu;)m leid(izt;) nam ed{rrot} {slong}koli. {slong}k(al;) h(an;)n ha{fins}a
+[lb=10] blitt o{rrot}lo{fins} leika (ok;) {slong}pa{ezh}e(ra;) {slong}(e;)m h(an;)n ly{slong}t(ir;). hi(er;) m(ed;) tek(ur;) h(an;)n
+[lb=11] s(er;) {slong}ueina {fins}æd(ir;) þa (ok;) klæd(ir;) {fins}ag(ur;)liga. læt(ur;) þa g(an;)ga
+[lb=12] m(ed;) s(er;) vt (ok;) jn(n;) {slong}(e;)m h(an;)n {slong}e ein(n;) h(er;){rrot}a. {fins}(yrir;) þ(e;)tta allt {slong}am(an;)
+[lb=13] {fins}æ{rscap} h(an;)n mei(ra;) a{fins} hegoma hei(m;){slong}ins en li{slong}tu(m;) klerkdo(m;)
+[lb=14] {slong}ins. þ(via;)t h(an;)n g(en;)g{rrot} dagliga miok {slong}k(ra;)utbuin(n;). þa eins
+[lb=15] hug{slong}andi nockut litid t(il;) bæk(ur;) e(r;) h(onu;)m þick(ir;) {slong}kemt(an;)
+[lb=16] at. Suo opt {slong}(e;)m h(an;)n vt{rscap}ett(ir;) god{ezh}(it;) g(er;)ir h(an;)n m(enn;) {aalig} g(ar;)d
+[lb=17] {fins}od(ur;) {slong}ins. (ok;) he{fins}(ir;) hu(at;) h(an;)n vill. þ(via;)t milli {fins}(ar;)andi m(enn;) b(er;)a
+[lb=18] g(re;)i{fins}anu(m;) gladlig tidindi. {slong}eg(ia;) {slong}on h(an;)s s(uo;) m(ik;)in(n;) klerk [catch]vo{rrot}din(n;)[/catch]
+[pb=436]
+[lb=1] vo{rrot}din(n;) nu þeg(ar;). at h(an;)n {slong}e {aalig}gæta{ezh}t(ur;) m(adr;) j ollvm [name:type=place] p(ar;)is [/name]
+[lb=2] næ{slong}t y{fins}(ir;)mei{slong}t(ar;)anu(m;). {fins}e(n;)gu m(enn;) {fins}(yrir;) þ(vi;)lik(ar;) {slong}sagn(ir;) god(ar;) v(id;) tok(ur;)
+[lb=3] {aalig} g(re;)i{fins}(an;)s g(ar;)di. (ok;) {fins}e j nog at b(er;)a þ(ei;)m unga m(anni;). þ(via;)t nu þ(e;)tti
+[lb=4] vel ko(m;)it þ(at;) e(r;) h(an;)n ha{fins}(di;) {fins}ræg(azt;) þ(e;)tta vm alla þyu(er;){slong}kuna.
+[lb=5] at g(re;)i{fins}(an;)s {slong}on j paris {slong}e hin(n;) {fins}(re;)m{slong}ti klerk(ur;) (ok;) lika{ezh}t(ur;) m(adr;)
+[lb=6] t(il;) m(ik;)ils ho{fins}ding(ia;). Ok næ{rscap} þ(es;)sum ti(m;)a and(izt;) j [name:type=place] þyu(er;){slong}k
+[lb=7] un(n;)i [/name] ein(n;) m(ik;)ils hatt(ar;) b(ysku;)p a{fins} {rscap}ik(ri;) k(ir;)kiu (ok;) volldugu {slong}æti
+[lb=8] at þ(ei;){rrot}i k(ir;)kiu v(oru;) k(or;)s b{rrot}æd{rrot} e(r;) ko{slong}ni(n;)g attu. (ok;) þ(ei;){rrot} {fins}(ar;)a {fins}(ra;)m
+[lb=9] t(il;) electione(m;) ept(ir;) g(re;)ptad(an;) b(ysku;)p {slong}in(n;). (ok;) kio{slong}a m(enn;) j {slong}tad hins
+[lb=10] {fins}(ra;)m {fins}(ar;)na. kem(ur;) þ(at;) eitt ollu(m;) {slong}amt at e(igi;) {slong}e k(ir;)kiun(n;)i an(n;)at
+[lb=11] væn(n;)a t(il;) {slong}æmd(ar;) (ok;) upphelldis. en(n;) {slong}on {rscap}ika{ezh}ta m(annz;) e(r;) j
+[lb=12] var {slong}(ei;){rrot}i hal{fins}u l(an;)d{ezh}ins g(er;)i{ezh}t h(en;)n(ar;) {fins}o{rrot}m(adr;). þvi kio{slong}a þ(ei;){rrot}
+[lb=13] {slong}amþyckil(e;)ga (ok;) {fins}ullko(m;)liga g(re;)i{fins}(an;)s {slong}ou a{fins} [name:type=place] p(ar;)is [/name] . s(er;) (ok;)
+[lb=14] {slong}in(n;)i k(ir;)kiu t(il;) {fins}o{rrot}m(annz;) (ok;) b(ysku;)ps. g(er;)a þ(ar;) vm b{rrot}(e;){fins} {slong}(e;)m log bioda
+[lb=15] (ok;) {slong}enda ue{slong}tr j [name:type=place] p(ar;)is [/name] . Ok {slong}(e;)m ungi m(adr;) he{fins}(ir;) þau b{rrot}(e;){fins}
+[lb=16] tek(it;). b(ro;)tid (ok;) y{fins}(ir;) le{slong}it. {rscap}odna h(an;)s bad(ar;) kin(nur;). þ(via;)t nu e(r;)
+[lb=17] {slong}a dag(ur;) ko(m;)in(n;) at h(an;)n {fins}æ{rscap} {slong}kilit hu(at;) hego(m;)lig {fins}(ræ;)gd he{fins}(ir;)
+[lb=18] a{fins} h(onu;)m talat. eda hu(at;) h(an;)n e(r;) m(ed;) s(er;) j {slong}an(n;)leikin(um;). weit [catch]h(an;)n[/catch]
+[pb=437]
+[lb=1] h(an;)n e{fins}alau{slong}t (ok;) v(id;)ken(nizt;) nu. þo at {slong}eint {slong}e. at m(ar;)g(ir;)
+[lb=2] a{fins} ko{rrot}s b{rrot}æd{rrot} k(ir;)kiun(nar;) e(ro;) {fins}(re;)mri klerk(ar;). en(n;) þ(ei;){rrot}a b(ysku;)ps
+[lb=3] e{fins}ni. þ(vi;) {slong}kilr h(an;)n at vig{slong}la b(ysku;)p{slong}ins {slong}ny{ezh}t h(onu;)m j {slong}m{aalig}n
+[lb=4] e{fins} h(an;)n {slong}k(al;) v(er;)a læri{slong}uein(n;) {slong}in(n;)a und(ir;) m(anna;). hu(ar;) a{fins} h(an;)n ang(ra;){ezh}t
+[lb=5] {slong}{aalig}rliga. s(uo;) at h(an;)n veit m(ed;) engu moti {slong}in o{rrot}{rscap}ædi. þic
+[lb=6] k(ir;) {slong}(e;)m v(ar;) en me{slong}ta {slong}uiu(ir;)da at v(er;)dalios at {slong}in(n;)i {fins}a{fins}ræ
+[lb=7] di. s(uo;) bu{rrot}dug(ur;) m(adr;) {slong}(e;)m h(an;)n v(ar;). (ok;) uppha{fins}in j v(er;)alld(ar;) met
+[lb=8] nadi. þ(vi;) {fins}(er;)r h(an;)n þ(a;)ng(at;) t(il;) {fins}ullti(n;)gs {slong}(e;)m nog e(r;) {fins}(yrir;). (ok;) ei(n;)g(um;) b(ra;){slong}t
+[lb=9] e(r;) {slong}otti. þ(at;) e(r;) at bid(ia;) t(il;) g(u;)ds mod{rrot} nocku{rscap}(ar;) dag(ar;) at h(an;)n
+[lb=10] duelr {slong}endim(enn;)ina s(uo;) at þ(ei;){rrot} {fins}a eing(an;) o{rrot}{slong}ku{rrot}d {slong}in(n;)a ey{rrot}
+[lb=11] inda. þ(via;)t vngi m(adr;) nyt(ur;) hu(or;)ki {slong}ue{fins}ns ne mat(ar;). g(en;)g{rrot}
+[lb=12] þeg(ia;)ndi vt (ok;) jn(n;) (ok;) he{fins}(ir;) enga gledi. Hi(er;) kem(ur;) at ein(n;)
+[lb=13] m(or;)gin(n;) arla {slong}(e;)m h(an;)s m(enn;) e(ru;) j {slong}ue{fins}fni Ris h(an;)n upp lagliga
+[lb=14] (ok;) leyn(izt;) vt a{fins} hu{slong}inu. (ok;) he{fins}(ir;) s(ik;) {fins}(ra;)m j {slong}tadin(n;) t(il;) [name:type=person] [hi:rend=caps] Mariu [/hi] [/name]
+[lb=15] k(ir;)kiu e(r;) kalla{ezh}t {aalig} þ(ei;){rrot}a tu(n;)gu not(um;) damma. þ(at;) ueg
+[lb=16] liga mu{slong}t(er;)i e(r;) b{rrot}ot(id;) m(ed;) veggiun(um;) vida {slong}(e;)m hatt(ur;) e(r;) t(il;) j
+[lb=17] {slong}to{rrot}k(ir;)kiu(m;). (ok;) j eitt a{fins} þ(es;)s(u;)m vtb{rrot}ot(um;) vik(ur;) ungi m(adr;) t(il;) bæ [catch]n(ar;)[/catch]
+[pb=438]
+[lb=1] nar. g(en;)gu þ(ar;) pilar(ar;) tueir {fins}(yrir;) {fins}(ra;)m(an;) en(n;) leyni {fins}(yrir;) jn(n;)an(n;). s(uo;) at
+[lb=2] hu(or;)ki jn(n;)an ne utan o{rrot} ambitu matti {fins}y{rscap} {slong}ia m(ann;) en allt
+[lb=3] g(ec;)k {fins}(ra;)m {fins}(yrir;)b{rrot}ot(id;). Hi(er;) vt j veggin(n;) v(ar;) glerglugg(ur;) væn(n;) (ok;) {aalig}
+[lb=4] likne{slong}kia vo{rscap}(ar;) {fins}(rv;). hi(er;) ka{slong}t(ar;) h(an;)n s(er;) {fins}laut(um;) {fins}(ra;)m {aalig} gol{fins}(it;) m(ed;)
+[lb=5] t{aalig}r(um;). bidi(an;)di G(uds;) mod{rrot} nocku{rscap}(ar;) {aalig}{slong}ia j {slong}inu v(an;)dkuædi. (ok;)
+[lb=6] ept(ir;) bæn g(er;){fins}a {slong}ig(ur;) {aalig} h(an;)n ho{fins}gi. (ok;) þeg(ar;) birt(izt;) h(onu;)m {slong}æl d(ro;)tt
+[lb=7] ni(n;)g [name:type=person] [hi:rend=caps] Maria [/hi] [/name] {rscap}ett j {slong}ama {slong}tad {slong}(e;)m h(an;)n la. hu(n;) birt(izt;) h(onu;)m
+[lb=8] bædi blid. (ok;) þo m(ed;) {aalig}vitan(ar;) y{fins}(ir;)b(ra;)gdi. hu(n;) talar s(uo;).
+[lb=9] Hey{rrot}t ho{fins}(um;) v(id;) {slong}on min(n;) bæn þina. lit(id;) ho{fins}(um;) v(id;) t{aalig}r þin
+[lb=10] (ok;) {slong}ed ho{fins}(um;) v(id;) kin(n;)roda þin(n;). e(r;) þ(at;) þo y{fins}(ir;) þ(ik;) ko(m;)it {rscap}ett at
+[lb=11] v(er;)dugu. þ(via;)t þu el{slong}kad(ir;) ja{fins}nan mie{rscap} leik (ok;) æ{slong}ku en(n;)
+[lb=12] ment(an;) þina. Nu {slong}ak(ir;) þ(es;)s at þu he{fins}(ir;) {aalig} m(ik;) t(re;)y{slong}t. e(r;) ek
+[lb=13] ko(m;)in bædi at hugga þ(ik;) (ok;) hirta þ(ik;). j þui hugga ek
+[lb=14] þ(ik;). at engi þin(n;)a vnd(ir;) m(anna;) {slong}k(al;) bet(ur;) {slong}kilia bok þina en þu
+[lb=15] j þ(vi;) hirti ek þ(ik;) at þu {slong}k(al;)t alla þina æ{fins}i h{rrot}yggbiug(ur;) v(er;)a
+[lb=16] s(uo;) at þu meg(ir;) allt þitt embætti {slong}æ(m;)iliga g(er;)a. {fins}æ ek þi(er;) þ(e;)tta
+[lb=17] t(il;) {aalig}min(n;)ing(ar;) (ok;) læri(n;)g(ar;). at þu þion(ir;) {slong}kap(ar;)a þin(um;) en(n;) {slong}yni
+[lb=18] minu(m;) þ(vi;) {fins}(ra;)m(ar;) j litillæti alla þina daga. Munt þu {fins}(ra;)m [catch]kuæmd(ir;)[/catch]
+[pb=439]
+[lb=1] kuæmd(ir;) þ(es;)sa{rscap}a o{rrot}da {slong}kiott {fins}in(n;)a {slong}(e;)m þu vakn(ar;). Ept(ir;) s(uo;) tal
+[lb=2] at lid{rrot} d(ro;)ni(n;)gin b(ro;)tt at {slong}yn. en h(an;)n vakn(ar;) (ok;) {slong}p(re;)tt(ur;) upp gædd(ur;)
+[lb=3] s(uo;) m(ik;)illi gio{fins} heilags anda. at {aalig}n allri duol dickt(ar;)
+[lb=4] h(an;)n nyia antiphona(m;) a{fins}{slong}(an;)c(t;)a [name:type=person] [hi:rend=caps] Maria [/hi] [/name] . bædi j {slong}en(n;) at o{rrot}d(um;)
+[lb=5] (ok;) hliod(um;). Su ant(tiphona;) e(r;) s(uo;) {fins}allin. Aue b(eat;)i{slong}{slong}ima ciuitas
+[lb=6] diuinit(ati;)s.. et(er;)no felix g(au;)dio. h(ab;)itac(u;)l(u;)m i(us;)ticie. c(ar;)it(ati;)s liliu(m;)
+[lb=7] mat(er;) nobil(is;). ob{slong}ec(ra;)pla{slong}mato{rrot}e(m;) q(ua;)tin(us;) rede(m;)pto [add:place=above]s[/add] {slong}ang(ui;)
+[lb=8] ne tueat(ur;). ut uiuentes (Christo;) ymni{ezh}em(us;). {ezh}ima antiqv(um;)
+[lb=9] exp(ur;)ga ip(s;)i(us;) orac(u;)lo. uite mediat(ri;)x. auxiliat(ri;)x. rep(ar;)at(ri;)x.
+[lb=10] illuminat(ri;)x. adiut(ri;)x. ueni iuna reos g(en;)it(ri;)x o(mn;)ipote(n;)tis.
+[lb=11] Nu {slong}(e;)m h(an;)n he{fins}(ir;) ant(iphonam;) naliga vti. s(uo;) h{aalig}tt (ok;) huellt at
+[lb=12] hey{rrot}(ir;) vm alla k(ir;)kiuna. ko(m;)a h(an;)s m(enn;) jn(n;) j mu{slong}t(er;)it e(r;) h(an;)s ho{fins}
+[lb=13] du {slong}akn(at;) (ok;) leita {fins}(ar;)it. g(an;)ga nu ept(ir;) hliodu(m;) h(an;)s. (ok;) v(er;)da {fins}eg
+[lb=14] n(ir;). {fins}in(n;)a h(an;)n j {slong}ama {slong}tad m(ik;)lu glad(ar;)a. en h(an;)n v(ar;) jn(n;)an m(ar;)g(ra;)
+[lb=15] daga. h(an;)n s(er;) moti þ(ei;)m (ok;) {slong}eg(ir;) þ(ei;)m {slong}ynina ha{fins}(an;)di hia s(er;)
+[lb=16] bada h(en;)n(ar;) notta. þ(an;)n an(n;)an at klerkdo(m;){rrot} e(r;) j nog. (ok;)
+[lb=17] þ(an;)n an(n;)an at lau{slong}leiki e(r;) j b(ro;)tt. (ok;) h{rrot}ygg(ur;) d(re;)gin(n;) t(il;) geym
+[lb=18] {slong}lu litillæti [add:place=above]s[/add] . s(uo;) at h(an;)n v(ar;)d m(ed;) {slong}ta{fins} at g(an;)ga vt a{fins} k(ir;)k [catch]iun(n;)i[/catch]
+[pb=440]
+[lb=1] iun(n;)i. {fins}(er;)r h(an;)n {slong}id(an;) {slong}kyndiliga t(il;) {slong}in(nar;) k(ir;)kiu. (ok;) v(ar;) alla {slong}i
+[lb=2] na daga {slong}æ(m;)ilig{rrot} b(ysku;)p. (ok;) {slong}n(ar;)pa{rrot}i t(il;) bæk(ur;) en(n;) {fins}le{slong}t(ir;) m(enn;) ad{rrot}(ir;)
+[lb=3] g(er;)di h(an;)n g(u;)di þ(ar;) {fins}(yrir;) m(ar;)g{fins}olld lo{fins} (ok;) h(an;)s {slong}ignad{rrot}i mod(ur;) m(ik;)la
+[lb=4] vinattu. þ(via;)t nu v(ar;) h(an;)s auga upplok(it;) at el{slong}ka ondina (ok;)
+[lb=5] at b(er;)gia (ok;) {slong}ia hu(er;){slong}u {slong}æt e(r;) {fins}(rv;) [name:type=person] [hi:rend=caps] Maria [/hi] [/name] .
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=213]
+
+
+[lb=6] [head] Kona v(ar;) jo{rrot}dut m(ed;) b(ar;)ni (ok;) li{fins}di. [/head]
+[p]
+
+
+[lb=7] [hi:rend=2] [supplied:reason=omitted] V [/supplied] [/hi] Egligt must(er;)i {slong}æll(ar;) meyi(ar;) [name:type=person] [hi:rend=caps] Marie [/hi] [/name] {slong}tend{rrot} j
+[lb=8] þ(ei;)m {slong}tad [gap:reason=lost:quantity=4] e(r;) [name:type=place] b(er;)gis [/name] heit(ir;). {slong}u k(ir;)kia e(r;) mi
+[lb=9] ok {rscap}ik (ok;) he{fins}(ir;) m(ik;)la sokn vnd(ir;) s(ik;). þ(ar;) sykt(izt;) j soknin(n;)i ein
+[lb=10] hu{slong}{fins}(rv;) h(ar;)dla {rscap}ik. hu(n;) v(ar;) j þ(ei;)m k(ra;)nkdo(m;)i {slong}e(m;) kon(um;) e(r;) titt at
+[lb=11] fæda b(ar;)n. hu(n;) v(ar;) ong(rv;)d {slong}{aalig}rliga vm lang(an;) tima m(ed;) hry
+[lb=12] gd (ok;) y{fins}(ir;){slong}etu bonda {slong}ins (ok;) an(n;)a{rscap}a a{slong}vina. en(n;) f(ec;)k ong(an;)
+[lb=13] letti. vt(an;) vm {slong}id(ir;) let h(on;) {slong}ial{fins}t lif(it;) likam(an;)s s(uo;) at b(ur;)dur
+[lb=14] in(n;) v(ar;) allr m(ed;) h(en;)ni. {slong}id(an;) e(r;) lik h(en;)n(ar;) sueip(at;) ept(ir;) {slong}id t(il;) k(ir;)kiu
+[lb=15] bo{rrot}it (ok;) t(il;) g(ra;){fins}t(ar;) bu(it;). Saung y{fins}(ir;) h(en;)ni k(ir;)kiu p(re;){slong}t(r;) vo{rscap}(ar;) f(rv;)
+[lb=16] tho{rrot}ias at na{fins}ni. (ok;) ept(ir;) þionus{slong}tu g(er;){fins}a. v(ar;) hu(n;) j io{rrot}d
+[lb=17] lagin (ok;) {fins}ylld h(en;)n(ar;) g(ro;){fins} ept(ir;) vana. lid(ur;) {slong}a dag(ur;) e(r;) hu(n;) v(ar;)
+[lb=18] jo{rrot}dut {aalig}. (ok;) nottin m(ed;). (ok;) an(n;)an dag moti hadegi g(en;)gv [catch]m(enn;)[/catch]
+[pb=441]
+[lb=1] m(enn;) vm k(ir;)iu g(ar;)din(n;) {slong}in(n;) optliga g(er;)i{ezh}t at {slong}to{rrot}k(ir;)kiu(m;). v(ar;) ek þ(ar;)
+[lb=2] medal an(n;)a{rscap}a {slong}eg(ir;) {slong}a e(r;) j(ar;)teignina b(ar;) {fins}(ra;)m ok þ(ui;) næ{slong}t
+[lb=3] hey{rrot}du(m;) v(er;) b(ar;)ns g(ra;)t. v(er;) hugd(um;) j {fins}y{slong}tu at kona nock(ur;)
+[lb=4] m(un;)di ha{fins}a g(en;)git j g(ar;)din(n;) m(ed;) ungt b(ar;)n. leitud(um;) v(er;) þa
+[lb=5] vm k(ri;)ng k(ir;)kiuna. (ok;) {fins}und(um;) e(igi;). {slong}id(an;) leitudu(m;) v(er;) ut um
+[lb=6] g(ar;)din(n;). b(ar;) þa f(yrir;) o{sscap} hliod(it;). (ok;) þ(ui;) viku(m;) v(er;) apt(ur;) j g(ar;)din(n;). {slong}tod
+[lb=7] þ(es;)si g(ra;)t(ur;) s(uo;) langt (ok;) {slong}i{fins}ellt. at v(er;) mattu(m;) þ(ui;) leita {slong}in(n;)
+[lb=8] o{sscap} ly{slong}ti. {fins}o{rrot}(um;) v(er;) nu þ(a;)ng(at;) {aalig} veg {slong}in(n;) o{sscap} þ(e;)tti næ{slong}t b(er;) (ok;)
+[lb=9] {slong}tend(ur;) upp {aalig} hu{slong}{fins}(rv;)in(nar;) leg. e(r;) {fins}y{rscap}a dag v(ar;) g(ra;){fins}in at þ(es;)si
+[lb=10] g(ra;)t(ur;) e(r;) þ(ar;) j io{rrot}d nid(ur;). eru nu t(il;) kallad(ir;) uit(rv;){ezh}tu m(enn;) (ok;)
+[lb=11] þick(ir;) ollum {rscap}ad at g(ra;){fins}a t(il;) j G(uds;) na{fins}ni. (ok;) {slong}(e;)m þ(at;) e(er;) g(er;)t
+[lb=12] birt(azt;) þ(ar;) {fins}a hey{rrot}d(ir;) hlut(ir;). þ(at;) e(r;) at hu{slong}{fins}reyia li{fins}(ir;) (ok;)
+[lb=13] he{fins}(ir;) þ(ri;){fins}ligt meyb(ar;)n li{fins}(an;)da j {fins}adnu s(er;). {rscap}eis nu upp
+[lb=14] m(ik;)it ha{rrot}ey{slong}ti (ok;) vnd{rrot}(an;) þ(es;)sa hlut(ar;). þu{slong}tu m(enn;) at m(ed;)
+[lb=15] {aalig}ke{fins}d. (ok;) {slong}p(ur;)du hu(er;){slong}u v(æ;)ri um(m;) h(en;)n(ar;) hag. en(n;) h(on;) {slong}u(ar;)
+[lb=16] adi bædi hliott (ok;) {fins}att. en(n;) þo {slong}agdi hu(n;) s(uo;) m(ik;)it. at
+[lb=17] hu(n;) he{fins}(ir;) heit(id;) j {slong}ott {slong}in(n;)i {aalig}n m(anna;) vito{rrot}di {aalig} G(uds;) mod(ur;)
+[lb=18] [name:type=person] [hi:rend=caps] Mariam [/hi] [/name] . at ge{fins}a h(en;)ni þ(at;) b(ar;)n t(il;) æ{fins}inlig(ra;){rrot} þion [catch]u{slong}tu[/catch]
+[pb=442]
+[lb=1] u{slong}tu at þ(ei;){rrot}i {slong}{ocurl}mu k(ir;)kiu. Sid(an;)geck hu(n;) t(il;) k(ir;)kiu. (ok;)
+[lb=2] v(ar;) þ(ar;) vij. daga. ecki blandad(izt;) [gap:reason=lost:quantity=9]
+[lb=3] leng{slong}tu(m;) h(en;)n(ar;) at h{ocurl}{fins}n at bidi(azt;) {fins}(yrir;). truduj
+[lb=4] m(enn;) at G(uds;) mod(ir;) he{fins}(ir;) h(en;)ni s(uo;) bod(it;). at b(er;)a e(igi;) j h{aalig}mæ
+[lb=5] li þa hluti e(r;) hu(n;) ha{fins}(di;) vis vo{rrot}d(it;). Ept(ir;) vij. daga
+[lb=6] lidna and(azt;) hu(n;) j f(ri;)di an(n;)an ti(m;)a (ok;) e(r;) g(ro;){fins}ud. en(n;)
+[lb=7] dott(ir;) h(en;)n(ar;) li{fins}di. v(ar;) hu(n;) {slong}kird (ok;) ne{fins}nd [name:type=person] þy{rrot}i [/name] . en(n;) {slong}id(an;)
+[lb=8] hu(n;) vox upp j þionu{slong}tu k(ir;)kiun(nar;). v(ar;) lei(n;)gt nafn h(en;)n(ar;)
+[lb=9] (ok;) kollut k(ir;)kiu kolla.
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=215]
+
+[gap:reason=lost:extent=4]
+[p]
+
+
+[lb=11] [gap:reason=lost:quantity=5] {slong}ue{fins}ni (ok) longu(m;bar) (ok) {slong}u(ar)a{rrot} {slong}endibo
+[lb=12] danu(m;bar) . Hui {slong}k(al;bar) m(ik;csup) onada t(il;isup) þuilik(ra) hluta e(igi;isup) e(r;er) þo
+[lb=13] {rrot}{fins} b(ysku;bar)parn(ir;er) {fins}(yrir;isup) alla jtalia(m;ar) at uig(ia;asup) eina k(ir;bar)kiu . Sendi bod
+[lb=14] in(n;dot) {slong}u(ar)ar . at d(ro;osup)ttni(n;bar)g him(in;bar)s (ok) j(ar)d(ar) kans h(an;bar)n {fins}(yrir;isup) ollu(m;bar) b(ysku;bar)p(u;)m
+[lb=15] at g(er)a uig{slong}luna . ept(ir;er) s(uo;osup) talat hneig(ir;er) b(ysku;bar)p ho{fins}(ud;dsup) {slong}itt apt(ur) j
+[lb=16] {slong}ue{fins}n (ok) e(igi;isup) mei(ra) eyrindi en(n;dot) nu v(ar) g(re;esup)int he{fins}(ir;er) {slong}endi bod
+[lb=17] in(n;dot) ti{aalig}ndi JH(es;Hbar)u x(kristi;xosup) ord (ok) and {slong}u{ocurl}{rrot} {slong}in (ok) b(ysku;bar)ps . vor h(er;bar)ra
+[lb=18] tala{rrot} þa t(il;isup) mod(ur) {slong}in(nar) . hu(at;tsup) e(r;er) nu t(il;isup) mod(ur) mi(n;bar) . þu heyr(ir;er) {slong}en
+[lb=19] dibod(ann;nsup) . hu(er){slong}u {fins}(ar)it he{fins}(ir;er) m(ed;ezh) þ(ei;bar)m {slong}erve b(ysku;bar)pi . {slong}(e;)m(;bar) ek hugdi . [catch]vor[/catch]
+[pb=455]
+[lb=1] vo{rrot} {fins}(rv;vsup) {slong}u(ar)a{rrot} . heyri ek {slong}on min(n;bar) . (okk;et) veit ek ja{fins}n {fins}(ra)m . at s(uo;osup)
+[lb=2] hlydin(n;dot) {slong}(e;)m(;bar) þ(es;bar)si b(ysku;bar)p v(ar) {fins}o{rrot}du(m;bar) þinv bodi . s(uo;osup) mu(n;bar) h(an;bar)n en(n;dot) v(er;ar)a .
+[lb=3] þeg(ar) h(an;bar)n veit alv{ocurl}ru þins vilia . hu(at;tsup) leing(ra) . {slong}endi
+[lb=4] bodi {fins}(er)r an(n;dot)an tima . kny{rscap} (ok) kallar at b(ysku;bar)p {slong}k(al;bar) upp
+[lb=5] {rscap}i{slong}a . {slong}eg(ir;er) at mod(ur) G(uds;us) {slong}tend(ur) s(uo;osup) h(ar)t j þ(ui;isup) mali at engi
+[lb=6] e(r;er) und(an;nsup) {fins}(er)d . b(ysku;bar)p {slong}u(ar)ar nu {fins}liot(ar)a en(n;dot) {fins}y{rscap} . (ok) litlu miuk(ar)a
+[lb=7] vt(an;nsup) h(an;bar)n {slong}u(ar)a{rrot} þa(an;bar)n veg . hu(at;tsup) {slong}(e;)m(;bar) þu kalla{rrot} {slong}tend ek {aalig} enga
+[lb=8] lund upp e{fins} mitt er {fins}idi {slong}k(al;bar) ecki taka j ad(ra) h(on;)d(;combcurl), þ(uia;bar)t {slong}u
+[lb=9] mæda e(r;er) meiri en(n;dot) v(ar)ir at hræ(ra) gamlan(n;dot) likam (ok) {slong}ti
+[lb=10] rd(an;nsup) a{fins} lang(ri;isup) legu . suo (ok) j ad(ra) g(re;esup)in {slong}tirdn(ar) m(or;osup)gu(m;bar) embæ
+[lb=11] ttis giord {aalig} {slong}kem(ra) tima . en(n;dot) ek he{fins}i nu a{fins}lag(it;tsup) . Le
+[lb=12] gat(us) {slong}u(ar)a{rrot} . hu(er){rrot}a mala gia{fins}a þick(i{ezh}t;zsup) þu nu þ(ur){fins}a {fins}ull
+[lb=13] {rscap}ik(ur) m(adr;ar) . ut(an;nsup) ha{fins}a blidu G(uds;us) (ok) h(an;bar)s ble{ezh}ad{rrot}ar mod(ur) þ(ui;isup) me
+[lb=14] iri {slong}(e;)m(;bar) þu g(er)ir {fins}lei(ra) gott . b(ysku;bar)p {slong}u(ar)a{rrot} . þau o{rrot}d uil ek
+[lb=15] at þu ber(ir;er) minu(m;bar) h(er;bar){rrot}a (ok) h(an;bar)s mod(ur) . at þ(e;bar)tta uil ek g(er)a
+[lb=16] e{fins} min(n;dot) þu(n;bar)gi v(er)d{rrot} an(n;dot)a{rscap}a byrdu(m;bar) at letta {aalig} þ(an;bar)n hatt .
+[lb=17] at hu(er){rrot} m(adr;ar) æ{fins}inliga {slong}(e;)m(;bar) {rscap}ett {slong}k(i;isup)ptad{rrot} (ok) jd{rrot}(an;nsup)di vitti(ar) [catch]mi(n;bar)s[/catch]
+[pb=456]
+[lb=1] mi(n;bar)s leg{slong}tad(ar) {slong}kili{ezh}t h(er) v(id;isup) þunga allra {slong}in(n;dot)a {slong}ynda .
+[lb=2] Med s(uo;osup) g(re;esup)indu bodo{rrot}di {fins}(er;ar)r legat(us) ti{aalig}ndi vo{rrot}(um;rum) h(er;bar){rrot}a .
+[lb=3] (ok) at þ(ui;isup) upploknu b{rrot}os(ir;er) vo{rscap} d(ro;osup)ttin(n;dot) . {slong}i{aalig}ndi blidliga t(il;isup)
+[lb=4] {slong}in(n;bar)(ar) mod(ur) s(uo;osup) mælandi . [hi:rend=caps] h [/hi] i(er) e(r;er) {aalig} at lita mod(ir;ar) mi(n;bar) ko{slong}ta
+[lb=5] bod b(ysku;bar)pins . hu(o;osup)rt v(id;isup) {slong}k(ulu;bar)m þ(es;bar)su jata . [hi:rend=caps] h [/hi] eilog [hi:rend=caps] maria [/hi]
+[lb=6] {slong}u(ar)a{rrot} . {fins}(irir;isup) þa g(re;esup)in {slong}on min(n;dot) at {slong}u e(r;er) bæn b(ysku;bar)ps {slong}(e;)m(;bar) me{slong}t {slong}am
+[lb=7] hliod(ar) þin(n;nleg)i my{slong}kun(n;bar) . vil ek gi(ar)na at veit(i{ezh}t;zsup) . ok þ(es;bar)su
+[lb=8] næ{slong}t {slong}ny{rscap} uo{rscap} d(ro;osup)ttni(n;bar)g ordu(m;bar) t(il;isup) {slong}endibod(an;nsup)s . s(uo;osup) tal
+[lb=9] andi . {fins}(ar) nu {slong}kyndiliga . (ok) biod b(ysko;bar)pinu(m;bar) enga du{ocurl}l g(er)a
+[lb=10] en(n;dot) ek {slong}k(al;bar) s(uo;osup) vm g(an;nsup)ga at {slong}i{ocurl} ad{rrot}(ir;er) b(ysku;bar)p(ar) {slong}k(ul;bar)u j ne{fins}nd(an;nsup)
+[lb=11] dag t(il;isup) tekin {fins}(ra)m ko(m;bar)a at uig{slong}lu g(er)d min(n;nleg)(ar) k(ir;bar)kiu megi
+[lb=12] þ(ui;isup) {aalig}gæt(ar)i v(er)da . Suo g(er)i{ezh}t nu allt j {slong}{ocurl}mu {slong}tund . le
+[lb=13] gat(us) bod(ar) alla{rrot} uei{ezh}lur . b(ysku;bar)p {slong}tend(ur) upp s(uo;osup) bi(ar)tr (ok) blid(ur;ar)
+[lb=14] {slong}(e;)m(;bar) vel matti . {slong}oma at v(er)a p(ri;isup)mas allra v(er)alld(ar) b(ysku;bar)pa .
+[lb=15] A g(re;esup)ind(an;nsup) dag {slong}(e;)m(;bar) G(uds;us) mod(ir;er) {slong}kip(ar) g(er)i{ezh}t vig{slong}la g(re;esup)ind{rrot}(ar) k(ir;bar)kiu
+[lb=16] m(ed;ezh) s(uo;osup) hi(m;bar)ne{slong}ku(m;bar) hætti {slong}(e;)m(;bar) {fins}y{rscap} e(r;er) ohey{rrot}t . at {slong}i{ocurl} li{fins}(an;nsup)di
+[lb=17] b(ysku;bar)p(ar) . (ok) allr hiav(er)andi lyd{rrot} {slong}ia þ(en;bar)na attanda b(ysku;bar)p j {fins}o{rrot}
+[lb=18] g(on;osup)gu all{ezh} embættis e(r;er) ei(n;bar)gi m(adr;ar) ken(n;nleg)(ir;er) . en(n;dot) ti(ar) {slong}ik s(uo;osup) miuk(an;nsup) [catch](ok)[/catch]
+[pb=457]
+[lb=1] (ok) {fins}(ra)man(n;dot) j ollu(m;bar) g(er)du(m;bar) at y{fins}(ir;er) g(ec;csup)k j(ar)dne{slong}kan(n;dot) h{aalig}tt .
+[lb=2] (ok) e(igi;isup) þ(ui;isup) helld{rrot} kan(n;bar) nock(ur) h(an;bar)n und(ra) eda {slong}pyria hva
+[lb=3] d(an;nsup) h(an;bar)n v(er)i . S(e;bar)m embættid e(r;er) {fins}ag(ur)liga lukt (ok) hv(er){rrot}
+[lb=4] b(ysku;bar)pan(n;dot)a kem(ur) j {slong}itt eig(it;tsup) herb(er)gi luka{ezh}t upp hug{slong}ko
+[lb=5] t{ezh} augu þ(ei;bar)ra t(il;isup) ept(ir;er)leitan(ar) . hu(ar) {slong}a okun(n;dot)i b(ysku;bar)p muni
+[lb=6] eta um dagin(n;dot) . þ(uia;bar)t ei(n;bar)gi ha{fins}(di;isup) heyrt get(id;dsup) h(an;bar)s herb(er)gia
+[lb=7] þ(ar) j {slong}tadnu(m;bar) . villdi nu hv(er){rrot} (ok) ein(n;dot) li{fins}s gi(ar)na h(onu;bar)m veita
+[lb=8] {slong}itt bord . m(ed;ezh) allri virkt (ok) goduilia . an(n;dot) þo at m(ar)
+[lb=9] ga {fins}ysti {fins}eck eingi þ(ei;bar){rrot}a . þ(uia;bar)t {slong}a væni b(ysku;bar)p v(ar) nu j b(ro;osup)t
+[lb=10] tu s(uo;osup) einkanliga at ei(n;bar)gi tu(n;bar)ga j {slong}tadnu(m;bar) kun(n;bar)i g(re;esup)in
+[lb=11] {aalig} h(an;bar)s b(ro;osup)tt {fins}(er)d . Er nu þ(ui;isup)likt {slong}(e;)m(;bar) b(ysku;bar)p(ar) vakni a{fins} {slong}ue{fins}ni
+[lb=12] t(il;isup) um huxan(ar) at hi(er) mu(n;bar) mei(ra) magn j v(er;ar)a en(n;dot) þ(ei;bar)m {fins}an{ezh}t
+[lb=13] t(il;isup) um tima . hv(ar) a{fins} s(uo;osup) g(er)i{ezh}t at {slong}a ein(n;dot) a{fins} b(ysku;bar)pan(n;bar)a tolu {slong}(e;)m(;bar)
+[lb=14] æ{ezh}{slong}t(ur) v(ar) at m(an;nsup)ko{slong}tu(m;bar) {fins}(yrir;isup) g(u;)d(;combcurl)i {fins}a{slong}t(ar) (ok) vak(ir;er) m(ed;ezh) bæn(um;msup) . bidi(an;nsup)
+[lb=15] di at gud d(ro;osup)ttin(n;dot) {slong}yni h(onu;bar)m {slong}anleik þ(es;bar)sa hlut(ar) . en(n;dot) a{fins}
+[lb=16] {slong}inv(m;bar) v(er)dleik þigg(ur) h(an;bar)n an [gap:reason=lost:quantity=2] {slong}(e;)m(;bar) nu v(ar) le{slong}in
+[lb=17] {fins}(ra) uppha{fins}i t(il;isup) enda . Nu {slong}o {slong}(e;)m(;bar) heilog [hi:rend=caps] maria [/hi] vandadi [catch]{fins}or[/catch]
+[pb=438]
+[lb=1] {fins}or miok vig{slong}u m(us)t(er)is þ(es;bar)sa {slong}tyrk(ir;er) hu(n;bar) {slong}id(an;nsup) þ(es;bar)s p(ri;isup)uilegiu(m;bar) .
+[lb=2] þ(uia;bar)t s(uo;osup) m(ik;csup)il takn . (ok) m(ar)g(ar) j(ar)teign(ir;er) læt(ur) hu(n;bar) þ(ar) {slong}kina at e(igi;isup)
+[lb=3] {fins}leiri v(id;isup) {slong}ial{fins}r(ar) {slong}in(n;nleg)(ar) g(ro;osup){fins} j [name:type=place] [hi:rend=caps] v [/hi] alli [hi:rend=caps] j [/hi] o{slong}aphat [/name] . þ(ui;isup) e(r;er) þ(a;bar)ng(at;tsup) m(ik;csup)il
+[lb=4] {slong}oku a{fins} no{rrot}d(ur) hal{fins}un(n;dot)i at m(ar)g(ar) {fins}ær(ir;er) þ(a;bar)ng(at;tsup) {slong}itt heit {fins}(yrir;isup)
+[lb=5] ymi{slong}lig(ar) nei{ezh}lur . hu(at;tsup) e(igi;isup) e(r;er) uo{rrot}t m(ed;ezh) at bu{rrot}du(m;bar) at g(re;esup)ina .
+[lb=6] Er en(n;dot) j þ(es;bar)s(u;)m hlut v(ir;isup)danda {slong}(e;)m(;bar) {ocurl}dru(m;bar) hu(er){slong}u guddo(m;bar)s ve
+[lb=7] lld(it;tsup) m(ed;ezh) {aalig}rnan {slong}in(n;nleg)(ar) mod{rrot}(ur) . {fins}in(n;nleg)(ur) (ok) {fins}(ra)m he{fins}(ir;er) m(ar)ga utvegu
+[lb=8] t(il;isup) hialp(ar) m(ann;nsup){fins}olkinu . e{fins} þ(at;bar) kan(n;dot) jd{rrot}a{ezh}t {slong}yndan(n;dot)a . {slong}k(al;bar)
+[lb=9] hi(er) (ok) {fins}ylg(ia;asup) lik(ur) euent(us) t(il;isup) {slong}{ocurl}mu my{slong}kun(n;nleg)(ar) . m(ed;ezh) þ(ei;bar){rrot}i lo{fins}
+[lb=10] g(er)d j ad(ra) g(re;esup)in at allt(ar)is embættid dy{rrot}ki{ezh}t þ(ui;isup) {fins}(ra)m(ar) {slong}(e;)m(;bar)
+[lb=11] d(ro;osup)ttin(n;nleg) JHC(esus;HbarC) birt(ir;er) þ(at;bar) {fins}(ra) bæriliga{rscap} .
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=216]
+
+
+[lb=12] [head] V(or;) {fins}rv leitadi m(ed;) p(re;){slong}ti ad {slong}ac(re;)m(en;)to j elldi [/head]
+[p]
+
+
+[lb=13] [hi:rend=2] [supplied:reason=omitted] þ [/supplied] [/hi] A e(r;) lid(it;) v(or;) {fins}(ra;) hing(at;) bu{rrot}d u(or;)s h(er;){rrot}a [name:type=person] Jh(es;)u (kristz;) [/name] . m. ccc.
+[lb=14] (ok) xxx. {aalig}ra. g(er;)d(i{ezh}t;) þuilik(ur;) at bu{rrot}d(ur;) {fins}(yrir;) no{rrot}d(an;) ha{fins}(it;)
+[lb=15] at kapella ein g(ec;)k upp m(ed;) ov{ocurl}{rrot}u(m;) elldi. (ok) allr {slong}a
+[lb=16] bæ{rscap} e(r;) næ{rscap}i {slong}tod. (ok) j þ(an;)n punkt. {slong}(e;)m elld(ur;) leik(ur;) kapellu
+[lb=17] na. min(n;)(i{ezh}t;) p(re;){slong}turin(n;) h(en;)n(ar;) kapellan at v(or;)s d(ro;)ttins likami
+[lb] [catch]v(ar;)[/catch]
+[pb=459]
+[lb=1] v(ar;) j þ(ei;)m h{aalig}{slong}ka y{fins}(ir;) h{aalig} allt(ar;)i. þ(vi;) gy{rrot}d(ir;) h(an;)n s(ik;) k(ar;)lm(ann;)liga.
+[lb=2] {slong}n(ar;)andi jn(n;) j hus(it;) log(an;)da. ok {fins}in(n;)(ur;) k(er;)it heillt m(ed;) G(uds;) vil
+[lb=3] ia. en(n;) ept(ir;) þ(an;)n mæta {fins}und þ{rrot}ongu(ir;) at p(re;){slong}tinu(m;) s(uo;) {slong}t(ra;)ng{rrot}
+[lb=4] logi m(ed;) heit(um;) b{rrot}una a{fins} vax(an;)da elld{ezh} g(an;)ginu(m;). at h(an;)n
+[lb=5] v(er;){fins}r {slong}in(um;) tru(ar;) vopnu(m;) h(er;){fins}iliga s(er;) {aalig} bak {slong}(e;)m vond{rrot} lei
+[lb=6] gu m(adr;). þ(via;)t j {fins}elmt (ok) au{rrot}uita h{rrot}æd{ezh}lu. ka{slong}t(ar;) h(an;)n
+[lb=7] nid{rrot} j elldin(n;) þ(vi;) himne{slong}ka {slong}torm(er;)ki (ok) {fins}ly{rrot} {slong}id(an;). s(uo;)
+[lb=8] {slong}kiliandi v(id;) {slong}in(n;) lau{slong}n(ar;)a. (ok) h(an;)n aum(ur;) li{fins}s leit(an;)di. me
+[lb=9] i{rscap} lika(m;)s en(n;) and(ar;). {rscap}en(n;)(ur;) j næ{slong}ta þorp. liggi(an;)di þ(ar;) j
+[lb=10] {rscap}eckiu jlla halldin(n;) vm þ{rrot}ia daga. hu(ar;) ept(ir;) h(an;)n ve
+[lb=11] {slong}all {aalig} min(n;)(i{ezh}t;) {slong}ina om(ann;)liga g(er;)d. ok viti(an;)da heilogu(m;) an
+[lb=12] da. g{rrot}æt(ur;) h(an;)n {slong}in(n;) glæp hatt (ok) bei{slong}kliga. kallandi s(ik;)
+[lb=13] hi.. [gap:reason=lost:quantity=1] kara en(n;) {rscap}ettu(m;) ken(n;)i m(anni;). (ok) {fins}(yrir;) and(ar;) a{fins}l {slong}(e;)m
+[lb=14] {aalig} {slong}ak(ar;) holld(it;). gleym(ir;) h(an;)n ollu(m;) vanmætti liman(n;)a
+[lb=15] (ok) {slong}p(re;)tt(ar;) upp a{fins} {slong}ængin(n;)i. {fins}(ra;)m ren(n;)andi m(ed;) {slong}kunda t(il;) þ(ei;){rrot}a
+[lb=16] kola e(r;) nu lagu j {slong}tad k(ir;)kiun(n;)(ar;). hi(er;) g{rrot}u{fins}la{rrot} h(an;)n g(ra;)t
+[lb=17] andi dag (ok) nott (ok) an(n;)an dag {fins}(ra;)m t(il;) hadegis æ lei
+[lb] [catch]t(an;)di[/catch]
+[pb=460]
+[lb=1] t(an;)di (ok) s(ik;) {slong}nubbandi. þar t(il;) at næ{rscap}i s(er;). lit(ur;) h(an;)n s(uo;) uæna
+[lb=2] ju(n;)g{fins}(rv;). at alld{rrot}egi {fins}y{rscap} {slong}a þ(vi;)lika m(ann{ezh};) auga. hu(er;) s(uo talar;)
+[lb=3] h(onu;)m t(il;). Hv(at;) leit(ar;) þu p(re;){slong}t(ur;) h(ar;)m þ{rrot}u(n;)gin(n;). en(n;) h(an;)n {slong}alug(ur;) {slong}ty
+[lb=4] n(ur;) at moti. (ok) þo{rrot}(ir;) engu {slong}u(ar;)a. þ(via;)t h(an;)n {slong}kildi {slong}in(n;) glæp o
+[lb=5] bærilig(an;) hu(er;)iu ey(ra;). Hu(n;) {slong}eg(ir;) þa en(n;). hu(at;) he{fins}(ir;) þ(ik;) s(uo;) m(ik;)it
+[lb=6] hent. at e(igi;) mattu m(adr;) vitond ha{fins}a m(ed;) þi(er;). e(r;) e(igi;) s(uo;) mæ
+[lb=7] lt at optliga kun(n;)a bet(ur;) tueir en(n;) ein(n;) v(an;)d{rrot}ædin at
+[lb=8] {rscap}ada. Hu(at;) mei(ra;). þ(ar;) til {slong}py{rscap} hu(n;) ble{ezh}ut h(ar;)m þ{rrot}u(n;)g(it;) hi(ar;)
+[lb=9] ta at. m(ed;) hunanglig(um;) {slong}eim {slong}in(n;)a o{rrot}da. at p(re;){slong}t(ur;) jat(ar;)
+[lb=10] v(er;)kit. at jatni(n;)g g(er;){rrot}i. {slong}eg(ir;) hu(n;) blidliga t(il;) h(an;)s. nu {slong}k(al;)
+[lb=11] ek ombuna þi(er;) trunat. (ok) v(er;)a j leitin(n;)i m(ed;) þi(er;). ok
+[lb=12] {rscap}ett j {slong}{ocurl}mu(m;) {slong}po{rrot}u(m;) {slong}(e;)m hu(n;) {slong}tend{rrot} {aalig} {fins}aul{slong}kanu(m;). he
+[lb=13] {fins}(ur;) hu(n;) v(ir;)duliga k(er;)it vpp o{rrot} kolonu(m;). s(uo;) {slong}eg(ia;)ndi p(re;){slong}tinu(m;).
+[lb=14] Til þ(es;)s p(re;){slong}t(ur;) min(n;) at þu {slong}k(yll;)di{ezh}t þ(vi;) {fins}(ra;)m(ar;) j litillata y{fins}(ir;)
+[lb=15] bot þins mi{slong}u(er;)ka v(id;) g(u;)d g{rrot}æd(ar;)a þin(n;). (ok) mik e(r;) {slong}kryd
+[lb=16] di h(an;)s g(u;)ddom minu holldi. þa gack næ{rscap}. (ok) {slong}ia þin(um;)
+[lb=17] aug(um;) hu(er;){slong}u lo{fins}ligt (ok) æ li{fins}(an;)da {slong}acram(en;)tum þu {fins}(yrir;) let{ezh}
+[lb] [catch](ok)[/catch]
+[pb=461]
+[lb=1] (ok) {fins}lyd(ur;). ok næ{rscap} g(an;)gandi at upploknu k(er;)inu. {slong}ie{rscap} h(an;)n
+[lb=2] j {slong}kautanu(m;) d{rrot}ey{rrot}ug(an;) {fins}(re;)m{slong}ta hlut a{fins} m(ann{ezh};) {fins}i(n;)g{rrot}i. hu(ar;) a{fins}
+[lb=3] hu(n;) {fins}ellr {fins}(ra;)m m(ed;) ny {fins}ei(n;)gnu(m;) h(ar;)mi. þ(ar;) til e(r;) likn(ar;) æd(ur;)in
+[lb=4] e{fins}lir hu(n;) t(il;) huggan(ar;) s(uo;) mælandi. O{fins}veik{ezh}t e(r;) p(re;){slong}t(ur;) min(n;)
+[lb=5] tak helld(ur;) {slong}ty{rrot}ka von a{fins} milldi G(uds;) (ok) min(n;)i. þ(via;)t hi(er;) mu(n;)
+[lb=6] g(er;)a{ezh}t {slong}(e;)m opt v(er;)d{rrot}. at {slong}on(ur;) min(n;) læt(ur;) {slong}kina milldi {slong}ina
+[lb=7] y{fins}(ir;) a{fins} b(ro;)t m(anna;). þu {slong}k(al;)t taka m(ed;) þ(es;)s(u;)m haleita the{slong}aur. (ok)
+[lb=8] b(er;)a h(a;)n b(ysku;)pi yd{rrot}u(m;) m(ed;) {slong}an(n;)lig(ri;) bod(an;) þins an(n;)m(ar;)ka (ok) g(u;)dlig{rrot}(ar;)
+[lb=9] {slong}kipan(ar;) j þ(es;)su mali. Hi(er;) m(ed;) b(e;){rrot} h(onu;)m þ(an;)n G(uds;) uilia (ok) min(n;)
+[lb=10] at {aalig} {slong}ama g{rrot}unduelli {slong}(e;)m nu {slong}tondu(m;) v(id;) {rscap}ei{slong}i h(an;) vegli
+[lb=11] gt mu{slong}t(er;)i. at j eili{fins}a min(n;)ing dy{rrot}ki{ezh}t hi(er;) þ(e;)tta {slong}ama
+[lb=12] {slong}ac(ra;)m(en;)tum d(ro;)ttinligt. votta þ(at;) (ok) b(ysku;)pin(um;) m(ed;) {ocurl}{rrot}uggu
+[lb=13] t(ra;)u{slong}ti a{fins} g(u;)d d(ro;)tti(n;)s hal{fins}u (ok) min(n;)i. at j þ(es;)s(u;)m {slong}tad {slong}k(al;)
+[lb=14] s(uo;) m(ik;)il my{slong}kun(n;) {rscap}ikia at hu(er;){rrot} {slong}(e;)m hing(a;)t {slong}æk(ir;) m(ed;) jd{rrot}(an;) (ok)
+[lb=15] a{fins}lati {slong}ynda. {slong}k(al;) {fins}(ri;)als (ok) h{rrot}rein(n;) b(ro;)tt {fins}(ar;)a. Ept(ir;) s(uo;) tal
+[lb=16] at. he{fins}{slong}t vo{rrot} d(ro;)ttni(n;)g hei(m;) t(il;) him(in;){rscap}(iki;)s. en(n;) p(re;){slong}t(ur;) (ok) b(ysku;)pin(n;). {fins}ella
+[lb=17] s(uo;) hu(er;)ia g(re;)in. {slong}(e;)m ad{rrot} v(ar;) {slong}k(ri;){fins}at. j {fins}o{rrot} mæli mod(ur;) {slong}an(n;)leik
+[lb] [catch]{slong}ins[/catch]
+[pb=462]
+[lb=1] {slong}ins. tok {slong}a ble{ezh}ad{rrot} {slong}tad(ur;) vid(ur;) kuæ(m;)iligt na{fins}n a{fins} {slong}i
+[lb=2] n(n;)i {fins}ehird{ezh}lu (ok) {fins}(ra;) bæ{rscap}i G(uds;) my{slong}kun(n;). (ok) kalla{ezh}t {aalig} lati
+[lb=3] nu. dei vicus þ(at;) þydu(m;) v(er;) G(uds;) by{rscap}. þ(ei;)m {slong}e lo{fins} (ok) dy{rrot}d e(r;) alla
+[lb=4] goda hluti vin(n;)(ur;) (ok) ueit(ir;) {aalig} himni (ok) jo{rrot}du {slong}a er [name:type=person] JH(esus;) [/name] [name:type=person] MA
+[lb=5] RIU [/name] {slong}on k(onun;)g{rrot} j v(er;)alld(ir;) v(er;)allda. Am(en;).
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=217]
+
+
+[pb=462]
+[lb=6] [head] K(onung;bar){rrot} ætladi at r(ida;asup) i k(irkiu;usup) vor(ar) {fins}(rv;vsup) . [/head]
+[p]
+
+
+[lb=7] [hi:rend=4] [supplied:reason=omitted] I [/supplied] [/hi] Eingl(an;)d(;combcurl)i e(r;er) {slong}a {slong}tad(ur) ein(n;dot) milli an(n;dot)a{rscap}a e(r;er) val{slong}igam
+[lb=8] heit(ir;er) . h(an;bar)n {slong}tend(ur;ar) upp a{fins} lind i megin l(an;)d(;combcurl){ezh}ins . þ(ar) e(r;ar)
+[lb=9] kapella vor(ar) {fins}(rv;vsup) s(uo;osup) {fins}ræg at þ(ei;bar){rrot}(ar) k(ir;bar)kiu e(r;er) þ(ar) {slong}tend{rrot}
+[lb=10] in(n;bar)an {slong}tad(ar) e(r;er) e(igi;isup) getid i l(an;)d(;combcurl)inu hia hin(n;dot)i . hu(n;bar) e(r;er) gi
+[lb=11] o{rscap} m(ed;ezh) vænu(m;bar) s(uo;osup) ko{slong}ti, at uel ma {slong}egia{ezh}t at {aalig} h(en;bar)ni
+[lb=12] {slong}ed{ezh}t ecki an(n;dot)at ut(an;nsup) gull (ok) sil{fins}(ur) . ok g(ro;osup)pt(ur) bædi uti (ok)
+[lb=13] in(n;dot)i . {slong}(e;)m(;bar) e(igi;isup) þ(ar){fins} und(ra) . þ(uia;bar)t {slong}okn (ok) o{fins}{fins}(ur) e(r;er) s(uo;osup) mi(ki;csup)t (ok) {aalig}ka{fins}t
+[lb=14] t(il;isup) h(en;bar)(ar) . at ein b{rrot}od(ir;er) þ(ar) til {slong}kipad(ur) ma nær ecki g(er)a alla
+[lb=15] daga an(n;dot)at . en(n;dot) {slong}tanda v(id;isup) alllt(ar)id . (ok) taka v(id;isup) peni(n;bar)gu(m;bar)
+[lb=16] kapella þ(e;bar){sscap}i e(r;er) litil uexti . en(n;dot) þo {slong}ega s(uo;osup) einglis m(enn;bar)
+[lb=17] at i h(en;bar)ni v(er)di alld (ri;isup ){rscap}um{fins}att hu(er){slong}u m(ar)gt {fins}olk e(r;er) in(n;dot)i
+[lb=18] {slong}tend(ur) . hu(at;tsup) p(ro;barbl){fins}a{ezh}t {slong}att v(er)a m(ed;ezh) beru(m;bar) takn(um;msup) e(r;er) geijm(azt;zsup) æ{fins} [catch]inliga[/catch]
+[pb=463]
+[lb=1] inliga i þ(e;bar){sscap}i kapellu . þ(uia;bar)t s(uo;osup) {slong}(e;)m(;bar) ein(n;dot) eingl(an;)d(;combcurl)(z;ezh) k(onun;bar)g{rrot} heyrdi
+[lb=2] þ(a;bar)t {slong}agt. {slong}(e;)m(;bar) nu v(ar) {slong}agt. villdi h(an;bar)n {rscap}eyna {slong}an(n;dot)indi þ(e;bar){sscap}a hlut(ir;ar) .
+[lb=3] (ok) {rscap}id{rrot} {fins}(ra;re)m t(il;isup) {slong}tad(ar)ins m(ed;ezh) m(ar)gs kyns stett(ir;er) valld{ezh} m(anna;bar) . (ok)
+[lb=4] muga m(anna;asup) vt i {fins}(ra) . ha{fins}(an;nsup)di þa hugs(an;nsup) at {rscap}ida m(ed;ezh) k(un;bar)glig(ri;isup)
+[lb=5] mekt in(n;dot) i {slong}ial{fins}a kapelluna m(ed;ezh) allan(n;dot) {slong}in(n;dot) {slong}k(ar)a . {rscap}eid
+[lb=6] d(ro;osup)ttni(n;bar)g h(an;bar)s m(ed;ezh) h(onu;bar)m (ok) þ(ei;bar)ra {slong}on ung(ur) m(adr;ar) (ok) {slong}(e;)m(;bar) k(onun;bar)g(ur)in(n;nleg) ke
+[lb=7] m(ur) in(n;dot)an {slong}tad(ar) . þ(ar) {slong}(e;)m(;bar) {rscap}idandi m(enn;bar) e(ru;usup) uan(ir;er) a{fins} baki at
+[lb=8] {slong}tiga. (ok) g(an;nsup)ga þad(an;nsup) m(ed;ezh) litillæti i G(uds;us) mod(ur) hus . {slong}tendr
+[lb=9] e{slong}{slong}it {fins}a{slong}t und(ir;er) h(onu;bar)m s(uo;osup) und(ir;er) d(ro;osup)ttni(n;bar)gin(n;dot)i (ok) {slong}yni þ(ei;bar)ra .
+[lb=10] {slong}(e;)m(;bar) oll {slong}e a{fins} m(ar)ma(ra) g(e;er){rrot} . (ok) s(uo;osup) {slong}(e;)m(;bar) þau e(ru;usup) oll ohrærilig . s(uo;osup) e(r;er)
+[lb=11] {slong}audullin(n;dot) (ok) m(adr;ar)in hu(at;tsup) limt (ok;ezh) bund(it;tsup) v(id;isup) an(n;dot)at . s(uo;osup) at ecki ma
+[lb=12] ley{slong}a{ezh}t {fins}(ra) odru. {fins}y{rscap} en(n;dot) k(onun;bar)grin(n;dot) id(ra){ezh}t {slong}ins obbeldis . (ok;ezh)
+[lb=13] iat(ar) nu a{fins} baki at {slong}tiga . (ok) g(an;nsup)ga t(il;isup) g(u;)d(;combcurl)s mod(ur) kapellu
+[lb=14] e{fins} h(an;bar)n v(er)dr laus . hi(er) m(ed;ezh) heit(ur) h(an;bar)n at g(er)a takn þ(es;bar)sa hlu
+[lb=15] tar t(il;isup) æ{fins}inlig(ra){rrot} mini(n;bar)g(ar) . {aalig} þ(an;bar)n hatt. at g(er)a liking ept(ir;er)
+[lb=16] s(er) (ok) e{slong}{slong}inu m(ed;ezh) b{rrot}endu {slong}il{fins}(ri;isup) . s(uo;osup) ept(ir;er) d(ro;osup)ttni(n;bar)n(n;dot)i . (ok) þ(ei;bar)ra
+[lb=17] {slong}yni . ok at þ(es;bar)su heiti {slong}tad{fins}e{slong}tu . lit(ur) likn(ar) brun(ur) my [catch] {slong}un(n;nleg)(ar)in(n;bar)ar[/catch]
+[pb=464]
+[lb=1] {slong}un(n;nleg)(ar)in(n;bar)ar þ(ei;bar){rrot}a id{rrot}(an;nsup) (ok) ge{fins}(ur) k(onun;bar)gi . {fins}(rv;vsup) (ok) {slong}yni þ(ei;bar){rrot}a blitt {fins}(ar)a{rrot}
+[lb=2] lei{fins}i . {slong}ig (ok) {slong}in(n;dot)i kapellu veg{slong}emd at veita m{ezh} {slong}{ocurl}n(n;dot)u
+[lb=3] litillæti. {fins}ylldi k(onun;bar)g{rrot}in(n;dot) {slong}id(an;nsup) {slong}itt heit i alla g(re;esup)in. er
+[lb=4] h(an;bar)s teikn (ok) d(ro;osup)ttni(n;bar)g(ar) s(uo;osup) h{aalig}tt ned(an;nsup) a{fins} {fins}ætti e{slong}{slong}ins. vpp {aalig}
+[lb=5] h{ocurl}f(ud;dsup) {rscap}idd(ar)anu(m;bar) {slong}(e;)m(;bar) aln(ar). en ept(ir;er) pilltinu(m;bar) {slong}yni þ(ei;bar)ra vel {slong}pa
+[lb=6] n(n;bar)ar. Tia{ezh}t þ(es;bar)si teikn {fins}(irir;isup) pilag(ri;isup)mu(m;bar) m{ezh} g(re;esup)indu(m;bar) æfintyr
+[lb=7] g(u;)d(;combcurl)i t(il;isup) lo{fins}s (ok) h(an;bar)s haleitri mod{rrot} t(il;isup) {slong}æmd(ar) (ok) v(ir;isup)dinga{rscap}.
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=218]
+
+[head] bræd{rrot} {slong}u(n;bar)gu {slong}alve regina [/head]
+[p]
+
+
+[lb=9] [hi:rend=4] [supplied:reason=omitted] I [/supplied] [/hi] Paris v(ar) ein kuin(n;dot)a hardla {rscap}ik (ok) kyn {slong}tor (ok) uel
+[lb=10] k(ri;isup){slong}tin giorn at hey(ra) {fins}ag(ra)n {slong}ong (ok) {slong}æmiliga tida
+[lb=11] g(er)d . ok {slong}ak(ir;er) þ(es;bar)s at in(n;dot)an {slong}tad(ar) v(oru;osup) m(ar)g(ar) {slong}tett(ir;er) klerka
+[lb=12] (ok) klo{slong}t(ar;ra) man(n;dot)a . hugleid(ir;er) hu(n;bar) m(ed;ezh) s(er) opt{slong}in(n;bar)is hu(er)ir
+[lb=13] {rscap}eglu m(enn;bar) be{ezh}t {fins}aga {slong}ina {rscap}eglu. (ok) v(ir;isup)d(zt;zsup) h(en;bar)ni {slong}(e;)m(;bar) p(re;bar)dic(ar)a
+[lb=14] li{fins}nad(ur) {slong}e {fins}orkunlig(ur) i þ(es;bar)su vm {fins}(ra)m ad(ra). hu(er){slong}u þ(ei;bar){rrot} {slong}y
+[lb=15] ngia hatt (ok) m(ed;ezh) {fins}og{rrot}(um;msup) hætti . þ(ui;isup) ven(ur) s(ik;csup) einkanliga t(il;isup)
+[lb=16] þ(ei;bar)ra k(ir;bar)kiu . bædi {slong}id (ok) {aalig}rla . tek(ur) hu(n;bar) (ok) i {slong}inu hi(ar)ta at
+[lb=17] hu(er)t kuelld ad(ur) hu(n;bar) {fins}(er)r at {slong}o{fins}a . {slong}k(al;bar) hu(n;bar) hey(ra) þ(ei;bar)ra co(m;bar)pleto . [catch]riu(m;bar)[/catch]
+[pb=465]
+[lb=1] riu(m;bar) . þ(uia;bar)t h(en;bar)ni e(r;er) ei(n;bar)ku(m;bar) kært . hu(er){slong}u m(ed;ezh) u(ir;isup)ktu(m;bar) þ(ei;bar){rrot} {slong}yng(ia;asup)
+[lb=2] vo{rscap}(ar) {fins}(rv;vsup) antiphona(m;bar) . {sscap}alve regina ept(ir;er) natt {slong}ongin(n;dot) .
+[lb=3] i þ(ei;bar)ri k(ir;bar)kiu v(ar) s(uo;osup) {fins}allit . at {fins}(ra)m(m;dot)i {aalig} le{slong}korinu(m;bar) {slong}tod me
+[lb=4] i{slong}t(ar)ligt v(er)k vor(ar) {fins}(rv;vsup) {slong}k(ri;isup)pt s(uo;osup) {fins}o{rrot}m(er)ut at hu(n;bar) ble{ezh}ut he
+[lb=5] llt i {fins}admi {slong}in(n;dot) {slong}æla {slong}on . (ok) {fins}(irir;isup) þ(es;bar)sa {slong}kript g(en;bar)gu b{rrot}æd{rrot}
+[lb=6] p(ro;barbl)ce{slong}{slong}ionalit(er) hv(er)t kvelld in{ezh} {sscap}alue {rscap}egina . (ok) {slong}ungu
+[lb=7] s(uo;osup) {slong}ætt {slong}(e;)m(;bar) þ(ei;bar)m v(ar) {slong}æmd i . likadi {slong}a punkt(ur) þionu{slong}tun(n;nleg)(ar)
+[lb=8] {fins}(rv;vsup)n(n;dot)i h(ar)dla vel e(r;er) ver {fins}yr ne{fins}ndu(m;bar) . Ok nockut kuelld
+[lb=9] b(er) s(uo;osup) t(il;isup) {slong}(e;)m(;bar) þ(ei;bar)r {slong}yng(ia;asup) . (ok) {slong}ig(ur) y{fins}(ir;er) h(an;bar)a lett(ur) ho{fins}gi . (ok) ja{fins}n {fins}(ra)m
+[lb=10] ge{fins}{ezh}t h(en;bar)i and(ar) {slong}yn . at s(uo;osup) {slong}(e;)m(;bar) bræd(ur) {slong}eg(ia;asup) þ(es;bar)si ord anti
+[lb=11] phonun(n;nleg)(ar) . eia (er;)g(o;osup) aduocata n(ost;bar)ra . {rscap}is hin {slong}æla G(uds;us) mod(ur)
+[lb=13] upp a{fins} {slong}ætinu (ok) {slong}tig(ur) nidr {aalig} gol{fins}(it;tsup) . {rscap}ett i midiu {slong}(e;)m(;bar) þ(ei;bar)r
+[lb=14] {slong}tanda vmb(er)gis . hu(n;bar) he{fins}(ir;er) {slong}on {slong}in(n;dot) {aalig} h(an;combcurl)dlegg . ok þ(an;bar)n tima
+[lb=15] {slong}(e;)m(;bar) o{rrot}dunu(m;bar) {fins}(ra)mlidr . illos tuos mis(er)ico{rrot}des oc(u;bar)los ad
+[lb=16] no(s;ssup) conu(er)te . {sscap}e{rscap} hu(n;bar) blidliga m(ed;ezh) glaugg(ri;isup) {slong}yn vm .
+[lb=17] b(er)gis t(il;isup) hu(er)s þ(ei;bar){rrot}a {slong}(e;)m(;bar) o{rrot}din hliodudu . En ept(ir;er) þ(at;bar) {slong}(e;)m(;bar)
+[lb=18] þ(ei;bar){rrot} {slong}eg(ia;asup) . Et [name:type=person] JH(esum;Hbar) [/name] b(e;bar)n(e;)dictu(m;bar) {fins}ructu(m;bar) uentris tui nob(is;bar) [catch]p(ost;osup)[/catch]
+[pb=466]
+[lb=1] p(ost;osup) hoc exiliu(m;bar) o(ste;bar)nde . {rscap}ett(ir;ar) hu(n;bar) {fins}(ra)m pilltin(n;dot) [name:type=person] JH(esu;Hbar)m [/name] . (okk;et)
+[lb=2] ti(ar) h(an;bar)n hu(er)s þ(ei;bar){rrot}a aug(um;msup) . {slong}uo vmb(er)gis {slong}(e;)m(;bar) {fins}y{slong} . at hu(or;osup)
+[lb=3] tueggi h(en;esup)n(ar) g(er)d {slong}u(ar)adi {fins}(irir;isup) my{slong}kun(n;dot) {slong}kilni(n;bar)g(ar) g(re;esup)in {rscap}it
+[lb=4] ni(n;bar)g(ar)in(n;dot)ar . Ept(ir;er) s(uo;osup) {fins}(ra)mit ka{slong}t(ar) b(ro;osup)tt ho{fins}gan(um;msup) a{fins} {fins}(rv;vsup)ini .
+[lb=5] hugleid(ir;er) hu(n;bar) godm(ann;nsup)liga (ok) {slong}to{rrot}u(m;bar) vit(ur)liga hu(at;tsup) hu(n;bar) ha
+[lb=6] {fins}(yrir;isup) {slong}ed . þ(uia;bar)t þ(en;bar)na leynda hlut . {slong}agdi hvn {fins}yri od
+[lb=7] ru(m;bar) lo{fins}lig(um;msup) p(er;barbl){slong}onu(m;bar) . en(n;dot) þ(ei;bar)m {slong}ial{fins}u(m;bar) b{rrot}æd{rrot}unu(m;bar) . at e(igi;isup)
+[lb=8] o{fins}rad(i{ezh}t;zsup) þ(ei;bar){rrot}a {slong}amui{ezh}ka {slong}(e;)m(;bar) v(er)da kan(n;dot) i u{ocurl}lltu hioli
+[lb=9] þ(es;bar)sa lidanda li{fins}s . lagdi {slong}ama {fins}(rv;vsup) . en(n;dot) heit(ar)i el{slong}ku
+[lb=10] t(il;isup) þ(es;bar)s li{fins}nad(ar) . {fins}(yrir;isup) tend{rrot}(an;nsup) (ok) t(il;isup)leid{ezh}lu þ(ei;esup){rrot}(ar) iu(n;bar)g{fins}(rv;vsup) {slong}(e;)m(;bar) {fins}(ra)m
+[lb=11] a{ezh}t e(er) ble{ezh}ut p(er;barbl) {slong}(e;)c(u;bar)la .
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=219]
+
+
+[lb=12] [head] ka{rrot}l ga{fins} ku v(or;){rrot}i {fins}(rv;) (ok) {fins}(eck;) apt({rrot};) .c. kua [/head]
+[p]
+
+
+[lb=13] [hi:rend=2] [supplied:reason=omitted] K [/supplied] [/hi] arl bio (ok) atti s(er;) konu. (ok) ecki b(ar;)na. karl
+[lb=14] v(ar;) s(vo;) o{rscap}ik({rrot};). at h(an;)n atti e(igi;) mei(ra;) j kuiku(m;)
+[lb=15] kui{slong}ti en(n;) eina ku. h(an;)n {slong}at j godu h(er;)adi þ(ar;) {slong}(e;)m bæ
+[lb=16] di v(ar;) in(n;)an l(an;)d{ezh} b(isku;)ps {slong}toll. (ok) {slong}æmilig kl{ocurl}{slong}t({rrot};) m(ed;) ymi{slong}{slong}
+[lb=17] um li{fins}nadi. Suo g(en;)g{rrot} til e{fins}nis. eitt hu(er;)t fe{slong}tu(m;) [catch]vo{rscap}(ar;)[/catch]
+[pb=467]
+[lb=1] vo{rscap}(ar;) {fins}(rv;) G(uds;) mod{rrot}. at k(ar;)l {fins}(er;)r t(il;) m(essu;) (ok) hey{rrot}di ein(n;) p(re;)dic(ar;)a
+[lb=2] tala {fins}ag({rrot};)t a{fins} dy{rrot}d (ok) my{slong}kun(n;) d(ro;)ttni(n;)g(ar;)in(n;)(ar;). ok medal
+[lb=3] an(n;)a{rscap}a g(re;)ina {slong}etti h(an;)n s(vo;) {fins}allin o{rrot}d vo{rscap}(ar;) {fins}(rv;) {slong}æmd (ok)
+[lb=4] {fins}(ri;)al{slong}leik({rrot};). e(r;) s(vo;) {fins}(ra;)bæ{rscap} vo{rrot}din(n;) j k(ri;){slong}tni G(uds;) {slong}ag(di;) h(an;)n. at hu(er;){rrot}
+[lb=5] m(adr;) {slong}(e;)m m(ed;) god{fins}y{slong}i ter ein(n;) hlut j h(en;)n(ar;) {slong}æmd. h(an;)n tek({rrot};)
+[lb=6] hund(ra;)t {fins}allt apt({rrot};) j mot. þ(es;)sa kl{ocurl}{slong}u hug{fins}e{slong}t(ir;) k(ar;)l m(ed;)
+[lb=7] s(er;). (ok) þick(ir;) alluænlig t(il;) {aalig}vaxt(ar;). kem({rrot};) hei(m;) t(il;) k(er;)ling(ar;) s(vo;)
+[lb=8] glad({rrot};) {slong}(e;)m {ocurl}lteiti. hu(n;) {slong}py{rscap} hui e(r;)t þu s(vo;) glad({rrot};) karl
+[lb=9] min(n;). he{fins}(ir;) þu þeg(it;) nockut. ja {slong}ag(di;) h(an;)n. þeg(it;) þo min(n;)a
+[lb=10] {slong}e. {fins}e b(ra;)ugd vant(ar;) nu e(ig;)i. þ(uia;)t b{rrot}od(ir;)in(n;) {slong}ag(di;) s(vo;) j dag. at
+[lb=11] vo{rrot} {fins}(rv;) e(r;) s(vo;) d(re;)inglundut. at j mot einu utlagi. leg
+[lb=12] g({rrot};) hu(n;) hu(n;)d(ra;)t {fins}allt. nu mattu {slong}ia kerling min hv(er;)
+[lb=13] {slong}u hagliga e(ru;) {slong}kipti v(id;) h(an;)a. þ(uia;)t meiri m(unu;) v(id;) þick
+[lb=14] ia e{fins} v(id;) eig(um;) hund(ra;)t kua. en(n;) eina. (ok) þ(ui;) e(r;) {slong}kiot({rrot};) veg({rrot};)
+[lb=15] at þeg(ar;) j dag. {slong}k(ul;)u v(id;) {fins}a ham(ar;) ku ock(ar;)ri (ok) {slong}kipta h(en;)ni j
+[lb=16] j {slong}und{rrot} {fins}(yrir;) {fins}atæka m(en;)n G(uds;) mod({rrot};) t(il;) lo{fins}s. Suo g(er;)ir h(an;)n j
+[lb=17] {slong}tad. {slong}æk(ir;) kuna. d(re;)p({rrot};) (ok) {slong}lat(ra;)r. {slong}kipt(ir;) {slong}id(an;). s(vo;) at {slong}id [catch]la[/catch]
+[pb=468]
+[lb=1] la vm kuelldit v(ar;) alld(ri;) par ept(ir;). þ(uia;)t {fins}atæku(m;) m(onnu;)m v(ar;)
+[lb=2] s(vo;) til vi{slong}at. at k(ar;)l matti {aalig} einu(m;) degi veita {slong}ina al
+[lb=3] eigu. Hu(at;) leing(ra;). vm m(or;)ginin(n;) ept(ir;) e(r;) h(an;)n uppi þeg(ar;) j ot
+[lb=4] tu tek({rrot};) vid(ar;) oxi {slong}ina. huet({rrot};) h(an;)a (ok) by{rrot} t(il;) {slong}mid(ar;) vek({rrot};)
+[lb=5] {slong}id(an;) k(er;)lingu {slong}ina (ok) {slong}eg(ir;) s(vo;) vpp hvatliga (ok) {fins}a m(er;) ne{slong}t
+[lb=6] e{fins} nockut e(r;) t(il;). þ(uia;)t s(vo;) mu(n;) t(il;) at hug{slong}a ad{rrot} vetr(ar;) hu(ar;)
+[lb=7] þ(at;) hund(ra;)t kua {slong}k(al;) jn(n;)i {slong}tanda. e(r;) v(id;) eig(um;) þa þ(ui;) e(r;) ein
+[lb=8] {slong}ynt hu(at;) {fins}(yrir;) lig(g;){rrot} j {slong}um(ar;). {fins}a{ezh}t j {slong}kog(ar;) h{ocurl}ggi (ok) vid(ar;)
+[lb=9] talgu nott (ok) dag. at e(ig;)i {slong}t(an;)di bu(it;) b(er;)t j hagli (ok) kulda.
+[lb=10] suo g(er;)i{ezh}t j {slong}tad {slong}(e;)m h(an;)n {slong}eg(ir;). g(en;)g{rrot} {fins}(ra;) hu{slong}i m(ed;) oxi {slong}ina (ok) þ(at;)
+[lb=11] ui{slong}ta {slong}(e;)m h(an;)n kun(n;)i {fins}a. he{fins}(ir;) s(ic;) ut j m(or;)kina. (ok) {fins}ellir vid
+[lb=12] [sic]hin(n;)[/sic][corr]in(n;)[/corr] en(n;) h(ar;)da. {slong}uo e(r;) h(an;)n jdin(n;) j {slong}t(ar;){fins}inu. at {slong}ueiti þo{rrot}n(ar;) {slong}ia
+[lb=13] lld(an;) {aalig} h(onu;)m. þ(ar;) m(ed;) s(vo;) glad({rrot};) {slong}(e;)m galin(n;) v(ær;)i. {rscap}ey{slong}(tir;) m(ic;)in lon
+[lb=14] gu(m;) kuædi (ok) kuidlinga. s(vo;) hatt (ok) huellt at kued({rrot};) j
+[lb=15] m(or;)kin(n;)i. Ok {slong}ak(ir;) þ(es;)s at h(onu;)m þick(ir;) æ j {slong}in(n;)i hugs(an;) at hu
+[lb=16] {slong}it mvni {slong}einna v(er;)da en(n;) ky{rrot}n(ar;) þ(ar;)f jn(n;) {slong}etia. e(r;) h(an;)n s(vo;)
+[lb=17] daguillr j {slong}in(n;)i {fins}lyti (ok) vm{fins}(an;)gi at alld(ri;) e(r;) g(re;)in m(ed;) [catch]h(onu;)m[/catch]
+[pb=469]
+[lb=1] h(onu;)m hu(or;)t y{fins}(ir;) {slong}t(an;)da helg(ir;) {slong}un(n;)udag(ar;) eda y{rrot}k(ir;) tim(ar;). He
+[lb=2] d(an;) g(er;)i{ezh}t s(vo;) ein(n;) d(ro;)tti(n;)s dag {slong}(e;)m en {slong}tend({rrot};) h(an;)n j h{ocurl}ggi (ok)
+[lb=3] ha{rrot}ey{slong}ti. ept(ir;) nana at ein(n;) jn(n;)l(en;)d{ezh}kr b(isku;)p g(er;)ir nalæg
+[lb=4] an(n;) ueg m(ed;) {slong}inu {fins}olki. (ok) þ(ui;) hey{rrot}(ir;) h(an;)n hu(at;)liga halig(an;)
+[lb=5] {rscap}om e(r;) {rscap}ey{slong}t(ir;) j m(or;)kin(n;)i. þ(ar;) m(ed;) þ(at;) e(r;) h(an;)n und{rrot}(ar;) þo mei{rscap}
+[lb=6] at oxin g(en;)g{rrot} s(vo;) titt {aalig} þ(an;)n tima. þ(uia;)t d(ro;)ttins daga ha
+[lb=7] lld v(ar;) alm(enn;)iliga bod(it;) m(ed;) v(ir;)ktu(m;) geyma{ezh}t j þ(ui;) l(an;)di. þui
+[lb=8] helld({rrot};) h(an;)n {slong}todugt b(isku;)pin(n;) at þ(es;)si m(adr;) e(r;) h(er;) {fins}æ{ezh}t vm {slong}e
+[lb=9] m(ed;) ollu vitla(us;) vo{rrot}din(n;). (ok) {fins}(yrir;) þa {slong}ok byd({rrot};) h(an;)n {slong}in(um;) {slong}uei
+[lb=10] nu(m;) at {fins}(an;)ga h(an;)n j {slong}tad {slong}(e;)m h(er;)tekin(n;) m(an;)n. s(vo;) {fins}lyt(ja;) þ(ei;){rrot} h(an;)n m(ed;)
+[lb=11] s(er;) at þ(ar;) ligg(ja;) {slong}mid(ar;) e{fins}ni oll ept(ir;). hallda h(an;)n (ok) geyma
+[lb=12] {slong}(e;)m ein(n;) o{rrot}uita. en(n;) þo {fins}ellr h(onu;)m þ(at;) t(il;) lettis at þ(ei;){rrot} e(ru;) pillt(ar;)
+[lb=13] nocku{rrot}(ir;) j b(isku;)p{slong}ins {fins}ylgd at h(an;)n ken(n;)a vel m(ed;) {fins}elag{slong}kap
+[lb=14] eins hu(er;){rrot}a{rrot} vinattu. þ(ei;){rrot} mykia h(onu;)m (ok) lina {slong}ina naudg(an;)
+[lb=15] hu(at;) e(r;) þ(ei;){rrot} mattu. Suo kem({rrot};) dags at kuelldi. at h(er;){rrot}a
+[lb=16] b(isku;)pin(n;) {rscap}id{rrot} upp {aalig} ein(n;) god(an;) bug(ar;)d e(r;) h(an;)n atti. (ok) g(en;)g{rrot} t(il;) her
+[lb=17] b(er;)gis. v(ar;) h(onu;)m þ(ar;) {fins}(yrir;) buin ein {slong}to{fins}a miok {slong}æmilig. v(ar;) þ(ar;)
+[lb=18] an(n;)an veg næ{rscap}i dy{rrot}unu(m;) {slong}tein o{fins}n vt j veggin(n;) (ok) tia [catch]hlld(at;)[/catch]
+[pb=470]
+[lb=1] lld(at;) {fins}(yrir;) {fins}(ra;)man. s(uo;) at j o{fins}nhu{slong}inu v(ar;) naliga my{rrot}kt.
+[lb=2] vt(an;) þ(at;) lit(id;) {slong}kim {slong}(e;)m ka{slong}ta kun(n;)i gegnu(m;) hu{slong}buningin(n;)
+[lb=3] þa e(r;) log v(oru;) noglig {fins}(ra;)m j hus(it;). S(e;)m b(ysku;)pin(n;) (ok) allr h(an;)s
+[lb=4] {slong}kari {slong}it(ur;) j {slong}in(n;)i nad. m(ed;) {fins}ag(ra;)n ko{slong}t. g(er;)a þ(ei;){rrot} pillt(ar;) e(r;) {fins}y{rscap}
+[lb=5] gat(um;) v(er;). s(uo;) m(ik;)la vinattu hinu(m;) g(ri;)pna karli. at m(ed;) o{rrot}
+[lb=6] lo{fins}i {slong}ti{fins}(ar;)d{slong}ins e(r;) {fins}(yrir;) v(ar;) hu{slong}inu. {slong}kiota þ(ei;){rrot} h(onu;)m vndir tia
+[lb=7] lld(it;) upp {aalig} o{fins}nin. þ(via;)t hi(er;) kell h(an;)n e(r;). hu(at;) {slong}(e;)m {fins}lei(ra;) {fins}æ{ezh}t
+[lb=8] e(r;) ha{fins}a þ(ar;){fins}. g(an;)ga þ(ei;){rrot} vm s(uo;) pillt(ar;) kompan(ar;) h(an;)s at bædi
+[lb=9] {slong}a{fins}n(a{ezh}t;) h(onu;)m mat(ur;) (ok) d{rrot}yck(ur;) j nog. þick(ir;) h(onu;)m nu eitt {aalig}
+[lb=10] {slong}ko{rrot}ta at {fins}(yrir;) my{rrot}kri {fins}æ{rscap} h(a;)n ecki at ha{fins}{ezh}t. h(a;)n tal
+[lb=11] ar þa. Heilug [name:type=person] MARIA [/name] {slong}ag(di;) h(a;)n. allgod v(ær;)i nu vi{slong}t
+[lb=12] in e{fins} lios(it;) v(ær;)i næg(ra;). ok litlu {slong}id(ar;) leid(i{ezh}t;) nid{rrot} o{rrot} þekiu
+[lb=13] n(n;)i eitt b{rrot}en(n;)anda blys (ok) {slong}tend(ur;) {fins}(ram;)mi {fins}(yrir;) h(onu;)m s(uo;) bi(ar;)t at
+[lb=14] {fins}(ra;)m j gegn(um;) tialld(it;) allt j an(n;)an(n;) vegg vm þu(er;)t hus(it;) {slong}tend(ur;)
+[lb=15] þ(es;)si birti. en(n;) þ(at;) lios j {slong}und(ur;) {slong}kipt e(r;) ad(ur;) v(ar;) j hu{slong}inu
+[lb=16] s(uo;) at tuei(m;) megin hia {slong}yn(i{ezh}t;) þ(at;) ei {slong}kæ{rscap}a en(n;) eitt þoku
+[lb=17] my{slong}t(ur;). b(ysku;)pin(n;) (ok) allt h(an;)s {slong}am{slong}æti lit(ur;) þ(es;)sa nyiu(n;)g und{rrot}(an;)
+[lb] [catch]di[/catch]
+[pb=471]
+[lb=1] di gey{slong}i miok (ok) kalla{rrot} {slong}in(n;) {slong}kuia{rrot}a. byd{rrot} h(onu;)m {fins}(ar;)a (ok)
+[lb=2] ept(ir;) leita hu(at;) valldi þ(es;)s(u;)m hlut. h(an;)n g(er;)ir s(uo;). g(en;)g{rrot} {fins}(ra;)m
+[lb=3] at o{fins}nhu{slong}inu. (ok) lypt(ir;) tialldinu. en(n;) {slong}id(an;) e(r;) h(onu;)m þ(at;) an(n;)
+[lb=4] a{ezh}t at by{rrot}g(ia;) bædi augu. hu(er;){fins}(ur;) h(ann;) apt(ur;) (ok) he{fins}(ir;) ecki ey{rrot}
+[lb=5] indi. b(ysku;)p {slong}py{rscap} hu(at;) tala {slong}e. þ(at;) e(r;) at tala h(er;){rrot}a {slong}eg(ir;) h(an;)n
+[lb=6] at j o{fins}nhu{slong}inu e(r;) lios s(uo;) m(ik;)it (ok) {fins}ag(ur;)t. at ek hygg
+[lb=7] þ(at;) trautt þ(es;)sa{rscap}(ar;) v(er;)alld(ar;). b(ysku;)p {slong}eg(ir;). hu(at;) e(r;) þ(ar;) {fins}lei(ra;). en lios
+[lb=8] eitt. {slong}kui(ar;)en(n;) {slong}u(ar;)a{rrot}. þ(at;) e(r;) min hug{slong}an {slong}eg(ir;) h(an;)n at þ(ar;) {slong}iti
+[lb=9] karlin {slong}a e(r;) þi(er;) letud {fins}anga j gæ{rscap} {slong}(e;)m galin(n;) v(ær;)i. b(ysku;)p
+[lb=10] {slong}eg(ir;). þ(e;)tta e(r;) m(ed;) kyniu(m;) m(ik;)lu(m;). e{fins} {slong}a l{ocurl}gb(ro;)t{ezh} m(adr;)in(n;) {slong}k(al;) ha
+[lb=11] {fins}a meiri {slong}ke(m;)tan en at likendu(m;). nu {fins}(ar;) j an(n;)an(n;) ti
+[lb=12] ma (ok) g(e;){rrot} v(or;)t bod. {slong}(e;)m þu villt vel {fins}(ar;)a. tak þ(at;) blys eda
+[lb=13] k(er;)ti e(r;) þ(ar;) {slong}kin(n;) (ok) {fins}æ{rscap} os. h(an;)n {fins}(er;)r þ(via;)t h(an;)n þo{rrot}di e(igi;) an(n;)at.
+[lb=14] (ok) ja{fins}n{fins}(ra;)m {slong}(e;)m h(an;)n he{fins}(ir;) tialldinu lypt (ok) nalg(a{ezh}t;) lios(it;). at
+[lb=15] h(an;)n matti þ(at;) hondla. lid(ur;) þ(at;) vpp j gegn(um;) þekiuna. suo
+[lb=16] e(r;) h(an;)n (ok) {fins}leiri ad{rrot}(ir;) t(il;) knud(ir;) a{fins} b(ysku;)pin(um;) þ(ri;)m {slong}in(n;)(um;). (ok) {fins}a
+[lb=17] mi{slong}{slong}i j hu(er;)t {slong}in(n;). en(n;) æ {slong}(e;)m þ(ei;){rrot} b(ro;)tt {fins}(ar;)a. kem(ur;) {slong}u bleg{ezh}a
+[lb] [catch]da[/catch]
+[pb=472]
+[lb=1] da birti apt(ur) j {slong}ama {slong}tad . (ok) lys(ir;er) karli . Hi(er) kem(ur)
+[lb=2] j {slong}ido{ezh}tu . at {slong}ial{fins}(ur) b(isku;bar)pin(n;dot) {slong}tend(ur) upp a{fins} {slong}inu {slong}æti
+[lb=3] (ok) g(en;bar)g{rrot} at {fins}(ra)m tialldinn . þ(ar) {slong}(e;)m{bar} k(ar)l {slong}it(ur) {fins}(yrir;isup) jn(n;dot)an . h(an;bar)n
+[lb=4] mæli{ezh}t þad(an;nsup) {fins}(yrir;isup) m(ed;ezh) s(uo;osup) {fins}{ocurl}lln(um;msup) o{rrot}du(m;bar) . Huad(an;nsup) kem(ur) þi(er)
+[lb=5] k(ar)l lios þ(e;bar)tta jd m(ik;csup)la . h(an;bar)n {slong}u(ar)a{rrot} . Min {fins}(rv;vsup) {slong}(an;)c(t;bar)a [name:type=person] [hi:rend=caps] maria [/hi] [/name]
+[lb=6] veit(ir;er) m(er) þ(at;bar) . þ(uia;bar)t h(enn;bar)i {slong}yn(ur) an(n;dot)an(n;dot) veg en(n;dot) yd{rrot} at g(er)a v(id;isup) m(ik;csup) .
+[lb=7] þi(er) h(er)tokut m(ik;csup) s(e;)m{bar} ein(n;dot) {slong}ekan(n;dot) m(ann;nsup) . en(n;dot) h(u;bar)n hugg(ar) m(ik;csup) (ok) alla
+[lb=8] vega gled{rrot} . s(uo;osup) at ek man v(ar)la hu(er){slong}u {rscap}ei(ur) ek v(ar) yd{rrot} .
+[lb=9] b(isku;bar)p {slong}u(ar)a{rrot} . hui mun vor(r;rscap)i {fins}(rv;vsup) {slong}yn(a{ezh}t;zsup) at g(er)a {slong}lik(um;msup) m(anni;isup) s(uo;osup) {slong}to(ra)
+[lb=10] hluti . h(an;bar)n {slong}eg(ir;er) . þ(ui;isup) {slong}yni{ezh}t h(en;bar)ni s(uo;osup) at g(er)a . at my{slong}kun(n;dot)
+[lb=11] h(en;bar)n(ar) e(r;er) omælld . þo ek {slong}e omaklig(ur) . b(isku;bar)p {slong}eg(ir;er) . Gio{rscap} s(uo;osup)
+[lb=12] uel dugnandis m(ann;nsup) . {slong}eg m(er) g(re;esup)iniliga vnd(ir;er){slong}todu þ(es;bar)sa
+[lb=13] e{fins}nis . þ(uia;bar)t v(er)a kan(n;bar) . at þ(at;bar) {slong}e {fins}leiru(m;bar) t(il;isup) nyt{slong}emd(ar) . karl
+[lb=14] my(s;)k(i{ezh}t;zsup) nu {slong}(e;)m{bar} h(an;bar)n {fins}in(n;nleg)(ur) at b(isku;bar)p lina{ezh}t . (ok) he{fins}(ur) upp t(il;isup) {fins}(ra){slong}ag
+[lb=15] n(ar) allan(n;dot) euent(um;msup) . hu(er){slong}u b{rrot}od(ir;er)in(n;dot) p(re;bar)dicadi . (ok) hu(at;tsup) e(r;er) þ(ar)
+[lb=16] {fins}ylg(ir;er) {slong}(e;)m{bar} {fins}y{rscap} v(ar) {rscap}itat . S(e;)m{bar} uti e(r;er) {slong}ag(an;nsup) tala{rrot} b(isku;bar)p .
+[lb=17] Mikil (ok) {fins}(ra)bæ{rscap} e(r;er) þin t(rv;vsup)a . (ok) þvi mu(n;bar) hu(n;bar) þi(er) e(igi;isup) v(er)da at [catch]hegoma . [/catch]
+[pb=473]
+[lb=1] hegoma en(n;) hu(at;) e(r;) nu. e(r;) nockut {fins}alt lios þ(e;)tta hid
+[lb=2] m(ic;)la (ok) bi(ar;)ta. hu(at;) e(r;) at þ(ui;) {slong}eg(ir;) k(ar;)l. ek villdi kaupa ku(at;)
+[lb=3] b(isku;)p hu(at;) byd({rrot};) þu v(id;) {slong}eg(ir;) karl. bug(ar;)d þ(en;)na {slong}eg(ir;) b(isku;)p m(ed;) ollu
+[lb=4] þ(ui;) god{ezh}i {slong}(e;)m hi(er;) {fins}ylg(ir;) j {fins}au{slong}tu (ok) lau{slong}u er þ(e;)tta nock(u{rrot};)s v(er;)t
+[lb=5] {slong}eg(ir;) karl. ek {slong}k(al;) g(re;)ina {fins}(yrir;) þi(er;) {slong}eg(ir;) b(isku;)p hu(er;) eignin e(r;). Hi(er;)
+[lb=6] g(en;)g{rrot} {aalig} hund(ra;)t kua. {fins}imt(an;) hu(n;)d{rrot}ut {slong}auda. attatig(ir;) he{slong}ta
+[lb=7] yxn {slong}uin (ok) geit({rrot};) at þ(ui;) {slong}kapi. bærin(n;) {slong}ial{fins}({rrot};) e(r;) s(vo;) buin(n;)
+[lb=8] at hu{slong}bunadi klæd(un;). (ok) b{rrot}endu {slong}il{fins}(ri;) {slong}(e;)m bæt(ir;) vm m(ic;)it.
+[lb=9] Þ(es;)sa eign alla tak þu {aalig} m(or;)gin m(ed;) h(an;)dsolu(m;) s(vo;) at mitt
+[lb=10] e(r;) lios(it;) j v(er;)d. ka{rrot}l {slong}u(ar;)a{rscap} vel e(r;) v(id;) bod(it;) {slong}(e;)m von e(r;) vm
+[lb=11] {slong}likan(n;) m(ann;). en(n;) ei(n;)gi e(r;) von j. at v(id;) {slong}lau(m;) nock(u{rrot};)u kaupi
+[lb=12] hi(er;) vm. {fins}y{rscap} en(n;) ek {fins}æ nock(u{rrot};)a vi{slong}{slong}u. hu(or;)t mi(n;) {fins}(rv;) vill
+[lb=13] þ(ui;) {slong}amþyckia. þ(ui;) ko(m;) t(il;) min i m(or;)gin. e{fins} þi(er;) þa {slong}amt
+[lb=14] j hug mv(n;) ek þa {slong}eg(ja;) an(n;)at hu(or;)t ja eda nei. Vpp {fins}(ra;)
+[lb=15] þ(es;)su g(re;)in(ir;) e(ig;)i t(il;) {fins}ullr(ar;) {fins}(ra;){slong}agn(ar;) hv(er;){slong}u uo{rrot} {fins}(rv;) G(uds;) mod(ir;) ga{fins}
+[lb=16] {slong}in(um;) vin {slong}amþykjt(ar;) vi{slong}{slong}u hi(er;) vm. en(n;) þ(at;) e(r;) bodat
+[lb=17] (ok) bi(ar;)t v(or;)dit. at {aalig} næ{slong}ta dag ept(ir;) {rscap}eid b(isku;)pin(n;)
+[lb=18] b(ro;)tt a{fins} þ(ei;)m g(ar;)di. (ok) ley{fins}di gamla m(ann;)i alla þa [catch]{fins}ull{slong}ælu[/catch]
+[pb=474]
+[lb=1] {fins}ull {slong}ælu e(r;er) þ(ar) {slong}tod {slong}am(an;nsup) . Sotti h(an;bar)n k(er)lingu
+[lb=2] {slong}ina (ok) hei(m;bar) {fins}lutti . lagdi h(an;bar)n a{fins} {fins}(ra) þ(ei;bar)m degi {fins}(yrir;isup) ve
+[lb=3] it{ezh}lu vo{rscap}(ar) {fins}(rv;vsup) at heita k(ar)l j koti . helld{rrot} ein(n;dot) bu{rrot}
+[lb=4] geis eda {rscap}ika{ezh}ti g(ar)d{ezh} bondi v(ar) h(an;bar)n a{fins} ollu(m;bar) kall
+[lb=5] ad(ur) . neytti h(an;bar)n (ok) s(uo;osup) vit(ur)liga þ(at;bar) agæta lan at m(ed;ezh)
+[lb=6] daglig(um;msup) olmu{slong}u(m;msup) e(igi;isup) {slong}mam a{fins}ladi h(an;bar)n s(er) lio{slong}it . m(ed;ezh)
+[lb=7] vinattu vo{rscap}(ar) {fins}(rv;vsup) . v(ar)d hi(er) {fins}ag(ur)t {slong}amkeypi tuegg(ia;asup) m(anna;asup) .
+[lb=8] b(ysku;bar)p {fins}ylldi {slong}kip(an;nsup) vo{rscap}(ar) {fins}ru . þa e(er) h(an;bar)n lagdi mei{rscap} en(n;dot)
+[lb=9] hund(ra)t {fins}allt moti ein(n;dot) ku . at þ(ar) {fins}(yrir;isup) v(er)dadi h(an;bar)n
+[lb=10] {slong}in(n;dot)i {slong}{aalig}l eili{fins}a birti andlig{rrot}(ar) gledi . en(n;dot) bond
+[lb=11] in(n;dot) e(r;er) s(uo;osup) {slong}to{rrot}an(n;dot) mala tok {fins}(yrir;isup) {slong}g(er)d . þarnad(i{ezht};zsup) þo
+[lb=12] einkis j . helld(ur) {fins}eck h(an;bar)n þui æd{rrot}a v(er)dkaup, {slong}(e;bar)m h(ann;bar)
+[lb=13] {slong}adi meira gudi t(il;isup) heid(ur)s . (ok) h(an;bar)s ble{ezh}ad{rrot}i (ok) dyrlig(ri;isup)
+[lb=14] mod{rrot}.
+
+[/p]
+
+
+[/div]
+
+[div:type=miracle:n=220]
+
+
+[lb=14] [head] Vo{rrot} {fins}(rv;) {fins}(re;)l{slong}ti b{rrot}od{rrot} {fins}(ra;) jotni. [/head]
+[p]
+
+
+[lb=15] [hi:rend=2] [supplied:reason=omitted] T [/supplied] [/hi] vei{rscap} p(re;)dica(ra;) b{rrot}æd{rrot} g(on;)gu {aalig} {slong}kip m(ed;) þ(ei;)m k{ocurl}p
+[lb=16] m(onnu;)m e(r;) {slong}igldu j au{slong}t({rrot};)veg. ok e(r;) þ(ei;){rrot} koma [surplus:reason=repeated] {slong}i [/surplus]
+[lb=17] {slong}inu {fins}(r;)i j þ(an;)n {slong}io e(r;) heit(ir;) [name:type=place] ey{slong}t(ra;) {slong}allt [/name] . {fins}ellr by{rscap} s(vo;) at [catch]ky{rrot}t[/catch]
+[pb=475]
+[lb=1] ky{rrot}t {slong}tend{rrot} in{ezh} ollu. e(ro;) þ(ei;){rrot} þa komn(ir;) upp und(ir;) eitt eydi
+[lb=2] l(an;)d. v(ar;) þ(ar;) at {slong}ia m(io;)k h(ar;)dla {slong}to{rrot} {slong}ka(m;)t f(ra;) {slong}ionu(m;). s(vo;) at und(ir;)
+[lb=3] bar allt an(n;)at l(an;)d{ezh}leg(it;). kaupm(enn;) hala s(ic;) vnd(ir;) {slong}tron
+[lb=4] dina þ(ar;) t(il;) e(r;) þ(ei;){rrot} na ack(er;)is lægi. ka{slong}ta {slong}id(an;) g{rrot}un(n;){fins}ær(um;).
+[lb=5] (ok) {slong}kiota bati t(il;) l(an;)d{ezh}. þ(via;)t m(enn;) v(oru;) ha{fins}rekn(ir;) (ok) v(ar;) {fins}o{rrot}vitni
+[lb=6] at letta likaman(um;). þ(via;)t jo{rrot}din v(ar;) hin {fins}y{slong}ilig{slong}ta t(il;) {slong}ynd(ar;).
+[lb=7] B{rrot}æd({rrot};)n(ir;) e(r;) v(er;) ne{fins}ndu(m;) {fins}(oru;) j batin(n;) m(ed;) o{rrot}o(m;) {slong}kipo{rrot}um. (ok)
+[lb=8] {fins}luttu{ezh}t t(il;) l(an;)d{ezh}. g(on;)gu {slong}id(an;) m(ed;) {slong}pa{ezh}(er;)an tuei{rscap} (ok) tuei{rscap}
+[lb=9] {fins}(ra;)m {aalig} m(or;)kina (ok) {slong}kemtu s(er;) hu(at;) s(er;) hu(er;)n ly{slong}ti. b{rrot}æd({rrot};)
+[lb=10] helldu s(er;) {slong}aman {slong}in(n;) þ(ei;){rrot}a {rscap}egla byd{rrot}. (ok) leing(ra;) lagi {rscap}ei
+[lb=11] ka {fins}(ra;)m {aalig} {slong}kogin(n;). v(ar;) an(n;)a{rscap} þ(ei;){rrot}a b(ar;)n at alld(ri;). en(n;) an(n;)a{rscap}
+[lb=12] miok hnignandi {slong}(e;)m þ(ei;){rrot}a {slong}id{rrot} e(r;) at temp(ra;) {slong}in(ar;) {fins}(er;)d(ir;). at
+[lb=13] hin(n;) elld(ri;) ha{fins}i kau{slong}t (ok) yf(ir;) bu{rrot}d g(u;)dli(gra;) mala. en(n;) hin(n;)
+[lb=14] yng(ri;) læri(n;)g (ok) þionu{slong}tu. Nu lid({rrot};) s(vo;) at {fins}(yrir;) þ(ei;){rrot}a le{slong}t({rrot};)
+[lb=15] (ok) gledi l(an;)d{ezh}ins. g(rei;)na þ(ei;){rrot} v(ar;)la tim(ann;). hu(er;){slong}u langt o{rrot}lo{fins}
+[lb=16] {slong}kiph(er;){rrot}an(n;) ha{fins}di ge{fins}(it;). {slong}nua þ(ei;){rrot} s(vo;) {fins}(re;)mi apt{rrot} j ueg {slong}(e;)m
+[lb=17] allir þ(ei;){rrot}a kumpan(ar;) e(ro;) t(il;) bat{ezh} komn(ir;) (ok) bida þ(ei;){rrot}a. [catch]S(e;)m[/catch]
+[pb=476]
+[lb=1] S(e;)m b{rrot}æd{rrot} ho{fins}du litt vik(it;) apt({rrot};) j veg hey(ra;) þ(ei;){rrot} op
+[lb=2] eitt s(vo;) m(ic;)it (ok) o{slong}kranligt {slong}(e;)m lik(ar;)a v(ar;) ovin(ar;)ins {rscap}odd.
+[lb=3] en(n;) nock(u{rrot};)s m(an{ezh};). þ(at;) {slong}ama vnd({rrot};) hey{rrot}(i{ezh};) allt {fins}(ra;)m t(il;) {slong}io{fins}(ar;)ins.
+[lb=4] (ok) þ(vi;) taka {slong}kip(ar;)a{rrot} þ(at;) {fins}liot(a{ezh};) {fins}(an;)ga {rscap}ad at yta batinu(m;)
+[lb=5] (ok) ha{fins}a s(ic;) ut t(il;) {slong}kips m(ed;) ollu(m;) {slong}kunda. En(n;) a{fins} p(re;)dic(ar;)a
+[lb=6] b{rrot}æd{rrot}u(m;) e(r;) þ(at;) {slong}egi(an;)da at j {fins}y{rrot}{slong}tu {slong}(e;)m op(it;) ko(m;) vnd(ir;). {slong}ny
+[lb=7] {ezh}t hin(n;) elld(ri;) b{rrot}od(ir;)in(n;) apt({rrot};) m(ed;) g(u;)dlig(ri;) t(rv;). (ok) {slong}tend{rrot} j {slong}{ocurl}
+[lb=8] mu(m;) {slong}o({rrot}um;). þ(a;)r e(r;) þ(ei;){rrot} {slong}ia {fins}(er;)d m(ic;)la bad(er;) {slong}amt. þ(uia;)t m(or;)kin
+[lb=9] h{rrot}i{slong}t(er;) {slong}in(ar;) lim(ar;). {fins}(yrir;) þ(at;) ovægis a{fins}l e(r;) hu(n;) þolir a{fins} þ(ei;)m e(r;)
+[lb=10] {fins}(ra;) b{rrot}y{ezh}t milli trian(n;)a. s(vo;) {slong}kal{fins} (ok) jo{rrot}din þ(ar;) m(ed;) {slong}(e;)m
+[lb=11] he{slong}tu(m;) v(ær;)i {aalig} {slong}keid {rscap}id(it;). lid({rrot};) nu e(igi;) langt ad{rrot} þ(ei;){rrot} lita
+[lb=12] hu(ar;) {fins}(ra;)m kem({rrot};) o({rrot};) m(or;)kin(n;)i m(ic;)ill ovin. þ(at;) e(r;) ein(n;) jotun
+[lb=13] miok {fins}i(an;)dlig({rrot};) e(r;) at latinu mali kalla{ezh}t monocul
+[lb=14] us j þ(ei;)m l(on;)du(m;). þ(uia;)t h(an;)n he{fins}(ir;) eitt auga j midiu en(n;)i.
+[lb=15] H(an;)n {slong}kre{fins}(ar;) at b{rrot}æd{rrot}un(um;) m(ed;) {fins}lug{slong}kiot(re;) {rscap}{aalig}s. þ(uia;)t þ(ei;){rrot}
+[lb=16] bida {fins}ull vel m(ed;) k(ri;){slong}tilig(ri;) {slong}tad{fins}e{slong}tu. h(an;)n g(ri;)p({rrot};) þa bada [catch]{slong}(em;)[/catch]
+[pb=477]
+[lb=1] {slong}(e;)m litil bo{rrot}n (ok) {fins}eyg(ir;) {aalig} {slong}ina auxl s(er;) hvo({rrot}um;) þ(eir;){rrot}a te
+[lb=2] k({rrot};) {slong}id(an;) t(il;) {fins}ota. (ok) {rscap}en(n;)r s(vo;) m(ic;)it {slong}in(n;) {fins}y{rscap} apt({rrot};) j m(or;)kina.
+[lb=3] s(vo;) lang(an;) veg vm {slong}id(er;) at hu(n;) eyd(i{ezh};). v(er;)d{rrot} þa {fins}iall {fins}(yrir;) homr(um;)
+[lb=4] lukt alla vega illiligt. upp{rrot}en({rrot};) h(an;)n vnd(ir;) {fins}iallit t(il;) by
+[lb=5] gd(ar;) {slong}inn(ar;). v(ar;) þ(ar;) hellir {slong}to{rscap} (ok) s(vo;) {fins}allin(n;). at {fins}(yrir;) midiu(m;) hellis
+[lb=6] dy{rrot}un(um;) {slong}tod klett({rrot};) {fins}(u{rrot};)duliga {slong}to{rrot}. (ok) s(vo;) b{rrot}att({rrot};) at þ(eir;) matti
+[lb=7] {aalig} eing(in;) beg vpp kom(a{ezh};). (ok) þ(ui;) v(ar;) h{ocurl}ggin ein {slong}neidi gata
+[lb=8] an(n;)an(n;) veg m(ed;) b(er;)ginu vpp at mun(n;)anu(m;). hi(er;) {slong}tryk({rrot};) h(an;)n
+[lb=9] upp boluad({rrot};) hund{rrot} m(ed;) {slong}itt {rscap}(an;){fins}ei(n;)gi. (ok) kem({rrot};) jn(n;) {fins}(ar;)andi
+[lb=10] er j hellinu(m;) elld{rrot} {aalig} a{rrot}ni m(ed;) {fins}{ocurl}l{slong}ka nockur(um;). va{rrot}p(ar;)
+[lb=11] h(an;)n þ(ei;)m nid{rrot} {aalig} gol{fins}(it;). en(n;) {slong}kyt({rrot};) {slong}kidu j elldin(n;). s(vo;) at þeg(ar;)
+[lb=12] e(r;) login uppi. {slong}id(an;) g(ri;)p({rrot};) h(an;)n ein(n;) j(ar;)n tein s(vo;) {slong}to{rrot}(an;) {slong}(e;)m {slong}ta{fins}({rrot};) v(ær;)i.
+[lb=13] h(an;)n v(ar;) att {slong}t(e;)nd{rrot} j an(n;)an enda s(vo;) huas {slong}(e;)m {fins}liug(an;)di b{rrot}rodd({rrot};).
+[lb=14] þ(en;)na dauda {fins}lein key{rrot}(ir;) h(an;)n j gegnu(m;) elld(ra;) b{rrot}od(ur;)in [supplied:reason=omitted] n [/supplied] . veg({rrot};)
+[lb=15] h(an;)n {slong}id(an;) {aalig} lopt y{fins}(ir;) midian(n;) logan(n;). (ok) {slong}et({rrot};) an(n;)an teins
+[lb=16] end(ann;). {aalig} þ(an;)n hlad {slong}(e;)m h(an;)n ha{fins}(di;) g(er;)t od{rrot}u(m;) megin elld{ezh}ins
+[lb=17] t(il;) þ(ui;)likra g(er;)da en(n;) helld({rrot};) {slong}ial{fins}({rrot};) od{rrot}u(m;) meg(um;). {slong}ny{rscap} nu v(id;)
+[lb=18] (ok) {slong}teik(ir;) {slong}(e;)m v(er;)da ma. þ(ar;) t(il;) e(r;) litlu {slong}id(ar;). kipp(ir;) h(an;)n at s(er;) [catch]{rrot}i{fins}(r;)[/catch]
+[pb=478]
+[lb=1] {rscap}i{fins}(ur;) a{fins} teininu(m;) (ok;) {slong}læ{rscap} vpp j {slong}ik m(ed;) m(ik;)lu(m;) traulldo(m;)i þ(at;)
+[lb=2] e(r;) h(an;)n ha{fins}(di;) {slong}teikt. en(n;) ka{slong}t(ar;) teininu(m;) nid{rrot} {aalig} gol{fins}(it;) hia s(er;)
+[lb=3] s(uo;) at hin(n;) mio{rscap}i end(ir;)in(n;) veit at elldinu(m;). Sa yng{rrot}e b{rrot}od(ir;)
+[lb=4] {slong}i(n;)n ept(ir;) li{fins}(ir;) s(er;)r nu m(ed;) h(ar;)mi hug(ar;) oll þ(es;)si tidindi. (ok;) hugs(ar;)
+[lb=5] m(ed;) s(er;). at ja{fins}nsn(ar;)t {slong}(e;)m karl he{fins}(ir;) lok(at;) b{rrot}andin(n;)i mv(n;) h(an;)n
+[lb=6] ætla h(onu;)m {slong} hel{fins}{ocurl}{rrot}. Þvi sem(ur;) h(an;)n s(er;) karlmanligt
+[lb=7] {rscap}ad. m(ed;) {aalig}kalli t(il;) v(or;)s d(ro;)tti(n;)s. ok sierliga eink(an;)liga t(il;)
+[lb=8] h(an;)s ble{ezh}ad{rrot}(ar;) mod(ur;). ju(n;)gf(rv;) {slong}(an;)c(t;)e [hi:rend=caps] Marie [/hi] at hu(n;) lei(n;)gi h(an;)s li{fins}
+[lb=9] e{fins} þ(at;) lo{fins}a{ezh}t a{fins}þ(ei;)m e(r;) ollu {slong}tyr(ir;). at h(an;)n mætti {slong}eg(ia;) k(ri;){slong}tnu(m;)
+[lb=10] m(onnu;)m hu(er;){slong}u þ(es;)si hlut(ur;) g(er;)d(izt;). Nu {slong}(e;)m hu{slong}bondi {slong}tend{rrot} {slong}(e;)m
+[lb=11] h(ar;)da{ezh}t j {aalig}tinu. þuckla{rscap} b{rrot}od(ir;)in(n;) j(ar;)nteininu(m;) at elld
+[lb=12] inu(m;) {slong}(e;)m hoglig(azt;). s(uo;) at endin(n;) na(ir;) elldinu(m;). ok þ(ess;)u tima
+[lb=13] {slong}(e;)m h(an;)n {slong}kilur at lid(ur;) at b{rrot}adin(n;)i. en(n;) endin(n;) mv(n;) v(er;)a
+[lb=14] glo(an;)di. {slong}p(ru;)tt(ur;) h(an;)n vpp. bædi h(ar;)t (ok;) titt. þ(ri;){fins}(ur;) teinin u{rrot} elld
+[lb=15] inu(m;) (ok;) þveit(ir;) gloanda {fins}(ra;)man j aug(at;) jotninu(m;). V(er;)d(ur;)
+[lb=16] nu v(id;) kipp(ur;) m(ik;)ill. þ(via;)t h(an;)n {slong}tauck(ur;) vpp (ok;) vill he{fins}na {slong}in.
+[lb=17] e(r;) h(onu;)m nu leik(ur;)in(n;) ohæg{rrot}i. en(n;) {fins}y{rscap} þ(via;)t t(il;) {rscap}ædi b{rrot}od(ur;)ins
+[lb=18] van(n;) h(an;)n blindan m(ed;) ollu. Er nu krækil blinda hav
+[lb=19] [catch]{rrot}d[/catch]
+[pb=479]
+[lb=1] {rrot}d vm hellin(n;). þ(via;)t ei(n;)gi v(ar;) von b(ro;)tt kuo(m;)v. þ(via;)t j {slong}tad
+[lb=2] {slong}(e;)m k(ar;)l {fins}eck {aalig}v(er;)kan(n;). baud h(an;)n hellis dy{rrot}n(ar;) apt(ur;) {fins}alla
+[lb=3] ept(ir;) {fins}lagda {slong}id. Brod(ir;) he{fins}(ir;) vm langa {slong}tu(n;)d h(ar;)dla
+[lb=4] gott lios a{fins} elldinu(m;). hu(er;){slong}u h(an;)n {slong}k(al;) vnd(an;) {fins}(ar;)a. en(n;) k(ar;)l {slong}æk(ir;)
+[lb=5] ept(ir;) m(ed;) meid{ezh}lu(m;). (ok;) {aalig}ka{fins}(ri;) {rscap}eidi. b(er;){rrot} s(er;) v(id;) bi(ar;)g(it;). s(uo;) at h(an;)n
+[lb=6] {fins}lak(ir;) j {slong}und(ur;) a{fins} {slong}a{rrot}u(m;). mædi{ezh}t nu b(ra;)tt m(ed;) ollu {slong}am(an;)
+[lb=7] blod{rscap}{aalig}s (ok;) ho{fins}(ud;) meini. s(uo;) at h(an;) leg{slong}t t(il;) {fins}ata ve{slong}all
+[lb=8] karl. (ok;) ma e(igi;) vpp{slong}t(an;)da. H(an;)n {slong}eg(ir;) þa m(ed;) m(ik;)illi g(ri;)md. s(uo;)
+[lb=9] {fins}allin o{rrot}d. Eigi {slong}k(al;) þi(er;) vin(n;)a hid ban(n;){slong}etta kaug(ur;) b(ar;)n
+[lb=10] þott þu {slong}k(ri;)d(ir;) j {slong}kuma {slong}kot vnd(an;) m(er;) {slong}ionlau{slong}u(m;) þ(es;)sa{rrot}
+[lb=11] h(en;)dr {slong}k(ul;)u {slong}in he{fins}na {aalig} þi(er;) j m(or;)gin. þ(via;)t hellir min(n;) {slong}k(al;)
+[lb=12] geyma þin j nott. Ept(ir;) þ(e;)tta leg{slong}t karl nid{rrot} t(il;) {slong}ue{fins}ns
+[lb=13] {slong}kilr b{rrot}od(ir;) at þ(at;) e(r;) lei(n;)gi næt(ur;) at h(an;)n ma enga {rscap}o ha
+[lb=14] {fins}a {fins}(yrir;) mei(n;)lætu(m;) (ok;) {slong}{aalig}(ra;) {fins}(ar;)i. en(n;) þ(vi;) leng(ur;) {slong}(e;)m h(an;)n vakti þ(vi;)
+[lb=15] h(ar;)d(ar;)a h{rrot}aut h(an;)n {slong}id(an;) vppleid {aalig} nottina. Brod(ir;) {fins}ellr
+[lb=16] nu {fins}(ra;)m en(n;) a{fins} nyiu. einkan(n;)liga næ{slong}t g(u;)di t(il;) vo{rscap}(ar;) {fins}(rv;)
+[lb=17] s(an;)c(t;)am [name:type=person] [hi:rend=caps] Mariam [/hi] [/name] at hu(n;) {slong}kuli e{fins}la þ(an;)n veg t(il;) {fins}(ra;)m kuæ(m;)
+[lb=18] d(ar;) {slong}(e;)m h(an;)n tek(ur;) upp. H(an;)n ha{fins}(di;) kyn(n;)ing {fins}eng(it;) j {fins}(er;)du(m;)
+[lb=19] [catch]þ(ei;){rrot}a[/catch]
+[pb=480]
+[lb=1] þ(ei;){rrot}a k(ar;)ls. at ein(n;) balk(ur;) {slong}t(er;)kr (ok;) {slong}to{rscap}. v(ar;) vm þv(er;)an(n;) hellin(n;) j an(n;)
+[lb=2] an(n;) enda. (ok;) þ(ar;) {fins}(yrir;) jn(n;)an v(ar;) geit {fins}e karls h(ar;)dla {slong}tort {slong}(e;)m
+[lb=3] {fins}lagda {fins}e e(r;) v(an;)t at v(er;)a. Hi(er;) {rscap}æd(ur;) h(an;)n t(il;) j t(ra;)u{slong}ti g(u;)ds {slong}(e;)m k(ar;)l
+[lb=4] he{fins}(ir;) {fins}eng(it;) h{rrot}yt m(ik;)in(n;) at h(ann;) þ(ri;){fins}r ein(n;) buckin(n;) e(r;) {slong}tær{slong}t(ur;) v(ar;).
+[lb=5] (ok;) kitla{rrot} h(an;)n s(uo;) klokliga m(ed;) linda kni{fins}i {slong}in(um;) at bukk(ur;)in(n;)
+[lb=6] ma deyia. en(n;) ecki æpa. h(an;)n {fins}læ{rscap} a{fins} h(onu;)m belg m(ed;) ollu(m;)
+[lb=7] led{rrot}u(m;). (ok;) ho{rrot}nu(m;). by{ezh}t h(an;)n s(uo;) v(id;) mo{rrot}ni. at h(an;)n e(r;) kom(inn;) j
+[lb=8] belgin(n;). þ(via;)t m(ed;) G(uds;) tenadi (ok;) vo{rscap}(ar;) {fins}(rv;). ætlar h(an;)n at legg(ia;)
+[lb=9] {aalig} þa hættu at g(an;)ga j g{rrot}eip(ur;) jotninu(m;). þ(via;)t h(an;)n þicki{ezh}t
+[lb=10] vita at a{rrot}la m(or;)gins mv(n;) h(an;)n {fins}e(it;) lata {fins}ara t(il;) g(ra;)s. þ(ar;) m(ed;)
+[lb=11] þick(izt;) h(an;)n und(ir;){slong}t(an;)da hu(er;){slong}u ha{slong}kin(n;) e(r;) m(ik;)ill. at e(igi;) mv(n;) k(ar;)l la
+[lb=12] ta {slong}audina vt {slong}triuka {aalig}n {slong}in(n;)i g(re;)in. (ok;) {aalig}tekni(n;)g. at
+[lb=13] e(igi;) {fins}(ar;)i {fins}leiri en(n;) kallad(ir;) e(ro;). Þ(e;)tta g(er;)i{ezh}t alla leid {slong}(e;)m
+[lb=14] b{rrot}od(ir;) hug{slong}adi. at {slong}ak(ir;) blindleika {slong}ins. {slong}et{ezh} h(an;)n nid(ur;) j
+[lb=15] midi(um;) dy{rrot}u(m;). s(uo;) at hu(er;){rrot} (ok;) ein(n;) {slong}audr {slong}k(al;) ongv(an;) veg ha{fins}
+[lb=16] [catch]an(n;)an(n;)[/catch]
+[pb=481]
+[lb=1] an(n;)an(n;) en(n;) millu(m;) h(an;)s {fins}ota. (ok;) {slong}ak(ir;) þ(es;)s at b{rrot}od(ir;) ha{fins}(di;) d(re;)p
+[lb=2] it {fins}o{rrot}u{slong}tu {slong}audin(n;). {slong}kilr h(ann;) þeg(ar;) at allt bu(it;) me{ezh}t v(id;) h(an;)n
+[lb=3] at g(an;)ga {fins}y{slong}t [gap:reason=lost:quantity=11] d{rrot}in w{rrot}du h(onu;)m
+[lb=4] miok long {slong}uo at hend(ur;)n(ar;) g(en;)gu e(igi;) allt nid{rrot} at klau{fins}
+[lb=5] unu(m;). v(ar;) þ(vi;)likt {slong}(e;)m h(an;)n d{rrot}ægi {fins}æt(ur;)n(ar;) ept(ir;) s(er;). (ok;) hlam(m;)adi
+[lb=6] {fins}(ra;)m {aalig} hellis gol{fins}inu. Suo {rscap}æd{rrot} h(an;)n t(il;) vt g(on;)gv vm þ(at;)
+[lb=7] vonda hlid. e(r;) ad{rrot}g(re;)indi{ezh}t. {slong}tyrk(ur;) karl vm bak(it;) {aalig}
+[lb=8] h(onu;)m. (ok;) {slong}eg(ir;) {slong}uo. Ho ho {fins}o{slong}t(ri;) min(n;). {fins}latt e(r;) en(n;) bak(it;) (ok;) {fins}ei
+[lb=9] t(ar;) {slong}id(ur;). b{rrot}ak(ar;) j klau{fins}u(m;). hlam(ar;) j helli vind inu(m;) {aalig} vita
+[lb=10] Suo {slong}kilia þ(ei;){rrot} {slong}(e;)m g(u;)d {slong}kipadi (ok;) mod(ir;) h(an;)s. at b{rrot}od(ir;) ke(m;){ezh}t
+[lb=11] vt a{fins} helli. (ok;) {fins}ær(ir;) a{fins} s(er;) belgin(n;) leit(ar;) {slong}id(an;) {ocurl}{rrot}ugg(an;) {slong}tad (ok;)
+[lb=12] klokan(n;). at h(an;)n mæli{ezh}t þad(an;) {fins}(yrir;) v(id;) blinda k(ar;)l {slong}(e;)m h(onu;) lik(ar;).
+[lb=13] H(an;)n {slong}eg(ir;) s(uo;). Oll {slong}u bolv(an;) e(r;) jd ned{slong}ta helviti he{fins}(ir;) j s(er;).
+[lb=14] {slong}teypi{ezh}t hund(ra;)t {fins}olld y{fins}(ir;) þitt ban(n;){slong}etta ho{fins}(ud;). þ(via;)t þu
+[lb=15] e(r;)t {slong}a liota{ezh}ti {fins}iand(an;)s þ{rrot}æll. e(r;) {fins}in(n;)a{ezh}t ma. Wid þ(es;)si
+[lb=16] h(ar;)dindis o{rrot}d {fins}ell {slong}u {rscap}eidi m(ed;) daudlig(ri;) g(ri;)md j b(ri;)o{slong}t k(ar;)li
+[lb=17] at h(an;)n gleymdi {slong}ina van{fins}æri tek(ur;) {aalig} {rscap}as o{rrot} hellis
+[lb=18] dy{rrot}unu(m;). (ok;) hleyp(ur;) {fins}(ra;)m {aalig}klettin(n;) e(r;) v(er;) g(re;)indv(m;) {fins}y{rscap} at
+[lb=19] [catch]{slong}tod[/catch]
+[pb=482]
+[lb=1] {slong}tod j midiu. (ok;) hu(at;) leing(ra;). en(n;) h(an;)n kollv(ar;)pa{rscap} s(er;) a{fins} {fins}(ra;)m
+[lb=2] (ok;) b{rrot}yt(ur;) s(ik;){aalig} hals. En(n;) b{rrot}od(ir;) lo{fins}(ar;) {slong}in(n;) d(ro;)ttin(n;) þ(vi;) {fins}(ra;)m(ar;). þ(via;)t
+[lb=3] nu e(r;) h(onu;)m eitt at ogledi. at {fins}(ra;)teknu andlati b{rrot}od(ur;) {slong}i
+[lb=4] ns. e{fins} {fins}(ar;)it e(r;) {fins}(ra;) h(onu;)m {slong}ilgt. þ(via;)t e(igi;) þick(ir;) h(onu;)m {slong}kemtiligt
+[lb=5] at bua þ(ar;) lengi. H(an;)n tek(ur;) nu t(il;) huat(ra;) {fins}ota {slong}in(n;) me{slong}t
+[lb=6] matti h(an;)n o{rrot}ka. (ok;) nyt(ur;) þ(es;)s at h(an;)n atti goda kumpana
+[lb=7] þ(via;)t þ(ei;)r ha{fins}a halld(it;) {slong}kipinv v(id;) l(an;)dit. (ok;) villdu e(igi;) b(ro;)tt {fins}(ar;)a
+[lb=8] {fins}y{rscap} en(n;) vm(m;) v(er;)i g(er;)t at þ(ei;){rrot} {slong}py{rrot}di nockut t(il;) s(uo;) vald(ra;) v(or;)s
+[lb=9] d(ro;)ttins þiona {slong}(e;)m þ(ei;)r ho{fins}du mi{slong}t. h(an;)n teikn(ar;) nu (ok;)
+[lb=10] kallar hu(at;) e(r;) h(an;)n ma. en(n;) þ(ei;){rrot} {rscap}oa j mot h(onu;)m {aalig} {slong}omu
+[lb=11] {slong}tund. (ok;) {fins}lyt(ia;) t(il;) {slong}kips m(ed;) m(ik;)lu(m;) {fins}agnadi. {slong}eg(ir;) h(an;)n {slong}kip
+[lb=12] {ocurl}{rrot}u(m;) {slong}ogu {slong}ina g(u;)di t(il;) lo{fins}s. (ok;) h(an;)s haleit(re;) mod(ur;) e(r;)
+[lb=13] ble{ezh}ut {rscap}ik(ir;) {aalig}n enda.
+
+[/p]
+
+
+[/div]
+
+
+[/div]

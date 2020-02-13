@@ -1,0 +1,80 @@
+teiHeader {display: none }
+
+text {display: block; font: 14pt/18pt "Andron Corpus"; margin-top: 15pt; margin-right: 15pt; margin-bottom: 15pt; margin-left: 65pt; text-align: left; width: 450pt;}
+
+div { display: block }
+head {display: block; padding-top: 10pt; padding-bottom: 10pt; padding-left: 50pt; font-size: 20pt; color: rgb(80%, 10%, 10%);}
+p { display: block }
+
+hi[rend="2"] {float: left; width: auto; font-size: 35pt; padding-top: 10pt; padding-right: 3pt}
+hi[rend="3"] {float: left; width: auto; font-size: 60pt; padding-top: 20pt; padding-bottom: 5pt; padding-right: 3pt}
+hi[rend="4"] {float: left; width: auto; font-size: 90pt; padding-top: 30pt; padding-bottom: 15pt; padding-right: 3pt}
+hi[rend="5"] {float: left; width: auto; font-size: 100pt; padding-top: 35pt; padding-bottom: 20pt; padding-right: 3pt}
+hi[rend="6"] {float: left; width: auto; font-size: 110pt; padding-top: 40pt; padding-bottom: 25pt; padding-right: 3pt}
+hi[rend="caps"] {text-transform: uppercase; font-size: 15pt; }
+
+pb {display: block; padding-top: 25pt}
+pb:after {position: absolute; font-weight: 600; content: attr(n); left: 15pt}
+
+lb {display: block}
+lb[n="3"]:after, lb[n="6"]:after, lb[n="9"]:after, lb[n="12"]:after, lb[n="15"]:after, lb[n="18"]:after {content: attr(n); position: absolute; left: 40pt; font-size: 12pt}
+
+supplied[reason="omitted"]:before { content: "<"; font-size: 14pt; vertical-align: middle }
+supplied[reason="omitted"]:after { content: ">"; font-size: 14pt; vertical-align: middle}
+
+fw[type=catch] {display: block; position: absolute; left: 275pt}
+
+gap:before {content: "< . . . . >"}
+
+sic {display: none }
+reg {display: none }
+
+ex { display: none }
+am { display: inline }
+
+g{background-color:yellow}
+g:before{content:"___"}
+g[ref="#aalig"]:before { content: "\EFA0"}
+g[ref="#ar"]:before { content: "\036C"; padding-left: 1pt}
+g[ref="#asup"]:before { content: "\0363"; padding-left: 1pt}
+g[ref="#bar"]:before { content: "\0304"}
+g[ref="#barbl"]:before { content: "\0332"}
+g[ref="#combcurl"]:before { content: "\1DCE"; padding-left: 2pt}
+g[ref="#condes"]:before { content: "\A76F"}
+g[ref="#csup"]:before { content: "\0368"; padding-left: 1pt}
+g[ref="#dot"]:before { content: "\0307"}
+g[ref="#dsup"]:before { content: "\0369"}
+g[ref="#er"]:before { content: "\035B"; padding-left: 3pt}
+g[ref="#esup"]:before { content: "\0364"}
+g[ref="#ok"]:before { content: "\F158"}
+g[ref="#ezh"]:before { content: "\0292"}
+g[ref="#fins"]:before { content: "\F207"}
+g[ref="#isup"]:before { content: "\0365"; padding-left: 2pt}
+g[ref="#jscap"]:before { content: "\1D0A"}
+g[ref="#msup"]:before { content: "\036B"; padding-left: 3pt}
+g[ref="#ndot"]:before { content: "\1E45"}
+g[ref="#nleg"]:before { content: "\019E"; position:absolute; overflow:hidden; margin-left: -10px; background:white}
+g[ref="#nscap"]:before { content: "\0274"}
+g[ref="#nsup"]:before { content: "\F021"; padding-left: 2pt}
+g[ref="#ocurl"]:before { content: "\E7D3"}
+g[ref="#osup"]:before { content: "\0366"; padding-left: 3pt}
+g[ref="#pplig"]:before { content: "\EED6"}
+g[ref="#ra"]:before { content: "\F1C1"; padding-left: 1pt}
+g[ref="#rrot"]:before { content: "\A75B"}
+g[ref="#rrotsup"]:before { content: "\1DE3"; padding-left: 2pt}
+g[ref="#rscap"]:before { content: "\0280"}
+g[ref="#rsup"]:before { content: "\036C"; padding-left: 1pt}
+g[ref="#rum"]:before { content: "\A75D"}
+g[ref="#slong"]:before { content: "\017F"}
+g[ref="#sscap"]:before { content: "\A731"}
+g[ref="#ssup"]:before { content: "\1DE4"}
+g[ref="#tsup"]:before { content: "\036D"}
+g[ref="#ur"]:before { content: "\F153"; padding-left: 3pt}
+g[ref="#us"]:before { content: "\1DD2"; padding-left: 4pt}
+g[ref="#usmod"]:before { content: "\A770"}
+g[ref="#usup"]:before { content: "\0367"}
+g[ref="#vsup"]:before { content: "\036E"; padding-left: 1pt}
+g[ref="#zsup"]:before { content: "\00B3"}
+
+
+

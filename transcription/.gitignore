@@ -1,5 +1,7 @@
 # Gitignore
 # =========
 
-*.jar
 log.txt
+
+# Oxygen Project
+*.xpr
