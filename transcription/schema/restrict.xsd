@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    targetNamespace="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://www.tei-c.org/ns/1.0">
+    <xs:element name="TEI">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="teiHeader"/>
+                <xs:element name="text"> </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="text">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="body"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="body">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="div" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="div">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="head"/>
+                <xs:element name="p"/>
+                <xs:element name="lb"/>
+                <xs:element name="pb"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="head">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:group ref="ns1:tr_group" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="p">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:group ref="ns1:tr_group" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="lb">
+        <xs:complexType>
+            <xs:sequence/>
+            <xs:attribute name="n" type="xs:int"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="pb">
+        <xs:complexType>
+            <xs:sequence/>
+            <xs:attribute name="n" type="xs:int"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="pc">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="g" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="name">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="w" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="type" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="hi">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="w" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element name="supplied" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="rend" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:group name="tr_group">
+        <xs:sequence>
+            <xs:element name="w" minOccurs="0"/>
+            <xs:element name="lb" minOccurs="0"/>
+            <xs:element name="pb" minOccurs="0"/>
+            <xs:element name="pc" minOccurs="0"/>
+            <xs:element name="name" minOccurs="0"/>
+            <xs:element name="hi" minOccurs="0"/>
+            <xs:element name="fw" minOccurs="0"/>
+        </xs:sequence>
+    </xs:group>
+    
+    <xs:element name="g">
+        <xs:complexType>
+            <xs:sequence/>
+            <xs:attribute name="ref" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="supplied">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="w" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="reason" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="fw">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="w" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element name="g" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:group ref="ns1:ab_group" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="type" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="w">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:group ref="ns1:w_group" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:group name="w_group">
+        <xs:sequence>
+            <xs:element name="g" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="hi" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="lb" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:group ref="ns1:ab_group" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:group>
+    
+    <xs:group name="ab_group">
+        <xs:sequence>
+            <xs:element name="choice"></xs:element>
+        </xs:sequence>
+    </xs:group>
+    
+    <xs:element name="choice">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="abbr"/>
+                <xs:element name="expan"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="abbr">
+        <xs:complexType mixed="false">
+            <xs:sequence>
+                <xs:element name="am" maxOccurs="1" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="expan">
+        <xs:complexType mixed="false">
+            <xs:sequence>
+                <xs:element name="ex" maxOccurs="1" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="am">
+        <xs:complexType mixed="false">
+            <xs:sequence>
+                <xs:element name="g" maxOccurs="1" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="ex">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="g" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
