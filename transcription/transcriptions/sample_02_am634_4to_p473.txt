@@ -43,7 +43,7 @@
 [/head]
 [p]
 [lb=3] [supplied:reason=omitted]H[/supplied]Eilag(ur) [name=person] hugo [/name] aboti [name=person] clugiacen{slong}is [/name] {rscap}ei{slong}ti m(or;osup)g
-[lb=4] m(un;bar)kli{fins}i g(u;d;combcurl)i t(il;isup) heid(ur;rrot)s . h(an;bar)n el{slong}kadi einkanli¬
+[lb=4] m(un;bar)kli{fins}i g(u;d;combcurl)i t(il;isup) heid(ur)s . h(an;bar)n el{slong}kadi einkanli¬
 [lb=5]ga vo(ra) {fins}(rv;vsup) helga G(uds;usmod)mod(ur) [name=person] mariam [/name] . (ok) {slong}tundadi
 [lb=6] miok {aalig} helga olmu{slong}ug(er)d . mædandi {slong}in(n;bar) likam
 [lb=7] m(ed;ezh) meinlætu(m;bar) {fins}(yrir;isup) g(u;d;combcurl)s {slong}ak(ir;er) . (ok) einkanliga m(ed;ezh) hei¬
