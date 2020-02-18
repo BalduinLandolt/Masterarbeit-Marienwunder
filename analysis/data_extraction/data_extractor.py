@@ -502,6 +502,29 @@ class Extractor:
                 rows.append(row)
         Extractor.write_to_csv('abbreviations.csv', names, rows)
 
+    @classmethod
+    def extract_sem(cls):
+        # TODO: solve properly with include word list
+        names = ["sample", "sample_name", "normal", "form"]
+        rows = []
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            abbreviations = Extractor.find_all_sem(data)
+            for abbr in abbreviations:
+                row = [section_index, section_name, "sem", abbr]
+                rows.append(row)
+        Extractor.write_to_csv('sem.csv', names, rows)
+
+    @classmethod
+    def find_all_sem(cls, data):
+        potentials = ['Sem', 'sem', '{slong}em', '{slong}(e)m', '{slong}(em)', '{slong}e(m)']
+        words_ex = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_EX)
+        words_all = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_EX)
+        hits = [i for i, v in enumerate(words_ex) if v in potentials]
+        res = [words_all[h] for h in hits]
+        return res
+
     # Call actual extraction
     # ======================
 
@@ -585,6 +608,9 @@ class Extractor:
 
         # abbreviation marks
         Extractor.extract_abbreviations()
+
+        # TODO: include-word-list rather than the following
+        Extractor.extract_sem()
 
         # TODO: ...
 
