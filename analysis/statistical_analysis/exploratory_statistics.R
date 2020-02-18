@@ -10,7 +10,7 @@ getwd()
 
 # load package
 library(ggplot2)
-library(reshape2) #unused?
+#library(reshape2) #unused?
 #library(cowplot)
 
 
@@ -60,6 +60,8 @@ page_overview$chars_per_page = page_overview$no_characters/page_overview$no_page
 page_overview$chars_per_line = page_overview$no_characters/page_overview$no_lines
 
 
+#TODO: delete old plots?
+
 # ensures output folder exists
 if (!dir.exists("../out/plots")){
   dir.create("../out/plots")
@@ -77,13 +79,18 @@ if (!dir.exists("../out/plots/abbreviations/forEach")){
 
 
 # plot words per line
-plot = ggplot(data_by_line, aes(data_by_line$no_words)) + geom_histogram(fill="red")
+plot = ggplot(data_by_line, aes(no_words)) + 
+  geom_histogram(fill="red", binwidth = 1)+
+  scale_x_continuous(breaks=0:max(no_words))+
+  labs(x = "Words per Line", y = "Count")
 ggsave("../out/plots/perLine/hist_wordsPerLine.png", plot = plot)
 
-plot = qplot(data_by_line$no_words, geom="histogram", fill=factor(data_by_line$sample))
+plot = qplot(data_by_line$no_words, fill=factor(data_by_line$sample))+
+  geom_histogram()
 ggsave("../out/plots/perLine/hist_wordsPerLine_bySample_stack.png", plot = plot)
 
-plot = ggplot(data_by_line, aes(data_by_line$no_words, fill=factor(data_by_line$sample))) + geom_histogram(position = "dodge")
+plot = ggplot(data_by_line, aes(data_by_line$no_words, fill=factor(data_by_line$sample))) + 
+  geom_histogram(position = "dodge")
 ggsave("../out/plots/perLine/hist_wordsPerLine_bySample_dodge.png", plot = plot)
 
 plot = ggplot(data_by_line, aes(y=data_by_line$no_words, x=factor(data_by_line$sample))) + geom_boxplot()
@@ -152,6 +159,8 @@ ex_count$Freq_normalized = mapply(normalize, ex_count$Freq, ex_count$sample)
 
 plot = ggplot(ex_count, aes(ex_count$ex, ex_count$Freq_normalized, fill=ex_count$sample))
 plot = plot + geom_bar(position = "dodge", stat = "identity")
+#plot = plot + facet_wrap(~ ex_count$sample)
+#plot = plot + stat_summary(fun.data = mean(), geom = "errorbar", position = position_dodge(width = 0.9), width = 0.2)
 ggsave("../out/plots/abbreviations/hist_exDistribution_bySample.png", plot = plot, width = 30)
 
 
