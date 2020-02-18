@@ -525,6 +525,26 @@ class Extractor:
         res = [words_all[h] for h in hits]
         return res
 
+    @classmethod
+    def extract_v_anlaut(cls):
+        # TODO: solve properly with include word list
+        names = ["sample", "sample_name", "form"]
+        rows = []
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            abbreviations = Extractor.find_all_v_anlaut(data)
+            for abbr in abbreviations:
+                row = [section_index, section_name, abbr]
+                rows.append(row)
+        Extractor.write_to_csv('v_anlaut.csv', names, rows)
+
+    @classmethod
+    def find_all_v_anlaut(cls, data):
+        words_all = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_EX)
+        res = [w for w in words_all if w.startswith('v') or w.startswith('w')]
+        return res
+
     # Call actual extraction
     # ======================
 
@@ -611,6 +631,7 @@ class Extractor:
 
         # TODO: include-word-list rather than the following
         Extractor.extract_sem()
+        Extractor.extract_v_anlaut()
 
         # TODO: ...
 
