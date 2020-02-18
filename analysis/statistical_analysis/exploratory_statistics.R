@@ -99,7 +99,10 @@ plot = ggplot(data_by_line, aes(no_words, fill=factor(sample))) +
   scale_fill_discrete(name = "Sample", labels = levels(data_by_line$sample_name))
 ggsave("../out/plots/perLine/bar_wordsPerLine_bySample_dodge.png", plot = plot)
 
-plot = ggplot(data_by_line, aes(y=data_by_line$no_words, x=factor(data_by_line$sample))) + geom_boxplot()
+plot = ggplot(data_by_line, aes(y=data_by_line$no_words, x=factor(data_by_line$sample))) + 
+  geom_boxplot()+
+  scale_x_discrete(labels=levels(data_by_line$sample_name))+
+  labs(y = "Words per Line", x = "Sample")
 ggsave("../out/plots/perLine/box_wordsPerLine_bySample.png", plot = plot)
 
 
