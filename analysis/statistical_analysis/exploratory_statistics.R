@@ -80,18 +80,24 @@ if (!dir.exists("../out/plots/abbreviations/forEach")){
 
 # plot words per line
 plot = ggplot(data_by_line, aes(no_words)) + 
-  geom_histogram(fill="red", binwidth = 1)+
-  scale_x_continuous(breaks=0:max(no_words))+
+  geom_bar(fill="#303030", width = 0.7)+
+  scale_x_continuous(breaks=0:max(data_by_line$no_words))+
   labs(x = "Words per Line", y = "Count")
-ggsave("../out/plots/perLine/hist_wordsPerLine.png", plot = plot)
+ggsave("../out/plots/perLine/bar_wordsPerLine.png", plot = plot)
 
-plot = qplot(data_by_line$no_words, fill=factor(data_by_line$sample))+
-  geom_histogram()
-ggsave("../out/plots/perLine/hist_wordsPerLine_bySample_stack.png", plot = plot)
+plot = ggplot(data_by_line, aes(no_words, fill=factor(sample))) + 
+  geom_bar(width = 0.7)+
+  scale_x_continuous(breaks=0:max(data_by_line$no_words))+
+  labs(x = "Words per Line", y = "Count")+
+  scale_fill_discrete(name = "Sample", labels = levels(data_by_line$sample_name))
+ggsave("../out/plots/perLine/bar_wordsPerLine_bySample_stack.png", plot = plot)
 
-plot = ggplot(data_by_line, aes(data_by_line$no_words, fill=factor(data_by_line$sample))) + 
-  geom_histogram(position = "dodge")
-ggsave("../out/plots/perLine/hist_wordsPerLine_bySample_dodge.png", plot = plot)
+plot = ggplot(data_by_line, aes(no_words, fill=factor(sample))) + 
+  geom_bar(position = position_dodge2(preserve = "single"), width = 0.9)+
+  scale_x_continuous(breaks=0:max(data_by_line$no_words))+
+  labs(x = "Words per Line", y = "Count")+
+  scale_fill_discrete(name = "Sample", labels = levels(data_by_line$sample_name))
+ggsave("../out/plots/perLine/bar_wordsPerLine_bySample_dodge.png", plot = plot)
 
 plot = ggplot(data_by_line, aes(y=data_by_line$no_words, x=factor(data_by_line$sample))) + geom_boxplot()
 ggsave("../out/plots/perLine/box_wordsPerLine_bySample.png", plot = plot)
