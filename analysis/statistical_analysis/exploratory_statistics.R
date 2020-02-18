@@ -106,6 +106,9 @@ plot = ggplot(data_by_line, aes(y=data_by_line$no_words, x=factor(data_by_line$s
 ggsave("../out/plots/perLine/box_wordsPerLine_bySample.png", plot = plot)
 
 
+# TODO: ab hier schön machen
+
+
 # plot characters per line
 plot = qplot(data_by_line$no_characters, geom="histogram", fill=factor(data_by_line$sample))
 ggsave("../out/plots/perLine/hist_charactersPerLine_bySample_stack.png", plot = plot)
