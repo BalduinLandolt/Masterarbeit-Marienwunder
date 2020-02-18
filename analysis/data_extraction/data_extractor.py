@@ -528,14 +528,14 @@ class Extractor:
     @classmethod
     def extract_v_anlaut(cls):
         # TODO: solve properly with include word list
-        names = ["sample", "sample_name", "form"]
+        names = ["sample", "sample_name", "form", "letter"]
         rows = []
         for section_index, section in enumerate(Extractor.samples):
             section_name = section[0]
             data = section[1]
             abbreviations = Extractor.find_all_v_anlaut(data)
             for abbr in abbreviations:
-                row = [section_index, section_name, abbr]
+                row = [section_index, section_name, abbr, abbr[0]]
                 rows.append(row)
         Extractor.write_to_csv('v_anlaut.csv', names, rows)
 

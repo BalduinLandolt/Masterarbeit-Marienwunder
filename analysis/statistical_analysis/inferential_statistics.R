@@ -10,12 +10,18 @@ getwd()
 
 
 
+# load package
+library(gmodels)
+
+
 # read data from file
 page_overview = read.csv("../tmp_data/page_overview.csv", encoding = 'UTF-8')
 head(page_overview)
 data_by_line = read.csv("../tmp_data/data_by_line.csv", encoding = 'UTF-8')
 head(data_by_line)
 abbreviations = read.csv("../tmp_data/abbreviations.csv", encoding = 'UTF-8')
+head(abbreviations)
+abbreviations = read.csv("../tmp_data/v_anlaut.csv", encoding = 'UTF-8')
 head(abbreviations)
 
 
