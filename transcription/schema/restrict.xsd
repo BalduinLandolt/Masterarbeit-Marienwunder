@@ -75,7 +75,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="name">
         <xs:complexType>
             <xs:sequence>
@@ -84,7 +84,7 @@
             <xs:attribute name="type" type="xs:string"/>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="hi">
         <xs:complexType mixed="true">
             <xs:sequence>
@@ -106,14 +106,14 @@
             <xs:element name="fw" minOccurs="0"/>
         </xs:sequence>
     </xs:group>
-    
+
     <xs:element name="g">
         <xs:complexType>
             <xs:sequence/>
             <xs:attribute name="ref" type="xs:string"/>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="supplied">
         <xs:complexType mixed="true">
             <xs:sequence>
@@ -122,18 +122,16 @@
             <xs:attribute name="reason" type="xs:string"/>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="fw">
         <xs:complexType mixed="true">
             <xs:sequence>
-                <xs:element name="w" maxOccurs="unbounded" minOccurs="0"/>
-                <xs:element name="g" maxOccurs="unbounded" minOccurs="0"/>
-                <xs:group ref="ns1:ab_group" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:group ref="ns1:fw_group" minOccurs="0" maxOccurs="unbounded"/>
             </xs:sequence>
             <xs:attribute name="type" type="xs:string"/>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="w">
         <xs:complexType mixed="true">
             <xs:sequence>
@@ -141,6 +139,14 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    
+    <xs:group name="fw_group">
+        <xs:sequence>
+            <xs:element name="w" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="g" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:group ref="ns1:ab_group" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:group>
     
     <xs:group name="w_group">
         <xs:sequence>
@@ -150,13 +156,13 @@
             <xs:group ref="ns1:ab_group" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:group>
-    
+
     <xs:group name="ab_group">
         <xs:sequence>
-            <xs:element name="choice"></xs:element>
+            <xs:element name="choice"/>
         </xs:sequence>
     </xs:group>
-    
+
     <xs:element name="choice">
         <xs:complexType>
             <xs:sequence>
@@ -165,23 +171,23 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="abbr">
-        <xs:complexType mixed="false">
+        <xs:complexType mixed="true">
             <xs:sequence>
                 <xs:element name="am" maxOccurs="1" minOccurs="1"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="expan">
-        <xs:complexType mixed="false">
+        <xs:complexType mixed="true">
             <xs:sequence>
                 <xs:element name="ex" maxOccurs="1" minOccurs="1"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="am">
         <xs:complexType mixed="false">
             <xs:sequence>
@@ -189,7 +195,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
+
     <xs:element name="ex">
         <xs:complexType mixed="true">
             <xs:sequence>
