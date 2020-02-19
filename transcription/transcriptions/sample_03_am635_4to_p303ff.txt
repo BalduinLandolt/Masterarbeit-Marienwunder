@@ -97,10 +97,12 @@
 
 
 # Unger 4, 1171
+
 [div:type=miracle:n=156]
 
 
 [lb=10] [head] A{fins} m(ar)iu_m(esso;osup) {slong}id(ar)i . [/head]
+
 [p]
 
 [lb=11] [hi:rend=3][supplied:reason=omitted]b[/supplied][/hi]Vrd(ar)_dag(ur) hin(n;nleg)(ar) helgu{ezh}tu G(uds;us) mod(ur) ju(n;bar)g¬
@@ -109,7 +111,7 @@
 [lb=14] g(u;d;combcurl)i vit(ra)d {aalog} þ(en;bar)na hatt {slong}(e;m;bar) hi(er) {slong}eg(ir;er) . Ein{slong}etu_m(adr;ar)
 [lb=15] nock(ur) heilag(ur) j {slong}inu(m;bar) li{fins}nadi . hey{rrot}di {aalig} hi¬
 [lb=16]n(n;dot)i {slong}omu nott hu(er)t {aalig}r {fins}ag{rrot}an(n;bar) engla {slong}ong
-[lb] [catch]j[/catch]
+[lb] [catch] j [/catch]
 
 [/p]
 [/div]

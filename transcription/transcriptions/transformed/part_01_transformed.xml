@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/transformed.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <xml>
-   <page n="1">
-      <line n="1">
+   <page n="1" id="p_1">
+      <line n="1" id="p_1_l_1">
          <w>Suo</w>
          <w>seger</w>
          <w>Ieronimvs</w>
       </line>
-      <line n="2">
+      <line n="2" id="p_1_l_2">
          <w>prestur</w>
          <w>ath</w>
          <w>
@@ -22,13 +23,13 @@
          </w>
          <w>dy<g ref="#rrot"/>lig</w>
       </line>
-      <line n="3">
+      <line n="3" id="p_1_l_3">
          <w>mær</w>
          <w>Maria</w>
          <w>wæri</w>
          <w>komin</w>
       </line>
-      <line n="4">
+      <line n="4" id="p_1_l_4">
          <w>a<g ref="#fins"/>
          </w>
          <w>k<abbreviation>
@@ -70,7 +71,7 @@
          <w>
             <g ref="#fins"/>ra</w>
       </line>
-      <line n="5">
+      <line n="5" id="p_1_l_5">
          <wordpart>
             <g ref="#slong"/>ogu</wordpart>
          <w>Mathe<abbreviation>
@@ -102,7 +103,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="6">
+      <line n="6" id="p_1_l_6">
          <w>þ<abbreviation>
                <am>
                   <g ref="#isup"/>
@@ -126,7 +127,7 @@
             <g ref="#slong"/>in<g ref="#slong"/>
          </w>
       </line>
-      <line n="7">
+      <line n="7" id="p_1_l_7">
          <w>gud<g ref="#slong"/>piall<g ref="#ezh"/>
          </w>
          <w>ath</w>
@@ -153,7 +154,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="8">
+      <line n="8" id="p_1_l_8">
          <w>david</w>
          <w>k<abbreviation>
                <am>
@@ -203,7 +204,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="9">
+      <line n="9" id="p_1_l_9">
          <w>Mathe<abbreviation>
                <am>
                   <g ref="#us"/>
@@ -261,7 +262,7 @@
             </abbreviation>kir</w>
          <w>eili<g ref="#fins"/>t</w>
       </line>
-      <line n="10">
+      <line n="10" id="p_1_l_10">
          <w>R<abbreviation>
                <am>
                   <g ref="#isup"/>
@@ -310,7 +311,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="11">
+      <line n="11" id="p_1_l_11">
          <w>ab<g ref="#rrot"/>aham</w>
          <w>
             <g ref="#slong"/>id<abbreviation>
@@ -348,7 +349,7 @@
          <pc>.</pc>
          <w>ath</w>
       </line>
-      <line n="12">
+      <line n="12" id="p_1_l_12">
          <w>g<abbreviation>
                <am>
                   <g ref="#combcurl"/>
@@ -397,7 +398,7 @@
                <ex>er</ex>
             </abbreviation>a<g ref="#ezh"/>t</w>
       </line>
-      <line n="13">
+      <line n="13" id="p_1_l_13">
          <w>o<g ref="#rrot"/>
          </w>
          <w>h<abbreviation>
@@ -469,7 +470,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="14">
+      <line n="14" id="p_1_l_14">
          <w>þui</w>
          <w>Maria</w>
          <w>d<abbreviation>
@@ -520,7 +521,7 @@
          </w>
          <pc>.</pc>
       </line>
-      <line n="15">
+      <line n="15" id="p_1_l_15">
          <w>ath</w>
          <w>h<abbreviation>
                <am>
@@ -600,7 +601,7 @@
             </abbreviation>g<g ref="#rrot"/>
          </w>
       </line>
-      <line n="16">
+      <line n="16" id="p_1_l_16">
          <w>
             <g ref="#jscap"/>
          </w>
@@ -655,7 +656,7 @@
          <w>
             <g ref="#fins"/>ærdi</w>
       </line>
-      <line n="17">
+      <line n="17" id="p_1_l_17">
          <w>
             <g ref="#slong"/>ig</w>
          <w>
@@ -706,7 +707,7 @@
          <pc>.</pc>
          <w>Mar</w>
       </line>
-      <line n="18">
+      <line n="18" id="p_1_l_18">
          <wordpart>ia</wordpart>
          <w>w<abbreviation>
                <am>
@@ -765,8 +766,8 @@
             <g ref="#fins"/>ædd</w>
       </line>
    </page>
-   <page n="2">
-      <line n="1">
+   <page n="2" id="p_2">
+      <line n="1" id="p_2_l_1">
          <w>w<g ref="#pplig"/>
          </w>
          <w>
@@ -843,7 +844,7 @@
                <ex>us</ex>
             </abbreviation>t</w>
       </line>
-      <line n="2">
+      <line n="2" id="p_2_l_2">
          <wordpart>eri</wordpart>
          <pc>.</pc>
          <w>ok</w>
@@ -909,7 +910,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="3">
+      <line n="3" id="p_2_l_3">
          <w>þeg<abbreviation>
                <am>
                   <g ref="#ar"/>
@@ -969,7 +970,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="4">
+      <line n="4" id="p_2_l_4">
          <w>
             <abbreviation>
                <am>
@@ -1026,7 +1027,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="5">
+      <line n="5" id="p_2_l_5">
          <w>eda</w>
          <w>boka</w>
          <w>le<g ref="#slong"/>ning<abbreviation>
@@ -1062,7 +1063,7 @@
          <pc>.</pc>
          <w>ok</w>
       </line>
-      <line n="6">
+      <line n="6" id="p_2_l_6">
          <w>þær</w>
          <w>meyi<abbreviation>
                <am>
@@ -1122,7 +1123,7 @@
                <ex>ro</ex>
             </abbreviation>tt</w>
       </line>
-      <line n="7">
+      <line n="7" id="p_2_l_7">
          <wordpart>ni<abbreviation>
                <am>
                   <g ref="#bar"/>
@@ -1174,7 +1175,7 @@
                <ex>er</ex>
             </abbreviation>a</w>
       </line>
-      <line n="8">
+      <line n="8" id="p_2_l_8">
          <w>e<abbreviation>
                <am>
                   <g ref="#er"/>
@@ -1229,7 +1230,7 @@
          <w>ha<g ref="#fins"/>a</w>
          <pc>.</pc>
       </line>
-      <line n="9">
+      <line n="9" id="p_2_l_9">
          <w>joachim</w>
          <w>het</w>
          <w>
@@ -1276,7 +1277,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="10">
+      <line n="10" id="p_2_l_10">
          <wordpart>kyn</wordpart>
          <w>h<abbreviation>
                <am>
@@ -1325,7 +1326,7 @@
          <w>na<g ref="#ezh"/>areth</w>
          <pc>.</pc>
       </line>
-      <line n="11">
+      <line n="11" id="p_2_l_11">
          <w>en<abbreviation>
                <am>
                   <g ref="#bar"/>
@@ -1392,7 +1393,7 @@
          </w>
          <pc>.</pc>
       </line>
-      <line n="12">
+      <line n="12" id="p_2_l_12">
          <w>þau</w>
          <w>w<abbreviation>
                <am>
@@ -1440,7 +1441,7 @@
          <w>li<g ref="#fins"/>
          </w>
       </line>
-      <line n="13">
+      <line n="13" id="p_2_l_13">
          <w>þ<abbreviation>
                <am>
                   <g ref="#bar"/>
@@ -1520,7 +1521,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="14">
+      <line n="14" id="p_2_l_14">
          <w>þav</w>
          <w>
             <g ref="#slong"/>kiptu</w>
@@ -1545,7 +1546,7 @@
          </w>
          <w>ko<g ref="#slong"/>t gæ<g ref="#fins"/>du</w>
       </line>
-      <line n="15">
+      <line n="15" id="p_2_l_15">
          <w>þau</w>
          <w>meir</w>
          <w>ath</w>
@@ -1593,7 +1594,7 @@
          </w>
          <pc>.</pc>
       </line>
-      <line n="16">
+      <line n="16" id="p_2_l_16">
          <w>en<abbreviation>
                <am>
                   <g ref="#bar"/>
@@ -1648,7 +1649,7 @@
          </w>
          <w>hlutta</w>
       </line>
-      <line n="17">
+      <line n="17" id="p_2_l_17">
          <w>
             <g ref="#fins"/>i<abbreviation>
                <am>
@@ -1705,7 +1706,7 @@
          </w>
          <w>pry</w>
       </line>
-      <line n="18">
+      <line n="18" id="p_2_l_18">
          <wordpart>di</wordpart>
          <w>
             <abbreviation>
@@ -1779,8 +1780,8 @@
          </w>
       </line>
    </page>
-   <page n="3">
-      <line n="1">
+   <page n="3" id="p_3">
+      <line n="1" id="p_3_l_1">
          <w>hlutin<abbreviation>
                <am>
                   <g ref="#bar"/>
@@ -1840,7 +1841,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="2">
+      <line n="2" id="p_3_l_2">
          <w>attv</w>
          <w>
             <g ref="#ocurl"/>ngua</w>
@@ -1873,7 +1874,7 @@
          <w>h<g ref="#ocurl"/>
             <g ref="#fins"/>du</w>
       </line>
-      <line n="3">
+      <line n="3" id="p_3_l_3">
          <w>
             <g ref="#slong"/>ial<g ref="#fins"/>
          </w>
@@ -1945,7 +1946,7 @@
             </abbreviation>
             <g ref="#rrot"/>a</w>
       </line>
-      <line n="4">
+      <line n="4" id="p_3_l_4">
          <w>
             <g ref="#rscap"/>ettlæti</w>
          <w>dy<g ref="#rrot"/>ligt</w>
@@ -1989,7 +1990,7 @@
          <w>aud<g ref="#slong"/>æ</w>
          <w>millde</w>
       </line>
-      <line n="5">
+      <line n="5" id="p_3_l_5">
          <w>þ<abbreviation>
                <am>
                   <g ref="#bar"/>
@@ -2049,7 +2050,7 @@
                <ex>n</ex>
             </abbreviation>g</w>
       </line>
-      <line n="6">
+      <line n="6" id="p_3_l_6">
          <wordpart>an<abbreviation>
                <am>
                   <g ref="#bar"/>
@@ -2099,7 +2100,7 @@
          </w>
          <pc>.</pc>
       </line>
-      <line n="7">
+      <line n="7" id="p_3_l_7">
          <w>þa</w>
          <w>hetu</w>
          <w>þau</w>
@@ -2142,7 +2143,7 @@
          <pc>.</pc>
          <w>þa</w>
       </line>
-      <line n="8">
+      <line n="8" id="p_3_l_8">
          <w>
             <g ref="#slong"/>kylldi</w>
          <w>þ<abbreviation>
@@ -2190,7 +2191,7 @@
          <w>þau</w>
          <w>badu</w>
       </line>
-      <line n="9">
+      <line n="9" id="p_3_l_9">
          <w>g<abbreviation>
                <am>
                   <g ref="#combcurl"/>
@@ -2246,7 +2247,7 @@
          <w>ok</w>
          <w>þau</w>
       </line>
-      <line n="10">
+      <line n="10" id="p_3_l_10">
          <w>
             <g ref="#fins"/>
             <abbreviation>
@@ -2303,7 +2304,7 @@
          <pc>.</pc>
          <w>pa</w>
       </line>
-      <line n="11">
+      <line n="11" id="p_3_l_11">
          <wordpart>
             <g ref="#slong"/>k<abbreviation>
                <am>
@@ -2362,7 +2363,7 @@
          <w>þa</w>
          <w>ha<g ref="#fins"/>di</w>
       </line>
-      <line n="12">
+      <line n="12" id="p_3_l_12">
          <w>Moy<g ref="#slong"/>es</w>
          <w>þegit</w>
          <w>l<g ref="#ocurl"/>g</w>
@@ -2405,7 +2406,7 @@
          </w>
          <w>wigt</w>
       </line>
-      <line n="13">
+      <line n="13" id="p_3_l_13">
          <w>w<abbreviation>
                <am>
                   <g ref="#ar"/>
@@ -2451,7 +2452,7 @@
          </w>
          <w>tialld buda hatid</w>
       </line>
-      <line n="14">
+      <line n="14" id="p_3_l_14">
          <w>
             <g ref="#jscap"/>
          </w>
@@ -2493,7 +2494,7 @@
                <ex>or</ex>
             </abbreviation>k</w>
       </line>
-      <line n="15">
+      <line n="15" id="p_3_l_15">
          <w>þ<abbreviation>
                <am>
                   <g ref="#bar"/>
@@ -2546,7 +2547,7 @@
             </abbreviation>
          </w>
       </line>
-      <line n="16">
+      <line n="16" id="p_3_l_16">
          <w>anna</w>
          <w>wæntu</w>
          <w>ath</w>
@@ -2577,7 +2578,7 @@
             </abbreviation>di</w>
          <w>þau</w>
       </line>
-      <line n="17">
+      <line n="17" id="p_3_l_17">
          <w>ath</w>
          <w>þe<g ref="#slong"/>
             <g ref="#slong"/>u</w>

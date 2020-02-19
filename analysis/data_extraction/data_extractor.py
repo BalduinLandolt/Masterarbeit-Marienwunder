@@ -562,11 +562,15 @@ class Extractor:
         with open('../../transcription/transcriptions/transformed/part_01_transformed.xml', encoding='utf-8') as file:
             xml_soup = BeautifulSoup(file, features='lxml')
             xml_soup = Extractor.strip_whitespace(xml_soup)
-            Extractor.samples.append(("part_01__p1ff", xml_soup))
+            Extractor.samples.append(("part_01_vol1_p1ff", xml_soup))
         with open('../../transcription/transcriptions/transformed/part_02_transformed.xml', encoding='utf-8') as file:
             xml_soup = BeautifulSoup(file, features='lxml')
             xml_soup = Extractor.strip_whitespace(xml_soup)
-            Extractor.samples.append(("part_02__p473ff", xml_soup))
+            Extractor.samples.append(("part_02_vol1_p473ff", xml_soup))
+        with open('../../transcription/transcriptions/transformed/part_03_transformed.xml', encoding='utf-8') as file:
+            xml_soup = BeautifulSoup(file, features='lxml')
+            xml_soup = Extractor.strip_whitespace(xml_soup)
+            Extractor.samples.append(("part_03_vol2_p303ff", xml_soup))
             # TODO: make this dynamic
 
         cls = Extractor
