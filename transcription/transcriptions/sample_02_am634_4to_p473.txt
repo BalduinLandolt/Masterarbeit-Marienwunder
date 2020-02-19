@@ -93,6 +93,41 @@
 [lb] [catch]{slong}e(m;bar)[/catch] 
 
 
+# bis hier korrigiert
+
+[lb=1] {slong}e(m;bar) h(an;bar)n hey{rrot}di tala (ok) visi e(igi;isup) h(an;bar)s li{fins}n(ad;dsup) m(un;bar)di e(igi;isup) vænta
+[lb=2] ath m(ed;ezh) h(onu;bar)m v(ær;er)i nockut m(er)ki dygda heilags li{fins}nad(ar).
+[lb=3] wirdulig(ur) h(er;bar)ra [name:type=person] hugo [/name] minti h(an;bar)n optliga ath h(an;bar)n bæ
+[lb=4] tti {slong}ig vm þ(en;bar)na hlut. ok {aalig} nockuru(m;bar) tima {slong}em a
+[lb=5] boti [name:type=place] cluinace(n;bar){slong}is [/name] {fins}o{rrot} at vi{slong}it(er)a h(an;bar)s m(un;bar)kli{fins}i {slong}e(m;bar) h(onu;bar)m
+[lb=6] hey{rrot}di t(il;isup). vitr(azt;zsup) {fins}y{rscap} ne{fins}nd(ur) aboti [name:type=person] gigo [/name] þ(es;bar)s(u;)m abota
+[lb=7] [name:type=person] hugoni [/name] þ{rrot}im nottu(m;bar) ad{rrot} h(an;bar)n kæ(m;bar)i j h(an;bar)s klau{slong}t(ur). w(ar)
+[lb=8] h(an;bar)n miog h{rrot}ygg(ur). (ok) taladi ecki {slong}yna(n;bar)di {slong}in(n;bar) mvn(n;bar)
+[lb=9] {fins}ullan(n;bar) m(ed;ezh) lei{rscap}. (ok) va{rscap}(ir;er)n(ar) duptug(ar). Sem hin(n;bar)
+[lb=10] v(ir;isup)duligi [name:type=person] hugo [/name] vakn(ar) {slong}kilr h(an;bar)n at [name:type=person] gigo [/name] e(r;er) lidin(n;bar)
+[lb=11] o{rrot} þ(es;bar)s(u;)m hei(m;bar)e. en(n;bar) þ(via;bar)t h(an;bar)n ha{fins}di {slong}in(n;bar) mun(n;bar) (ok) va{rscap}(ir;isup) vt(an;nsup)
+[lb=12] {slong}tilling ha{fins}t t(il;isup) hego(m;bar)lig(ra) o{rrot}da (ok) ouid(ur)kuæ(m;bar)iligs hla
+[lb=13] t(ur)s {slong}ynd(izt;zsup) h(an;bar)n ha{fins}a tek(it;tsup) pinu {slong}ynd(ar)in(ar) {aalig} þ(ei;bar)m {slong}omu(m;bar)
+[lb=14] limu(m;bar). vm m(or;osup)ginin ept(ir;er) v(ar)d h(an;bar)n vi{slong}ari a{fins} þ(es;bar)si {slong}yn.
+[lb=15] þ(via;bar)t þ(es;bar)s m(un;bar)kli{fins}is {rscap}un(n;bar)u mot h(onu;bar)m {slong}eg(ia;asup)ndi þ(ei;bar){rrot}a abota
+[lb=16] [name:type=person] gigone(m;bar) [/name] andada(n;bar) v(er)a. ok e(r;er) h(an;bar)n he{fins}(ir;er) {slong}am(an;nsup) kallat
+[lb=17] b{rrot}æd(ur)na. bid(ur) h(an;bar)n at þ(ei;bar){rrot} {slong}kylldi bid(ia;asup) t(il;isup) G(uds;us) (ok) vo{rscap}(ar)
+[lb=18] {fins}(rv;vsup) {fins}(yrir;isup) h(an;bar)s {fins}(re;esup)l{slong}i. halldandi {slong}i{ocurl} daga {slong}am{fins}leytt þ{ocurl}gn.
+[lb] [catch]hinu(m;bar)[/catch]
+
+
+[pb=476]
+
+[lb=1] hinu(m;bar) {slong}ionda degi þ(ei;bar){rrot}(ar) þagn(ar) lidnu(m;bar) vit(ra){ezh}t [name:type=person] gigo [/name] en(n;bar)
+[lb=2] {fins}y{rscap} {slong}ogdu(m;bar) abota. þackandi h(onu;bar)m at {fins}(yrir;isup) h(an;bar)s bæn
+[lb=3] m(ed;ezh) b{rrot}æd(ra)na {fins}ullti(n;bar)gi v(ar) h{rrot}ein{slong}od {slong}ynd h(an;bar)s v(ar)ra. wir
+[lb=4] dulig(ur) {fins}ad(ir;er) [name:type=person] hugo [/name] v(ar)d h(ar)dla glad{rrot} a{fins} þ(es;bar)su. (ok) {slong}eg(ir;er) b{rrot}æd
+[lb=5] {rrot}unu(m;bar) þeg(ar) vm m(or;osup)ginin(n;nleg) þ(at;bar) {slong}em h(onu;bar)m w(ar) vit(ra)d. min(n;bar)andi
+[lb=6] {aalig} at þ(ar) {fins}(yrir;isup) þackadi þ(ei;bar){rrot} G(udi;isup) (ok) gæ{ezh}ku hin(n;nleg)(ar) milldu{ezh}tu
+[lb=7] mod{rrot} G(uds;us) [name:type=person] MARIE [/name] e(r;er) alld(ri;isup) e(r;er) omin(n;bar)ig þ(ei;bar){rrot}a {slong}em h(en;bar)n(ar)
+[lb=8] min(n;bar)a{ezh}t.
+
+
 [/p]
 [/div]
 
