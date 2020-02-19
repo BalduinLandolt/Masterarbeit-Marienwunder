@@ -134,6 +134,28 @@
 [/p]
 [/div]
 
+[div:type=miracle:n=77]
+
+[head]
+[lb=9] Vo{rrot} {fins}(rv;vsup) kalladi abota o{rrot} pislu(m;bar) .
+[/head]
+
+[p]
+
+[lb=10] [hi=3][supplied=omitted]a[/supplied][/hi]boti nock(ur) miok {slong}idlat(ur) {slong}kipadi {slong}em h(an;bar)n
+[lb=11] v(ar) at ko(m;bar)in(n;bar) dauda at ein(n;bar) {slong}i(er) trulynd{rrot}
+[lb=12] m(un;bar)k(ur) {slong}kylldi ge{fins}a {fins}(yrir;isup) h(an;bar)s {slong}{aalig}l nock(ura;ra) {slong}killinga skæ¬
+[lb=13](rr;rscap)a peni(n;bar)ga . h(an;bar)n {fins}ullg(er)ir bod abot(an;nsup)s e(r;er) þ(es;bar)sa {slong}kip(an;nup)
+[lb=14] g(er)di . ge{fins}(an;nsup)di m(ed;ezh) goduilia {fins}atæku(m;bar) m(onnu;bar)m þ(at;bar) e(r;er) þ(es;bar)si -
+[lb=15] heilag(ur) {fins}ad(ir;er) ha{fins}(di;isup) h(onu;bar)m bod(it;tsup) ath g(er)a . En {slong}e(m;bar) þ(es;bar)si tru¬
+[lb=16]lyndi (ok) vitri {rscap}ads_m(adr;ar) ha{fins}(di;isup) alla þ(es;bar)sa hlutti e(r;er) h(an;bar)n
+[lb=17] ha{fins}(di;isup) w(id;isup) tek(it;tsup) veitt (ok) fund(ur) {slong}kipt m(ed;ezh) {fins}atæku(m;bar) m(onnu;bar)m . 
+[lb] [catch]tok[/catch] 
+
+[/p]
+
+[/div]
+
 
 
 
