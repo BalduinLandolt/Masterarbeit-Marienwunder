@@ -542,7 +542,7 @@ class Extractor:
     @classmethod
     def find_all_v_anlaut(cls, data):
         words_all = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_EX)
-        res = [w for w in words_all if w.startswith('v') or w.startswith('w')]
+        res = [w for w in words_all if w.startswith('v') or w.startswith('w') or w.startswith('V') or w.startswith('W')]
         return res
 
     # Call actual extraction
