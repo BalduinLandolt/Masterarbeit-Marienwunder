@@ -21,11 +21,11 @@ data_by_line = read.csv("../tmp_data/data_by_line.csv", encoding = 'UTF-8')
 head(data_by_line)
 abbreviations = read.csv("../tmp_data/abbreviations.csv", encoding = 'UTF-8')
 head(abbreviations)
-abbreviations = read.csv("../tmp_data/v_anlaut.csv", encoding = 'UTF-8')
-head(abbreviations)
+anlaut = read.csv("../tmp_data/v_anlaut.csv", encoding = 'UTF-8')
+head(anlaut)
 
 
 # Sample chi square test
-
+CrossTable(anlaut$letter, anlaut$sample, fisher = TRUE, chisq = TRUE, expected = TRUE, sresid = TRUE, format = "SPSS")
 
 
