@@ -93,8 +93,6 @@
 [lb] [catch]{slong}e(m;bar)[/catch] 
 
 
-# bis hier korrigiert
-
 
 [pb=475]
 
