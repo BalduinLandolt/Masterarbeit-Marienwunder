@@ -9,6 +9,7 @@ from bs4.element import Tag, NavigableString
 import copy
 import nltk
 import csv
+import re
 
 
 class Extractor:
@@ -56,7 +57,7 @@ class Extractor:
         return len(text)
 
     @staticmethod
-    def write_to_csv(file, names, rows):
+    def write_to_csv(file, names, rows, subfolder = ""):
         """Writes data to CSV file.
 
         Writes a given set of data to a local file
@@ -65,12 +66,13 @@ class Extractor:
             file (str): File name
             names (list of str): Column names
             rows (list of list): Rows of data (each row must be a list of same length as `names`)
+            subfolder (str): optional subfolder in output directory
 
         Returns:
             None: None
         """
 
-        path_prefix = "../tmp_data/"
+        path_prefix = "../tmp_data/" + subfolder + "/"
         with open(path_prefix + file, mode='w', encoding='utf-8', newline='') as file:
             w = csv.writer(file)
             w.writerow(names)
@@ -542,7 +544,7 @@ class Extractor:
     @classmethod
     def find_all_v_anlaut(cls, data):
         words_all = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_EX)
-        res = [w for w in words_all if w.startswith('v') or w.startswith('w') or w.startswith('V') or w.startswith('W')]
+        res = [w for w in words_all if re.match("^[vwVW].*", w)]
         return res
 
     # Call actual extraction
