@@ -11,6 +11,9 @@
 
 
     <xsl:template match="/">
+        <xsl:processing-instruction name="xml-model">
+            <xsl:text>href="../../schema/transformed.xsd" schematypens="http://www.w3.org/2001/XMLSchema"</xsl:text>
+        </xsl:processing-instruction>
         <xml>
             <xsl:variable name="stripped">
                 <xsl:apply-templates select="//tei:w | //tei:pc | //tei:pb | //tei:lb" mode="strip"/>
@@ -120,6 +123,7 @@
     <xsl:template match="pb" mode="restructure">
         <xsl:element name="page">
             <xsl:attribute name="n"><xsl:value-of select="@n"/></xsl:attribute>
+            <xsl:attribute name="id">p_<xsl:value-of select="@n"/></xsl:attribute>
             <xsl:variable name="count_pb" select="count(preceding::pb)"/>
             <xsl:for-each select="following::lb[count(preceding::pb) = $count_pb+1]">
                 <xsl:variable name="number" select="@n"/>
@@ -133,6 +137,7 @@
     <xsl:template match="lb" mode="restructure">
         <xsl:element name="line">
             <xsl:attribute name="n"><xsl:value-of select="@n"/></xsl:attribute>
+            <xsl:attribute name="id">p_<xsl:value-of select="count(preceding::pb)"/>_l_<xsl:value-of select="@n"/></xsl:attribute>
             <xsl:variable name="count_lb" select="count(preceding::lb)"/>
             <xsl:for-each select="following::*[count(preceding::lb) = $count_lb+1]">
                 <xsl:variable name="current" select="."/>
