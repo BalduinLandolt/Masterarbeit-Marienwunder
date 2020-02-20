@@ -1,0 +1,61 @@
+[div:type=saga]
+[p]
+
+[pb:n=58r]
+[cb:n=a]
+
+[lb=1] Þa v(ar) kona hv(er) m(anne;esup) gefen at g(ud;dsup){slong} logv(m;bar) b{eogon}de i-heno {fins}o{rrot}¬
+[lb=2]na l{ocurl}gmale ok hino nyia . er h(on;osup) e(r;er) man(n;bar)e {fins}ostod . ok
+[lb=3] {fins}iandin a{fins} þ(vi;none) i-meira e{fins}e(n;dot) v(m;bar) hi(n;bar)gat_bvrd gvd{slong} . {slong} .
+[lb=4] h(an;combcurl) mynde . e{fins} gvd he{fins}de {fins}(ra) þ(e;bar)i{rrot}e meyio lated b(er)az er
+[lb=5] h(on;bar) v(er)e e(igi;isup) man(n;bar)e {fins}o{slong}tod . þ(vi;isup) at h(an;bar) vi{slong}{slong}e þ(at;combcurl) at h(an;bar) mvnde {fins}(ra)
+[lb=6] meyio lata b(er)az . en þ(ess;bar) var h(an;combcurl) ovitande at {slong}o mvnde
+[lb=7] m(anne;esup) {fins}e{slong}t . En þ(at;combcurl) e(r;er) e(igi;isup) vi{slong}t vitat at allar meyiar ha{fins}¬
+[lb=8]e g{rrot}ytt(ar) v(er)ed i-moy{slong}e{slong} logv(m;bar) þo at lavnbo{rrot}n ha{fins}e
+[lb=9] att . En þ(ar) {slong}em {fins}(ra) {slong}eg(ir;er) i-devt(ro;osup)nomio /*fixme: he clearly misspelled that in the ms.*/ þa v(aro;ar) a{fins} ken(n;bar)¬
+[lb=10]m(anna;ra) kyn(n;bar)e . ok {slong}va e(r;er) le{slong}et at hin {slong}{eogon}la mer m(aria;ra) v(ar) a{fins}
+[lb=11] ken(n;bar)_m(anna;ra) kyn(n;bar)e . ok e{fins} h(in;osup) he{fins}de e(igi;isup) {fins}o{slong}tod . v(er)ed . þa
+[lb=12] he{fins}de an{slong}kote allz mankyn{slong} velar_e{fins}ne t(il;isup) {slong}ak(ar)¬
+[lb=13]gi{fins}t(ar) at h(on;osup) v(er)e g{rrot}ytt . En /*?*/ heilog mer m(aria;ra) m(er)kurr
+[lb=14] heila_ga k(ri;isup){slong}tne almen(n;bar)elega e(r;er) b{eogon}de kallaz {fins}e{slong}t(ar)¬
+[lb=15]m{eogon}r . ok k(onun;bar)g{slong} kona . {fins}estar m{eogon}r gvd{slong} v(ar) heilog k(ri;isup){slong}t¬
+[lb=16]ne allt {fins}(ra)man t(il;isup) holgan(ar) d(ro;osup)tten{slong} en b{rrot}vdlau{fins} þ(ei;bar){rrot}a
+[lb=17] v(ar)  g(er)t {fins}(irir;isup) b{rrot}io{slong}te m(ario;osup) . þa e(r;er) {slong}amtengdez gvdomre{nscap} . m(ann;nsup)¬
+[lb=18]domenv(m;bar) . Sva {slong}kyra ok {slong}vmar ritn(in;bar)g(ar) /*seems to be misspelled too*/ at k(ri;isup){slong}t¬
+[lb=19]ne allmen(n;bar)eg er {fins}e{slong}tar mer d(ro;osup)tten{slong} . allt t(il;isup) dom{slong}¬
+[lb=20]dag{slong} . en ieili{fins}u(m;bar) {fins}agnade {slong}e {slong}amga(n;bar)g{rrot} þ(ei;bar){rrot}a g(er){rscap} . (ok)
+[lb=21] e(r;er) {slong}a {slong}{eogon}ll e(r;er) t(il;isup) þ(ess;bar) b{rrot}vdlav{fins}{slong} e(r;er) bodet a-doma_dege /*hyphen/tilda here*/
+[lb=22] [hi:rend=2]þ[/hi]a e(r;er)  hin(n;nleg) dyrliga mer maria v(ar) hei(m;bar) [hi:rend=rubrication] gab(ri;isup)el v(ar) {slong}end{rrot} [/hi]
+# get rubrication in order
+[lb=23] kome(n;bar) i-nazareth /*those don't work as intended yet*/ þa {slong}ende gvd gab(ri;isup)el engel t(il;isup)
+[lb=24] mariv {fins}estar_meyiar io{slong}e{fins}h{slong} . at boda h(enn;bar)e d(ro;osup)tten¬
+[lb=25]legan {fins}agnad . ok getnad . Ok e(r;er) engel ko(m;bar) in(n;bar) i-hv{slong}
+[lb=26] þ(at;combcurl) e(r;er) hin {slong}{eogon}la m(aria;ra) v(ar) ein in(n;bar)e a-b{eogon}n {slong}in(n;bar)e . þa q(va;ra)dde /*sic? is it ra?*/ eng(il;combcurl) .
+[lb=27] h(an;bar)a med{rrot} þ(ess;bar)vm o{rrot}dvm . Av{escap} maria gra(tia;bar) plena d(ominus;us)
+[lb=28] tecu(m;bar) b(ene;n;bar)dicta /*actually, abbreviation not exactly like that*/ tv i(n;bar)-mvlierib(us) þ(et;bar)ta . þydez {slong}va . H¬
+[lb=29]eil ok {slong}{eogon}l m(aria;ra) {fins}vll a{fins} mi{slong}kv(n;bar) d(ro;osup)tten(n;nleg) {slong}e med þer . þv
+[lb=30] e(r;er)t blezvd {fins}(ra)mar oll(u;bar) konv(m;bar) . Hin(n;bar) heilaga m{eogon}r
+[lb=31] m(aria;ra) . e(r;er) h(on;osup) hey{rrot}de q(ve;esup)div engl(sins;combcurl) . þa hr{eogon}dez h(on;osup) {fins}(irir;isup) þ(v;none)i at i
+[lb=32] {ocurl}ngv(m;bar) {slong}pam(anna;ra) bokv(m;bar) . e(dr;er) l{ocurl}gbokv(m;bar) ha{fins}de h(on;osup) le{slong}et þ(vi;isup)li¬
+[lb=33]ka qvediv . t(il;isup) ne ein{slong} m(annz;zsup) m(e;l;bar)a {fins}y{rscap} iamdyrlega {slong}e(m;bar)
+[lb=34] þa var h(on;osup) qvadd . a{fins} g(uds;ssup) engle . Ok e(r;er) engel {slong}a þat a(t;tsup)
+[lb=35] h(on;osup) oadez . þa m(e;l;er) h(an;bar) . Eige {slong}k(alt;combcurl)v hr{eogon}daz maria . {slong} . h(an;bar)
+
+
+[/p]
+[/div]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

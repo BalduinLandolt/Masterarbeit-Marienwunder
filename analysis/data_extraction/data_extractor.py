@@ -625,6 +625,10 @@ class Extractor:
             xml_soup = BeautifulSoup(file, features='lxml')
             xml_soup = Extractor.strip_whitespace(xml_soup)
             Extractor.samples.append(("part_03_vol2_p303ff", xml_soup))
+        with open('../../transcription/transcriptions/transformed/part_04_imposter_transformed.xml', encoding='utf-8') as file:
+            xml_soup = BeautifulSoup(file, features='lxml')
+            xml_soup = Extractor.strip_whitespace(xml_soup)
+            Extractor.samples.append(("part_04_imposter_am232fol", xml_soup))
             # TODO: make this dynamic
 
         cls = Extractor
