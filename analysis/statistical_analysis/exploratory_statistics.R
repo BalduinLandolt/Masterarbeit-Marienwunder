@@ -143,6 +143,8 @@ ggsave("../out/plots/perLine/box_abbreviationsPerLine_bySample.png", plot = plot
 shapiro.test(data_by_line$no_abbreviations)
 shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 0)])
 shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 1)])
+shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 2)])
+shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 3)])
 
 
 
