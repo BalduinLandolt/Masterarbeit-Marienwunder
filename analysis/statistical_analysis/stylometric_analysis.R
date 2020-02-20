@@ -70,6 +70,9 @@ roll = function(text, window_size=100, step_size=20){
    no_steps = floor((max_len - (2 * window_size)) / step_size) + 1 #starting from 1, not 0
    #print(no_steps)
    res = vector()
+   delim_changes = vector()
+   has_delim = vector()
+   in_p2=FALSE
    for (i in 1:no_steps) {
       offset = (i - 1) * step_size + 1
 #      print("offset:")
@@ -86,10 +89,16 @@ roll = function(text, window_size=100, step_size=20){
 #      print("")
       part1 = text[a:b]
       part2 = text[c:d]
+      delim_changes = c(delim_changes, in_p2 && "|" %in% part1)
+      has_delim = c(has_delim, "|" %in% part1 || "|" %in% part2)
+#      if("|" %in% part1){
+#         delim_changes = c(delim_changes, in_p2) # if previousely in p2, now in p1, there is a change
+#      }
+      in_p2 = "|" %in% part2
       delta = compare_windows(part1, part2)
       res = c(res, delta)
    }
-   return(res)
+   return(list(deltas=res,delim_changes=delim_changes,has_delim=has_delim))
 }
 
 compare_windows = function(win1, win2){
@@ -100,6 +109,19 @@ compare_windows = function(win1, win2){
    return(dist_matrix[1,2])
 }
 
+do_rolling_delta = function(...){
+   deltas = roll(...)
+   delta_frame = as.data.frame(deltas$deltas)
+   names(delta_frame) = "val"
+   delta_frame$n = 1:length(deltas$deltas)
+   plot = ggplot(data = delta_frame,aes(x=n, y=val, fill=as.factor(as.numeric(deltas$has_delim)+1)))+
+      geom_bar(stat = "identity", width = 1)+
+      geom_vline(xintercept=which(deltas$delim_changes), color = "red", linetype="dotted", size=1.5)+
+      scale_fill_manual(name="transition", values = c("#1455d9", "#1cad1a"), labels=c("No", "Yes"))+
+      labs(x = "Window", y = "Delta")
+   plot
+}
+
 
 # load data
 
@@ -107,16 +129,8 @@ text_abbr = scan("../tmp_data/stylo/rolling/all_texts_abbr_only.txt", what="char
 text_wholeword = scan("../tmp_data/stylo/rolling/all_texts_whole_word.txt", what="character", sep=" ")
 
 # roll
-deltas = roll(text_abbr)
-delta_frame = as.data.frame(deltas)
-names(delta_frame) = "val"
-delta_frame$n = 1:length(deltas)
-plot = ggplot(data = delta_frame,aes(x=n, y=val))+
-   geom_bar(stat = "identity")
-plot
-plot = ggplot(data = delta_frame,aes(x=n, y=val))+
-   geom_line()
-plot
+do_rolling_delta(text_abbr, window_size=80, step_size=10)
+do_rolling_delta(text_wholeword, window_size=140, step_size=10)
 
 
 
