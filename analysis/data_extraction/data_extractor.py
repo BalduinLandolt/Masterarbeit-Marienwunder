@@ -10,6 +10,7 @@ import copy
 import nltk
 import csv
 import re
+from pathlib import Path
 
 
 class Extractor:
@@ -57,7 +58,7 @@ class Extractor:
         return len(text)
 
     @staticmethod
-    def write_to_csv(file, names, rows, subfolder = ""):
+    def write_to_csv(file, names, rows, subfolder=""):
         """Writes data to CSV file.
 
         Writes a given set of data to a local file
@@ -73,11 +74,19 @@ class Extractor:
         """
 
         path_prefix = "../tmp_data/" + subfolder + "/"
+        Path(path_prefix).mkdir(parents=True, exist_ok=True)
         with open(path_prefix + file, mode='w', encoding='utf-8', newline='') as file:
             w = csv.writer(file)
             w.writerow(names)
             for row in rows:
                 w.writerow(row)
+
+    @staticmethod
+    def write_to_txt(file, data, subfolder=""):
+        path_prefix = "../tmp_data/" + subfolder + "/"
+        Path(path_prefix).mkdir(parents=True, exist_ok=True)
+        with open(path_prefix + file, mode='w', encoding='utf-8', newline='') as file:
+            file.write(data)
 
     @staticmethod
     def get_word_frequencies(words_raw_rep, plot=False, print_no=0):
@@ -547,6 +556,49 @@ class Extractor:
         res = [w for w in words_all if re.match("^[vwVW].*", w)]
         return res
 
+    @classmethod
+    def extract_stylo_text(cls):
+        cls.extract_stylo_text_whole_words()
+        cls.extract_stylo_text_abbr_only()
+        cls.extract_stylo_text_rolling()
+
+    @classmethod
+    def extract_stylo_text_whole_words(cls):
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            words_all = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_ALL)
+            text = ' '.join(words_all)
+            Extractor.write_to_txt(f'{section_name}.txt', text, "stylo/whole_words")
+
+    @classmethod
+    def extract_stylo_text_abbr_only(cls):
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            words_all = cls.get_abbreviations_raw(data)
+            text = ' '.join(words_all)
+            Extractor.write_to_txt(f'{section_name}.txt', text, "stylo/abbr_only")
+
+    @classmethod
+    def extract_stylo_text_rolling(cls):
+        texts = []
+        for section_index, section in enumerate(Extractor.samples):
+            data = section[1]
+            words_all = cls.get_abbreviations_raw(data)
+            text = ' '.join(words_all)
+            texts.append(text)
+        concatinated = ' | '.join(texts)
+        Extractor.write_to_txt('all_texts_abbr_only.txt', concatinated, "stylo/rolling")
+        texts = []
+        for section_index, section in enumerate(Extractor.samples):
+            data = section[1]
+            words_all = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_ALL)
+            text = ' '.join(words_all)
+            texts.append(text)
+        concatinated = ' | '.join(texts)
+        Extractor.write_to_txt('all_texts_whole_word.txt', concatinated, "stylo/rolling")
+
     # Call actual extraction
     # ======================
 
@@ -638,6 +690,8 @@ class Extractor:
         # TODO: include-word-list rather than the following
         Extractor.extract_sem()
         Extractor.extract_v_anlaut()
+
+        Extractor.extract_stylo_text()
 
         # TODO: ...
 
