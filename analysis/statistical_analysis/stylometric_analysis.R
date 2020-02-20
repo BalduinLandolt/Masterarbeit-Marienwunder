@@ -40,7 +40,14 @@ freq_table = make.table.of.frequencies(sample_list, frequ_list_all)
 dist_matrix = dist.cosine(freq_table)
 as.matrix(dist_matrix)
 
-
+# plot graph
+stylo(frequencies = freq_table, 
+      gui = F, 
+      mfw.min=1000, 
+      mfw.max=1000, 
+      distance.measure="dist.cosine", 
+      write.png.file=T, 
+      custom.graph.title="Titel")
 
 
 
