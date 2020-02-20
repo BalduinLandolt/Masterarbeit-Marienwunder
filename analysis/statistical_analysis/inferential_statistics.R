@@ -1,4 +1,4 @@
-# Balduin Landolt, 2019
+# Balduin Landolt, 2019-2020
 # License: AGPL (see file `LICENSE-AGPL` in project root)
 
 
