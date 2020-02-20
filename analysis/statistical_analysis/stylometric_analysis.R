@@ -43,9 +43,6 @@ dist_matrix = dist.cosine(freq_table)
 as.matrix(dist_matrix)
 
 
-mtrx = as.matrix(dist_matrix)
-v = mtrx[1,2]
-class(v)
 
 # plot graph
 stylo(frequencies = freq_table, 
@@ -126,10 +123,12 @@ do_rolling_delta = function(...){
 # load data
 
 text_abbr = scan("../tmp_data/stylo/rolling/all_texts_abbr_only.txt", what="character", sep=" ")
+text_am = scan("../tmp_data/stylo/rolling/all_texts_am_only.txt", what="character", sep=" ")
 text_wholeword = scan("../tmp_data/stylo/rolling/all_texts_whole_word.txt", what="character", sep=" ")
 
 # roll
 do_rolling_delta(text_abbr, window_size=80, step_size=10)
+do_rolling_delta(text_am, window_size=110, step_size=10)
 do_rolling_delta(text_wholeword, window_size=140, step_size=10)
 
 

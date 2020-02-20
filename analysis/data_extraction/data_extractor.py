@@ -400,11 +400,12 @@ class Extractor:
         return frequs
 
     @classmethod
-    def get_abbreviations_raw(cls, soup):
+    def get_abbreviations_raw(cls, soup, type=TYPE_EXTRACT_ALL):
         """
         Get all abbreviations as raw.
 
         Args:
+            type ():
             soup (BeautifulSoup): xml data
 
         Returns:
@@ -414,7 +415,7 @@ class Extractor:
         res = []
         for am in ams:
             tmp = cls.resolve_glyph(am)
-            res.append(cls.extract_abbreviation_contents_as_raw(tmp, cls.TYPE_EXTRACT_ALL))
+            res.append(cls.extract_abbreviation_contents_as_raw(tmp, type))
         return res
 
     @classmethod
@@ -560,6 +561,7 @@ class Extractor:
     def extract_stylo_text(cls):
         cls.extract_stylo_text_whole_words()
         cls.extract_stylo_text_abbr_only()
+        cls.extract_stylo_text_am_only()
         cls.extract_stylo_text_rolling()
 
     @classmethod
@@ -581,6 +583,15 @@ class Extractor:
             Extractor.write_to_txt(f'{section_name}.txt', text, "stylo/abbr_only")
 
     @classmethod
+    def extract_stylo_text_am_only(cls):
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            words_all = cls.get_abbreviations_raw(data, cls.TYPE_EXTRACT_AM)
+            text = ' '.join(words_all)
+            Extractor.write_to_txt(f'{section_name}.txt', text, "stylo/am_only")
+
+    @classmethod
     def extract_stylo_text_rolling(cls):
         texts = []
         for section_index, section in enumerate(Extractor.samples):
@@ -590,6 +601,14 @@ class Extractor:
             texts.append(text)
         concatinated = ' | '.join(texts)
         Extractor.write_to_txt('all_texts_abbr_only.txt', concatinated, "stylo/rolling")
+        texts = []
+        for section_index, section in enumerate(Extractor.samples):
+            data = section[1]
+            words_all = cls.get_abbreviations_raw(data, cls.TYPE_EXTRACT_AM)
+            text = ' '.join(words_all)
+            texts.append(text)
+        concatinated = ' | '.join(texts)
+        Extractor.write_to_txt('all_texts_am_only.txt', concatinated, "stylo/rolling")
         texts = []
         for section_index, section in enumerate(Extractor.samples):
             data = section[1]
