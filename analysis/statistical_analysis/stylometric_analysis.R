@@ -139,3 +139,55 @@ do_rolling_delta(text_wholeword, window_size=140, step_size=10)
 
 
 
+
+
+library(quanteda)
+library(tm)
+
+
+
+
+
+
+
+# Keyness
+# =======
+
+plot_keynes = function(text1, text2){
+   
+   s1 = paste(text1, collapse = " ")
+   s1 = gsub("[()|{}]", "", s1)
+   s1 = gsub(";;", "_", s1)
+   s1 = gsub(";", "_", s1)
+   s2 = paste(text2, collapse = " ")
+   s2 = gsub("[()|{}]", "", s2)
+   s2 = gsub(";;", "_", s2)
+   s2 = gsub(";", "_", s2)
+   corpus = c(s1, s2)
+   dfm = dfm(corpus)
+   keys <- textstat_keyness(dfm)
+   textplot_keyness(keys)
+}
+
+
+plot_keynes(sample_01, sample_02)
+plot_keynes(sample_01, sample_03)
+plot_keynes(sample_01, sample_04)
+plot_keynes(sample_02, sample_03)
+plot_keynes(sample_02, sample_04)
+plot_keynes(sample_03, sample_04)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
