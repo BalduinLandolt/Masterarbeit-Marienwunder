@@ -651,23 +651,61 @@ class Extractor:
             # TODO: make this dynamic
 
         cls = Extractor
-        xml_soup = copy.copy(Extractor.samples[0][1])
-        xml_soup.html.body.append(copy.copy(Extractor.samples[1][1].html.body.xml))
+        xml_soup1 = copy.copy(Extractor.samples[0][1])
+        xml_soup2 = copy.copy(Extractor.samples[1][1])
+        xml_soup3 = copy.copy(Extractor.samples[2][1])
+        xml_soup4 = copy.copy(Extractor.samples[3][1])
+        all_str = f'<xml>{str(copy.copy(xml_soup1.html.body.xml))}\n{str(copy.copy(xml_soup2.html.body.xml))}\n{str(copy.copy(xml_soup3.html.body.xml))}</xml>'
+        xml_soup_am6345_total = BeautifulSoup(all_str, features='lxml')
+      # xml_soup_am6345_total.html.body.append(copy.copy(Extractor.samples[1][1].html.body.xml))
+       # xml_soup_am6345_total.html.body.append(copy.copy(Extractor.samples[2][1].html.body.xml))
 
         # get page count
-        pg_count = Extractor.get_page_count(xml_soup)
-        print('Number of pages: {}'.format(pg_count))
+        pg_count = Extractor.get_page_count(xml_soup1)
+        print('Number of pages in sample 1: {}'.format(pg_count))
+        pg_count = Extractor.get_page_count(xml_soup2)
+        print('Number of pages in sample 2: {}'.format(pg_count))
+        pg_count = Extractor.get_page_count(xml_soup3)
+        print('Number of pages in sample 3: {}'.format(pg_count))
+        pg_count = Extractor.get_page_count(xml_soup_am6345_total)
+        print('Number of pages in sample 1-3: {}'.format(pg_count))
+        pg_count = Extractor.get_page_count(xml_soup4)
+        print('Number of pages in sample 4: {}'.format(pg_count))
 
         # get line count
-        l_count = Extractor.get_line_count(xml_soup)
-        print('Number of lines: {}'.format(l_count))
+        l_count1 = Extractor.get_line_count(xml_soup1)
+        print('Number of lines in sample 1: {}'.format(l_count1))
+        l_count2 = Extractor.get_line_count(xml_soup2)
+        print('Number of lines in sample 2: {}'.format(l_count2))
+        l_count3 = Extractor.get_line_count(xml_soup3)
+        print('Number of lines in sample 3: {}'.format(l_count3))
+        l_counta = Extractor.get_line_count(xml_soup_am6345_total)
+        print('Number of lines in sample 1-3: {}'.format(l_counta))
+        l_count4 = Extractor.get_line_count(xml_soup4)
+        print('Number of lines in sample 4: {}'.format(l_count4))
 
         # get word count
-        w_count = Extractor.get_word_count(xml_soup)
-        print('Number of words: {}'.format(w_count))
+        w_count1 = Extractor.get_word_count(xml_soup1)
+        print('Number of words in sample 1: {}'.format(w_count1))
+        w_count2 = Extractor.get_word_count(xml_soup2)
+        print('Number of words in sample 2: {}'.format(w_count2))
+        w_count3 = Extractor.get_word_count(xml_soup3)
+        print('Number of words in sample 3: {}'.format(w_count3))
+        w_counta = Extractor.get_word_count(xml_soup_am6345_total)
+        print('Number of words in sample 1-3: {}'.format(w_counta))
+        w_count4 = Extractor.get_word_count(xml_soup4)
+        print('Number of words in sample 4: {}'.format(w_count4))
 
         # get average words per line
-        av_words_per_line = w_count / l_count
+        av_words_per_line = w_count1 / l_count1
+        print('Average words per line: {}'.format(av_words_per_line))
+        av_words_per_line = w_count2 / l_count2
+        print('Average words per line: {}'.format(av_words_per_line))
+        av_words_per_line = w_count3 / l_count3
+        print('Average words per line: {}'.format(av_words_per_line))
+        av_words_per_line = w_counta / l_counta
+        print('Average words per line: {}'.format(av_words_per_line))
+        av_words_per_line = w_count4 / l_count4
         print('Average words per line: {}'.format(av_words_per_line))
 
         # get words with minimal raw mark-up
