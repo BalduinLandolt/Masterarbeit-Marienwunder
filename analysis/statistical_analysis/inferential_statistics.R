@@ -34,7 +34,7 @@ CrossTable(anlaut$letter,
            sresid = TRUE, 
            format = "SPSS")
 
-# remove capital 'V', because it causes too small expected frequencies
+# remove capital 'V', because it causes too small expected frequencies, samples 0 and 1
 CrossTable(anlaut$letter[which(anlaut$letter != 'V' & as.numeric(anlaut$sample) < 2)], 
            anlaut$sample[which(anlaut$letter != 'V' & as.numeric(anlaut$sample) < 2)], 
            fisher = TRUE, 
@@ -43,9 +43,9 @@ CrossTable(anlaut$letter[which(anlaut$letter != 'V' & as.numeric(anlaut$sample) 
            sresid = TRUE, 
            format = "SPSS")
 
-# remove capital 'V', because it causes too small expected frequencies
-CrossTable(anlaut$letter[which(anlaut$letter != 'V' & (as.numeric(anlaut$sample) == 0 | as.numeric(anlaut$sample) == 3))], 
-           anlaut$sample[which(anlaut$letter != 'V' & (as.numeric(anlaut$sample) == 0 | as.numeric(anlaut$sample) == 3))], 
+# remove capital 'V', because it causes too small expected frequencies, samples 0 and 3
+CrossTable(anlaut$letter[which(anlaut$letter != 'V' & as.numeric(anlaut$sample) %in% c(0, 3))], 
+           anlaut$sample[which(anlaut$letter != 'V' & as.numeric(anlaut$sample) %in% c(0, 3))], 
            fisher = TRUE, 
            chisq = TRUE, 
            expected = TRUE, 
@@ -60,5 +60,3 @@ CrossTable(anlaut$letter[which(anlaut$letter != 'V')],
            expected = TRUE, 
            sresid = TRUE, 
            format = "SPSS")
-
-
