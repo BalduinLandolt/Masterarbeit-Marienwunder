@@ -483,13 +483,17 @@ class Extractor:
             None: None
         """
         # TODO: could extraction be more generic, and with arguments to specify?
-        field_names = ["sample", "sample_name", "no_pages", "no_lines", "no_words", "no_characters", "no_abbreviations"]
+        field_names = ["sample", "sample_name", "no_pages", "no_lines", "no_words", "no_characters","no_uppercases" , "no_abbreviations"]
         rows = []
         for section_index, section in enumerate(Extractor.samples):
             section_name = section[0]
             data = section[1]
-            row = [section_index, section_name, Extractor.get_page_count(data), Extractor.get_line_count(data),
-                   Extractor.get_word_count(data), Extractor.get_character_count(data),
+            row = [section_index, section_name,
+                   Extractor.get_page_count(data),
+                   Extractor.get_line_count(data),
+                   Extractor.get_word_count(data),
+                   Extractor.get_character_count(data),
+                   Extractor.get_character_count_upper(data),
                    Extractor.get_abbreviation_count(data)]
             rows.append(row)
         Extractor.write_to_csv("page_overview.csv", field_names, rows)

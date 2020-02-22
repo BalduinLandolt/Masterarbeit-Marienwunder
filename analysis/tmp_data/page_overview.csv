@@ -1,5 +1,5 @@
-sample,sample_name,no_pages,no_lines,no_words,no_characters,no_abbreviations
-0,part_01_vol1_p1ff,3,53,485,2452,262
-1,part_02_vol1_p473ff,5,88,782,4372,541
-2,part_03_vol2_p303ff,4,64,554,2969,370
-3,part_04_imposter_am232fol,1,35,342,1727,162
+sample,sample_name,no_pages,no_lines,no_words,no_characters,no_uppercases,no_abbreviations
+0,part_01_vol1_p1ff,3,53,485,2452,25,262
+1,part_02_vol1_p473ff,5,88,782,4372,30,541
+2,part_03_vol2_p303ff,4,64,554,2969,20,370
+3,part_04_imposter_am232fol,1,35,342,1727,11,162
