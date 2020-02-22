@@ -5,7 +5,7 @@ Licensed under GNU AGPL license. See license file in the root of the repository.
 
 from lxml import etree
 from bs4 import BeautifulSoup
-from bs4.element import Tag, NavigableString
+from bs4.element import Tag, NavigableString, ProcessingInstruction
 import copy
 import nltk
 import csv
@@ -56,6 +56,26 @@ class Extractor:
             g.replace_with('^')
         text = tmp.get_text()
         return len(text)
+
+    @classmethod
+    def get_character_count_upper(cls, soup):
+        """Get number of upper case characters in XML.
+
+        Counts all upper case characters in XML data. <g> is *not* considered an upper case character.
+
+        Args:
+            soup (Tag): XML data
+
+        Returns:
+            int: number of characters
+        """
+        tmp = copy.copy(soup)
+        for g in tmp.find_all('g'):
+            g.replace_with('^')
+        text = list(tmp.get_text())
+        uppers = [c for c in text if c.isupper()]
+        print(uppers)
+        return len(uppers)
 
     @staticmethod
     def write_to_csv(file, names, rows, subfolder=""):
@@ -293,6 +313,8 @@ class Extractor:
             if prev_line is None:
                 continue
             # TODO: ensure in transformation, that that doesn't happen (i.e. <wordpart/>) at page beginning
+            if isinstance(prev_line, NavigableString):
+                print(wp)
             words = prev_line.find_all('w')
             s = Extractor.make_raw(wp, Extractor.TYPE_EXTRACT_ALL)
             words[-1].append(s)
@@ -310,11 +332,12 @@ class Extractor:
         Returns:
             BeautifulSoup: input data, without any NavigableString containing only whitespace.
         """
+        xml_soup = xml_soup.html.body.xml.extract()
         for e in xml_soup.descendants:
             if isinstance(e, NavigableString):
                 next = e.next_element
                 if e.isspace():
-                    e.replace_with('')
+                    e.extract()
                 else:
                     e.replace_with(e.replace('\n', ''))
                 e.next_element = next
@@ -655,7 +678,7 @@ class Extractor:
         xml_soup2 = copy.copy(Extractor.samples[1][1])
         xml_soup3 = copy.copy(Extractor.samples[2][1])
         xml_soup4 = copy.copy(Extractor.samples[3][1])
-        all_str = f'<xml>{str(copy.copy(xml_soup1.html.body.xml))}\n{str(copy.copy(xml_soup2.html.body.xml))}\n{str(copy.copy(xml_soup3.html.body.xml))}</xml>'
+        all_str = f'<xml>{str(copy.copy(xml_soup1))}\n{str(copy.copy(xml_soup2))}\n{str(copy.copy(xml_soup3))}</xml>'
         xml_soup_am6345_total = BeautifulSoup(all_str, features='lxml')
       # xml_soup_am6345_total.html.body.append(copy.copy(Extractor.samples[1][1].html.body.xml))
        # xml_soup_am6345_total.html.body.append(copy.copy(Extractor.samples[2][1].html.body.xml))
@@ -708,24 +731,37 @@ class Extractor:
         av_words_per_line = w_count4 / l_count4
         print('Average words per line: {}'.format(av_words_per_line))
 
+        print(f'Sample 0:\n'
+              f'characters: {Extractor.get_character_count(xml_soup1)}\n'
+              f'upper case: {Extractor.get_character_count_upper(xml_soup1)}\n')
+        print(f'Sample 1:\n'
+              f'characters: {Extractor.get_character_count(xml_soup2)}\n'
+              f'upper case: {Extractor.get_character_count_upper(xml_soup2)}\n')
+        print(f'Sample 2:\n'
+              f'characters: {Extractor.get_character_count(xml_soup3)}\n'
+              f'upper case: {Extractor.get_character_count_upper(xml_soup3)}\n')
+        print(f'Sample 3:\n'
+              f'characters: {Extractor.get_character_count(xml_soup4)}\n'
+              f'upper case: {Extractor.get_character_count_upper(xml_soup4)}\n')
+
         # get words with minimal raw mark-up
-        words_raw_rep = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_ALL)
+        words_raw_rep = Extractor.get_words_raw_rep(xml_soup_am6345_total, Extractor.TYPE_EXTRACT_ALL)
         raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep, plot=False, print_no=5)
 
         # get words expansion-only
-        words_raw_rep_ex_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_EX)
+        words_raw_rep_ex_only = Extractor.get_words_raw_rep(xml_soup_am6345_total, Extractor.TYPE_EXTRACT_EX)
 
         # get words abbreviation-only
-        words_raw_rep_am_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_AM)
+        words_raw_rep_am_only = Extractor.get_words_raw_rep(xml_soup_am6345_total, Extractor.TYPE_EXTRACT_AM)
 
-        abbreviation_marks = Extractor.get_abbreviation_marks_raw(xml_soup)
-        abbreviation_mark_frequencies = Extractor.get_abbreviation_mark_frequencies(xml_soup)
+        abbreviation_marks = Extractor.get_abbreviation_marks_raw(xml_soup_am6345_total)
+        abbreviation_mark_frequencies = Extractor.get_abbreviation_mark_frequencies(xml_soup_am6345_total)
 
-        expansions = Extractor.get_expansions_raw(xml_soup)
-        expansion_frequencies = Extractor.get_expansion_frequencies(xml_soup)
+        expansions = Extractor.get_expansions_raw(xml_soup_am6345_total)
+        expansion_frequencies = Extractor.get_expansion_frequencies(xml_soup_am6345_total)
 
-        abbreviations = Extractor.get_abbreviations_raw(xml_soup)
-        abbreviation_frequencies = Extractor.get_abbreviation_frequencies(xml_soup)
+        abbreviations = Extractor.get_abbreviations_raw(xml_soup_am6345_total)
+        abbreviation_frequencies = Extractor.get_abbreviation_frequencies(xml_soup_am6345_total)
 
         # Data export to CSV
         # ------------------
