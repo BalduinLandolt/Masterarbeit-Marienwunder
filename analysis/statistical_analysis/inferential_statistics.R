@@ -25,6 +25,18 @@ anlaut = read.csv("../tmp_data/v_anlaut.csv", encoding = 'UTF-8')
 head(anlaut)
 
 
+
+# upper cases
+
+table = cbind("uppers"=page_overview$no_uppercases, "lowers"=page_overview$no_characters - page_overview$no_uppercases)
+CrossTable(table, 
+           fisher = TRUE, 
+           chisq = TRUE, 
+           expected = TRUE, 
+           sresid = TRUE, 
+           format = "SPSS")
+
+
 # Sample chi square test
 CrossTable(anlaut$letter, 
            anlaut$sample, 
@@ -60,3 +72,61 @@ CrossTable(anlaut$letter[which(anlaut$letter != 'V')],
            expected = TRUE, 
            sresid = TRUE, 
            format = "SPSS")
+
+
+
+
+
+
+
+# abbreviations
+# -------------
+
+options = c("n")
+CrossTable(abbreviations$am[which(abbreviations$ex %in% options)], 
+           abbreviations$sample[which(abbreviations$ex %in% options)], 
+           fisher = TRUE, 
+           chisq = TRUE, 
+           expected = TRUE, 
+           sresid = TRUE, 
+           format = "SPSS")
+
+
+options = c("uds")
+CrossTable(abbreviations$am[which(abbreviations$ex %in% options)], 
+           abbreviations$sample[which(abbreviations$ex %in% options)], 
+           fisher = TRUE, 
+           chisq = TRUE, 
+           expected = TRUE, 
+           sresid = TRUE, 
+           format = "SPSS")
+
+
+options = c("u", "us", "ud", "uds")
+CrossTable(abbreviations$am[which(abbreviations$ex %in% options)], 
+           abbreviations$sample[which(abbreviations$ex %in% options)], 
+           fisher = TRUE, 
+           chisq = TRUE, 
+           expected = TRUE, 
+           sresid = TRUE, 
+           format = "SPSS")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,6 +10,7 @@ getwd()
 
 # load package
 library(ggplot2)
+library(psych)
 #library(reshape2) #unused?
 #library(cowplot)
 
@@ -48,6 +49,8 @@ data_by_line = read.csv("../tmp_data/data_by_line.csv", encoding = 'UTF-8')
 head(data_by_line)
 abbreviations = read.csv("../tmp_data/abbreviations.csv", encoding = 'UTF-8')
 head(abbreviations)
+v_anlaut = read.csv("../tmp_data/v_anlaut.csv", encoding = 'UTF-8')
+head(v_anlaut)
 
 
 page_overview$s_fact = as.factor(page_overview$sample)
@@ -58,6 +61,20 @@ page_overview$abbreviations_per_1000chars = page_overview$no_abbreviations/page_
 page_overview$lines_per_page = page_overview$no_lines/page_overview$no_pages
 page_overview$chars_per_page = page_overview$no_characters/page_overview$no_pages
 page_overview$chars_per_line = page_overview$no_characters/page_overview$no_lines
+
+
+# test normality
+
+describe(data_by_line)
+by(data_by_line, data_by_line$sample, describe)
+
+shapiro.test(data_by_line$no_words)
+by(data_by_line$no_words, data_by_line$sample, shapiro.test)
+shapiro.test(data_by_line$no_characters)
+by(data_by_line$no_characters, data_by_line$sample, shapiro.test)
+shapiro.test(data_by_line$no_abbreviations)
+by(data_by_line$no_abbreviations, data_by_line$sample, shapiro.test)
+
 
 
 #TODO: delete old plots?
@@ -78,6 +95,9 @@ if (!dir.exists("../out/plots/abbreviations/forEach")){
 # NB: to be sure the time stamp of the output plots is correct, make sure to delete all previously existing plots
 
 
+
+
+
 # plot words per line
 plot = ggplot(data_by_line, aes(no_words)) + 
   geom_bar(fill="#303030", width = 0.7)+
@@ -91,6 +111,18 @@ plot = ggplot(data_by_line, aes(no_words, fill=factor(sample))) +
   labs(x = "Words per Line", y = "Count")+
   scale_fill_discrete(name = "Sample", labels = levels(data_by_line$sample_name))
 ggsave("../out/plots/perLine/bar_wordsPerLine_bySample_stack.png", plot = plot)
+
+# not working correctly
+#plot = ggplot(data_by_line, aes(no_words, fill=factor(sample))) + 
+#  geom_bar(width = 0.7)+
+#  scale_x_continuous(breaks=0:max(data_by_line$no_words))+
+#  labs(x = "Words per Line", y = "Count")+
+#  scale_fill_discrete(name = "Sample", labels = levels(data_by_line$sample_name))+
+#  stat_function(fun = dnorm, args = list(mean=mean(data_by_line$no_words), sd=sd(data_by_line$no_words)), color="black", size = 1, aes(x=data_by_line$no_words))
+#ggsave("../out/plots/perLine/bar_wordsPerLine_bySample_stack_with_norm.png", plot = plot,width = 7, height = 7)
+#ggplot(data_by_line, aes(no_words, fill=factor(sample)))+ 
+#  geom_histogram(aes(y=..density..))+
+#  stat_function(fun = dnorm, args = list(mean=mean(data_by_line$no_words), sd=sd(data_by_line$no_words)), color="black", size = 1, aes(x=data_by_line$no_words,y=data_by_line$no_words+1))
 
 plot = ggplot(data_by_line, aes(no_words, fill=factor(sample))) + 
   geom_bar(position = position_dodge2(preserve = "single"), width = 0.9)+
@@ -106,21 +138,66 @@ plot = ggplot(data_by_line, aes(y=data_by_line$no_words, x=factor(data_by_line$s
 ggsave("../out/plots/perLine/box_wordsPerLine_bySample.png", plot = plot)
 
 
+
+
+
 # TODO: ab hier schön machen
 
 
 # plot characters per line
-plot = qplot(data_by_line$no_characters, geom="histogram", fill=factor(data_by_line$sample))
-ggsave("../out/plots/perLine/hist_charactersPerLine_bySample_stack.png", plot = plot)
+plot = ggplot(data_by_line, aes(no_characters)) + 
+  geom_bar(fill="#303030", width = 0.7)+
+  labs(x = "Characters per Line", y = "Count")
+ggsave("../out/plots/perLine/bar_charPerLine.png", plot = plot)
 
-plot = ggplot(data_by_line, aes(data_by_line$no_characters, fill=factor(data_by_line$sample))) + geom_histogram(position = "dodge")
-ggsave("../out/plots/perLine/hist_charactersPerLine_bySample_dodge.png", plot = plot)
+plot = ggplot(data_by_line, aes(no_characters, fill=factor(sample))) + 
+  geom_bar(width = 0.7)+
+  labs(x = "Characters per Line", y = "Count")+
+  scale_fill_discrete(name = "Sample", labels = levels(data_by_line$sample_name))
+ggsave("../out/plots/perLine/bar_CharsPerLine_bySample_stack.png", plot = plot)
 
-plot = ggplot(data_by_line, aes(y=data_by_line$no_characters, x=factor(data_by_line$sample))) + geom_boxplot()
-ggsave("../out/plots/perLine/box_charactersPerLine_bySample.png", plot = plot)
+plot = ggplot(data_by_line, aes(no_characters, fill=factor(sample))) + 
+  geom_bar(position = position_dodge2(preserve = "single"), width = 0.9)+
+  labs(x = "Characters per Line", y = "Count")+
+  scale_fill_discrete(name = "Sample", labels = levels(data_by_line$sample_name))
+ggsave("../out/plots/perLine/bar_charsPerLine_bySample_dodge.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(y=data_by_line$no_characters, x=factor(data_by_line$sample))) + 
+  geom_boxplot()+
+  scale_x_discrete(labels=levels(data_by_line$sample_name))+
+  labs(y = "Characters per Line", x = "Sample")
+ggsave("../out/plots/perLine/box_charsPerLine_bySample.png", plot = plot, width = 7, height = 5)
+
+
 
 
 # plot abbreviations per line
+
+
+plot = ggplot(data_by_line, aes(no_abbreviations)) + 
+  geom_bar(fill="#303030", width = 0.7)+
+  labs(x = "Abbreviation per Line", y = "Count")
+ggsave("../out/plots/perLine/bar_abbPerLine.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(no_abbreviations, fill=factor(sample))) + 
+  geom_bar(width = 0.7)+
+  labs(x = "Abbreviation per Line", y = "Count")+
+  scale_fill_discrete(name = "Sample", labels = levels(data_by_line$sample_name))
+ggsave("../out/plots/perLine/bar_abbPerLine_bySample_stack.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(no_abbreviations, fill=factor(sample))) + 
+  geom_bar(position = position_dodge2(preserve = "single"), width = 0.9)+
+  labs(x = "Abbreviation per Line", y = "Count")+
+  scale_fill_discrete(name = "Sample", labels = levels(data_by_line$sample_name))
+ggsave("../out/plots/perLine/bar_abbPerLine_bySample_dodge.png", plot = plot)
+
+plot = ggplot(data_by_line, aes(y=data_by_line$no_abbreviations, x=factor(data_by_line$sample))) + 
+  geom_boxplot()+
+  scale_x_discrete(labels=levels(data_by_line$sample_name))+
+  labs(y = "Abbreviation per Line", x = "Sample")
+ggsave("../out/plots/perLine/box_abbPerLine_bySample.png", plot = plot)
+
+
 plot = qplot(data_by_line$no_abbreviations, geom="histogram", fill=factor(data_by_line$sample))
 ggsave("../out/plots/perLine/hist_abbreviationsPerLine_bySample_stack.png", plot = plot)
 
@@ -145,6 +222,49 @@ shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 0)])
 shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 1)])
 shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 2)])
 shapiro.test(data_by_line$no_abbreviations[which(data_by_line$sample == 3)])
+
+
+
+
+
+
+
+# upper case chars 
+plot = ggplot(page_overview, aes(y = page_overview$no_uppercases/page_overview$no_characters, x = page_overview$sample)) + 
+  geom_bar(stat="identity", width = .6)+
+  ggtitle("Capital Letters")+
+  labs(x = "Sample", y = "Capital letter per Character")
+ggsave("../out/plots/perLine/bar_uppers_per_char.png", plot = plot)
+
+
+
+
+
+# v anlaut
+
+anl = data.frame(table(v_anlaut$sample, v_anlaut$letter, dnn = c("sample", "letter")))
+anl$sample = as.numeric(anl$sample)
+vect = vector()
+for (r in 1: nrow(anl)){
+  sample = anl$sample[r]
+  sum = sum(anl$Freq[which(anl$sample == sample)])
+  print(sum)
+  val = anl$Freq[r]/sum
+  vect = c(vect, val)
+}
+anl$sample = as.factor(anl$sample)
+anl$rel_freq = vect
+#anl_sample_frequ = data.frame("sample"=levels(as.factor(anl$sample)))
+#anl_sample_frequ$total_freq = lapply()
+#anl$freq_rel = anl$Freq/
+plot = ggplot(anl, aes(y = rel_freq, x = letter, fill=sample)) + 
+  geom_bar(stat="identity", position = "dodge", width = .6)+
+  labs(x = "Letter", y = "Relative Frequency")+
+  scale_fill_discrete(name = "Sample", labels = levels(data_by_line$sample_name))
+ggsave("../out/plots/perLine/bar_bar_v_anlaut.png", plot = plot, height = 5, width = 7)
+
+
+
 
 
 
@@ -188,8 +308,10 @@ for (val in sub_frame_am){
   plot = ggplot(ex_count, aes(ex_count$ex, ex_count$Freq_normalized, fill=ex_count$sample))
   plot = plot + geom_bar(position = position_dodge(width = 1), stat = "identity")
   plot = plot + geom_text(aes(label=ex_count$Freq), vjust=-0.3, size=3.5, check_overlap = TRUE, position = position_dodge(width = 1))
-  plot = plot + ggtitle(paste("AM: ", levels(fr$am)))
-  ggsave(paste("../out/plots/abbreviations/forEach/am_",levels(fr$am),".png", sep = ""), plot = plot)
+  plot = plot + ggtitle(paste("Abbreviation Mark: ", levels(fr$am)))+
+    labs(x = "Feature", y = "Relative Frequency")+
+    scale_fill_discrete(name = "Sample", labels = levels(abbreviations$sample_name))
+  ggsave(paste("../out/plots/abbreviations/forEach/am_",levels(fr$am),".png", sep = ""), plot = plot, width = 7, height = 5)
 }
 
 sub_frame_ex = as.vector(lapply(levels(abbreviations$ex), get_subframe_ex))
@@ -201,8 +323,10 @@ for (val in sub_frame_ex){
   plot = ggplot(am_count, aes(am_count$am, am_count$Freq_normalized, fill=am_count$sample))
   plot = plot + geom_bar(position = position_dodge(width = 1), stat = "identity")
   plot = plot + geom_text(aes(label=am_count$Freq), vjust=-0.3, size=3.5, check_overlap = TRUE, position = position_dodge(width = 1))
-  plot = plot + ggtitle(paste("EX: ", levels(fr$ex)))
-  ggsave(paste("../out/plots/abbreviations/forEach/ex_",levels(fr$ex),".png", sep = ""), plot = plot)
+  plot = plot + ggtitle(paste("Expansion: ", levels(fr$ex)))+
+    labs(x = "Feature", y = "Relative Frequency")+
+    scale_fill_discrete(name = "Sample", labels = levels(abbreviations$sample_name))
+  ggsave(paste("../out/plots/abbreviations/forEach/ex_",levels(fr$ex),".png", sep = ""), plot = plot, width = 7, height = 5)
 }
 
 

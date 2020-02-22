@@ -20,6 +20,16 @@ library(ggplot2)
 #oppose()
 
 
+
+
+
+
+
+
+# Delta with Abbr only
+# --------------------
+
+
 # load samples
 sample_01 = scan("../tmp_data/stylo/abbr_only/part_01_vol1_p1ff.txt", what="character", sep=" ")
 sample_02 = scan("../tmp_data/stylo/abbr_only/part_02_vol1_p473ff.txt", what="character", sep=" ")
@@ -51,7 +61,105 @@ stylo(frequencies = freq_table,
       mfw.max=1000, 
       distance.measure="dist.cosine", 
       write.png.file=T, 
-      custom.graph.title="Titel")
+      custom.graph.title="Abbreviations Only",
+      write.png.file=TRUE)
+
+
+
+
+
+
+
+
+# Delta with am only
+# --------------------
+
+
+# load samples
+sample_01 = scan("../tmp_data/stylo/am_only/part_01_vol1_p1ff.txt", what="character", sep=" ")
+sample_02 = scan("../tmp_data/stylo/am_only/part_02_vol1_p473ff.txt", what="character", sep=" ")
+sample_03 = scan("../tmp_data/stylo/am_only/part_03_vol2_p303ff.txt", what="character", sep=" ")
+sample_04 = scan("../tmp_data/stylo/am_only/part_04_imposter_am232fol.txt", what="character", sep=" ")
+
+# make sample list
+sample_list = list(sample_01, sample_02, sample_03, sample_04)
+names(sample_list) = c("sample_01", "sample_02", "sample_03", "imposter")
+
+# test: run stylo on sample list (props GUI)
+#stylo(parsed.corpus = sample_list)
+
+# create frequency list and table
+frequ_list_all = make.frequency.list(sample_list)
+freq_table = make.table.of.frequencies(sample_list, frequ_list_all)
+
+
+# calculate distance matrix
+dist_matrix = dist.cosine(freq_table)
+as.matrix(dist_matrix)
+
+
+
+# plot graph
+stylo(frequencies = freq_table, 
+      gui = F, 
+      mfw.min=1000, 
+      mfw.max=1000, 
+      distance.measure="dist.cosine", 
+      write.png.file=T, 
+      custom.graph.title="Abbreviation Marks Only",
+      write.png.file=TRUE)
+
+
+
+
+
+
+
+
+# Delta with whole word
+# ---------------------
+
+# load samples
+sample_01 = scan("../tmp_data/stylo/whole_words/part_01_vol1_p1ff.txt", what="character", sep=" ")
+sample_02 = scan("../tmp_data/stylo/whole_words/part_02_vol1_p473ff.txt", what="character", sep=" ")
+sample_03 = scan("../tmp_data/stylo/whole_words/part_03_vol2_p303ff.txt", what="character", sep=" ")
+sample_04 = scan("../tmp_data/stylo/whole_words/part_04_imposter_am232fol.txt", what="character", sep=" ")
+
+# make sample list
+sample_list = list(sample_01, sample_02, sample_03, sample_04)
+names(sample_list) = c("sample_01", "sample_02", "sample_03", "imposter")
+
+# test: run stylo on sample list (props GUI)
+#stylo(parsed.corpus = sample_list)
+
+# create frequency list and table
+frequ_list_all = make.frequency.list(sample_list)
+freq_table = make.table.of.frequencies(sample_list, frequ_list_all)
+
+
+# calculate distance matrix
+dist_matrix = dist.cosine(freq_table)
+as.matrix(dist_matrix)
+
+
+
+# plot graphs
+stylo(frequencies = freq_table, 
+      gui = F, 
+      mfw.min=1000, 
+      mfw.max=1000, 
+      distance.measure="dist.cosine", 
+      write.png.file=T, 
+      custom.graph.title="Whole Words",
+      write.png.file=TRUE)
+stylo(frequencies = freq_table, 
+      gui = F, 
+      mfw.min=10000, 
+      mfw.max=10000, 
+      distance.measure="dist.cosine", 
+      write.png.file=T, 
+      custom.graph.title="Whole Words",
+      write.png.file=TRUE)
 
 
 
@@ -116,7 +224,7 @@ do_rolling_delta = function(...){
       geom_vline(xintercept=which(deltas$delim_changes), color = "red", linetype="dotted", size=1.5)+
       scale_fill_manual(name="transition", values = c("#1455d9", "#1cad1a"), labels=c("No", "Yes"))+
       labs(x = "Window", y = "Delta")
-   plot
+   return(plot)
 }
 
 
@@ -127,9 +235,23 @@ text_am = scan("../tmp_data/stylo/rolling/all_texts_am_only.txt", what="characte
 text_wholeword = scan("../tmp_data/stylo/rolling/all_texts_whole_word.txt", what="character", sep=" ")
 
 # roll
-do_rolling_delta(text_abbr, window_size=80, step_size=10)
-do_rolling_delta(text_am, window_size=110, step_size=10)
-do_rolling_delta(text_wholeword, window_size=140, step_size=10)
+plot = do_rolling_delta(text_abbr, window_size=100, step_size=5)
+plot = plot + labs(title = "Rolling Delta",
+                   subtitle = "Abbreviations",
+                   caption = "Window Size: 100\nStep Size: 5")
+ggsave("../out/plots/rolling_abbr.png", plot = plot)
+
+plot = do_rolling_delta(text_am, window_size=100, step_size=5)
+plot = plot + labs(title = "Rolling Delta",
+                   subtitle = "Abbreviation Marks",
+                   caption = "Window Size: 100\nStep Size: 5")
+ggsave("../out/plots/rolling_am.png", plot = plot)
+
+plot = do_rolling_delta(text_wholeword, window_size=150, step_size=5)
+plot = plot + labs(title = "Rolling Delta",
+                   subtitle = "Whole Words",
+                   caption = "Window Size: 150\nStep Size: 5")
+ggsave("../out/plots/rolling_word.png", plot = plot)
 
 
 
