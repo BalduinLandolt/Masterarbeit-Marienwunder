@@ -4,3 +4,8 @@
 # R Studio stuff
 .RData
 .Rhistory
+
+# Stylo output
+*.png
+*.csv
+*.txt

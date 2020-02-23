@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href='../schema/tei-onmm.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
+<?xml-model href='../schema/restrict.xsd' type='application/xml' schematypens='http://www.w3.org/2001/XMLSchema'?>
+<?xml-stylesheet href='style.css' type='text/css'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Title]</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>[Publication Statement]</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>[Publication Statement]</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>[source description]</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <!-- Unger 3, 694f.-->
+      <div type="miracle" n="154">
+        <p>
+
+
+ <pb n="303" />
+   <lb n="1" />
+          <w>gd<choice><abbr><am><g ref="#tsup" /></am></abbr><expan><ex>it</ex></expan></choice></w>
+          <w><g ref="#slong" />u<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>d</w>
+          <pc>.</pc>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w><g ref="#slong" />ag<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>di</ex></expan></choice></w>
+          <w>t<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>il</ex></expan></choice></w>
+          <w>min</w>
+          <pc>.</pc>
+          <w>E<g ref="#fins" /></w>
+          <w>þu</w>
+          <w>villt</w>
+          <w>e<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>igi</ex></expan></choice></w>
+          <w>hlyda</w>
+   <lb n="2" />
+          <w>þ<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>ui</ex></expan></choice></w>
+          <w><g ref="#slong" /><choice><abbr>m<am><g ref="#bar" /></am></abbr><expan><ex>e</ex>m</expan></choice></w>
+          <w>m<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>adr</ex></expan></choice></w>
+          <w>byd<g ref="#rrot" /></w>
+          <w>þi<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice></w>
+          <pc>.</pc>
+          <w><g ref="#slong" />k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>al</ex></expan></choice>tu</w>
+          <w><g ref="#slong" />kiotliga</w>
+          <w>deyia</w>
+          <w>m<choice><abbr><am><g ref="#ezh" /></am></abbr><expan><ex>ed</ex></expan></choice></w>
+   <lb n="3" />
+          <w>ollu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w>þinv<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>ept<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>e</ex></expan></choice>tta</w>
+          <w><g ref="#fins" />o<g ref="#rrot" /></w>
+          <name type="person">
+            <w>attila</w>
+          </name>
+          <w>b<choice><abbr><am><g ref="#rsup" /></am></abbr><expan><ex>ro</ex></expan></choice>tt</w>
+   <lb n="4" />
+          <w>a<g ref="#fins" /></w>
+          <name type="place">
+            <w>Jtalia</w>
+          </name>
+          <pc>.</pc>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>ley<g ref="#slong" />ti</w>
+          <w>alla</w>
+          <w>h<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>tekna</w>
+          <w>m<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>enn</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>þa</w>
+          <w><g ref="#slong" /><choice><abbr>m<am><g ref="#bar" /></am></abbr><expan><ex>e</ex>m</expan></choice></w>
+   <lb n="5" />
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w>hellt</w>
+          <w>ad<g ref="#rrot" /></w>
+          <w>j</w>
+          <w>bondvm</w>
+          <pc>.</pc>
+        </p>
+      </div>
+      <!-- Unger 4, 1030-->
+      <div type="miracle" n="155">
+   <lb n="6" />
+        <head>
+          <w>hv<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice><g ref="#slong" />u</w>
+          <w>t<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>il</ex></expan></choice></w>
+          <w>ko<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w><choice><abbr><am><g ref="#condes" /></am></abbr><expan><ex>con</ex></expan></choice>cep<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>t</ex></expan></choice>io</w>
+          <pc>.</pc>
+        </head>
+        <p>
+   <lb n="7" />
+          <hi rend="2">
+            <supplied reason="omitted">
+              <w>A</w>
+            </supplied>
+          </hi>
+          <w>Þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice>m</w>
+          <w>tima</w>
+          <w><g ref="#slong" /><choice><abbr><am><g ref="#e" /></am></abbr><expan><ex>e</ex></expan></choice>m<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex /></expan></choice></w>
+          <name type="person">
+            <w>vilhialm<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+            <w>ba<g ref="#slong" />t<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>d<g ref="#rrot" /></w>
+          </name>
+          <w>h<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice><lb n="8" />tugi</w>
+          <name type="place">
+            <w>no<g ref="#rrot" />man<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice>ie</w>
+          </name>
+          <w>lagdi</w>
+          <w>vnd<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>s<choice><abbr><am><g ref="#csup" /></am></abbr><expan><ex>ik</ex></expan></choice></w>
+          <name type="place">
+            <w>engl<choice><abbr>d<am><g ref="#combcurl" /></am></abbr><expan><ex>an</ex>d</expan></choice></w>
+          </name>
+   <lb n="9" />
+          <w>v<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w><g ref="#slong" />a</w>
+          <w>aboti</w>
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <name type="person">
+            <w>elphin<choice><abbr><am><g ref="#us" /></am></abbr><expan><ex>us</ex></expan></choice></w>
+          </name>
+          <w>het</w>
+          <pc>.</pc>
+          <w>j</w>
+          <w>k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ir</ex></expan></choice>kiu</w>
+          <w>heilags</w>
+          <name type="person">
+            <w>aug<choice><abbr><am><g ref="#us" /></am></abbr><expan><ex>us</ex></expan></choice><lb n="10" />tini</w>
+          </name>
+          <w>b<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>isku</ex></expan></choice>ps</w>
+          <w><g ref="#aalig" /></w>
+          <name type="place">
+            <w>engl<choice><abbr>d<am><g ref="#combcurl" /></am></abbr><expan><ex>an</ex>d</expan></choice></w>
+          </name>
+          <w>i</w>
+          <w>j</w>
+          <w>hu<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice><g ref="#rrot" />i</w>
+          <w><g ref="#slong" />ial<g ref="#fins" /><choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>s</w>
+          <w>ept<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice><lb n="11" />kom<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>en</ex></expan></choice>d<g ref="#rrot" /></w>
+          <w>b<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>isku</ex></expan></choice>p<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>n<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>huila</w>
+          <pc>.</pc>
+          <w>S<choice><abbr>m<am><g ref="#bar" /></am></abbr><expan><ex>e</ex>m</expan></choice></w>
+          <name type="org">
+            <w>dan<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          </name>
+          <w>hey<choice><abbr><am><g ref="#ra" /></am></abbr><expan><ex>ra</ex></expan></choice></w>
+          <w>at</w>
+          <name type="place">
+            <w>engl<choice><abbr>d<am><g ref="#combcurl" /></am></abbr><expan><ex>an</ex>d</expan></choice></w>
+          </name>
+   <lb n="12" />
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <w>vn<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice>it</w>
+          <w>a<g ref="#fins" /></w>
+          <name type="org">
+            <w>no<g ref="#rrot" />man<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice>is</w>
+          </name>
+          <pc>.</pc>
+          <!--fixme: should be colon, not dot-->
+          <w>bua</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /></w>
+          <w><g ref="#slong" />in</w>
+          <w>vopn</w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice><g ref="#slong" />k<lb n="13" />ap</w>
+          <w>at</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /></w>
+          <w><g ref="#fins" /><choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>i</w>
+          <w>t<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>il</ex></expan></choice></w>
+          <name type="place">
+            <w>engl<choice><abbr>d<am><g ref="#combcurl" /></am></abbr><expan><ex>an</ex>d</expan></choice><g ref="#ezh" /></w>
+          </name>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w><g ref="#rscap" />æki</w>
+          <w>þa</w>
+          <w><g ref="#aalig" /></w>
+          <w>b<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>ro</ex></expan></choice>tt</w>
+          <pc>.</pc>
+          <w>En<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+   <lb n="14" />
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <w>hin<choice><abbr><am><g ref="#nleg" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>mattuga<g ref="#ezh" />ti</w>
+          <w>no<g ref="#rrot" />dm<choice><abbr><am><g ref="#asup" /></am></abbr><expan><ex>anna</ex></expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>tugi</w>
+          <name type="person">
+            <w>vilhjalm<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          </name>
+   <lb n="15" />
+          <w>hey<g ref="#rrot" /><choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>at</ex></expan></choice></w>
+          <pc>.</pc>
+          <w><g ref="#slong" />end<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w><g ref="#fins" />y<g ref="#rscap" /><g ref="#slong" />agd<choice><abbr><am><g ref="#nsup" /></am></abbr><expan><ex>an</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>abota</w>
+          <name type="person">
+            <w>elphinu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          </name>
+          <w>j</w>
+   <lb n="16" />
+          <name type="place">
+            <w>danm<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>or</ex></expan></choice>k</w>
+          </name>
+          <w>at</w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w><g ref="#fins" />o<g ref="#rrot" />vitnad<choice><abbr><am><g ref="#zsup" /></am></abbr><expan><ex>i<g ref="#ezh" />t</ex></expan></choice></w>
+          <w>hu<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>or</ex></expan></choice>t</w>
+          <w><g ref="#slong" />aun<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>v<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ær</ex></expan></choice>i</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>es</ex></expan></choice>si</w>
+   <lb />
+          <w><fw type="catch">h<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice><g ref="#slong" />aga</fw>
+
+ <pb n="304" /><lb n="1" /></w>
+          <w>h<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice><g ref="#slong" />aga</w>
+          <pc>.</pc>
+          <w>Abotin<choice><abbr><am><g ref="#nleg" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>kem<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w>nu</w>
+          <w>j</w>
+          <name type="place">
+            <w>danm<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>or</ex></expan></choice>k</w>
+          </name>
+          <w>at</w>
+          <w>g<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>a</w>
+          <w>k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>onun</ex></expan></choice>g<g ref="#slong" />ins</w>
+   <lb n="2" />
+          <w>ey<g ref="#rrot" />indi</w>
+          <pc>.</pc>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w><g ref="#fins" />ær<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>dana</w>
+          <w>k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>onun</ex></expan></choice>gi</w>
+          <w>þær</w>
+          <w>gia<g ref="#fins" /><choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <name type="person">
+            <w>vilhialm<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          </name>
+   <lb n="3" />
+          <w>k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>onun</ex></expan></choice>g<g ref="#rrot" /></w>
+          <w><g ref="#slong" />endi</w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>onu</ex></expan></choice>m</w>
+          <pc>.</pc>
+          <w>S<choice><abbr>m<am><g ref="#bar" /></am></abbr><expan><ex>e</ex>m</expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w>he<g ref="#fins" /><choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>langan<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>tima</w>
+          <w>þ<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>v<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>it</w>
+   <lb n="4" />
+          <w>þigg<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w>heim</w>
+          <w>ley<g ref="#fins" />i</w>
+          <w>a<g ref="#fins" /></w>
+          <w>k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>onun</ex></expan></choice>ginu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <pc>.</pc>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w><g ref="#slong" />tig<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w><g ref="#aalig" /></w>
+          <w><g ref="#slong" />kip</w>
+   <lb n="5" />
+          <w>m<choice><abbr><am><g ref="#ezh" /></am></abbr><expan><ex>ed</ex></expan></choice></w>
+          <w><g ref="#slong" />inu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w>kompanu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>þa</w>
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /></w>
+          <w>v<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>our</ex></expan></choice></w>
+          <w>komn<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>miok</w>
+          <w>la<lb n="6" />ngt</w>
+          <w>j</w>
+          <w>ha<g ref="#fins" /></w>
+          <pc>.</pc>
+          <w>kem<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w>at</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice>m</w>
+          <w>s<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>uo</ex></expan></choice></w>
+          <w>m<choice><abbr><am><g ref="#csup" /></am></abbr><expan><ex>ik</ex></expan></choice>ill</w>
+          <w><g ref="#slong" />to<g ref="#rrot" />m<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w>at</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /></w>
+   <lb n="7" />
+          <w><g ref="#slong" />ia</w>
+          <w>s<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice></w>
+          <w>enga</w>
+          <w>von</w>
+          <w>li<g ref="#fins" />s</w>
+          <pc>.</pc>
+          <w>j</w>
+          <w>þ<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>ui</ex></expan></choice>liku<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w>ha<g ref="#slong" />ka</w>
+          <pc>.</pc>
+          <w><g ref="#slong" />n<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>u<g ref="#ezh" />t</w>
+   <lb n="8" />
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /></w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>a</ex></expan></choice>ng<choice><abbr><am><g ref="#tsup" /></am></abbr><expan><ex>at</ex></expan></choice></w>
+          <w>t<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>il</ex></expan></choice></w>
+          <w>t<choice><abbr><am><g ref="#ra" /></am></abbr><expan><ex>ra</ex></expan></choice>u<g ref="#slong" />t<g ref="#ezh" /></w>
+          <pc>.</pc>
+          <w><g ref="#slong" /><choice><abbr>m<am><g ref="#bar" /></am></abbr><expan><ex>e</ex>m</expan></choice></w>
+          <w>ja<g ref="#fins" />n<choice><abbr><am><g ref="#nsup" /></am></abbr><expan><ex>an</ex></expan></choice></w>
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <w>hialpin</w>
+          <w>buin</w>
+          <pc>.</pc>
+   <lb n="9" />
+          <w>bidiandi</w>
+          <w>s<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>uo</ex></expan></choice></w>
+          <w>t<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>il</ex></expan></choice></w>
+          <w>G<choice><abbr><am><g ref="#us" /></am></abbr><expan><ex>uds</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>Hey<g ref="#rrot" /></w>
+          <w>hin<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>millda<g ref="#ezh" />ti</w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+   <lb n="10" />
+          <w>hin<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>mattug<choice><abbr><am><g ref="#zsup" /></am></abbr><expan><ex>a<g ref="#ezh" />t</ex></expan></choice>i</w>
+          <w>g<choice><abbr>d<am><g ref="#combcurl" /></am></abbr><expan><ex>u</ex>d</expan></choice></w>
+          <pc>.</pc>
+          <w>my<g ref="#slong" />kuna</w>
+          <w>o<choice><abbr><am><g ref="#sscap" /></am></abbr><expan><ex>ss</ex></expan></choice></w>
+          <w>j</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>e</ex></expan></choice>s<choice><abbr><am><g ref="#none" /></am></abbr><expan><ex>su</ex></expan></choice>m</w>
+          <!--fixme-->
+          <w>ha<lb n="11" /><g ref="#slong" />ka</w>
+          <pc>.</pc>
+          <w>at</w>
+          <w>e<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>igi</ex></expan></choice></w>
+          <w><g ref="#fins" />a<choice><abbr><am><g ref="#msup" /></am></abbr><expan><ex>im</ex></expan></choice></w>
+          <w>v<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice></w>
+          <w>eili<g ref="#fins" />a</w>
+          <w>pinu</w>
+          <pc>.</pc>
+          <w>d<g ref="#rrot" />ekt<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>m<choice><abbr><am><g ref="#ezh" /></am></abbr><expan><ex>ed</ex></expan></choice></w>
+   <lb n="12" />
+          <w><g ref="#slong" />to<g ref="#rrot" />mi</w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>bylgiu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w><g ref="#slong" />iov<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>ins</w>
+          <pc>.</pc>
+          <w>S<choice><abbr>m<am><g ref="#bar" /></am></abbr><expan><ex>e</ex>m</expan></choice></w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /></w>
+          <w>tala</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>es</ex></expan></choice>sa</w>
+   <lb n="13" />
+          <w>hluti</w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>m<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>ga</w>
+          <w>ad<g ref="#rrot" />a</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>e</ex></expan></choice>s<choice><abbr><am><g ref="#none" /></am></abbr><expan><ex>su</ex></expan></choice>m</w>
+          <!--fixme-->
+          <w>lika</w>
+          <pc>.</pc>
+          <w><g ref="#slong" />ia</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /></w>
+          <w>ein<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>m<choice><abbr><am><g ref="#nsup" /></am></abbr><expan><ex>ann</ex></expan></choice></w>
+   <lb n="14" />
+          <w>j</w>
+          <w>b<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>isku</ex></expan></choice>ps</w>
+          <w><g ref="#slong" />k<choice><abbr><am><g ref="#vsup" /></am></abbr><expan><ex>rv</ex></expan></choice>di</w>
+          <w>m<choice><abbr><am><g ref="#ezh" /></am></abbr><expan><ex>ed</ex></expan></choice></w>
+          <w>mit<choice><abbr><am><g ref="#vsup" /></am></abbr><expan><ex>rv</ex></expan></choice></w>
+          <w>v<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>it</ex></expan></choice></w>
+          <w><g ref="#slong" />kip<choice><abbr><am><g ref="#tsup" /></am></abbr><expan><ex>it</ex></expan></choice></w>
+          <pc>.</pc>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>kall<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>t<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>il</ex></expan></choice></w>
+          <w><g ref="#slong" />in</w>
+          <name type="person">
+            <w>el<lb n="15" />phinu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          </name>
+          <w>abota</w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>tal<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>t<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>il</ex></expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>s</w>
+          <pc>.</pc>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>e</ex></expan></choice>s<choice><abbr><am><g ref="#none" /></am></abbr><expan><ex>su</ex></expan></choice>m</w>
+          <!--fixme-->
+          <w>o<g ref="#rrot" />du<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>e<g ref="#fins" /></w>
+          <w>þu</w>
+   <lb n="16" />
+          <w>girn<choice><abbr><am><g ref="#zsup" /></am></abbr><expan><ex>i<g ref="#ezh" />t</ex></expan></choice></w>
+          <w>at</w>
+          <w><g ref="#fins" />o<g ref="#rrot" />d<choice><abbr><am><g ref="#zsup" /></am></abbr><expan><ex>a<g ref="#ezh" />t</ex></expan></choice></w>
+          <w><g ref="#slong" />ia<g ref="#fins" /><choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>ha<g ref="#slong" />ka</w>
+          <pc>.</pc>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>ko<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice>a</w>
+          <w>heill</w>
+          <w>hei<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w>j</w>
+   <lb />
+          <w><fw type="catch">þitt</fw>
+
+ <pb n="305" /><lb n="1" /></w>
+          <w>þitt</w>
+          <w>l<choice><abbr>d<am><g ref="#combcurl" /></am></abbr><expan><ex>an</ex>d</expan></choice></w>
+          <pc>.</pc>
+          <w><g ref="#slong" />k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>al</ex></expan></choice>tu</w>
+          <w>jata</w>
+          <w>m<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice></w>
+          <w>j</w>
+          <w>G<choice><abbr><am><g ref="#us" /></am></abbr><expan><ex>uds</ex></expan></choice></w>
+          <w>vitni</w>
+          <w>at</w>
+          <w>þu</w>
+          <w><g ref="#slong" />k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>al</ex></expan></choice>t</w>
+          <w>hall<lb n="2" />da</w>
+          <w>hatidliga</w>
+          <w>getnad<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>dag</w>
+          <w>mod<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w>k<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>ri</ex></expan></choice><g ref="#slong" />t<g ref="#ezh" /></w>
+          <pc>.</pc>
+          <w>Abotin<choice><abbr><am><g ref="#nleg" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+   <lb n="3" />
+          <w><g ref="#slong" />ua<g ref="#rrot" /><choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>hv<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice><g ref="#slong" />u</w>
+          <w><g ref="#slong" />k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>al</ex></expan></choice></w>
+          <w>ek</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>at</ex></expan></choice></w>
+          <w>g<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>a</w>
+          <w>eda</w>
+          <w><g ref="#aalig" /></w>
+          <w>hv<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>iu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w>degi</w>
+          <pc>.</pc>
+          <w>b<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>isku</ex></expan></choice>p<lb n="4" />in</w>
+          <w><g ref="#slong" />u<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>ar</w>
+          <pc>.</pc>
+          <w><g ref="#slong" />etta</w>
+          <w>jd<choice><abbr><am><g ref="#us" /></am></abbr><expan><ex>us</ex></expan></choice></w>
+          <w>decemb<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>ri</ex></expan></choice>s</w>
+          <pc>.</pc>
+          <w><g ref="#slong" />k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>al</ex></expan></choice>tu</w>
+          <w><g ref="#fins" />y<g ref="#rscap" /><g ref="#slong" />agda</w>
+   <lb n="5" />
+          <w>hatid</w>
+          <w>hallda</w>
+          <pc>.</pc>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>p<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>re</ex></expan></choice>dica</w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>eggia</w>
+          <w><g ref="#aalig" /></w>
+          <w>j</w>
+          <w>ollu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w><g ref="#slong" />tod<choice><abbr><am><g ref="#msup" /></am></abbr><expan><ex>um</ex></expan></choice></w>
+   <lb n="6" />
+          <w>hu<choice><abbr><am><g ref="#tsup" /></am></abbr><expan><ex>at</ex></expan></choice></w>
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <w>þu</w>
+          <w>o<g ref="#rrot" />k<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>at</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>es</ex></expan></choice>si</w>
+          <w>dag<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w><g ref="#slong" />e</w>
+          <w>a<g ref="#fins" /></w>
+          <w>ollu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w>halldin<choice><abbr><am><g ref="#nleg" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <pc>.</pc>
+   <lb n="7" />
+          <w>Abotin<choice><abbr><am><g ref="#nleg" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w><g ref="#slong" />py<g ref="#rscap" /></w>
+          <pc>.</pc>
+          <w>huilikt</w>
+          <w>tida halld</w>
+          <w><g ref="#slong" />k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>al</ex></expan></choice></w>
+          <w>þa</w>
+          <w>ha<g ref="#fins" />a</w>
+          <pc>.</pc>
+   <lb n="8" />
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w><g ref="#aalig" /></w>
+          <w>hu<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>n</w>
+          <w>h<g ref="#aalig" />tt</w>
+          <pc>.</pc>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w><g ref="#slong" />eg<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>allt</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>at</ex></expan></choice></w>
+          <w><g ref="#slong" />e<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w><g ref="#slong" />eg<choice><abbr><am><g ref="#zsup" /></am></abbr><expan><ex>i<g ref="#ezh" />t</ex></expan></choice></w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w><g ref="#slong" />yng<g ref="#ezh" />t</w>
+   <lb n="9" />
+          <w><g ref="#aalig" /></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>en</ex></expan></choice>n<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>burd<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>degi</w>
+          <w><g ref="#slong" />k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>al</ex></expan></choice></w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w><g ref="#slong" />egia<g ref="#ezh" />t</w>
+          <w><g ref="#aalig" /></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>en</ex></expan></choice>n<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>getnad<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+   <lb n="10" />
+          <w>degi</w>
+          <pc>.</pc>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>s<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>uo</ex></expan></choice></w>
+          <w><g ref="#slong" /><choice><abbr>m<am><g ref="#bar" /></am></abbr><expan><ex>e</ex>m</expan></choice></w>
+          <w>þ<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w><g ref="#slong" />tend<g ref="#rrot" /></w>
+          <w>nativitas</w>
+          <pc>.</pc>
+          <w><g ref="#slong" />k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>al</ex></expan></choice></w>
+          <w>hi<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice></w>
+          <w><g ref="#slong" />egi<lb n="11" />a<g ref="#ezh" />t</w>
+          <w><choice><abbr><am><g ref="#condes" /></am></abbr><expan><ex>con</ex></expan></choice>ceptio</w>
+          <w><g ref="#aalig" /></w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>es</ex></expan></choice>s<choice><abbr><am><g ref="#none" /></am></abbr><expan><ex>u</ex></expan></choice>m</w>
+          <!--fixme-->
+          <w>degi</w>
+          <pc>.</pc>
+          <w>S<choice><abbr>m<am><g ref="#bar" /></am></abbr><expan><ex>e</ex>m</expan></choice></w>
+          <w>abotin<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>he<g ref="#fins" /><choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+   <lb n="12" />
+          <w>hey<g ref="#rrot" />t</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>es</ex></expan></choice>si</w>
+          <w>o<g ref="#rrot" />d</w>
+          <pc>.</pc>
+          <w>hu<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice><g ref="#fins" /><choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w><g ref="#slong" />a</w>
+          <w><g ref="#slong" /><choice><abbr>m<am><g ref="#bar" /></am></abbr><expan><ex>e</ex>m</expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>onu</ex></expan></choice>m</w>
+          <w>vit<choice><abbr><am><g ref="#ra" /></am></abbr><expan><ex>ra</ex></expan></choice>d<choice><abbr><am><g ref="#zsup" /></am></abbr><expan><ex>i<g ref="#ezh" />t</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>en<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>ved<lb n="13" /><g ref="#rrot" />it</w>
+          <w>mink<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>bæta</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /></w>
+          <w><g ref="#rscap" />eida</w>
+          <w><g ref="#slong" />in<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <pc>.</pc>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w><g ref="#fins" />a</w>
+          <w><g ref="#slong" />id<choice><abbr><am><g ref="#nsup" /></am></abbr><expan><ex>an</ex></expan></choice></w>
+          <w>hæg<choice><abbr><am><g ref="#nsup" /></am></abbr><expan><ex>an</ex></expan></choice></w>
+   <lb n="14" />
+          <w>by<g ref="#rscap" /></w>
+          <pc>.</pc>
+          <w>allt</w>
+          <w>þ<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>t<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>il</ex></expan></choice></w>
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /></w>
+          <w>taka</w>
+          <name type="place">
+            <w>engl<choice><abbr>d<am><g ref="#combcurl" /></am></abbr><expan><ex>an</ex>d</expan></choice></w>
+          </name>
+          <pc>.</pc>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w>g<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>di</w>
+          <w>kun<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice><lb n="15" />iga</w>
+          <w>þa</w>
+          <w>hluti</w>
+          <w><g ref="#slong" /><choice><abbr>m<am><g ref="#bar" /></am></abbr><expan><ex>e</ex>m</expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w>ha<g ref="#fins" />di</w>
+          <w>hey<g ref="#rrot" />t</w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w><g ref="#slong" />ed</w>
+          <w>ollu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+   <lb n="16" />
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice>m</w>
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w>matti</w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w><g ref="#slong" />kipadi</w>
+          <w>j</w>
+          <name type="place">
+            <w>ramen<g ref="#slong" />ien<g ref="#slong" />is</w>
+          </name>
+          <w>k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ir</ex></expan></choice>k</w>
+          <!--fixme: hyphenated!-->
+   <lb />
+          <w><fw type="catch">iu</fw>
+
+ <pb n="306" /><lb n="1" /></w>
+          <w>iu</w>
+          <w>hu<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice><g ref="#rrot" />i</w>
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w><g ref="#slong" />ty<g ref="#rrot" />di</w>
+          <w>at</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>es</ex></expan></choice>si</w>
+          <w><g ref="#fins" />y<g ref="#rscap" /><g ref="#slong" />ogd</w>
+          <w>hatid</w>
+   <lb n="2" />
+          <w><g ref="#slong" />k<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>yl</ex></expan></choice>di</w>
+          <w><g ref="#aalig" /></w>
+          <w>hv<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>iu</w>
+          <w><g ref="#aalig" />ri</w>
+          <w>halld<choice><abbr><am><g ref="#zsup" /></am></abbr><expan><ex>a<g ref="#ezh" />t</ex></expan></choice></w>
+          <w>hatidliga</w>
+          <w><g ref="#slong" />etta</w>
+          <w>jd<choice><abbr><am><g ref="#us" /></am></abbr><expan><ex>us</ex></expan></choice></w>
+   <lb n="3" />
+          <w>decemb<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>ri</ex></expan></choice>s</w>
+          <pc>.</pc>
+          <w>hellt</w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>n</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>at</ex></expan></choice></w>
+          <w><g ref="#slong" />ama</w>
+          <w>m<choice><abbr><am><g ref="#ezh" /></am></abbr><expan><ex>ed</ex></expan></choice></w>
+          <w><g ref="#slong" />on<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice>vm</w>
+          <w>godvil<lb n="4" />ia</w>
+          <w>alla</w>
+          <w>daga</w>
+          <w><g ref="#slong" />ins</w>
+          <w>li<g ref="#fins" />s</w>
+          <pc>.</pc>
+          <w>Ollu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice>m</w>
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <w><g ref="#fins" />y<g ref="#rscap" /><g ref="#slong" />agd<choice><abbr><am><g ref="#nsup" /></am></abbr><expan><ex>an</ex></expan></choice></w>
+   <lb n="5" />
+          <w>dag</w>
+          <w>hallda</w>
+          <w>g<choice><abbr>d<am><g ref="#combcurl" /></am></abbr><expan><ex>u</ex>d</expan></choice>i</w>
+          <w>t<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>il</ex></expan></choice></w>
+          <w>heid<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice>s</w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>h<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>an</ex></expan></choice>s</w>
+          <w>mod<g ref="#rrot" /></w>
+          <pc>.</pc>
+          <w>veitt<choice><abbr><am><g ref="#zsup" /></am></abbr><expan><ex>i<g ref="#ezh" />t</ex></expan></choice></w>
+          <w>a<g ref="#fins" /></w>
+   <lb n="6" />
+          <w><g ref="#slong" />yni</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>ei</ex></expan></choice><g ref="#rrot" /><choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w><g ref="#slong" />omu</w>
+          <w>ju<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice>g<g ref="#fins" /><choice><abbr><am><g ref="#vsup" /></am></abbr><expan><ex>rv</ex></expan></choice></w>
+          <w>him<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>in</ex></expan></choice><g ref="#rscap" /><choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>iki</ex></expan></choice>s</w>
+          <w>d<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>ro</ex></expan></choice>ttni<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice>g<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <name type="person">
+            <hi rend="caps">
+              <w>marie</w>
+            </hi>
+          </name>
+   <lb n="7" />
+          <w><g ref="#fins" /><choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>ri</ex></expan></choice>d<g ref="#rrot" /></w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+          <w>heil<g ref="#slong" />a</w>
+          <pc>.</pc>
+          <w>en<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>ept<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>e</ex></expan></choice>tta</w>
+          <w>li<g ref="#fins" /></w>
+          <w>eili<g ref="#fins" /></w>
+          <w>huild</w>
+          <w>j</w>
+   <lb n="8" />
+          <w>him<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>in</ex></expan></choice><g ref="#rscap" /><choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>iki</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>at</ex></expan></choice></w>
+          <w>lati</w>
+          <w>s<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice></w>
+          <w><g ref="#slong" />oma</w>
+          <w>at</w>
+          <w>veita</w>
+          <w><g ref="#slong" />a</w>
+          <w>e<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>r</ex></expan></choice></w>
+          <w>li<g ref="#fins" /><choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w><choice><abbr><am><g ref="#ok" /></am></abbr><expan><ex>ok</ex></expan></choice></w>
+   <lb n="9" />
+          <w><g ref="#rscap" />ik<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <w>ein<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>g<choice><abbr>d<am><g ref="#combcurl" /></am></abbr><expan><ex>u</ex>d</expan></choice></w>
+          <w>j</w>
+          <w>þ<g ref="#rscap" />en<choice><abbr><am><g ref="#nleg" /></am></abbr><expan><ex>n</ex></expan></choice>i<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice>gu</w>
+          <w>am<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>en</ex></expan></choice></w>
+          <pc>.</pc>
+        </p>
+      </div>
+      <!-- Unger 4, 1171-->
+      <div type="miracle" n="156">
+   <lb n="10" />
+        <head>
+          <w>A<g ref="#fins" /></w>
+          <w>m<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>iu m<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>esso</ex></expan></choice></w>
+          <w><g ref="#slong" />id<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>i</w>
+          <pc>.</pc>
+        </head>
+        <p>
+   <lb n="11" />
+          <w><hi rend="3"><supplied reason="omitted">b</supplied></hi>Vrd<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice>dag<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w>hin<choice><abbr><am><g ref="#nleg" /></am></abbr><expan><ex>n</ex></expan></choice><choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>helgu<g ref="#ezh" />tu</w>
+          <w>G<choice><abbr><am><g ref="#us" /></am></abbr><expan><ex>uds</ex></expan></choice></w>
+          <w>mod<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w>ju<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice>g<lb n="12" /><g ref="#fins" /><choice><abbr><am><g ref="#vsup" /></am></abbr><expan><ex>rv</ex></expan></choice></w>
+          <name type="person">
+            <hi rend="caps">
+              <w>marie</w>
+            </hi>
+          </name>
+          <w>var</w>
+          <w>lang<choice><abbr><am><g ref="#nsup" /></am></abbr><expan><ex>an</ex></expan></choice></w>
+          <w>tima</w>
+          <w><g ref="#fins" />y<g ref="#rrot" /><g ref="#slong" />t</w>
+   <lb n="13" />
+          <w>ecki</w>
+          <w>halldin<choice><abbr><am><g ref="#nleg" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>j</w>
+          <w>k<choice><abbr><am><g ref="#isup" /></am></abbr><expan><ex>ri</ex></expan></choice><g ref="#slong" />tnin<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice>i</w>
+          <pc>.</pc>
+          <w>en<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>s<choice><abbr><am><g ref="#osup" /></am></abbr><expan><ex>uo</ex></expan></choice></w>
+          <w><g ref="#slong" />eg<choice><abbr><am><g ref="#zsup" /></am></abbr><expan><ex>i<g ref="#ezh" />t</ex></expan></choice></w>
+          <w>at</w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>at</ex></expan></choice></w>
+          <w>v<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>ar</ex></expan></choice></w>
+          <w>a<g ref="#fins" /></w>
+   <lb n="14" />
+          <w>g<choice><abbr>d<am><g ref="#combcurl" /></am></abbr><expan><ex>u</ex>d</expan></choice>i</w>
+          <w>vit<choice><abbr><am><g ref="#ra" /></am></abbr><expan><ex>ra</ex></expan></choice>d</w>
+          <w><g ref="#aalog" /></w>
+          <w>þ<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>en</ex></expan></choice>na</w>
+          <w>hatt</w>
+          <w><g ref="#slong" /><choice><abbr>m<am><g ref="#bar" /></am></abbr><expan><ex>e</ex>m</expan></choice></w>
+          <w>hi<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice></w>
+          <w><g ref="#slong" />eg<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>ir</ex></expan></choice></w>
+          <pc>.</pc>
+          <w>Ein<g ref="#slong" />etu m<choice><abbr><am><g ref="#ar" /></am></abbr><expan><ex>adr</ex></expan></choice></w>
+   <lb n="15" />
+          <w>nock<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w>heilag<choice><abbr><am><g ref="#ur" /></am></abbr><expan><ex>ur</ex></expan></choice></w>
+          <w>j</w>
+          <w><g ref="#slong" />inu<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>m</ex></expan></choice></w>
+          <w>li<g ref="#fins" />nadi</w>
+          <pc>.</pc>
+          <w>hey<g ref="#rrot" />di</w>
+          <w><g ref="#aalig" /></w>
+          <w>hi<lb n="16" />n<choice><abbr><am><g ref="#dot" /></am></abbr><expan><ex>n</ex></expan></choice>i</w>
+          <w><g ref="#slong" />omu</w>
+          <w>nott</w>
+          <w>hu<choice><abbr><am><g ref="#er" /></am></abbr><expan><ex>er</ex></expan></choice>t</w>
+          <w><g ref="#aalig" />r</w>
+          <w><g ref="#fins" />ag<g ref="#rrot" />an<choice><abbr><am><g ref="#bar" /></am></abbr><expan><ex>n</ex></expan></choice></w>
+          <w>engla</w>
+          <w><g ref="#slong" />ong</w>
+   <lb />
+          <fw type="catch">
+            <w>j</w>
+          </fw>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

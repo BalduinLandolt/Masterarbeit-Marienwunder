@@ -1,0 +1,2683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:teix="http://www.tei-c.org/ns/Examples"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+         ns="http://www.tei-c.org/ns/1.0"><!--
+Schema generated from ODD source 2020-02-13T23:50:36Z. .
+TEI Edition: Version 4.0.0. Last updated on
+	13th February 2020, revision ccd19b0ba
+TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 4.0.0/
+  
+--><!--This material is dual-licensed.
+[http://creativecommons.org/licenses/by-sa/3.0/] Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  [http://www.opensource.org/licenses/BSD-2-Clause] Copyright 2013 TEI Consortium. All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright holder or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage. TEI material can be licensed differently depending on the use you intend to make of it. Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is generally appropriate for usages which treat TEI content as data or documentation. The BSD-2 licence is generally appropriate for usage of TEI content in a software environment. For further information or clarification, please contact the  TEI Consortium .-->
+   <define name="teionmmmacro.paraContent">
+      <zeroOrMore>
+         <choice>
+            <text/>
+            <ref name="teionmmmodel.gLike"/>
+            <ref name="teionmmmodel.phrase"/>
+            <ref name="teionmmmodel.inter"/>
+            <ref name="teionmmmodel.global"/>
+        
+            <ref name="teionmmmodel.lLike"/>
+         </choice>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmacro.phraseSeq">
+      <zeroOrMore>
+         <choice>
+            <text/>
+            <ref name="teionmmmodel.gLike"/>
+            <ref name="teionmmmodel.qLike"/>
+            <ref name="teionmmmodel.phrase"/>
+            <ref name="teionmmmodel.global"/>
+         </choice>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmacro.xtext">
+      <zeroOrMore>
+         <choice>
+            <text/>
+            <ref name="teionmmmodel.gLike"/>
+         </choice>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmatt.canonical.attributes">
+      <ref name="teionmmatt.canonical.attribute.key"/>
+      <ref name="teionmmatt.canonical.attribute.ref"/>
+   </define>
+   <define name="teionmmatt.canonical.attribute.key">
+      <optional>
+         <attribute name="key">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides an externally-defined means of identifying the entity (or entities) being named, using a coded value of some kind.</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.canonical.attribute.ref">
+      <optional>
+         <attribute name="ref">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.ranging.attributes">
+      <ref name="teionmmatt.ranging.attribute.atLeast"/>
+      <ref name="teionmmatt.ranging.attribute.atMost"/>
+      <ref name="teionmmatt.ranging.attribute.min"/>
+      <ref name="teionmmatt.ranging.attribute.max"/>
+      <ref name="teionmmatt.ranging.attribute.confidence"/>
+   </define>
+   <define name="teionmmatt.ranging.attribute.atLeast">
+      <optional>
+         <attribute name="atLeast">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives a minimum estimated value for the approximate measurement.</a:documentation>
+            <choice>
+               <data type="double"/>
+               <data type="token">
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+               </data>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.ranging.attribute.atMost">
+      <optional>
+         <attribute name="atMost">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives a maximum estimated value for the approximate measurement.</a:documentation>
+            <choice>
+               <data type="double"/>
+               <data type="token">
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+               </data>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.ranging.attribute.min">
+      <optional>
+         <attribute name="min">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where the measurement summarizes more than one observation or a range, supplies the minimum value observed.</a:documentation>
+            <choice>
+               <data type="double"/>
+               <data type="token">
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+               </data>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.ranging.attribute.max">
+      <optional>
+         <attribute name="max">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where the measurement summarizes more than one observation or a range, supplies the maximum value observed.</a:documentation>
+            <choice>
+               <data type="double"/>
+               <data type="token">
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+               </data>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.ranging.attribute.confidence">
+      <optional>
+         <attribute name="confidence">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by <code xmlns="http://www.w3.org/1999/xhtml">@min</code> and <code xmlns="http://www.w3.org/1999/xhtml">@max</code>, or the proportion of observed values that fall within that range.</a:documentation>
+            <data type="double"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.dimensions.attributes">
+      <ref name="teionmmatt.ranging.attributes"/>
+      <ref name="teionmmatt.dimensions.attribute.unit"/>
+      <ref name="teionmmatt.dimensions.attribute.quantity"/>
+      <ref name="teionmmatt.dimensions.attribute.extent"/>
+      <ref name="teionmmatt.dimensions.attribute.precision"/>
+      <ref name="teionmmatt.dimensions.attribute.scope"/>
+   </define>
+   <define name="teionmmatt.dimensions.attribute.unit">
+      <optional>
+         <attribute name="unit">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the unit used for the measurement
+Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inches); 4] line; 5] char (characters)</a:documentation>
+            <choice>
+               <value>cm</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(centimetres) </a:documentation>
+               <value>mm</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(millimetres) </a:documentation>
+               <value>in</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(inches) </a:documentation>
+               <value>line</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">lines of text</a:documentation>
+               <value>char</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(characters) characters of text</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.dimensions.attribute.quantity">
+      <optional>
+         <attribute name="quantity">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the length in the units specified</a:documentation>
+            <choice>
+               <data type="double"/>
+               <data type="token">
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+               </data>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.dimensions.attribute.extent">
+      <optional>
+         <attribute name="extent">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the size of the object concerned using a project-specific vocabulary combining quantity and units in a single string of words.</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.dimensions.attribute.precision">
+      <optional>
+         <attribute name="precision">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the precision of the values specified by the other attributes.</a:documentation>
+            <choice>
+               <value>high</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>medium</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>low</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>unknown</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.dimensions.attribute.scope">
+      <optional>
+         <attribute name="scope">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where the measurement summarizes more than one observation, specifies the applicability of this measurement.
+Sample values include: 1] all; 2] most; 3] range</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.written.attributes">
+      <ref name="teionmmatt.written.attribute.hand"/>
+   </define>
+   <define name="teionmmatt.written.attribute.hand">
+      <optional>
+         <attribute name="hand">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;handNote&gt;</code> element describing the hand considered responsible for the content of the element concerned.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.breaking.attributes">
+      <ref name="teionmmatt.breaking.attribute.break"/>
+   </define>
+   <define name="teionmmatt.breaking.attribute.break">
+      <optional>
+         <attribute name="break">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether or not the element bearing this attribute should be considered to mark the end of an orthographic token in the same way as whitespace.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.datable.w3c.attributes">
+      <ref name="teionmmatt.datable.w3c.attribute.when"/>
+      <ref name="teionmmatt.datable.w3c.attribute.notBefore"/>
+      <ref name="teionmmatt.datable.w3c.attribute.notAfter"/>
+      <ref name="teionmmatt.datable.w3c.attribute.from"/>
+      <ref name="teionmmatt.datable.w3c.attribute.to"/>
+   </define>
+   <define name="teionmmatt.datable.w3c.attribute.when">
+      <optional>
+         <attribute name="when">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.</a:documentation>
+            <choice>
+               <data type="date"/>
+               <data type="gYear"/>
+               <data type="gMonth"/>
+               <data type="gDay"/>
+               <data type="gYearMonth"/>
+               <data type="gMonthDay"/>
+               <data type="time"/>
+               <data type="dateTime"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.datable.w3c.attribute.notBefore">
+      <optional>
+         <attribute name="notBefore">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the earliest possible date for the event in standard form, e.g. yyyy-mm-dd.</a:documentation>
+            <choice>
+               <data type="date"/>
+               <data type="gYear"/>
+               <data type="gMonth"/>
+               <data type="gDay"/>
+               <data type="gYearMonth"/>
+               <data type="gMonthDay"/>
+               <data type="time"/>
+               <data type="dateTime"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.datable.w3c.attribute.notAfter">
+      <optional>
+         <attribute name="notAfter">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the latest possible date for the event in standard form, e.g. yyyy-mm-dd.</a:documentation>
+            <choice>
+               <data type="date"/>
+               <data type="gYear"/>
+               <data type="gMonth"/>
+               <data type="gDay"/>
+               <data type="gYearMonth"/>
+               <data type="gMonthDay"/>
+               <data type="time"/>
+               <data type="dateTime"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.datable.w3c.attribute.from">
+      <optional>
+         <attribute name="from">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.</a:documentation>
+            <choice>
+               <data type="date"/>
+               <data type="gYear"/>
+               <data type="gMonth"/>
+               <data type="gDay"/>
+               <data type="gYearMonth"/>
+               <data type="gMonthDay"/>
+               <data type="time"/>
+               <data type="dateTime"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.datable.w3c.attribute.to">
+      <optional>
+         <attribute name="to">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the ending point of the period in standard form, e.g. yyyy-mm-dd.</a:documentation>
+            <choice>
+               <data type="date"/>
+               <data type="gYear"/>
+               <data type="gMonth"/>
+               <data type="gDay"/>
+               <data type="gYearMonth"/>
+               <data type="gMonthDay"/>
+               <data type="time"/>
+               <data type="dateTime"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="tei-onmm-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
+      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:*[@when]">
+        <sch:report role="nonfatal" test="@notBefore|@notAfter|@from|@to">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
+      </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="tei-onmm-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
+      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:*[@from]">
+        <sch:report role="nonfatal" test="@notBefore">The @from and @notBefore attributes cannot be used together.</sch:report>
+      </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="tei-onmm-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
+      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:*[@to]">
+        <sch:report role="nonfatal" test="@notAfter">The @to and @notAfter attributes cannot be used together.</sch:report>
+      </sch:rule>
+   </pattern>
+   <define name="teionmmatt.datable.attributes">
+      <ref name="teionmmatt.datable.w3c.attributes"/>
+      <ref name="teionmmatt.datable.attribute.calendar"/>
+      <ref name="teionmmatt.datable.attribute.period"/>
+   </define>
+   <define name="teionmmatt.datable.attribute.calendar">
+      <optional>
+         <attribute name="calendar">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the system or calendar to which the date represented by the content of this element belongs.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="tei-onmm-att.datable-calendar-calendar-constraint-rule-4">
+      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:*[@calendar]">
+            <sch:assert test="string-length(.) gt 0"> @calendar indicates the system or calendar to
+              which the date represented by the content of this element belongs, but this
+              <sch:name/> element has no textual content.</sch:assert>
+          </sch:rule>
+   </pattern>
+   <define name="teionmmatt.datable.attribute.period">
+      <optional>
+         <attribute name="period">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to some location defining a named period of time within which the datable item is understood to have occurred.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.datcat.attributes">
+      <ref name="teionmmatt.datcat.attribute.datcat"/>
+      <ref name="teionmmatt.datcat.attribute.valueDatcat"/>
+   </define>
+   <define name="teionmmatt.datcat.attribute.datcat">
+      <optional>
+         <attribute name="datcat" ns="http://www.isocat.org/ns/dcr">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a PID (persistent identifier) that aligns the given element with the appropriate Data Category (or categories) in ISOcat.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.datcat.attribute.valueDatcat">
+      <optional>
+         <attribute name="valueDatcat" ns="http://www.isocat.org/ns/dcr">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a PID (persistent identifier) that aligns the content of the given element or the value of the given attribute with the appropriate simple Data Category (or categories) in ISOcat.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.declarable.attributes">
+      <ref name="teionmmatt.declarable.attribute.default"/>
+   </define>
+   <define name="teionmmatt.declarable.attribute.default">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="default"
+                    a:defaultValue="false">
+            <a:documentation>indicates whether or not this element is selected by default when its parent is selected.</a:documentation>
+            <choice>
+               <value>true</value>
+               <a:documentation>This element is selected if its parent is selected</a:documentation>
+               <value>false</value>
+               <a:documentation>This element can only be selected explicitly, unless it is the only one of its kind, in which case it is selected if its parent is selected.</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.declaring.attributes">
+      <ref name="teionmmatt.declaring.attribute.decls"/>
+   </define>
+   <define name="teionmmatt.declaring.attribute.decls">
+      <optional>
+         <attribute name="decls">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies one or more declarable elements within the header, which are understood to apply to the element bearing this attribute and its content.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.fragmentable.attributes">
+      <ref name="teionmmatt.fragmentable.attribute.part"/>
+   </define>
+   <define name="teionmmatt.fragmentable.attribute.part">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="part"
+                    a:defaultValue="N">
+            <a:documentation>specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.</a:documentation>
+            <choice>
+               <value>Y</value>
+               <a:documentation>(yes) the element is fragmented in some (unspecified) respect</a:documentation>
+               <value>N</value>
+               <a:documentation>(no) the element is not fragmented, or no claim is made as to its completeness</a:documentation>
+               <value>I</value>
+               <a:documentation>(initial) this is the initial part of a fragmented element</a:documentation>
+               <value>M</value>
+               <a:documentation>(medial) this is a medial part of a fragmented element</a:documentation>
+               <value>F</value>
+               <a:documentation>(final) this is the final part of a fragmented element</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.divLike.attributes">
+      <ref name="teionmmatt.fragmentable.attributes"/>
+      <ref name="teionmmatt.divLike.attribute.org"/>
+      <ref name="teionmmatt.divLike.attribute.sample"/>
+   </define>
+   <define name="teionmmatt.divLike.attribute.org">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="org"
+                    a:defaultValue="uniform">
+            <a:documentation>(organization) specifies how the content of the division is organized.</a:documentation>
+            <choice>
+               <value>composite</value>
+               <a:documentation>no claim is made about the sequence in which the immediate contents of this division are to be processed, or their inter-relationships.</a:documentation>
+               <value>uniform</value>
+               <a:documentation>the immediate contents of this element are regarded as forming a logical unit, to be processed in sequence.</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.divLike.attribute.sample">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="sample"
+                    a:defaultValue="complete">
+            <a:documentation>indicates whether this division is a sample of the original source and if so, from which part.</a:documentation>
+            <choice>
+               <value>initial</value>
+               <a:documentation>division lacks material present at end in source.</a:documentation>
+               <value>medial</value>
+               <a:documentation>division lacks material at start and end.</a:documentation>
+               <value>final</value>
+               <a:documentation>division lacks material at start.</a:documentation>
+               <value>unknown</value>
+               <a:documentation>position of sampled material within original unknown.</a:documentation>
+               <value>complete</value>
+               <a:documentation>division is not a sample.</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.responsibility.attributes">
+      <ref name="teionmmatt.global.responsibility.attribute.cert"/>
+      <ref name="teionmmatt.global.responsibility.attribute.resp"/>
+   </define>
+   <define name="teionmmatt.global.responsibility.attribute.cert">
+      <optional>
+         <attribute name="cert">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(certainty) signifies the degree of certainty associated with the intervention or interpretation.</a:documentation>
+            <choice>
+               <data type="double"/>
+               <choice>
+                  <value>high</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>medium</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>low</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>unknown</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.responsibility.attribute.resp">
+      <optional>
+         <attribute name="resp">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsible party) indicates the agency responsible for the intervention or interpretation, for example an editor or transcriber.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.editLike.attributes">
+      <ref name="teionmmatt.editLike.attribute.evidence"/>
+      <ref name="teionmmatt.editLike.attribute.instant"/>
+   </define>
+   <define name="teionmmatt.editLike.attribute.evidence">
+      <optional>
+         <attribute name="evidence">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the nature of the evidence supporting the reliability or accuracy of the intervention or interpretation.
+Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentation>
+            <list>
+               <oneOrMore>
+                  <choice>
+                     <value>internal</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">there is internal evidence to support the intervention.</a:documentation>
+                     <value>external</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">there is external evidence to support the intervention.</a:documentation>
+                     <value>conjecture</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the intervention or interpretation has been made by the editor, cataloguer, or scholar on the basis of their expertise.</a:documentation>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </choice>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.editLike.attribute.instant">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="instant"
+                    a:defaultValue="false">
+            <a:documentation>indicates whether this is an instant revision or not.</a:documentation>
+            <choice>
+               <data type="boolean"/>
+               <choice>
+                  <value>unknown</value>
+                  <a:documentation/>
+                  <value>inapplicable</value>
+                  <a:documentation/>
+               </choice>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.rendition.attributes">
+      <ref name="teionmmatt.global.rendition.attribute.rend"/>
+      <ref name="teionmmatt.global.rendition.attribute.style"/>
+      <ref name="teionmmatt.global.rendition.attribute.rendition"/>
+   </define>
+   <define name="teionmmatt.global.rendition.attribute.rend">
+      <optional>
+         <attribute name="rend">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.rendition.attribute.style">
+      <optional>
+         <attribute name="style">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an expression in some formal style definition language which defines the rendering or presentation used for this element in the source text</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.rendition.attribute.rendition">
+      <optional>
+         <attribute name="rendition">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a description of the rendering or presentation used for this element in the source text.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.source.attributes">
+      <ref name="teionmmatt.global.source.attribute.source"/>
+   </define>
+   <define name="teionmmatt.global.source.attribute.source">
+      <optional>
+         <attribute name="source">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the source from which some aspect of this element is drawn.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.attributes">
+      <ref name="teionmmatt.global.rendition.attributes"/>
+      <ref name="teionmmatt.global.analytic.attributes"/>
+      <ref name="teionmmatt.global.facs.attributes"/>
+      <ref name="teionmmatt.global.change.attributes"/>
+      <ref name="teionmmatt.global.responsibility.attributes"/>
+      <ref name="teionmmatt.global.source.attributes"/>
+      <ref name="teionmmatt.global.attribute.xmlid"/>
+      <ref name="teionmmatt.global.attribute.n"/>
+      <ref name="teionmmatt.global.attribute.xmllang"/>
+      <ref name="teionmmatt.global.attribute.xmlbase"/>
+      <ref name="teionmmatt.global.attribute.xmlspace"/>
+   </define>
+   <define name="teionmmatt.global.attribute.xmlid">
+      <optional>
+         <attribute name="xml:id">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
+            <data type="ID"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.attribute.n">
+      <optional>
+         <attribute name="n">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(number) gives a number (or other label) for an element, which is not necessarily unique within the document.</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.attribute.xmllang">
+      <optional>
+         <attribute name="xml:lang">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(language) indicates the language of the element content using a tag generated according to <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP 47</a>.</a:documentation>
+            <choice>
+               <data type="language"/>
+               <choice>
+                  <value/>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.attribute.xmlbase">
+      <optional>
+         <attribute name="xml:base">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a base URI reference with which applications can resolve relative URI references into absolute URI references.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.attribute.xmlspace">
+      <optional>
+         <attribute name="xml:space">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">signals an intention about how white space should be managed by applications.</a:documentation>
+            <choice>
+               <value>default</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">signals that the application's default white-space processing modes are acceptable</a:documentation>
+               <value>preserve</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the intent that applications preserve all white space</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.naming.attributes">
+      <ref name="teionmmatt.canonical.attributes"/>
+      <ref name="teionmmatt.naming.attribute.role"/>
+      <ref name="teionmmatt.naming.attribute.nymRef"/>
+   </define>
+   <define name="teionmmatt.naming.attribute.role">
+      <optional>
+         <attribute name="role">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.naming.attribute.nymRef">
+      <optional>
+         <attribute name="nymRef">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference to the canonical name) provides a means of locating the canonical form (nym) of the names associated with the object named by the element bearing it.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.notated.attributes">
+      <ref name="teionmmatt.notated.attribute.notation"/>
+   </define>
+   <define name="teionmmatt.notated.attribute.notation">
+      <optional>
+         <attribute name="notation">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the notation used for the content of the element.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.placement.attributes">
+      <ref name="teionmmatt.placement.attribute.place"/>
+   </define>
+   <define name="teionmmatt.placement.attribute.place">
+      <optional>
+         <attribute name="place">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies where this item is placed.
+Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6] overleaf; 7] above; 8] end; 9] inline; 10] inspace</a:documentation>
+            <list>
+               <oneOrMore>
+                  <choice>
+                     <value>below</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">below the line</a:documentation>
+                     <value>bottom</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">at the foot of the page</a:documentation>
+                     <value>margin</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in the margin (left, right, or both)</a:documentation>
+                     <value>top</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">at the top of the page</a:documentation>
+                     <value>opposite</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">on the opposite, i.e. facing, page</a:documentation>
+                     <value>overleaf</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">on the other side of the leaf</a:documentation>
+                     <value>above</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">above the line</a:documentation>
+                     <value>end</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">at the end of e.g. chapter or volume.</a:documentation>
+                     <value>inline</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">within the body of the text.</a:documentation>
+                     <value>inspace</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a predefined space, for example left by an earlier scribe.</a:documentation>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </choice>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.typed.attributes">
+      <ref name="teionmmatt.typed.attribute.type"/>
+      <ref name="teionmmatt.typed.attribute.subtype"/>
+   </define>
+   <define name="teionmmatt.typed.attribute.type">
+      <optional>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.typed.attribute.subtype">
+      <optional>
+         <attribute name="subtype">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a sub-categorization of the element, if needed</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="tei-onmm-att.typed-subtypeTyped-constraint-rule-5">
+      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:*[@subtype]">
+        <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
+      </sch:rule>
+   </pattern>
+   <define name="teionmmatt.segLike.attributes">
+      <ref name="teionmmatt.datcat.attributes"/>
+      <ref name="teionmmatt.fragmentable.attributes"/>
+      <ref name="teionmmatt.segLike.attribute.function"/>
+   </define>
+   <define name="teionmmatt.segLike.attribute.function">
+      <optional>
+         <attribute name="function">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the function of the segment.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.edition.attributes">
+      <ref name="teionmmatt.edition.attribute.ed"/>
+      <ref name="teionmmatt.edition.attribute.edRef"/>
+   </define>
+   <define name="teionmmatt.edition.attribute.ed">
+      <optional>
+         <attribute name="ed">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition) supplies a sigil or other arbitrary identifier for the source edition in which the associated feature (for example, a page, column, or line break) occurs at this point in the text.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.edition.attribute.edRef">
+      <optional>
+         <attribute name="edRef">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition reference) provides a pointer to the source edition in which the associated feature (for example, a page, column, or line break) occurs at this point in the text.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.spanning.attributes">
+      <ref name="teionmmatt.spanning.attribute.spanTo"/>
+   </define>
+   <define name="teionmmatt.spanning.attribute.spanTo">
+      <optional>
+         <attribute name="spanTo">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the end of a span initiated by the element bearing this attribute.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="tei-onmm-att.spanning-spanTo-spanTo-2-constraint-rule-6">
+      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:*[@spanTo]">
+            <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
+The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
+                  </sch:assert>
+          </sch:rule>
+   </pattern>
+   <define name="teionmmatt.transcriptional.attributes">
+      <ref name="teionmmatt.editLike.attributes"/>
+      <ref name="teionmmatt.written.attributes"/>
+      <ref name="teionmmatt.transcriptional.attribute.status"/>
+      <ref name="teionmmatt.transcriptional.attribute.cause"/>
+      <ref name="teionmmatt.transcriptional.attribute.seq"/>
+   </define>
+   <define name="teionmmatt.transcriptional.attribute.status">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="status"
+                    a:defaultValue="unremarkable">
+            <a:documentation>indicates the effect of the intervention, for example in the case of a deletion, strikeouts which include too much or too little text, or in the case of an addition, an insertion which duplicates some of the text already present.
+Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] excessEnd; 5] shortStart; 6] shortEnd; 7] partial; 8] unremarkable</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.transcriptional.attribute.cause">
+      <optional>
+         <attribute name="cause">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">documents the presumed cause for the intervention.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.transcriptional.attribute.seq">
+      <optional>
+         <attribute name="seq">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sequence) assigns a sequence number related to the order in which the encoded features carrying this attribute are believed to have occurred.</a:documentation>
+            <data type="nonNegativeInteger"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmmodel.nameLike.agent">
+      <choice>
+         <ref name="teionmmname"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.nameLike.agent_alternation">
+      <choice>
+         <ref name="teionmmname"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.nameLike.agent_sequence">
+      <ref name="teionmmname"/>
+   </define>
+   <define name="teionmmmodel.nameLike.agent_sequenceOptional">
+      <optional>
+         <ref name="teionmmname"/>
+      </optional>
+   </define>
+   <define name="teionmmmodel.nameLike.agent_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="teionmmname"/>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmodel.nameLike.agent_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="teionmmname"/>
+      </oneOrMore>
+   </define>
+   <define name="teionmmmodel.segLike">
+      <choice>
+         <ref name="teionmmw"/>
+         <ref name="teionmmpc"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.hiLike">
+      <choice>
+         <ref name="teionmmhi"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.hiLike_alternation">
+      <choice>
+         <ref name="teionmmhi"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.hiLike_sequence">
+      <ref name="teionmmhi"/>
+   </define>
+   <define name="teionmmmodel.hiLike_sequenceOptional">
+      <optional>
+         <ref name="teionmmhi"/>
+      </optional>
+   </define>
+   <define name="teionmmmodel.hiLike_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="teionmmhi"/>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmodel.hiLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="teionmmhi"/>
+      </oneOrMore>
+   </define>
+   <define name="teionmmmodel.emphLike">
+      <choice>
+         <ref name="teionmmtitle"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.emphLike_alternation">
+      <choice>
+         <ref name="teionmmtitle"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.emphLike_sequence">
+      <ref name="teionmmtitle"/>
+   </define>
+   <define name="teionmmmodel.emphLike_sequenceOptional">
+      <optional>
+         <ref name="teionmmtitle"/>
+      </optional>
+   </define>
+   <define name="teionmmmodel.emphLike_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="teionmmtitle"/>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmodel.emphLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="teionmmtitle"/>
+      </oneOrMore>
+   </define>
+   <define name="teionmmmodel.highlighted">
+      <choice>
+         <ref name="teionmmmodel.hiLike"/>
+         <ref name="teionmmmodel.emphLike"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.dateLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.dateLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.dateLike_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.dateLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.dateLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.dateLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.measureLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.measureLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.measureLike_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.measureLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.measureLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.measureLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.egLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.egLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.egLike_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.egLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.egLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.egLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.graphicLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.offsetLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.offsetLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.offsetLike_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.offsetLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.offsetLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.offsetLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.pPart.msdesc">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.pPart.editorial">
+      <choice>
+         <ref name="teionmmchoice"/>
+         <ref name="teionmmabbr"/>
+         <ref name="teionmmexpan"/>
+         <ref name="teionmmex"/>
+         <ref name="teionmmam"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.pPart.editorial_alternation">
+      <choice>
+         <ref name="teionmmchoice"/>
+         <ref name="teionmmabbr"/>
+         <ref name="teionmmexpan"/>
+         <ref name="teionmmex"/>
+         <ref name="teionmmam"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.pPart.editorial_sequence">
+      <ref name="teionmmchoice"/>
+      <ref name="teionmmabbr"/>
+      <ref name="teionmmexpan"/>
+      <ref name="teionmmex"/>
+      <ref name="teionmmam"/>
+   </define>
+   <define name="teionmmmodel.pPart.editorial_sequenceOptional">
+      <optional>
+         <ref name="teionmmchoice"/>
+      </optional>
+      <optional>
+         <ref name="teionmmabbr"/>
+      </optional>
+      <optional>
+         <ref name="teionmmexpan"/>
+      </optional>
+      <optional>
+         <ref name="teionmmex"/>
+      </optional>
+      <optional>
+         <ref name="teionmmam"/>
+      </optional>
+   </define>
+   <define name="teionmmmodel.pPart.editorial_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="teionmmchoice"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="teionmmabbr"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="teionmmexpan"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="teionmmex"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="teionmmam"/>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmodel.pPart.editorial_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="teionmmchoice"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="teionmmabbr"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="teionmmexpan"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="teionmmex"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="teionmmam"/>
+      </oneOrMore>
+   </define>
+   <define name="teionmmmodel.pPart.transcriptional">
+      <choice>
+         <ref name="teionmmadd"/>
+         <ref name="teionmmsupplied"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.pPart.transcriptional_alternation">
+      <choice>
+         <ref name="teionmmadd"/>
+         <ref name="teionmmsupplied"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.pPart.transcriptional_sequence">
+      <ref name="teionmmadd"/>
+      <ref name="teionmmsupplied"/>
+   </define>
+   <define name="teionmmmodel.pPart.transcriptional_sequenceOptional">
+      <optional>
+         <ref name="teionmmadd"/>
+      </optional>
+      <optional>
+         <ref name="teionmmsupplied"/>
+      </optional>
+   </define>
+   <define name="teionmmmodel.pPart.transcriptional_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="teionmmadd"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="teionmmsupplied"/>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmodel.pPart.transcriptional_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="teionmmadd"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="teionmmsupplied"/>
+      </oneOrMore>
+   </define>
+   <define name="teionmmmodel.pPart.edit">
+      <choice>
+         <ref name="teionmmmodel.pPart.editorial"/>
+         <ref name="teionmmmodel.pPart.transcriptional"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.ptrLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.lPart">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.global.meta">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.milestoneLike">
+      <choice>
+         <ref name="teionmmpb"/>
+         <ref name="teionmmlb"/>
+         <ref name="teionmmcb"/>
+         <ref name="teionmmfw"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.gLike">
+      <choice>
+         <ref name="teionmmg"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.oddDecl">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.oddDecl_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.oddDecl_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.oddDecl_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.oddDecl_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.oddDecl_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.phrase.xml">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.specDescLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.biblLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.biblLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.biblLike_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.biblLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.biblLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.biblLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.headLike">
+      <choice>
+         <ref name="teionmmhead"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.headLike_alternation">
+      <choice>
+         <ref name="teionmmhead"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.headLike_sequence">
+      <ref name="teionmmhead"/>
+   </define>
+   <define name="teionmmmodel.headLike_sequenceOptional">
+      <optional>
+         <ref name="teionmmhead"/>
+      </optional>
+   </define>
+   <define name="teionmmmodel.headLike_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="teionmmhead"/>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmodel.headLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="teionmmhead"/>
+      </oneOrMore>
+   </define>
+   <define name="teionmmmodel.labelLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.labelLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.labelLike_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.labelLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.labelLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.labelLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.listLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.listLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.listLike_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.listLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.listLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.listLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.noteLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.lLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.lLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.lLike_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.lLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.lLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.lLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.pLike">
+      <choice>
+         <ref name="teionmmp"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.pLike_alternation">
+      <choice>
+         <ref name="teionmmp"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.pLike_sequence">
+      <ref name="teionmmp"/>
+   </define>
+   <define name="teionmmmodel.pLike_sequenceOptional">
+      <optional>
+         <ref name="teionmmp"/>
+      </optional>
+   </define>
+   <define name="teionmmmodel.pLike_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="teionmmp"/>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmodel.pLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="teionmmp"/>
+      </oneOrMore>
+   </define>
+   <define name="teionmmmodel.stageLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.stageLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.stageLike_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.stageLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.stageLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.stageLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.global.edit">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.divPart">
+      <choice>
+         <ref name="teionmmmodel.lLike"/>
+         <ref name="teionmmmodel.pLike"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.placeNamePart">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.placeNamePart_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.placeNamePart_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.placeNamePart_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.placeNamePart_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.placeNamePart_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.placeStateLike">
+      <choice>
+         <ref name="teionmmmodel.placeNamePart"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.placeStateLike_alternation">
+      <choice>
+         <ref name="teionmmmodel.placeNamePart_alternation"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.placeStateLike_sequence">
+      <ref name="teionmmmodel.placeNamePart_sequence"/>
+   </define>
+   <define name="teionmmmodel.placeStateLike_sequenceOptional">
+      <optional>
+         <ref name="teionmmmodel.placeNamePart_sequenceOptional"/>
+      </optional>
+   </define>
+   <define name="teionmmmodel.placeStateLike_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="teionmmmodel.placeNamePart_sequenceOptionalRepeatable"/>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmodel.placeStateLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="teionmmmodel.placeNamePart_sequenceRepeatable"/>
+      </oneOrMore>
+   </define>
+   <define name="teionmmmodel.publicationStmtPart.agency">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.publicationStmtPart.detail">
+      <choice>
+         <ref name="teionmmmodel.ptrLike"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.quoteLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.quoteLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.quoteLike_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.quoteLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.quoteLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.quoteLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.qLike">
+      <choice>
+         <ref name="teionmmmodel.quoteLike"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.qLike_alternation">
+      <choice>
+         <ref name="teionmmmodel.quoteLike_alternation"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.qLike_sequence">
+      <ref name="teionmmmodel.quoteLike_sequence"/>
+   </define>
+   <define name="teionmmmodel.qLike_sequenceOptional">
+      <optional>
+         <ref name="teionmmmodel.quoteLike_sequenceOptional"/>
+      </optional>
+   </define>
+   <define name="teionmmmodel.qLike_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="teionmmmodel.quoteLike_sequenceOptionalRepeatable"/>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmodel.qLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="teionmmmodel.quoteLike_sequenceRepeatable"/>
+      </oneOrMore>
+   </define>
+   <define name="teionmmmodel.respLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.divWrapper">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.divTopPart">
+      <choice>
+         <ref name="teionmmmodel.headLike"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.divTop">
+      <choice>
+         <ref name="teionmmmodel.divWrapper"/>
+         <ref name="teionmmmodel.divTopPart"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.divBottomPart">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.divBottom">
+      <choice>
+         <ref name="teionmmmodel.divWrapper"/>
+         <ref name="teionmmmodel.divBottomPart"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.choicePart">
+      <choice>
+         <ref name="teionmmabbr"/>
+         <ref name="teionmmexpan"/>
+         <ref name="teionmmex"/>
+         <ref name="teionmmam"/>
+         <ref name="teionmmsupplied"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.addressLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.addressLike_alternation">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.addressLike_sequence">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.addressLike_sequenceOptional">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.addressLike_sequenceOptionalRepeatable">
+      <empty/>
+   </define>
+   <define name="teionmmmodel.addressLike_sequenceRepeatable">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.nameLike">
+      <choice>
+         <ref name="teionmmmodel.nameLike.agent"/>
+         <ref name="teionmmmodel.offsetLike"/>
+         <ref name="teionmmmodel.placeStateLike"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.nameLike_alternation">
+      <choice>
+         <ref name="teionmmmodel.nameLike.agent_alternation"/>
+         <ref name="teionmmmodel.offsetLike_alternation"/>
+         <ref name="teionmmmodel.placeStateLike_alternation"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.nameLike_sequence">
+      <ref name="teionmmmodel.nameLike.agent_sequence"/>
+      <ref name="teionmmmodel.offsetLike_sequence"/>
+      <ref name="teionmmmodel.placeStateLike_sequence"/>
+   </define>
+   <define name="teionmmmodel.nameLike_sequenceOptional">
+      <optional>
+         <ref name="teionmmmodel.nameLike.agent_sequenceOptional"/>
+      </optional>
+      <optional>
+         <ref name="teionmmmodel.offsetLike_sequenceOptional"/>
+      </optional>
+      <optional>
+         <ref name="teionmmmodel.placeStateLike_sequenceOptional"/>
+      </optional>
+   </define>
+   <define name="teionmmmodel.nameLike_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="teionmmmodel.nameLike.agent_sequenceOptionalRepeatable"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="teionmmmodel.offsetLike_sequenceOptionalRepeatable"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="teionmmmodel.placeStateLike_sequenceOptionalRepeatable"/>
+      </zeroOrMore>
+   </define>
+   <define name="teionmmmodel.nameLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="teionmmmodel.nameLike.agent_sequenceRepeatable"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="teionmmmodel.offsetLike_sequenceRepeatable"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="teionmmmodel.placeStateLike_sequenceRepeatable"/>
+      </oneOrMore>
+   </define>
+   <define name="teionmmmodel.global">
+      <choice>
+         <ref name="teionmmmodel.global.meta"/>
+         <ref name="teionmmmodel.milestoneLike"/>
+         <ref name="teionmmmodel.noteLike"/>
+         <ref name="teionmmmodel.global.edit"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.pPart.data">
+      <choice>
+         <ref name="teionmmmodel.dateLike"/>
+         <ref name="teionmmmodel.measureLike"/>
+         <ref name="teionmmmodel.addressLike"/>
+         <ref name="teionmmmodel.nameLike"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.inter">
+      <choice>
+         <ref name="teionmmmodel.egLike"/>
+         <ref name="teionmmmodel.oddDecl"/>
+         <ref name="teionmmmodel.biblLike"/>
+         <ref name="teionmmmodel.labelLike"/>
+         <ref name="teionmmmodel.listLike"/>
+         <ref name="teionmmmodel.stageLike"/>
+         <ref name="teionmmmodel.qLike"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.common">
+      <choice>
+         <ref name="teionmmmodel.divPart"/>
+         <ref name="teionmmmodel.inter"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.phrase">
+      <choice>
+         <ref name="teionmmmodel.segLike"/>
+         <ref name="teionmmmodel.highlighted"/>
+         <ref name="teionmmmodel.graphicLike"/>
+         <ref name="teionmmmodel.pPart.msdesc"/>
+         <ref name="teionmmmodel.pPart.edit"/>
+         <ref name="teionmmmodel.ptrLike"/>
+         <ref name="teionmmmodel.lPart"/>
+         <ref name="teionmmmodel.phrase.xml"/>
+         <ref name="teionmmmodel.specDescLike"/>
+         <ref name="teionmmmodel.pPart.data"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.divLike">
+      <choice>
+         <ref name="teionmmdiv"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.divGenLike">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.div1Like">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.teiHeaderPart">
+      <choice>
+         <ref name="teionmmencodingDesc"/>
+      </choice>
+   </define>
+   <define name="teionmmmodel.sourceDescPart">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.encodingDescPart">
+      <notAllowed/>
+   </define>
+   <define name="teionmmmodel.resource">
+      <choice>
+         <ref name="teionmmtext"/>
+      </choice>
+   </define>
+   <define name="teionmmatt.personal.attributes">
+      <ref name="teionmmatt.naming.attributes"/>
+      <ref name="teionmmatt.personal.attribute.full"/>
+      <ref name="teionmmatt.personal.attribute.sort"/>
+   </define>
+   <define name="teionmmatt.personal.attribute.full">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="full"
+                    a:defaultValue="yes">
+            <a:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</a:documentation>
+            <choice>
+               <value>yes</value>
+               <a:documentation>the name component is spelled out in full.</a:documentation>
+               <value>abb</value>
+               <a:documentation>(abbreviated) the name component is given in an abbreviated form.</a:documentation>
+               <value>init</value>
+               <a:documentation>(initial letter) the name component is indicated only by one initial.</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.personal.attribute.sort">
+      <optional>
+         <attribute name="sort">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the sort order of the name component in relation to others within the name.</a:documentation>
+            <data type="nonNegativeInteger"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmp">
+      <element name="p">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]</a:documentation>
+         <ref name="teionmmmacro.paraContent"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tei-onmm-p-abstractModel-structure-p-constraint-report-4">
+            <rule context="tei:p">
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )">
+        Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
+      </report>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tei-onmm-p-abstractModel-structure-l-constraint-report-5">
+            <rule context="tei:p">
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]">
+        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab.
+      </report>
+            </rule>
+         </pattern>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.declaring.attributes"/>
+         <ref name="teionmmatt.fragmentable.attributes"/>
+         <ref name="teionmmatt.written.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmhi">
+      <element name="hi">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(highlighted) marks a word or phrase as graphically distinct from the surrounding text, for reasons concerning which no claim is made. [3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language]</a:documentation>
+         <ref name="teionmmmacro.paraContent"/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.written.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmchoice">
+      <element name="choice">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">groups a number of alternative encodings for the same point in a text. [3.4. Simple Editorial Changes]</a:documentation>
+         <oneOrMore>
+            <choice>
+               <ref name="teionmmmodel.choicePart"/>
+               <ref name="teionmmchoice"/>
+            </choice>
+         </oneOrMore>
+         <ref name="teionmmatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmadd">
+      <element name="add">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(addition) contains letters, words, or phrases inserted in the source text by an author, scribe, or a previous annotator or corrector. [3.4.3. Additions, Deletions, and Omissions]</a:documentation>
+         <ref name="teionmmmacro.paraContent"/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.transcriptional.attributes"/>
+         <ref name="teionmmatt.placement.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <ref name="teionmmatt.dimensions.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmname">
+      <element name="name">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(name, proper noun) contains a proper noun or noun phrase. [3.5.1. Referring Strings]</a:documentation>
+         <ref name="teionmmmacro.phraseSeq"/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.personal.attributes"/>
+         <ref name="teionmmatt.datable.attributes"/>
+         <ref name="teionmmatt.editLike.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmabbr">
+      <element name="abbr">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(abbreviation) contains an abbreviation of any sort. [3.5.5. Abbreviations and Their Expansions]</a:documentation>
+         <ref name="teionmmmacro.phraseSeq"/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">allows the encoder to classify the abbreviation according to some convenient typology.
+Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscription; 5] acronym; 6] title; 7] organization; 8] geographic</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmexpan">
+      <element name="expan">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(expansion) contains the expansion of an abbreviation. [3.5.5. Abbreviations and Their Expansions]</a:documentation>
+         <ref name="teionmmmacro.phraseSeq"/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.editLike.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmhead">
+      <element name="head">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. Headings and Trailers]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+        
+               <ref name="teionmmmodel.gLike"/>
+               <ref name="teionmmmodel.phrase"/>
+               <ref name="teionmmmodel.inter"/>
+               <ref name="teionmmmodel.lLike"/>
+               <ref name="teionmmmodel.global"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <ref name="teionmmatt.placement.attributes"/>
+         <ref name="teionmmatt.written.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmpb">
+      <element name="pb">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(page beginning) marks the beginning of a new page in a paginated document. [3.10.3. Milestone
+Elements]</a:documentation>
+         <empty/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <ref name="teionmmatt.edition.attributes"/>
+         <ref name="teionmmatt.spanning.attributes"/>
+         <ref name="teionmmatt.breaking.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmlb">
+      <element name="lb">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line beginning) marks the beginning of a new (typographic) line in some edition or version of a text. [3.10.3. Milestone
+Elements 7.2.5. Speech Contents]</a:documentation>
+         <empty/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <ref name="teionmmatt.edition.attributes"/>
+         <ref name="teionmmatt.spanning.attributes"/>
+         <ref name="teionmmatt.breaking.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmcb">
+      <element name="cb">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(column beginning) marks the beginning of a new column of a text on a multi-column page. [3.10.3. Milestone
+Elements]</a:documentation>
+         <empty/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <ref name="teionmmatt.edition.attributes"/>
+         <ref name="teionmmatt.spanning.attributes"/>
+         <ref name="teionmmatt.breaking.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmtitle">
+      <element name="title">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]</a:documentation>
+         <ref name="teionmmmacro.paraContent"/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.typed.attribute.subtype"/>
+         <ref name="teionmmatt.canonical.attributes"/>
+         <ref name="teionmmatt.datable.attributes"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the title according to some convenient typology.
+Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="level">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the bibliographic level for a title, that is, whether it identifies an article, book, journal, series, or unpublished material.</a:documentation>
+               <choice>
+                  <value>a</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analytic) the title applies to an analytic item, such as an article, poem, or other work published as part of a larger item.</a:documentation>
+                  <value>m</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(monographic) the title applies to a monograph such as a book or other item considered to be a distinct publication, including single volumes of multi-volume works</a:documentation>
+                  <value>j</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(journal) the title applies to any serial or periodical publication such as a journal, magazine, or newspaper</a:documentation>
+                  <value>s</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series) the title applies to a series of otherwise distinct publications such as a collection</a:documentation>
+                  <value>u</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(unpublished) the title applies to any unpublished material (including theses and dissertations unless published by a commercial press)</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmatt.linguistic.attributes">
+      <ref name="teionmmatt.linguistic.attribute.lemma"/>
+      <ref name="teionmmatt.linguistic.attribute.lemmaRef"/>
+      <ref name="teionmmatt.linguistic.attribute.pos"/>
+      <ref name="teionmmatt.linguistic.attribute.msd"/>
+      <ref name="teionmmatt.linguistic.attribute.join"/>
+   </define>
+   <define name="teionmmatt.linguistic.attribute.lemma">
+      <optional>
+         <attribute name="lemma">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a lemma (base form) for the word, typically uninflected and serving both as an identifier (e.g. in dictionary contexts, as a headword), and as a basis for potential inflections.</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.linguistic.attribute.lemmaRef">
+      <optional>
+         <attribute name="lemmaRef">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a pointer to a definition of the lemma for the word, for example in an online lexicon.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.linguistic.attribute.pos">
+      <optional>
+         <attribute name="pos">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(part of speech) indicates the part of speech assigned to a token (i.e. information on whether it is a noun, adjective, or verb), usually according to some official reference vocabulary (e.g. for German: STTS, for English: CLAWS, for Polish: NKJP, etc.).</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.linguistic.attribute.msd">
+      <optional>
+         <attribute name="msd">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(morphosyntactic description) supplies morphosyntactic information for a token, usually according to some official reference vocabulary (e.g. for German: <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/TagSets/stts-1999.pdf">STTS-large tagset</a>; for a feature description system designed as (pragmatically) universal, see <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="http://universaldependencies.org/u/feat/index.html">Universal Features</a>).</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.linguistic.attribute.join">
+      <optional>
+         <attribute name="join">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when present, it provides information on whether the token in question is adjacent to another, and if so, on which side. The definition of this attribute is adapted from ISO MAF (Morpho-syntactic Annotation Framework), ISO 24611:2012.</a:documentation>
+            <choice>
+               <value>no</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(the token is not adjacent to another) </a:documentation>
+               <value>left</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on the left side of the token) </a:documentation>
+               <value>right</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on the right side of the token) </a:documentation>
+               <value>both</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on either side of the token) </a:documentation>
+               <value>overlap</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(the token overlaps with another; other devices (specifying the extent and the area of overlap) are needed to more precisely locate this token in the character stream) </a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.analytic.attributes">
+      <ref name="teionmmatt.global.analytic.attribute.ana"/>
+   </define>
+   <define name="teionmmatt.global.analytic.attribute.ana">
+      <optional>
+         <attribute name="ana">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analysis) indicates one or more elements containing interpretations of the element on which the <code xmlns="http://www.w3.org/1999/xhtml">@ana</code> attribute appears.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmw">
+      <element name="w">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(word) represents a grammatical (not necessarily orthographic) word. [17.1. Linguistic Segment Categories 17.4.2. Lightweight Linguistic Annotation]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="teionmmmodel.gLike"/>
+      
+               <ref name="teionmmw"/>
+      
+      
+               <ref name="teionmmpc"/>
+               <ref name="teionmmmodel.global"/>
+               <ref name="teionmmmodel.lPart"/>
+               <ref name="teionmmmodel.hiLike"/>
+               <ref name="teionmmmodel.pPart.edit"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.segLike.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <ref name="teionmmatt.linguistic.attributes"/>
+         <ref name="teionmmatt.notated.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmpc">
+      <element name="pc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(punctuation character) contains a character or string of characters regarded as constituting a single punctuation mark. [17.1.2. Below the Word Level 17.4.2. Lightweight Linguistic Annotation]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="teionmmmodel.gLike"/>
+        
+               <ref name="teionmmmodel.pPart.edit"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.segLike.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <ref name="teionmmatt.linguistic.attributes"/>
+         <optional>
+            <attribute name="force">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the extent to which this punctuation mark conventionally separates words or phrases</a:documentation>
+               <choice>
+                  <value>strong</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the punctuation mark is a word separator</a:documentation>
+                  <value>weak</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the punctuation mark is not a word separator</a:documentation>
+                  <value>inter</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the punctuation mark may or may not be a word separator</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="unit">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a name for the kind of unit delimited by this punctuation mark.</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="pre">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether this punctuation mark precedes or follows the unit it delimits.</a:documentation>
+               <data type="boolean"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmg">
+      <element name="g">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character or glyph) represents a glyph, or a non-standard character. [5. Characters, Glyphs, and Writing Modes]</a:documentation>
+         <text/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <optional>
+            <attribute name="ref">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a description of the character or glyph intended.</a:documentation>
+               <data type="anyURI"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmatt.global.facs.attributes">
+      <ref name="teionmmatt.global.facs.attribute.facs"/>
+   </define>
+   <define name="teionmmatt.global.facs.attribute.facs">
+      <optional>
+         <attribute name="facs">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(facsimile) points to all or part of an image which corresponds with the content of the element.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmatt.global.change.attributes">
+      <ref name="teionmmatt.global.change.attribute.change"/>
+   </define>
+   <define name="teionmmatt.global.change.attribute.change">
+      <optional>
+         <attribute name="change">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more <code xmlns="http://www.w3.org/1999/xhtml">&lt;change&gt;</code> elements documenting a state or revision campaign to which the element bearing this attribute and its children have been assigned by the encoder.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teionmmex">
+      <element name="ex">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(editorial expansion) contains a sequence of letters added by an editor or transcriber when expanding an abbreviation. [11.3.1.2. Abbreviation and Expansion]</a:documentation>
+         <ref name="teionmmmacro.xtext"/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.editLike.attributes"/>
+         <ref name="teionmmatt.dimensions.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmfw">
+      <element name="fw">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(forme work) contains a running head (e.g. a header, footer), catchword, or similar material appearing on the current page. [11.6. Headers, Footers, and Similar Matter]</a:documentation>
+         <ref name="teionmmmacro.phraseSeq"/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.typed.attribute.subtype"/>
+         <ref name="teionmmatt.placement.attributes"/>
+         <ref name="teionmmatt.written.attributes"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the material encoded according to some useful typology.</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmam">
+      <element name="am">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(abbreviation marker) contains a sequence of letters or signs present in an abbreviation which are omitted or replaced in the expanded form of the abbreviation. [11.3.1.2. Abbreviation and Expansion]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="teionmmmodel.gLike"/>
+               <ref name="teionmmmodel.pPart.transcriptional"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <ref name="teionmmatt.editLike.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmsupplied">
+      <element name="supplied">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">signifies text supplied by the transcriber or editor for any reason; for example because the original cannot be read due to physical damage, or because of an obvious omission by the author or scribe. [11.3.3.1. Damage, Illegibility, and Supplied Text]</a:documentation>
+         <ref name="teionmmmacro.paraContent"/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.editLike.attributes"/>
+         <ref name="teionmmatt.dimensions.attributes"/>
+         <optional>
+            <attribute name="reason">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">one or more words indicating why the text has had to be supplied, e.g. overbinding, faded-ink, lost-folio, omitted-in-original.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmteiHeader">
+      <element name="teiHeader">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]</a:documentation>
+         <group>
+            <ref name="teionmmfileDesc"/>
+            <zeroOrMore>
+               <ref name="teionmmmodel.teiHeaderPart"/>
+            </zeroOrMore>
+      
+         </group>
+         <ref name="teionmmatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmfileDesc">
+      <element name="fileDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]</a:documentation>
+         <group>
+            <group>
+               <ref name="teionmmtitleStmt"/>
+        
+          
+        
+        
+          
+        
+               <ref name="teionmmpublicationStmt"/>
+        
+          
+        
+        
+          
+        
+            </group>
+      
+            <oneOrMore>
+               <ref name="teionmmsourceDesc"/>
+            </oneOrMore>
+      
+         </group>
+         <ref name="teionmmatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmtitleStmt">
+      <element name="titleStmt">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(title statement) groups information about the title of a work and those responsible for its content. [2.2.1. The Title Statement 2.2. The File Description]</a:documentation>
+         <group>
+      
+            <oneOrMore>
+               <ref name="teionmmtitle"/>
+            </oneOrMore>
+      
+      
+            <zeroOrMore>
+               <ref name="teionmmmodel.respLike"/>
+            </zeroOrMore>
+      
+         </group>
+         <ref name="teionmmatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmpublicationStmt">
+      <element name="publicationStmt">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]</a:documentation>
+         <choice>
+      
+	           <oneOrMore>
+               <group>
+	  
+	                 <ref name="teionmmmodel.publicationStmtPart.agency"/>
+	  
+	  
+	                 <zeroOrMore>
+                     <ref name="teionmmmodel.publicationStmtPart.detail"/>
+                  </zeroOrMore>
+	  
+	              </group>
+            </oneOrMore>
+      
+      
+	           <oneOrMore>
+               <ref name="teionmmmodel.pLike"/>
+            </oneOrMore>
+      
+         </choice>
+         <ref name="teionmmatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmsourceDesc">
+      <element name="sourceDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]</a:documentation>
+         <choice>
+            <oneOrMore>
+               <ref name="teionmmmodel.pLike"/>
+            </oneOrMore>
+            <oneOrMore>
+               <choice>
+                  <ref name="teionmmmodel.biblLike"/>
+                  <ref name="teionmmmodel.sourceDescPart"/>
+                  <ref name="teionmmmodel.listLike"/>
+               </choice>
+            </oneOrMore>
+         </choice>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.declarable.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmencodingDesc">
+      <element name="encodingDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(encoding description) documents the relationship between an electronic text and the source or sources from which it was derived. [2.3. The Encoding Description 2.1.1. The TEI Header and Its Components]</a:documentation>
+         <oneOrMore>
+            <choice>
+               <ref name="teionmmmodel.encodingDescPart"/>
+               <ref name="teionmmmodel.pLike"/>
+            </choice>
+         </oneOrMore>
+         <ref name="teionmmatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmTEI">
+      <element name="TEI">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resource class. Multiple <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements may be combined within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> (or <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code>) element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
+         <group>
+            <ref name="teionmmteiHeader"/>
+            <choice>
+	              <group>
+	                 <oneOrMore>
+                     <ref name="teionmmmodel.resource"/>
+                  </oneOrMore>
+	                 <zeroOrMore>
+                     <ref name="teionmmTEI"/>
+                  </zeroOrMore>
+	              </group>
+	              <oneOrMore>
+                  <ref name="teionmmTEI"/>
+               </oneOrMore>
+            </choice>
+         </group>
+         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 prefix="tei"
+                 uri="http://www.tei-c.org/ns/1.0"/>
+         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 prefix="xs"
+                 uri="http://www.w3.org/2001/XMLSchema"/>
+         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 prefix="rng"
+                 uri="http://relaxng.org/ns/structure/1.0"/>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <optional>
+            <attribute name="version">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the version number of the TEI Guidelines against which this document is valid.</a:documentation>
+               <data type="token">
+                  <param name="pattern">[\d]+(\.[\d]+){0,2}</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmtext">
+      <element name="text">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
+         <group>
+      
+      
+        
+	           <zeroOrMore>
+               <ref name="teionmmmodel.global"/>
+            </zeroOrMore>
+      
+            <choice>
+               <ref name="teionmmbody"/>
+        
+            </choice>
+      
+      
+        
+	           <zeroOrMore>
+               <ref name="teionmmmodel.global"/>
+            </zeroOrMore>
+      
+         </group>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.declaring.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <ref name="teionmmatt.written.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmbody">
+      <element name="body">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]</a:documentation>
+         <group>
+      
+      
+            <zeroOrMore>
+               <ref name="teionmmmodel.global"/>
+            </zeroOrMore>
+      
+      
+      
+            <optional>
+               <group>
+          
+                  <ref name="teionmmmodel.divTop"/>
+          
+          
+                  <zeroOrMore>
+                     <choice>
+                        <ref name="teionmmmodel.global"/>
+                        <ref name="teionmmmodel.divTop"/>
+                     </choice>
+                  </zeroOrMore>
+          
+               </group>
+            </optional>
+      
+      
+      
+            <optional>
+               <group>
+          
+                  <ref name="teionmmmodel.divGenLike"/>
+          
+          
+                  <zeroOrMore>
+                     <choice>
+                        <ref name="teionmmmodel.global"/>
+                        <ref name="teionmmmodel.divGenLike"/>
+                     </choice>
+                  </zeroOrMore>
+          
+               </group>
+            </optional>
+      
+      
+        
+            <choice>
+          
+          
+               <oneOrMore>
+                  <group>
+              
+                     <ref name="teionmmmodel.divLike"/>
+              
+              
+                     <zeroOrMore>
+                        <choice>
+                           <ref name="teionmmmodel.global"/>
+                           <ref name="teionmmmodel.divGenLike"/>
+                        </choice>
+                     </zeroOrMore>
+              
+                  </group>
+               </oneOrMore>
+          
+          
+          
+               <oneOrMore>
+                  <group>
+              
+                     <ref name="teionmmmodel.div1Like"/>
+              
+              
+                     <zeroOrMore>
+                        <choice>
+                           <ref name="teionmmmodel.global"/>
+                           <ref name="teionmmmodel.divGenLike"/>
+                        </choice>
+                     </zeroOrMore>
+              
+                  </group>
+               </oneOrMore>
+          
+          
+               <group>
+                  <oneOrMore>
+                     <group>
+              
+                        <ref name="teionmmmodel.common"/>
+              
+              
+                        <zeroOrMore>
+                           <ref name="teionmmmodel.global"/>
+                        </zeroOrMore>
+              
+                     </group>
+                  </oneOrMore>
+            
+                  <optional>
+                     <choice>
+                
+                
+                        <oneOrMore>
+                           <group>
+                    
+                              <ref name="teionmmmodel.divLike"/>
+                    
+                    
+                              <zeroOrMore>
+                                 <choice>
+                                    <ref name="teionmmmodel.global"/>
+                                    <ref name="teionmmmodel.divGenLike"/>
+                                 </choice>
+                              </zeroOrMore>
+                    
+                           </group>
+                        </oneOrMore>
+                
+                
+                
+                        <oneOrMore>
+                           <group>
+                    
+                              <ref name="teionmmmodel.div1Like"/>
+                    
+                    
+                              <zeroOrMore>
+                                 <choice>
+                                    <ref name="teionmmmodel.global"/>
+                                    <ref name="teionmmmodel.divGenLike"/>
+                                 </choice>
+                              </zeroOrMore>
+                    
+                           </group>
+                        </oneOrMore>
+                
+                     </choice>
+                  </optional>
+            
+               </group>
+            </choice>
+        
+      
+      
+      
+            <zeroOrMore>
+               <group>
+          
+                  <ref name="teionmmmodel.divBottom"/>
+          
+          
+                  <zeroOrMore>
+                     <ref name="teionmmmodel.global"/>
+                  </zeroOrMore>
+          
+               </group>
+            </zeroOrMore>
+      
+         </group>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.declaring.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teionmmdiv">
+      <element name="div">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]</a:documentation>
+         <group>
+      
+            <zeroOrMore>
+               <choice>
+                  <ref name="teionmmmodel.divTop"/>
+          
+                  <ref name="teionmmmodel.global"/>
+               </choice>
+            </zeroOrMore>
+      
+            <optional>
+               <group>
+                  <choice>
+          
+                     <oneOrMore>
+                        <group>
+                           <choice>
+                              <ref name="teionmmmodel.divLike"/>
+                              <ref name="teionmmmodel.divGenLike"/>
+                           </choice>
+              
+                           <zeroOrMore>
+                              <ref name="teionmmmodel.global"/>
+                           </zeroOrMore>
+              
+                        </group>
+                     </oneOrMore>
+          
+                     <group>
+                        <oneOrMore>
+                           <group>
+              
+                              <ref name="teionmmmodel.common"/>
+              
+              
+                              <zeroOrMore>
+                                 <ref name="teionmmmodel.global"/>
+                              </zeroOrMore>
+              
+                           </group>
+                        </oneOrMore>
+                        <zeroOrMore>
+                           <group>
+                              <choice>
+                                 <ref name="teionmmmodel.divLike"/>
+                                 <ref name="teionmmmodel.divGenLike"/>
+                              </choice>
+              
+                              <zeroOrMore>
+                                 <ref name="teionmmmodel.global"/>
+                              </zeroOrMore>
+              
+                           </group>
+                        </zeroOrMore>
+                     </group>
+                  </choice>
+                  <zeroOrMore>
+                     <group>
+          
+                        <ref name="teionmmmodel.divBottom"/>
+          
+          
+                        <zeroOrMore>
+                           <ref name="teionmmmodel.global"/>
+                        </zeroOrMore>
+          
+                     </group>
+                  </zeroOrMore>
+               </group>
+            </optional>
+         </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tei-onmm-div-abstractModel-structure-l-constraint-report-6">
+            <rule context="tei:div">
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="ancestor::tei:l">
+        Abstract model violation: Lines may not contain higher-level structural elements such as div.
+      </report>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tei-onmm-div-abstractModel-structure-p-constraint-report-7">
+            <rule context="tei:div">
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)">
+        Abstract model violation: p and ab may not contain higher-level structural elements such as div.
+      </report>
+            </rule>
+         </pattern>
+         <ref name="teionmmatt.global.attributes"/>
+         <ref name="teionmmatt.divLike.attributes"/>
+         <ref name="teionmmatt.typed.attributes"/>
+         <ref name="teionmmatt.declaring.attributes"/>
+         <ref name="teionmmatt.written.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <start>
+      <choice>
+         <ref name="teionmmTEI"/>
+      </choice>
+   </start>
+</grammar>

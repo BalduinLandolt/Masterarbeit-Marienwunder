@@ -6,7 +6,7 @@
 [lb=1] [hi=caps] [hi=6][supplied=omitted]S[/supplied][/hi]uo seger [name=person] Ieronimvs [/name]
 [lb=2] prestur [/hi] ath {slong}æl (ok) dy{rrot}lig
 [lb=3] mær [name=person] Maria [/name] wæri komin
-[lb=4] a{fins} k(onun;bar)glig{rrot}e ætt . (ok) tok h(an;bar)n þ(vi;bar) a{fins} {fins}ra¬
+[lb=4] a{fins} k(onun;bar)glig{rrot}e ætt . (ok) tok h(an;bar)n þ(ui;bar) a{fins} {fins}ra¬
 [lb=5]{slong}ogu [name=person] Mathe(us) [/name] g(u;d;combcurl){slong}pialla_man{ezh} . {fins}(yrir;isup)
 [lb=6] þ(ui;isup) ath h(an;bar)n tok ath v{pplig}ha{fins}i {slong}in{slong}
 [lb=7] gud{slong}piall{ezh} ath telia ætt d(ro;osup)ttin{slong} [name=person] IHC XPC [/name] {fins}(ra)
@@ -36,9 +36,9 @@
 [lb=10]kyn h(en;bar)n(ar) w(ar) a{fins} [name=place] galilea [/name] h(er)adi . (ok) o{rrot} [name=place] na{ezh}areth [/name] .
 [lb=11] en(n;bar) mod(ur)_kyn h(en;bar)n(ar) . w(ar) a{fins} b(or;bar)g e(r;er) [name=place] bethleem [/name] heit(ir;er) .
 [lb=12] þau w(oro;osup) bædi {fins}alynd (ok) {rscap}ettlat . ok milld . (ok) w(ar) li{fins}
-[lb=13] þ(ei;bar){rrot}a heilagt {fins}(yrir;isup) g(u;d;combcurl)i (ok) m(onnu;bar)m . þau attv m(ic;csup)in(n;bar) avd {fins}i(ar) . En(n;bar)
+[lb=13] þ(ei;bar){rrot}a heilagt {fins}(yrir;isup) g(u;d;combcurl)i (ok) m(onnu;bar)m . þau attv m(ik;csup)in(n;bar) avd {fins}i(ar) . En(n;bar)
 [lb=14] þav {slong}kiptu ollu {fins}enu {jscap} þria {slong}tadi . (ok) ko{slong}t_gæ{fins}du
-[lb=15] þau meir ath ha{fins}a m(ic;csup)it k(ra)pta_l{aalig}n a{fins} g(u;d;combcurl)i þ(ar) {fins}(yrir;isup) .
+[lb=15] þau meir ath ha{fins}a m(ik;csup)it k(ra)pta_l{aalig}n a{fins} g(u;d;combcurl)i þ(ar) {fins}(yrir;isup) .
 [lb=16] en(n;bar) min(n;bar)a aura_l{aalig}n a{fins} hei(m;bar)e þad(an;nsup) {fins}(ra) . Ein(n;bar) hlutta
 [lb=17] {fins}i(ar){slong} ga{fins}v þau t(il;isup) m(us)teri{slong} d(ro;osup)ttin{slong} . bædi þ(ar) t(il;isup) pry¬
 [lb=18]di (ok) þ(ei;bar)m m(onnu;bar)m t(il;isup) atvin(n;bar)u e(r;er) þ(ar) þionudv . An(n;bar)a(n;bar)
@@ -49,7 +49,7 @@
 [lb=2] attv {ocurl}ngua dugnad(ar)_m(enn;bar) eda {fins}rænd(r;ur) . þau h{ocurl}{fins}du
 [lb=3] {slong}ial{fins} hin(n;bar) þ(ri;isup)dia hlut {fins}i(ar)en{slong} {slong}i(er) t(il;isup) at_vin(n;bar)u . Nu w(ar) þ(ei;bar){rrot}a
 [lb=4] {rscap}ettlæti dy{rrot}ligt {fins}(yrir;isup) gvdi (ok) m(onnu;bar)m . (ok) aud{slong}æ millde 
-[lb=5] þ(ei;bar){rrot}a . (ok) þotti þ(ei;bar)m {slong}i(er) þe{slong}{slong} ein{slong} want, e(r;er) þav attu ei(n;bar)g¬
+[lb=5] þ(ei;bar){rrot}a . (ok) þotti þ(ei;bar)m {slong}i(er) þe{slong}{slong} ein{slong} want e(r;er) þav attu ei(n;bar)g¬
 [lb=6]an(n;bar) er{fins}i(n;bar)gia . Þau h{ocurl}{fins}du þa {slong}am(an;nsup) w(er)it . xx . vet(ur) . 
 [lb=7] þa hetu þau {aalig} g(u;d;combcurl) ath e{fins} h(an;bar)n gæ{fins}i þ(ei;bar)m b(ar)n . þa
 [lb=8] {slong}kylldi þ(at;bar) b(ar)n þiona d(ro;osup)ttni {jscap} h(a;bar)n{slong} mu{slong}t(er)i . þau badu

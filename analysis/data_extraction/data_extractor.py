@@ -5,10 +5,12 @@ Licensed under GNU AGPL license. See license file in the root of the repository.
 
 from lxml import etree
 from bs4 import BeautifulSoup
-from bs4.element import Tag, NavigableString
+from bs4.element import Tag, NavigableString, ProcessingInstruction
 import copy
 import nltk
 import csv
+import re
+from pathlib import Path
 
 
 class Extractor:
@@ -55,8 +57,28 @@ class Extractor:
         text = tmp.get_text()
         return len(text)
 
+    @classmethod
+    def get_character_count_upper(cls, soup):
+        """Get number of upper case characters in XML.
+
+        Counts all upper case characters in XML data. <g> is *not* considered an upper case character.
+
+        Args:
+            soup (Tag): XML data
+
+        Returns:
+            int: number of characters
+        """
+        tmp = copy.copy(soup)
+        for g in tmp.find_all('g'):
+            g.replace_with('^')
+        text = list(tmp.get_text())
+        uppers = [c for c in text if c.isupper()]
+        print(uppers)
+        return len(uppers)
+
     @staticmethod
-    def write_to_csv(file, names, rows):
+    def write_to_csv(file, names, rows, subfolder=""):
         """Writes data to CSV file.
 
         Writes a given set of data to a local file
@@ -65,17 +87,26 @@ class Extractor:
             file (str): File name
             names (list of str): Column names
             rows (list of list): Rows of data (each row must be a list of same length as `names`)
+            subfolder (str): optional subfolder in output directory
 
         Returns:
             None: None
         """
 
-        path_prefix = "../tmp_data/"
+        path_prefix = "../tmp_data/" + subfolder + "/"
+        Path(path_prefix).mkdir(parents=True, exist_ok=True)
         with open(path_prefix + file, mode='w', encoding='utf-8', newline='') as file:
             w = csv.writer(file)
             w.writerow(names)
             for row in rows:
                 w.writerow(row)
+
+    @staticmethod
+    def write_to_txt(file, data, subfolder=""):
+        path_prefix = "../tmp_data/" + subfolder + "/"
+        Path(path_prefix).mkdir(parents=True, exist_ok=True)
+        with open(path_prefix + file, mode='w', encoding='utf-8', newline='') as file:
+            file.write(data)
 
     @staticmethod
     def get_word_frequencies(words_raw_rep, plot=False, print_no=0):
@@ -282,6 +313,8 @@ class Extractor:
             if prev_line is None:
                 continue
             # TODO: ensure in transformation, that that doesn't happen (i.e. <wordpart/>) at page beginning
+            if isinstance(prev_line, NavigableString):
+                print(wp)
             words = prev_line.find_all('w')
             s = Extractor.make_raw(wp, Extractor.TYPE_EXTRACT_ALL)
             words[-1].append(s)
@@ -299,11 +332,12 @@ class Extractor:
         Returns:
             BeautifulSoup: input data, without any NavigableString containing only whitespace.
         """
+        xml_soup = xml_soup.html.body.xml.extract()
         for e in xml_soup.descendants:
             if isinstance(e, NavigableString):
                 next = e.next_element
                 if e.isspace():
-                    e.replace_with('')
+                    e.extract()
                 else:
                     e.replace_with(e.replace('\n', ''))
                 e.next_element = next
@@ -389,11 +423,12 @@ class Extractor:
         return frequs
 
     @classmethod
-    def get_abbreviations_raw(cls, soup):
+    def get_abbreviations_raw(cls, soup, type=TYPE_EXTRACT_ALL):
         """
         Get all abbreviations as raw.
 
         Args:
+            type ():
             soup (BeautifulSoup): xml data
 
         Returns:
@@ -403,7 +438,7 @@ class Extractor:
         res = []
         for am in ams:
             tmp = cls.resolve_glyph(am)
-            res.append(cls.extract_abbreviation_contents_as_raw(tmp, cls.TYPE_EXTRACT_ALL))
+            res.append(cls.extract_abbreviation_contents_as_raw(tmp, type))
         return res
 
     @classmethod
@@ -448,13 +483,17 @@ class Extractor:
             None: None
         """
         # TODO: could extraction be more generic, and with arguments to specify?
-        field_names = ["sample", "sample_name", "no_pages", "no_lines", "no_words", "no_characters", "no_abbreviations"]
+        field_names = ["sample", "sample_name", "no_pages", "no_lines", "no_words", "no_characters","no_uppercases" , "no_abbreviations"]
         rows = []
         for section_index, section in enumerate(Extractor.samples):
             section_name = section[0]
             data = section[1]
-            row = [section_index, section_name, Extractor.get_page_count(data), Extractor.get_line_count(data),
-                   Extractor.get_word_count(data), Extractor.get_character_count(data),
+            row = [section_index, section_name,
+                   Extractor.get_page_count(data),
+                   Extractor.get_line_count(data),
+                   Extractor.get_word_count(data),
+                   Extractor.get_character_count(data),
+                   Extractor.get_character_count_upper(data),
                    Extractor.get_abbreviation_count(data)]
             rows.append(row)
         Extractor.write_to_csv("page_overview.csv", field_names, rows)
@@ -502,6 +541,110 @@ class Extractor:
                 rows.append(row)
         Extractor.write_to_csv('abbreviations.csv', names, rows)
 
+    @classmethod
+    def extract_sem(cls):
+        # TODO: solve properly with include word list
+        names = ["sample", "sample_name", "normal", "form"]
+        rows = []
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            abbreviations = Extractor.find_all_sem(data)
+            for abbr in abbreviations:
+                row = [section_index, section_name, "sem", abbr]
+                rows.append(row)
+        Extractor.write_to_csv('sem.csv', names, rows)
+
+    @classmethod
+    def find_all_sem(cls, data):
+        potentials = ['Sem', 'sem', '{slong}em', '{slong}(e)m', '{slong}(em)', '{slong}e(m)']
+        words_ex = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_EX)
+        words_all = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_EX)
+        hits = [i for i, v in enumerate(words_ex) if v in potentials]
+        res = [words_all[h] for h in hits]
+        return res
+
+    @classmethod
+    def extract_v_anlaut(cls):
+        # TODO: solve properly with include word list
+        names = ["sample", "sample_name", "form", "letter"]
+        rows = []
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            abbreviations = Extractor.find_all_v_anlaut(data)
+            for abbr in abbreviations:
+                row = [section_index, section_name, abbr, abbr[0]]
+                rows.append(row)
+        Extractor.write_to_csv('v_anlaut.csv', names, rows)
+
+    @classmethod
+    def find_all_v_anlaut(cls, data):
+        words_all = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_EX)
+        res = [w for w in words_all if re.match("^[vwVW].*", w)]
+        return res
+
+    @classmethod
+    def extract_stylo_text(cls):
+        cls.extract_stylo_text_whole_words()
+        cls.extract_stylo_text_abbr_only()
+        cls.extract_stylo_text_am_only()
+        cls.extract_stylo_text_rolling()
+
+    @classmethod
+    def extract_stylo_text_whole_words(cls):
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            words_all = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_ALL)
+            text = ' '.join(words_all)
+            Extractor.write_to_txt(f'{section_name}.txt', text, "stylo/whole_words")
+
+    @classmethod
+    def extract_stylo_text_abbr_only(cls):
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            words_all = cls.get_abbreviations_raw(data)
+            text = ' '.join(words_all)
+            Extractor.write_to_txt(f'{section_name}.txt', text, "stylo/abbr_only")
+
+    @classmethod
+    def extract_stylo_text_am_only(cls):
+        for section_index, section in enumerate(Extractor.samples):
+            section_name = section[0]
+            data = section[1]
+            words_all = cls.get_abbreviations_raw(data, cls.TYPE_EXTRACT_AM)
+            text = ' '.join(words_all)
+            Extractor.write_to_txt(f'{section_name}.txt', text, "stylo/am_only")
+
+    @classmethod
+    def extract_stylo_text_rolling(cls):
+        texts = []
+        for section_index, section in enumerate(Extractor.samples):
+            data = section[1]
+            words_all = cls.get_abbreviations_raw(data)
+            text = ' '.join(words_all)
+            texts.append(text)
+        concatinated = ' | '.join(texts)
+        Extractor.write_to_txt('all_texts_abbr_only.txt', concatinated, "stylo/rolling")
+        texts = []
+        for section_index, section in enumerate(Extractor.samples):
+            data = section[1]
+            words_all = cls.get_abbreviations_raw(data, cls.TYPE_EXTRACT_AM)
+            text = ' '.join(words_all)
+            texts.append(text)
+        concatinated = ' | '.join(texts)
+        Extractor.write_to_txt('all_texts_am_only.txt', concatinated, "stylo/rolling")
+        texts = []
+        for section_index, section in enumerate(Extractor.samples):
+            data = section[1]
+            words_all = cls.get_words_raw_rep(data, cls.TYPE_EXTRACT_ALL)
+            text = ' '.join(words_all)
+            texts.append(text)
+        concatinated = ' | '.join(texts)
+        Extractor.write_to_txt('all_texts_whole_word.txt', concatinated, "stylo/rolling")
+
     # Call actual extraction
     # ======================
 
@@ -519,51 +662,110 @@ class Extractor:
         with open('../../transcription/transcriptions/transformed/part_01_transformed.xml', encoding='utf-8') as file:
             xml_soup = BeautifulSoup(file, features='lxml')
             xml_soup = Extractor.strip_whitespace(xml_soup)
-            Extractor.samples.append(("part_01__p1ff", xml_soup))
+            Extractor.samples.append(("part_01_vol1_p1ff", xml_soup))
         with open('../../transcription/transcriptions/transformed/part_02_transformed.xml', encoding='utf-8') as file:
             xml_soup = BeautifulSoup(file, features='lxml')
             xml_soup = Extractor.strip_whitespace(xml_soup)
-            Extractor.samples.append(("part_02__p473ff", xml_soup))
+            Extractor.samples.append(("part_02_vol1_p473ff", xml_soup))
+        with open('../../transcription/transcriptions/transformed/part_03_transformed.xml', encoding='utf-8') as file:
+            xml_soup = BeautifulSoup(file, features='lxml')
+            xml_soup = Extractor.strip_whitespace(xml_soup)
+            Extractor.samples.append(("part_03_vol2_p303ff", xml_soup))
+        with open('../../transcription/transcriptions/transformed/part_04_imposter_transformed.xml', encoding='utf-8') as file:
+            xml_soup = BeautifulSoup(file, features='lxml')
+            xml_soup = Extractor.strip_whitespace(xml_soup)
+            Extractor.samples.append(("part_04_imposter_am232fol", xml_soup))
             # TODO: make this dynamic
 
         cls = Extractor
-        xml_soup = copy.copy(Extractor.samples[0][1])
-        xml_soup.html.body.append(copy.copy(Extractor.samples[1][1].html.body.xml))
+        xml_soup1 = copy.copy(Extractor.samples[0][1])
+        xml_soup2 = copy.copy(Extractor.samples[1][1])
+        xml_soup3 = copy.copy(Extractor.samples[2][1])
+        xml_soup4 = copy.copy(Extractor.samples[3][1])
+        all_str = f'<xml>{str(copy.copy(xml_soup1))}\n{str(copy.copy(xml_soup2))}\n{str(copy.copy(xml_soup3))}</xml>'
+        xml_soup_am6345_total = BeautifulSoup(all_str, features='lxml')
+      # xml_soup_am6345_total.html.body.append(copy.copy(Extractor.samples[1][1].html.body.xml))
+       # xml_soup_am6345_total.html.body.append(copy.copy(Extractor.samples[2][1].html.body.xml))
 
         # get page count
-        pg_count = Extractor.get_page_count(xml_soup)
-        print('Number of pages: {}'.format(pg_count))
+        pg_count = Extractor.get_page_count(xml_soup1)
+        print('Number of pages in sample 1: {}'.format(pg_count))
+        pg_count = Extractor.get_page_count(xml_soup2)
+        print('Number of pages in sample 2: {}'.format(pg_count))
+        pg_count = Extractor.get_page_count(xml_soup3)
+        print('Number of pages in sample 3: {}'.format(pg_count))
+        pg_count = Extractor.get_page_count(xml_soup_am6345_total)
+        print('Number of pages in sample 1-3: {}'.format(pg_count))
+        pg_count = Extractor.get_page_count(xml_soup4)
+        print('Number of pages in sample 4: {}'.format(pg_count))
 
         # get line count
-        l_count = Extractor.get_line_count(xml_soup)
-        print('Number of lines: {}'.format(l_count))
+        l_count1 = Extractor.get_line_count(xml_soup1)
+        print('Number of lines in sample 1: {}'.format(l_count1))
+        l_count2 = Extractor.get_line_count(xml_soup2)
+        print('Number of lines in sample 2: {}'.format(l_count2))
+        l_count3 = Extractor.get_line_count(xml_soup3)
+        print('Number of lines in sample 3: {}'.format(l_count3))
+        l_counta = Extractor.get_line_count(xml_soup_am6345_total)
+        print('Number of lines in sample 1-3: {}'.format(l_counta))
+        l_count4 = Extractor.get_line_count(xml_soup4)
+        print('Number of lines in sample 4: {}'.format(l_count4))
 
         # get word count
-        w_count = Extractor.get_word_count(xml_soup)
-        print('Number of words: {}'.format(w_count))
+        w_count1 = Extractor.get_word_count(xml_soup1)
+        print('Number of words in sample 1: {}'.format(w_count1))
+        w_count2 = Extractor.get_word_count(xml_soup2)
+        print('Number of words in sample 2: {}'.format(w_count2))
+        w_count3 = Extractor.get_word_count(xml_soup3)
+        print('Number of words in sample 3: {}'.format(w_count3))
+        w_counta = Extractor.get_word_count(xml_soup_am6345_total)
+        print('Number of words in sample 1-3: {}'.format(w_counta))
+        w_count4 = Extractor.get_word_count(xml_soup4)
+        print('Number of words in sample 4: {}'.format(w_count4))
 
         # get average words per line
-        av_words_per_line = w_count / l_count
+        av_words_per_line = w_count1 / l_count1
+        print('Average words per line: {}'.format(av_words_per_line))
+        av_words_per_line = w_count2 / l_count2
+        print('Average words per line: {}'.format(av_words_per_line))
+        av_words_per_line = w_count3 / l_count3
+        print('Average words per line: {}'.format(av_words_per_line))
+        av_words_per_line = w_counta / l_counta
+        print('Average words per line: {}'.format(av_words_per_line))
+        av_words_per_line = w_count4 / l_count4
         print('Average words per line: {}'.format(av_words_per_line))
 
+        print(f'Sample 0:\n'
+              f'characters: {Extractor.get_character_count(xml_soup1)}\n'
+              f'upper case: {Extractor.get_character_count_upper(xml_soup1)}\n')
+        print(f'Sample 1:\n'
+              f'characters: {Extractor.get_character_count(xml_soup2)}\n'
+              f'upper case: {Extractor.get_character_count_upper(xml_soup2)}\n')
+        print(f'Sample 2:\n'
+              f'characters: {Extractor.get_character_count(xml_soup3)}\n'
+              f'upper case: {Extractor.get_character_count_upper(xml_soup3)}\n')
+        print(f'Sample 3:\n'
+              f'characters: {Extractor.get_character_count(xml_soup4)}\n'
+              f'upper case: {Extractor.get_character_count_upper(xml_soup4)}\n')
+
         # get words with minimal raw mark-up
-        words_raw_rep = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_ALL)
+        words_raw_rep = Extractor.get_words_raw_rep(xml_soup_am6345_total, Extractor.TYPE_EXTRACT_ALL)
         raw_word_frequencies = Extractor.get_word_frequencies(words_raw_rep, plot=False, print_no=5)
 
         # get words expansion-only
-        words_raw_rep_ex_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_EX)
+        words_raw_rep_ex_only = Extractor.get_words_raw_rep(xml_soup_am6345_total, Extractor.TYPE_EXTRACT_EX)
 
         # get words abbreviation-only
-        words_raw_rep_am_only = Extractor.get_words_raw_rep(xml_soup, Extractor.TYPE_EXTRACT_AM)
+        words_raw_rep_am_only = Extractor.get_words_raw_rep(xml_soup_am6345_total, Extractor.TYPE_EXTRACT_AM)
 
-        abbreviation_marks = Extractor.get_abbreviation_marks_raw(xml_soup)
-        abbreviation_mark_frequencies = Extractor.get_abbreviation_mark_frequencies(xml_soup)
+        abbreviation_marks = Extractor.get_abbreviation_marks_raw(xml_soup_am6345_total)
+        abbreviation_mark_frequencies = Extractor.get_abbreviation_mark_frequencies(xml_soup_am6345_total)
 
-        expansions = Extractor.get_expansions_raw(xml_soup)
-        expansion_frequencies = Extractor.get_expansion_frequencies(xml_soup)
+        expansions = Extractor.get_expansions_raw(xml_soup_am6345_total)
+        expansion_frequencies = Extractor.get_expansion_frequencies(xml_soup_am6345_total)
 
-        abbreviations = Extractor.get_abbreviations_raw(xml_soup)
-        abbreviation_frequencies = Extractor.get_abbreviation_frequencies(xml_soup)
+        abbreviations = Extractor.get_abbreviations_raw(xml_soup_am6345_total)
+        abbreviation_frequencies = Extractor.get_abbreviation_frequencies(xml_soup_am6345_total)
 
         # Data export to CSV
         # ------------------
@@ -585,6 +787,12 @@ class Extractor:
 
         # abbreviation marks
         Extractor.extract_abbreviations()
+
+        # TODO: include-word-list rather than the following
+        Extractor.extract_sem()
+        Extractor.extract_v_anlaut()
+
+        Extractor.extract_stylo_text()
 
         # TODO: ...
 
