@@ -292,9 +292,12 @@ plot_keynes = function(text1, text2){
 }
 
 
-plot_keynes(sample_01, sample_02)
-plot_keynes(sample_01, sample_03)
-plot_keynes(sample_01, sample_04)
+plot = plot_keynes(sample_01, sample_02)
+ggsave("../out/plots/keyness_01_v_02.png", plot = plot)
+plot = plot_keynes(sample_01, sample_03)
+ggsave("../out/plots/keyness_01_v_03.png", plot = plot)
+plot = plot_keynes(sample_01, sample_04)
+ggsave("../out/plots/keyness_01_v_04.png", plot = plot)
 plot_keynes(sample_02, sample_03)
 plot_keynes(sample_02, sample_04)
 plot_keynes(sample_03, sample_04)
